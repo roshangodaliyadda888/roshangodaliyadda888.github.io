@@ -1,0 +1,702 @@
+# Publications Missing Metadata
+
+## Missing year
+
+- None
+
+## Missing venue
+
+- None
+
+## Missing DOI
+
+- `A Wearable Inertial Sensing Platform for Personalized Health and Motion Monitoring` (2026) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Empirical Framework for Efficient Voxel-to-Point Transformation in Medical Imaging` (2026) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Beyond Overlap: Topology-Aware Evaluation for Biomedical Image Segmentation` (2026) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Denoising IMU Data Using EKF and UKF for Improved Joint Angle Estimation` (2024) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Quality assessment of welding using regression analysis of biomechanical data` (2024) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Fetal Movement Identification Using Spectrograms with Attention Aided Models and Identifying a Set of Correlating Parameters with Gestational Age` (2023) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Fetal Movement Identification from Multi-Accelerometer Measurements using Recurrent Neural Networks` (2021) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Fetal Movement Detection using Long Short-Term Memory Network` (2021) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Comprehensive Study on Denoising of Medical Images Utilizing Neural Network Based Auto-encoder` (2021) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Non-Invasive Wearable Device for Fetal Movement Detection` (2020) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Standardized Fourth Central Moment Based Three Step Algorithm for Fetal Movements Identification` (2020) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Combining Local Non-Negative Matrix Factorization and Spectral Clustering to Detect Fetal Movements` (2020) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Fetal Movements Identification Based on Non-negative Matrix Factorization and Spectral Clustering` (2019) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Time domain analysis for fetal movement detection using accelerometer data` (2018) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Fetal heart abnormality detection based on subspace separation and Wiener filtering` (2017) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Extraction and Analysis of Fetal heart Signals with Abnormalities - An Eigen Analysis Based Approach` (2013) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Subspace Separation for Performance Improvement in Fetal Cardiac Signal Extraction` (2013) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `An Eigen filter Based Approach for Extraction of Fetal Heart Signals under Noisy Conditions Using Adaptive Filters` (2012) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Toward Finding Optimal Source Dictionaries for Single Channel Music Source Separation Using Nonnegative Matrix Factorization` (2018) - Generative AI, Signal Processing, and Image Processing - Algorithmic and Fundamental Theory
+- `A Retinex based GAN Pipeline to Utilize Paired and Unpaired Datasets for Enhancing Low Light Images` (2020) - Generative AI, Signal Processing, and Image Processing - Algorithmic and Fundamental Theory
+- `Adaptive Centroid Placement Based SNIC for Superpixel Segmentation` (2020) - Generative AI, Signal Processing, and Image Processing - Algorithmic and Fundamental Theory
+- `An Optical physics inspired CNN approach for intrinsic image decomposition` (2021) - Generative AI, Signal Processing, and Image Processing - Algorithmic and Fundamental Theory
+- `Feature Conditioned Diffusion for Audio Generation` (2026) - Generative AI, Signal Processing, and Image Processing - Algorithmic and Fundamental Theory
+- `From Samples to Functions: Implicit Neural Representations for Continuous Modeling` (2026) - Generative AI, Signal Processing, and Image Processing - Algorithmic and Fundamental Theory
+- `COSMO-INR: Complex Sinusoidal Modulation for Implicit Neural Representations` (2026) - Generative AI, Signal Processing, and Image Processing - Algorithmic and Fundamental Theory
+- `Family income does not necessarily lead to a holistic e-learning experience during COVID-19: a study in Sri Lanka` (2024) - AI for Public Health and Social Impact Modeling
+- `A dataset on the socioeconomic and behavioural impacts in Sri Lanka through multiple waves of COVID-19` (2024) - AI for Public Health and Social Impact Modeling
+- `The Impact of Covid-19 Pandemic on Women in the Households: A Qualitative Analysis of Women's Quality of Life and Mental Health` (2023) - AI for Public Health and Social Impact Modeling
+- `Artificial Intelligence framework for threat assessment and containment for covid-19 and future epidemics while mitigating the socioeconomic impact to women, children, and underprivileged groups` (2022) - AI for Public Health and Social Impact Modeling
+- `PoPStat-COVID19: Leveraging Population Pyramids to Quantify Demographic Vulnerability to COVID-19` (2025) - AI for Public Health and Social Impact Modeling
+- `Correlation Analysis of Age Structure Metrics and Cause-Specific Mortality: A Global and WHO Regional Comparison Using the Top 5 Causes of Death in 2021` (2025) - AI for Public Health and Social Impact Modeling
+- `Unveiling Motion Patterns Through Unsupervised Clustering` (2024) - AI for Public Health and Social Impact Modeling
+- `Real World Data-Driven Agent-Based Modeling for Health Policy Insights During Epidemics` (2024) - AI for Public Health and Social Impact Modeling
+- `Spatial Analysis of COVID-19 and Socio-Economic Factors in Sri Lanka` (2021) - AI for Public Health and Social Impact Modeling
+- `Limited Data Forecasting for Dengue Propagation` (2021) - AI for Public Health and Social Impact Modeling
+- `Non-intrusive load monitoring based on low frequency active power measurements` (2016) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Residential Appliance Identification based on Spectral Information of Low Frequency Smart Meter Measurements` (2016) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Non-intrusive load monitoring under residential solar power influx` (2017) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Incorporating Appliance Usage Patterns for Non-Intrusive Load Monitoring and Load Forecasting` (2019) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Implementation of a robust real-time non-intrusive load monitoring solution` (2019) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Real Time Active Load Identification for Households under Supply Voltage Fluctuations` (2020) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Non-Intrusive Load monitoring for flexible demand estimation and management` (2019) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Individual Power Profile Estimation of Residential Appliances Based on Low Resolution Smart Meter Data` (2015) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Residential Appliance Monitoring based on Low Frequency Smart Meter Measurements` (2015) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `A Real-Time Non-Intrusive Load Monitoring System` (2016) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Robust Nonintrusive Load Monitoring (NILM) with Unknown Loads` (2016) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Cloud Motion Tracking for Short-Term On-Site Cloud Coverage Prediction` (2017) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Real-Time Non-Intrusive Appliance Load Monitoring under Supply Voltage Fluctuations` (2017) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Cross-correlation based cloud motion estimation for short-term solar irradiation predictions` (2017) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Very Short-Term Solar Power Forecasting Using Ground-based Sky Images` (2018) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Second Order Volterra Filter for Appliance Modelling` (2018) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `On-Site Solar Power Forecasting Using Sky-Images` (2020) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Modified Auto Regressive Technique for Univariate Time Series Prediction of Solar Irradiance` (2020) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Global Horizontal Irradiance Modeling from Sky Images Using ResNet Architectures` (2021) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Comparison of Appliance Signature Classification Methods for Non-Intrusive Load Monitoring` (2024) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Comparison of Two Algorithms for Land Cover Mapping Based on Hyperspectral Imagery` (2018) - Remote Sensing and Hyperspectral Imaging
+- `Preprocessing Algorithm Leveraging Geometric Modeling for Scale Correction in Hyperspectral Images for Improved Unmixing Performance` (2026) - Remote Sensing and Hyperspectral Imaging
+- `Mamba-FCS: Joint Spatio-Frequency Feature Fusion, Change-Guided Attention, and SeK Inspired Loss for Enhanced Semantic Change Detection in Remote Sensing` (2026) - Remote Sensing and Hyperspectral Imaging
+- `Hyperspectral Image Unmixing for Remote Sensing Applications` (2020) - Remote Sensing and Hyperspectral Imaging
+- `Hyperspectral Imaging Based Land Cover Mapping Using Data Obtained by the Hyperion Sensor` (2017) - Remote Sensing and Hyperspectral Imaging
+- `A Semi-Supervised Algorithm to Map Major Vegetation Zones using Satellite Hyperspectral Data` (2018) - Remote Sensing and Hyperspectral Imaging
+- `Locally Linear Embedding for Dimensionality Reduction in Hyperspectral Image Classification` (2019) - Remote Sensing and Hyperspectral Imaging
+- `Feature Extraction Using Minor Scatter Directions of Data to Distinguish Between Classes with Minute Differences of a Hyperspectral Image` (2019) - Remote Sensing and Hyperspectral Imaging
+- `Hyperspectral Imaging Based Method to Identify Potential Limestone Deposits` (2019) - Remote Sensing and Hyperspectral Imaging
+- `Enhanced Hyperspectral Unmixing via Non-Negative Matrix Factorization Incorporating the End Member Independence` (2019) - Remote Sensing and Hyperspectral Imaging
+- `Convolutional Autoencoder for Blind Hyperspectral Image Unmixing` (2020) - Remote Sensing and Hyperspectral Imaging
+- `Endmember Abundance Prediction in Hyperspectral Unmixing: The Impact of Endmember Extraction Algorithms and Self-Attention in Autoencoders` (2023) - Remote Sensing and Hyperspectral Imaging
+- `A Detailed Analysis of Datasets Used in HSI in the Context of Mixture Models for Unmixing` (2024) - Remote Sensing and Hyperspectral Imaging
+- `Comparative Analysis of Endmember Extraction Methods for Lithological Mapping Using Hyperspectral Imaging` (2024) - Remote Sensing and Hyperspectral Imaging
+- `Enhanced SCanNet with CBAM and Dice Loss for Semantic Change Detection` (2025) - Remote Sensing and Hyperspectral Imaging
+- `Precision Spatio-Temporal Feature Fusion for Robust Remote Sensing Change Detection` (2026) - Remote Sensing and Hyperspectral Imaging
+- `Aflatoxin contamination level estimation in food using reflectance multispectral imaging based system` (2024) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `A multispectral imaging system to assess meat quality` (2018) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Multispectral Imaging for Detection of Adulterants in Turmeric Powder` (2019) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `A Multispectral Imaging System for Industrial Applications` (2019) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Transmittance Multispectral Imaging for Edible Oil Quality Assessment` (2020) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Multispectral imaging for automated fish quality grading` (2020) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Validation of Multispectral Imaging for The Detection of Sugar Adulteration in Black Tea` (2021) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Multispectral Imaging System to Estimate Sugar Adulteration Level of Black Tea` (2021) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Transmittance Multispectral Imaging for Adulteration Assessment of Coconut Oil` (2021) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Reflectance Multispectral Imaging for Fungal Growth Level Estimation` (2024) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Deep Learning for Soil Moisture Content Estimation via Reflectance Multispectral Imaging` (2024) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Multispectral Imaging and Machine Learning for Soil Classification through Moisture-Induced Spectral Dynamics` (2026) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Design and Analysis of an Optical Camera Communication System for Underwater Applications` (2019) - Optical Wireless Communications
+- `An Adaptive Modified Decision Directed Algorithm for Electronic Polarization Control in Coherent QPSK Optical Transmission` (2013) - Optical Wireless Communications
+- `Visible Light Communication System with Ambient Light Cancellation` (2015) - Optical Wireless Communications
+- `Development and Experimental Evaluation of a Visible Light Communication System with Ambient Light Cancellation` (2015) - Optical Wireless Communications
+- `Design and Implementation of a Bi-directional Visible Light Communication System` (2015) - Optical Wireless Communications
+- `Design and Analysis of an Under Water Visible Light MIMO Communication System with a Camera Receiver` (2017) - Optical Wireless Communications
+- `Camera based visible light communication system for underwater applications` (2017) - Optical Wireless Communications
+- `Relay-assisted optical wireless communications in turbid water` (2018) - Optical Wireless Communications
+- `Impact of receiver orientation on full-duplex relay aided NOMA underwater optical wireless systems` (2020) - Optical Wireless Communications
+- `Multi-AUV Placement for Coverage Maximization in Underwater Optical Wireless Sensor Networks` (2020) - Optical Wireless Communications
+- `Light-based Internet of Things: Implementation of an Optically Connected Energy-autonomous node` (2021) - Optical Wireless Communications
+- `Rate Maximization for Lightwave Power Transfer-Enabled Cooperative Half/Full-Duplex UOWC Systems` (2021) - Optical Wireless Communications
+- `Online tracking and event clustering for vision systems` (2016) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Vision Based Obstacle Detection for Map Generation & Reconnaissance` (2014) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Human Motion Tracking under Dynamic Background Conditions` (2014) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Object Identification, Enhancement and Tracking under Dynamic Background Conditions` (2014) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Feature Similarity Evaluation and Event Clustering for Vision Systems` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Video Event Classification and Anomaly Identification using Spectral Clustering` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Multi-Feature based Hand-Gesture Recognition` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `A Study of Dynamic Aquatic Background Conditions for Foreground Estimation using Pixelwise Online Clustering` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `A Robust Foreground Estimation Technique for Rapidly Fluctuating Dynamic Backgrounds` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Event Detection Platform for Visual Surveillance Systems` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Adaptive Free Cylindrical Mixture Model for Foreground Estimation in Rapidly Fluctuating Dynamic Background Conditions` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Restoration and Clustering of Overexposed Background Elements for Vision Systems in Dynamic Aquatic Scenes` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Multi-Sensor Fusion for Position and Indoor Navigation` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Depth Map Generation for a Reconnaissance Robot Via Sensor Fusion` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Indoor Navigation Using Inertial Navigation System` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Odometry based Positioning and Navigation System for Indoor Omnidirectional Robot` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Accurate Depth Map from Stereo Web Camera Setup` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Intelligent Navigation System for Mapping Unknown Environments` (2016) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Modes of Clustering for Motion Pattern Analysis in Video Surveillance` (2016) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Laser Ranging Based Intelligent System for Unknown Environment Mapping` (2017) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Outdoor human navigation with GPS and sensor systems` (2017) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Autonomous exploration planning strategy for a reconnaissance agent` (2017) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Dynamic clustering for event detection and anomaly identification in video surveillance` (2017) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `A Robust Control Paradigm for Path Following of an Underwater Robotic Vehicle` (2018) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Detecting Abnormal Vehicle Movements and Accidents on Expressways using Clustering Techniques` (2019) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Vehicle number plate recognition using deep learning techniques` (2020) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Vehicle Detection and Localization for Autonomous Traffic Monitoring Systems in Unstructured Crowded Scenes` (2020) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Vehicle Tracking Based on an Improved DeepSORT Algorithm and the YOLOv4 Framework` (2021) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Integrated Video Based Crowdedness Forecasting Framework with a Review of Crowd Counting Models` (2021) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Hands Off: A Handshake Interaction Detection and Localization Model for COVID-19 Threat Control` (2021) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Real-Time multiple dyadic interaction detection in surveillance videos in the wild` (2023) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Ego Vehicle Speed Estimation Using Optical Flow Analysis` (2024) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `PoseView3D: Dynamic Multi-View Angular Encoding for Skeleton-Based Action Recognition` (2025) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `FAST-GAR: Fused-Attention Spatio-Temporal Transformer for Skeleton-based Group Activity Recognition` (2026) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `FlowSegModel: Advancing Perception in Autonomous Driving Through Weather-Resilient Segmentation` (2026) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `A Structured Analysis and Taxonomy of Scene Graph Representations for Group Activity Understanding` (2026) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Efficient and Intrinsically Interpretable Spatiotemporal Transformer with Gated Fusion for Group Activity Recognition` (2026) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Robust Techniques for Accurate Indoor Localization in Hazardous Environments` (2010) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Analysis of Super Resolution Spectral Estimation Techniques for Indoor Positioning Applications` (2008) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Versatile Algorithms for Accurate Indoor Geolocation` (2009) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `A Time Domain Eigen Value Method for Indoor Localization` (2010) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Enhancement of Interference Cancellation Systems through Eigen Filter based Subspace Separation` (2012) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Fast ICA Algorithm for Non-Gaussian Signal Separation` (2012) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Effect of training sequence bandwidth for Wiener filter-based interference cancellation systems` (2012) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Computationally Efficient Subspace Algorithm for High Resolution Dynamic Image Sequences` (2012) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Modelling of Acoustic Signals based on Optimal Pole Structure for Material based Classification` (2012) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `An Adaptive Approach for ICA Based Blind Source Separation for Multi-Sensory Systems` (2012) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Temporal ICA based Source Extraction from Dynamic Image Sequences with Visual Interference Under Noise` (2013) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `A Generic Object Counting Algorithm, under Partial Occlusion Conditions` (2013) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Material based Acoustic Signal Classification- A Subspace-based Approach` (2013) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Robust Classification of Acoustic Signals Based on Source Materials for Time Varying Noisy Environments` (2013) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Independent Component Analysis based Foreground Detection for Indoor Surveillance` (2014) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Hidden Signature Feature Extraction from Noisy Non-Stationary Signals Through Subspace Techniques` (2014) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Effective Image Representation using PCA and ICA for face recognition` (2015) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Face and Emotion Recognition using Eigenfaces with Probabilistic and Signal Cross Correlation Methods` (2015) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Frequency Domain ICA based Signal Restoration from Non-Linearly Distorted Acoustic Signals with Dropouts` (2015) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Interpolative Fingerprint Matching Technique for Indoor Localization` (2015) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Complex Valued Independent Component Analysis for Image Enhancement` (2015) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Eigen Map based Fingerprinting Techniques using Audible Sound` (2015) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Frequency Domain ICA Based Signal Restoration from Non-Linearly Distorted Acoustic Signals` (2015) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Enhanced Feature Space Clustering Via Spectral Parameter Weighting for Fingerprinting Based Indoor Localization` (2015) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `A Robust Expression Negation Algorithm for Accurate Face Recognition for Limited Training Data` (2015) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Improved PCA based Face Recognition Using Similarity Measurement Fusion` (2015) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Expression Neutralization Based Expression-Invariant Face Recognition Algorithm for Single Training Sample Problem` (2016) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Hierarchical Method to Classify Emotions in Speech Signals` (2016) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Expression neutralization based algorithm for expression-invariant face recognition for single training sample problem` (2017) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Remote Leakage Current Detector for Identification of Insulators Discharges` (2017) - Spectral Imaging and Remote Sensing for Environmental and Industrial Monitoring
+- `Transmittance Multispectral Imaging System to Estimate Potable Water Quality Parameters` (2021) - Spectral Imaging and Remote Sensing for Environmental and Industrial Monitoring
+- `Reflectance Multispectral Imaging for Identification of Algae Contamination in High Voltage Insulators` (2021) - Spectral Imaging and Remote Sensing for Environmental and Industrial Monitoring
+- `Spectral Imaging based Condition Assessment of Field Aged Power Transformers` (2023) - Spectral Imaging and Remote Sensing for Environmental and Industrial Monitoring
+
+## Missing author list
+
+- None
+
+## Missing pages
+
+- `Novel non-invasive in-house fabricated wearable system with a hybrid algorithm for fetal movement recognition` (2021) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `"Fetal Movement Dataset Recorded Using Four Inertial Measurement Units", Mendeley Data, V1` (2021) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `"Fetal Movement Detection Dataset Recorded Using MPU9250 Tri-Axial Accelerometer", Mendeley Data, v2` (2019) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `A Wearable Inertial Sensing Platform for Personalized Health and Motion Monitoring` (2026) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Empirical Framework for Efficient Voxel-to-Point Transformation in Medical Imaging` (2026) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Beyond Overlap: Topology-Aware Evaluation for Biomedical Image Segmentation` (2026) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Denoising IMU Data Using EKF and UKF for Improved Joint Angle Estimation` (2024) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Quality assessment of welding using regression analysis of biomechanical data` (2024) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Fetal Movement Identification Using Spectrograms with Attention Aided Models and Identifying a Set of Correlating Parameters with Gestational Age` (2023) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Fetal Movement Identification from Multi-Accelerometer Measurements using Recurrent Neural Networks` (2021) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Fetal Movement Detection using Long Short-Term Memory Network` (2021) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Comprehensive Study on Denoising of Medical Images Utilizing Neural Network Based Auto-encoder` (2021) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Non-Invasive Wearable Device for Fetal Movement Detection` (2020) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Standardized Fourth Central Moment Based Three Step Algorithm for Fetal Movements Identification` (2020) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Combining Local Non-Negative Matrix Factorization and Spectral Clustering to Detect Fetal Movements` (2020) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Fetal Movements Identification Based on Non-negative Matrix Factorization and Spectral Clustering` (2019) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Fetal heart abnormality detection based on subspace separation and Wiener filtering` (2017) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Extraction and Analysis of Fetal heart Signals with Abnormalities - An Eigen Analysis Based Approach` (2013) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Subspace Separation for Performance Improvement in Fetal Cardiac Signal Extraction` (2013) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `An Eigen filter Based Approach for Extraction of Fetal Heart Signals under Noisy Conditions Using Adaptive Filters` (2012) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Toward Finding Optimal Source Dictionaries for Single Channel Music Source Separation Using Nonnegative Matrix Factorization` (2018) - Generative AI, Signal Processing, and Image Processing - Algorithmic and Fundamental Theory
+- `A Retinex based GAN Pipeline to Utilize Paired and Unpaired Datasets for Enhancing Low Light Images` (2020) - Generative AI, Signal Processing, and Image Processing - Algorithmic and Fundamental Theory
+- `Adaptive Centroid Placement Based SNIC for Superpixel Segmentation` (2020) - Generative AI, Signal Processing, and Image Processing - Algorithmic and Fundamental Theory
+- `An Optical physics inspired CNN approach for intrinsic image decomposition` (2021) - Generative AI, Signal Processing, and Image Processing - Algorithmic and Fundamental Theory
+- `Feature Conditioned Diffusion for Audio Generation` (2026) - Generative AI, Signal Processing, and Image Processing - Algorithmic and Fundamental Theory
+- `From Samples to Functions: Implicit Neural Representations for Continuous Modeling` (2026) - Generative AI, Signal Processing, and Image Processing - Algorithmic and Fundamental Theory
+- `COSMO-INR: Complex Sinusoidal Modulation for Implicit Neural Representations` (2026) - Generative AI, Signal Processing, and Image Processing - Algorithmic and Fundamental Theory
+- `The influence of social interactions in mitigating psychological distress during the COVID−19 pandemic: a study in Sri Lanka` (2025) - AI for Public Health and Social Impact Modeling
+- `Family income does not necessarily lead to a holistic e-learning experience during COVID-19: a study in Sri Lanka` (2024) - AI for Public Health and Social Impact Modeling
+- `A dataset on the socioeconomic and behavioural impacts in Sri Lanka through multiple waves of COVID-19` (2024) - AI for Public Health and Social Impact Modeling
+- `Pandemic Simulator: An Agent-Based Framework with Human Behavior Modeling for Pandemic-Impact Assessment to Build Sustainable Communities` (2023) - AI for Public Health and Social Impact Modeling
+- `A Comprehensive Overview of Education During Three COVID-19 Pandemic Periods: Impact on Engineering Students in Sri Lanka` (2022) - AI for Public Health and Social Impact Modeling
+- `PoPStat-COVID19: Leveraging Population Pyramids to Quantify Demographic Vulnerability to COVID-19` (2025) - AI for Public Health and Social Impact Modeling
+- `Correlation Analysis of Age Structure Metrics and Cause-Specific Mortality: A Global and WHO Regional Comparison Using the Top 5 Causes of Death in 2021` (2025) - AI for Public Health and Social Impact Modeling
+- `Unveiling Motion Patterns Through Unsupervised Clustering` (2024) - AI for Public Health and Social Impact Modeling
+- `Real World Data-Driven Agent-Based Modeling for Health Policy Insights During Epidemics` (2024) - AI for Public Health and Social Impact Modeling
+- `Spatial Analysis of COVID-19 and Socio-Economic Factors in Sri Lanka` (2021) - AI for Public Health and Social Impact Modeling
+- `Limited Data Forecasting for Dengue Propagation` (2021) - AI for Public Health and Social Impact Modeling
+- `Generalized approach to assess and characterise the impact of solar PV on LV networks` (2020) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Coordinated photovoltaic re-phasing: A novel method to maximize the renewable energy integration in low voltage networks by mitigating network unbalances` (2020) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `A complete state estimation algorithm for a three-phase four-wire low voltage distribution system with high penetration of solar PV` (2021) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Sky Image-Based Localized Short-term Solar Irradiance Forecasting for Multiple PV Sites via Cloud Motion Tracking` (2021) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `A Sensitivity Matrix Approach Using Two-Stage Optimization for Voltage Regulation of LV Networks with High PV Penetration` (2021) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `LSTM-Based MPPT Algorithm for Efficient Energy Harvesting of a Solar PV System Under Different Operating Conditions` (2024) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Real Time Active Load Identification for Households under Supply Voltage Fluctuations` (2020) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Non-Intrusive Load monitoring for flexible demand estimation and management` (2019) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Individual Power Profile Estimation of Residential Appliances Based on Low Resolution Smart Meter Data` (2015) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Residential Appliance Monitoring based on Low Frequency Smart Meter Measurements` (2015) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `A Real-Time Non-Intrusive Load Monitoring System` (2016) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Robust Nonintrusive Load Monitoring (NILM) with Unknown Loads` (2016) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Cloud Motion Tracking for Short-Term On-Site Cloud Coverage Prediction` (2017) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Real-Time Non-Intrusive Appliance Load Monitoring under Supply Voltage Fluctuations` (2017) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Cross-correlation based cloud motion estimation for short-term solar irradiation predictions` (2017) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Very Short-Term Solar Power Forecasting Using Ground-based Sky Images` (2018) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Second Order Volterra Filter for Appliance Modelling` (2018) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `On-Site Solar Power Forecasting Using Sky-Images` (2020) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Modified Auto Regressive Technique for Univariate Time Series Prediction of Solar Irradiance` (2020) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Global Horizontal Irradiance Modeling from Sky Images Using ResNet Architectures` (2021) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Comparison of Appliance Signature Classification Methods for Non-Intrusive Load Monitoring` (2024) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `July, 2019` (2019) - Remote Sensing and Hyperspectral Imaging
+- `GAUSS: Guided encoder - decoder Architecture for hyperspectral Unmixing with Spatial Smoothness` (2023) - Remote Sensing and Hyperspectral Imaging
+- `Hyperspectral unmixing with spatial context and endmember ensemble learning with attention mechanism` (2025) - Remote Sensing and Hyperspectral Imaging
+- `Hyperspectral Image Unmixing for Remote Sensing Applications` (2020) - Remote Sensing and Hyperspectral Imaging
+- `Hyperspectral Imaging Based Land Cover Mapping Using Data Obtained by the Hyperion Sensor` (2017) - Remote Sensing and Hyperspectral Imaging
+- `A Semi-Supervised Algorithm to Map Major Vegetation Zones using Satellite Hyperspectral Data` (2018) - Remote Sensing and Hyperspectral Imaging
+- `Feature Extraction Using Minor Scatter Directions of Data to Distinguish Between Classes with Minute Differences of a Hyperspectral Image` (2019) - Remote Sensing and Hyperspectral Imaging
+- `Hyperspectral Imaging Based Method to Identify Potential Limestone Deposits` (2019) - Remote Sensing and Hyperspectral Imaging
+- `Enhanced Hyperspectral Unmixing via Non-Negative Matrix Factorization Incorporating the End Member Independence` (2019) - Remote Sensing and Hyperspectral Imaging
+- `Convolutional Autoencoder for Blind Hyperspectral Image Unmixing` (2020) - Remote Sensing and Hyperspectral Imaging
+- `Endmember Abundance Prediction in Hyperspectral Unmixing: The Impact of Endmember Extraction Algorithms and Self-Attention in Autoencoders` (2023) - Remote Sensing and Hyperspectral Imaging
+- `A Detailed Analysis of Datasets Used in HSI in the Context of Mixture Models for Unmixing` (2024) - Remote Sensing and Hyperspectral Imaging
+- `Comparative Analysis of Endmember Extraction Methods for Lithological Mapping Using Hyperspectral Imaging` (2024) - Remote Sensing and Hyperspectral Imaging
+- `Enhanced SCanNet with CBAM and Dice Loss for Semantic Change Detection` (2025) - Remote Sensing and Hyperspectral Imaging
+- `Precision Spatio-Temporal Feature Fusion for Robust Remote Sensing Change Detection` (2026) - Remote Sensing and Hyperspectral Imaging
+- `Validation of multispectral imaging for the detection of selected adulterants in turmeric samples` (2020) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Deep learning for automated fish grading` (2023) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Aflatoxin contamination level estimation in food using reflectance multispectral imaging based system` (2024) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `"Data for: Application of multispectral imaging to assess the quality of coconut oil", Mendeley Data, v1` (2020) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `"A Multispectral Image Database of Common Sri Lankan Spices and Adulterants", Mendeley Data, v3` (2019) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `A multispectral imaging system to assess meat quality` (2018) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Multispectral Imaging for Detection of Adulterants in Turmeric Powder` (2019) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Transmittance Multispectral Imaging for Edible Oil Quality Assessment` (2020) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Multispectral imaging for automated fish quality grading` (2020) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Validation of Multispectral Imaging for The Detection of Sugar Adulteration in Black Tea` (2021) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Multispectral Imaging System to Estimate Sugar Adulteration Level of Black Tea` (2021) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Transmittance Multispectral Imaging for Adulteration Assessment of Coconut Oil` (2021) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Reflectance Multispectral Imaging for Fungal Growth Level Estimation` (2024) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Deep Learning for Soil Moisture Content Estimation via Reflectance Multispectral Imaging` (2024) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Multispectral Imaging and Machine Learning for Soil Classification through Moisture-Induced Spectral Dynamics` (2026) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Design and Analysis of an Optical Camera Communication System for Underwater Applications` (2019) - Optical Wireless Communications
+- `Light-Based IoT: Developing a Full-Duplex Energy Autonomous IoT Node Using Printed Electronics Technology` (2021) - Optical Wireless Communications
+- `An Adaptive Modified Decision Directed Algorithm for Electronic Polarization Control in Coherent QPSK Optical Transmission` (2013) - Optical Wireless Communications
+- `Development and Experimental Evaluation of a Visible Light Communication System with Ambient Light Cancellation` (2015) - Optical Wireless Communications
+- `Design and Implementation of a Bi-directional Visible Light Communication System` (2015) - Optical Wireless Communications
+- `Design and Analysis of an Under Water Visible Light MIMO Communication System with a Camera Receiver` (2017) - Optical Wireless Communications
+- `Camera based visible light communication system for underwater applications` (2017) - Optical Wireless Communications
+- `Relay-assisted optical wireless communications in turbid water` (2018) - Optical Wireless Communications
+- `Impact of receiver orientation on full-duplex relay aided NOMA underwater optical wireless systems` (2020) - Optical Wireless Communications
+- `Multi-AUV Placement for Coverage Maximization in Underwater Optical Wireless Sensor Networks` (2020) - Optical Wireless Communications
+- `Light-based Internet of Things: Implementation of an Optically Connected Energy-autonomous node` (2021) - Optical Wireless Communications
+- `Rate Maximization for Lightwave Power Transfer-Enabled Cooperative Half/Full-Duplex UOWC Systems` (2021) - Optical Wireless Communications
+- `Holistic Interpretation of Public Scenes Using Computer Vision and Temporal Graphs to Identify Social Distancing Violations` (2022) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Vision Based Obstacle Detection for Map Generation & Reconnaissance` (2014) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Human Motion Tracking under Dynamic Background Conditions` (2014) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Object Identification, Enhancement and Tracking under Dynamic Background Conditions` (2014) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Feature Similarity Evaluation and Event Clustering for Vision Systems` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Video Event Classification and Anomaly Identification using Spectral Clustering` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Multi-Feature based Hand-Gesture Recognition` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `A Study of Dynamic Aquatic Background Conditions for Foreground Estimation using Pixelwise Online Clustering` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `A Robust Foreground Estimation Technique for Rapidly Fluctuating Dynamic Backgrounds` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Event Detection Platform for Visual Surveillance Systems` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Adaptive Free Cylindrical Mixture Model for Foreground Estimation in Rapidly Fluctuating Dynamic Background Conditions` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Restoration and Clustering of Overexposed Background Elements for Vision Systems in Dynamic Aquatic Scenes` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Multi-Sensor Fusion for Position and Indoor Navigation` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Depth Map Generation for a Reconnaissance Robot Via Sensor Fusion` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Indoor Navigation Using Inertial Navigation System` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Odometry based Positioning and Navigation System for Indoor Omnidirectional Robot` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Accurate Depth Map from Stereo Web Camera Setup` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Intelligent Navigation System for Mapping Unknown Environments` (2016) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Modes of Clustering for Motion Pattern Analysis in Video Surveillance` (2016) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Laser Ranging Based Intelligent System for Unknown Environment Mapping` (2017) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Outdoor human navigation with GPS and sensor systems` (2017) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Autonomous exploration planning strategy for a reconnaissance agent` (2017) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Dynamic clustering for event detection and anomaly identification in video surveillance` (2017) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Detecting Abnormal Vehicle Movements and Accidents on Expressways using Clustering Techniques` (2019) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Vehicle number plate recognition using deep learning techniques` (2020) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Vehicle Detection and Localization for Autonomous Traffic Monitoring Systems in Unstructured Crowded Scenes` (2020) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Vehicle Tracking Based on an Improved DeepSORT Algorithm and the YOLOv4 Framework` (2021) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Integrated Video Based Crowdedness Forecasting Framework with a Review of Crowd Counting Models` (2021) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Hands Off: A Handshake Interaction Detection and Localization Model for COVID-19 Threat Control` (2021) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Real-Time multiple dyadic interaction detection in surveillance videos in the wild` (2023) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Ego Vehicle Speed Estimation Using Optical Flow Analysis` (2024) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `PoseView3D: Dynamic Multi-View Angular Encoding for Skeleton-Based Action Recognition` (2025) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `FAST-GAR: Fused-Attention Spatio-Temporal Transformer for Skeleton-based Group Activity Recognition` (2026) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `FlowSegModel: Advancing Perception in Autonomous Driving Through Weather-Resilient Segmentation` (2026) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `A Structured Analysis and Taxonomy of Scene Graph Representations for Group Activity Understanding` (2026) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Efficient and Intrinsically Interpretable Spatiotemporal Transformer with Gated Fusion for Group Activity Recognition` (2026) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Analysis of Super Resolution Spectral Estimation Techniques for Indoor Positioning Applications` (2008) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Versatile Algorithms for Accurate Indoor Geolocation` (2009) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `A Time Domain Eigen Value Method for Indoor Localization` (2010) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Enhancement of Interference Cancellation Systems through Eigen Filter based Subspace Separation` (2012) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Fast ICA Algorithm for Non-Gaussian Signal Separation` (2012) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Effect of training sequence bandwidth for Wiener filter-based interference cancellation systems` (2012) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Computationally Efficient Subspace Algorithm for High Resolution Dynamic Image Sequences` (2012) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Modelling of Acoustic Signals based on Optimal Pole Structure for Material based Classification` (2012) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `An Adaptive Approach for ICA Based Blind Source Separation for Multi-Sensory Systems` (2012) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Temporal ICA based Source Extraction from Dynamic Image Sequences with Visual Interference Under Noise` (2013) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `A Generic Object Counting Algorithm, under Partial Occlusion Conditions` (2013) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Material based Acoustic Signal Classification- A Subspace-based Approach` (2013) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Robust Classification of Acoustic Signals Based on Source Materials for Time Varying Noisy Environments` (2013) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Independent Component Analysis based Foreground Detection for Indoor Surveillance` (2014) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Hidden Signature Feature Extraction from Noisy Non-Stationary Signals Through Subspace Techniques` (2014) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Effective Image Representation using PCA and ICA for face recognition` (2015) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Face and Emotion Recognition using Eigenfaces with Probabilistic and Signal Cross Correlation Methods` (2015) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Frequency Domain ICA based Signal Restoration from Non-Linearly Distorted Acoustic Signals with Dropouts` (2015) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Interpolative Fingerprint Matching Technique for Indoor Localization` (2015) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Complex Valued Independent Component Analysis for Image Enhancement` (2015) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Eigen Map based Fingerprinting Techniques using Audible Sound` (2015) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Frequency Domain ICA Based Signal Restoration from Non-Linearly Distorted Acoustic Signals` (2015) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Enhanced Feature Space Clustering Via Spectral Parameter Weighting for Fingerprinting Based Indoor Localization` (2015) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `A Robust Expression Negation Algorithm for Accurate Face Recognition for Limited Training Data` (2015) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Improved PCA based Face Recognition Using Similarity Measurement Fusion` (2015) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Expression Neutralization Based Expression-Invariant Face Recognition Algorithm for Single Training Sample Problem` (2016) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Hierarchical Method to Classify Emotions in Speech Signals` (2016) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Expression neutralization based algorithm for expression-invariant face recognition for single training sample problem` (2017) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Transmittance Multispectral Imaging System to Estimate Potable Water Quality Parameters` (2021) - Spectral Imaging and Remote Sensing for Environmental and Industrial Monitoring
+- `Reflectance Multispectral Imaging for Identification of Algae Contamination in High Voltage Insulators` (2021) - Spectral Imaging and Remote Sensing for Environmental and Industrial Monitoring
+- `Spectral Imaging based Condition Assessment of Field Aged Power Transformers` (2023) - Spectral Imaging and Remote Sensing for Environmental and Industrial Monitoring
+
+## Missing volume
+
+- `"Fetal Movement Dataset Recorded Using Four Inertial Measurement Units", Mendeley Data, V1` (2021) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `"Fetal Movement Detection Dataset Recorded Using MPU9250 Tri-Axial Accelerometer", Mendeley Data, v2` (2019) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `A Wearable Inertial Sensing Platform for Personalized Health and Motion Monitoring` (2026) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Empirical Framework for Efficient Voxel-to-Point Transformation in Medical Imaging` (2026) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Beyond Overlap: Topology-Aware Evaluation for Biomedical Image Segmentation` (2026) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Denoising IMU Data Using EKF and UKF for Improved Joint Angle Estimation` (2024) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Quality assessment of welding using regression analysis of biomechanical data` (2024) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Fetal Movement Identification Using Spectrograms with Attention Aided Models and Identifying a Set of Correlating Parameters with Gestational Age` (2023) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Fetal Movement Identification from Multi-Accelerometer Measurements using Recurrent Neural Networks` (2021) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Fetal Movement Detection using Long Short-Term Memory Network` (2021) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Comprehensive Study on Denoising of Medical Images Utilizing Neural Network Based Auto-encoder` (2021) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Non-Invasive Wearable Device for Fetal Movement Detection` (2020) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Standardized Fourth Central Moment Based Three Step Algorithm for Fetal Movements Identification` (2020) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Combining Local Non-Negative Matrix Factorization and Spectral Clustering to Detect Fetal Movements` (2020) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Fetal Movements Identification Based on Non-negative Matrix Factorization and Spectral Clustering` (2019) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Time domain analysis for fetal movement detection using accelerometer data` (2018) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Fetal heart abnormality detection based on subspace separation and Wiener filtering` (2017) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Extraction and Analysis of Fetal heart Signals with Abnormalities - An Eigen Analysis Based Approach` (2013) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Subspace Separation for Performance Improvement in Fetal Cardiac Signal Extraction` (2013) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `An Eigen filter Based Approach for Extraction of Fetal Heart Signals under Noisy Conditions Using Adaptive Filters` (2012) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Toward Finding Optimal Source Dictionaries for Single Channel Music Source Separation Using Nonnegative Matrix Factorization` (2018) - Generative AI, Signal Processing, and Image Processing - Algorithmic and Fundamental Theory
+- `A Retinex based GAN Pipeline to Utilize Paired and Unpaired Datasets for Enhancing Low Light Images` (2020) - Generative AI, Signal Processing, and Image Processing - Algorithmic and Fundamental Theory
+- `Adaptive Centroid Placement Based SNIC for Superpixel Segmentation` (2020) - Generative AI, Signal Processing, and Image Processing - Algorithmic and Fundamental Theory
+- `An Optical physics inspired CNN approach for intrinsic image decomposition` (2021) - Generative AI, Signal Processing, and Image Processing - Algorithmic and Fundamental Theory
+- `Feature Conditioned Diffusion for Audio Generation` (2026) - Generative AI, Signal Processing, and Image Processing - Algorithmic and Fundamental Theory
+- `From Samples to Functions: Implicit Neural Representations for Continuous Modeling` (2026) - Generative AI, Signal Processing, and Image Processing - Algorithmic and Fundamental Theory
+- `COSMO-INR: Complex Sinusoidal Modulation for Implicit Neural Representations` (2026) - Generative AI, Signal Processing, and Image Processing - Algorithmic and Fundamental Theory
+- `The influence of social interactions in mitigating psychological distress during the COVID−19 pandemic: a study in Sri Lanka` (2025) - AI for Public Health and Social Impact Modeling
+- `Family income does not necessarily lead to a holistic e-learning experience during COVID-19: a study in Sri Lanka` (2024) - AI for Public Health and Social Impact Modeling
+- `A dataset on the socioeconomic and behavioural impacts in Sri Lanka through multiple waves of COVID-19` (2024) - AI for Public Health and Social Impact Modeling
+- `PoPStat-COVID19: Leveraging Population Pyramids to Quantify Demographic Vulnerability to COVID-19` (2025) - AI for Public Health and Social Impact Modeling
+- `Correlation Analysis of Age Structure Metrics and Cause-Specific Mortality: A Global and WHO Regional Comparison Using the Top 5 Causes of Death in 2021` (2025) - AI for Public Health and Social Impact Modeling
+- `Unveiling Motion Patterns Through Unsupervised Clustering` (2024) - AI for Public Health and Social Impact Modeling
+- `Real World Data-Driven Agent-Based Modeling for Health Policy Insights During Epidemics` (2024) - AI for Public Health and Social Impact Modeling
+- `Spatial Analysis of COVID-19 and Socio-Economic Factors in Sri Lanka` (2021) - AI for Public Health and Social Impact Modeling
+- `Limited Data Forecasting for Dengue Propagation` (2021) - AI for Public Health and Social Impact Modeling
+- `A complete state estimation algorithm for a three-phase four-wire low voltage distribution system with high penetration of solar PV` (2021) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `LSTM-Based MPPT Algorithm for Efficient Energy Harvesting of a Solar PV System Under Different Operating Conditions` (2024) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Real Time Active Load Identification for Households under Supply Voltage Fluctuations` (2020) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Non-Intrusive Load monitoring for flexible demand estimation and management` (2019) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Individual Power Profile Estimation of Residential Appliances Based on Low Resolution Smart Meter Data` (2015) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Residential Appliance Monitoring based on Low Frequency Smart Meter Measurements` (2015) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `A Real-Time Non-Intrusive Load Monitoring System` (2016) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Robust Nonintrusive Load Monitoring (NILM) with Unknown Loads` (2016) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Cloud Motion Tracking for Short-Term On-Site Cloud Coverage Prediction` (2017) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Real-Time Non-Intrusive Appliance Load Monitoring under Supply Voltage Fluctuations` (2017) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Cross-correlation based cloud motion estimation for short-term solar irradiation predictions` (2017) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Very Short-Term Solar Power Forecasting Using Ground-based Sky Images` (2018) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Second Order Volterra Filter for Appliance Modelling` (2018) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `On-Site Solar Power Forecasting Using Sky-Images` (2020) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Modified Auto Regressive Technique for Univariate Time Series Prediction of Solar Irradiance` (2020) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Global Horizontal Irradiance Modeling from Sky Images Using ResNet Architectures` (2021) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Comparison of Appliance Signature Classification Methods for Non-Intrusive Load Monitoring` (2024) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `July, 2019` (2019) - Remote Sensing and Hyperspectral Imaging
+- `Hyperspectral unmixing with spatial context and endmember ensemble learning with attention mechanism` (2025) - Remote Sensing and Hyperspectral Imaging
+- `Hyperspectral Image Unmixing for Remote Sensing Applications` (2020) - Remote Sensing and Hyperspectral Imaging
+- `Hyperspectral Imaging Based Land Cover Mapping Using Data Obtained by the Hyperion Sensor` (2017) - Remote Sensing and Hyperspectral Imaging
+- `A Semi-Supervised Algorithm to Map Major Vegetation Zones using Satellite Hyperspectral Data` (2018) - Remote Sensing and Hyperspectral Imaging
+- `Feature Extraction Using Minor Scatter Directions of Data to Distinguish Between Classes with Minute Differences of a Hyperspectral Image` (2019) - Remote Sensing and Hyperspectral Imaging
+- `Hyperspectral Imaging Based Method to Identify Potential Limestone Deposits` (2019) - Remote Sensing and Hyperspectral Imaging
+- `Enhanced Hyperspectral Unmixing via Non-Negative Matrix Factorization Incorporating the End Member Independence` (2019) - Remote Sensing and Hyperspectral Imaging
+- `Convolutional Autoencoder for Blind Hyperspectral Image Unmixing` (2020) - Remote Sensing and Hyperspectral Imaging
+- `Endmember Abundance Prediction in Hyperspectral Unmixing: The Impact of Endmember Extraction Algorithms and Self-Attention in Autoencoders` (2023) - Remote Sensing and Hyperspectral Imaging
+- `A Detailed Analysis of Datasets Used in HSI in the Context of Mixture Models for Unmixing` (2024) - Remote Sensing and Hyperspectral Imaging
+- `Comparative Analysis of Endmember Extraction Methods for Lithological Mapping Using Hyperspectral Imaging` (2024) - Remote Sensing and Hyperspectral Imaging
+- `Enhanced SCanNet with CBAM and Dice Loss for Semantic Change Detection` (2025) - Remote Sensing and Hyperspectral Imaging
+- `Precision Spatio-Temporal Feature Fusion for Robust Remote Sensing Change Detection` (2026) - Remote Sensing and Hyperspectral Imaging
+- `Validation of multispectral imaging for the detection of selected adulterants in turmeric samples` (2020) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Deep learning for automated fish grading` (2023) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Dual Mode Multispectral Imaging System for Food and Agricultural Product Quality Estimation` (2024) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Aflatoxin contamination level estimation in food using reflectance multispectral imaging based system` (2024) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `"Data for: Application of multispectral imaging to assess the quality of coconut oil", Mendeley Data, v1` (2020) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `"A Multispectral Image Database of Common Sri Lankan Spices and Adulterants", Mendeley Data, v3` (2019) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `A multispectral imaging system to assess meat quality` (2018) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Multispectral Imaging for Detection of Adulterants in Turmeric Powder` (2019) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Transmittance Multispectral Imaging for Edible Oil Quality Assessment` (2020) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Multispectral imaging for automated fish quality grading` (2020) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Validation of Multispectral Imaging for The Detection of Sugar Adulteration in Black Tea` (2021) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Multispectral Imaging System to Estimate Sugar Adulteration Level of Black Tea` (2021) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Transmittance Multispectral Imaging for Adulteration Assessment of Coconut Oil` (2021) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Reflectance Multispectral Imaging for Fungal Growth Level Estimation` (2024) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Deep Learning for Soil Moisture Content Estimation via Reflectance Multispectral Imaging` (2024) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Multispectral Imaging and Machine Learning for Soil Classification through Moisture-Induced Spectral Dynamics` (2026) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Design and Analysis of an Optical Camera Communication System for Underwater Applications` (2019) - Optical Wireless Communications
+- `Neural Network-Based Blockage Prediction and Optimization in Lightwave Power Transfer-Enabled Hybrid VLC/RF Systems` (2024) - Optical Wireless Communications
+- `Lighting the Way for a Sustainable Future: Overcoming Challenges in Light-Based IoT and Data-Energy Networking` (2025) - Optical Wireless Communications
+- `An Adaptive Modified Decision Directed Algorithm for Electronic Polarization Control in Coherent QPSK Optical Transmission` (2013) - Optical Wireless Communications
+- `Visible Light Communication System with Ambient Light Cancellation` (2015) - Optical Wireless Communications
+- `Development and Experimental Evaluation of a Visible Light Communication System with Ambient Light Cancellation` (2015) - Optical Wireless Communications
+- `Design and Implementation of a Bi-directional Visible Light Communication System` (2015) - Optical Wireless Communications
+- `Design and Analysis of an Under Water Visible Light MIMO Communication System with a Camera Receiver` (2017) - Optical Wireless Communications
+- `Camera based visible light communication system for underwater applications` (2017) - Optical Wireless Communications
+- `Relay-assisted optical wireless communications in turbid water` (2018) - Optical Wireless Communications
+- `Impact of receiver orientation on full-duplex relay aided NOMA underwater optical wireless systems` (2020) - Optical Wireless Communications
+- `Multi-AUV Placement for Coverage Maximization in Underwater Optical Wireless Sensor Networks` (2020) - Optical Wireless Communications
+- `Light-based Internet of Things: Implementation of an Optically Connected Energy-autonomous node` (2021) - Optical Wireless Communications
+- `Rate Maximization for Lightwave Power Transfer-Enabled Cooperative Half/Full-Duplex UOWC Systems` (2021) - Optical Wireless Communications
+- `Vision Based Obstacle Detection for Map Generation & Reconnaissance` (2014) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Human Motion Tracking under Dynamic Background Conditions` (2014) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Object Identification, Enhancement and Tracking under Dynamic Background Conditions` (2014) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Feature Similarity Evaluation and Event Clustering for Vision Systems` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Video Event Classification and Anomaly Identification using Spectral Clustering` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Multi-Feature based Hand-Gesture Recognition` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `A Study of Dynamic Aquatic Background Conditions for Foreground Estimation using Pixelwise Online Clustering` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `A Robust Foreground Estimation Technique for Rapidly Fluctuating Dynamic Backgrounds` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Event Detection Platform for Visual Surveillance Systems` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Adaptive Free Cylindrical Mixture Model for Foreground Estimation in Rapidly Fluctuating Dynamic Background Conditions` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Restoration and Clustering of Overexposed Background Elements for Vision Systems in Dynamic Aquatic Scenes` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Multi-Sensor Fusion for Position and Indoor Navigation` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Depth Map Generation for a Reconnaissance Robot Via Sensor Fusion` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Indoor Navigation Using Inertial Navigation System` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Odometry based Positioning and Navigation System for Indoor Omnidirectional Robot` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Accurate Depth Map from Stereo Web Camera Setup` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Intelligent Navigation System for Mapping Unknown Environments` (2016) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Modes of Clustering for Motion Pattern Analysis in Video Surveillance` (2016) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Laser Ranging Based Intelligent System for Unknown Environment Mapping` (2017) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Outdoor human navigation with GPS and sensor systems` (2017) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Autonomous exploration planning strategy for a reconnaissance agent` (2017) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Dynamic clustering for event detection and anomaly identification in video surveillance` (2017) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `A Robust Control Paradigm for Path Following of an Underwater Robotic Vehicle` (2018) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Detecting Abnormal Vehicle Movements and Accidents on Expressways using Clustering Techniques` (2019) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Vehicle number plate recognition using deep learning techniques` (2020) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Vehicle Detection and Localization for Autonomous Traffic Monitoring Systems in Unstructured Crowded Scenes` (2020) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Vehicle Tracking Based on an Improved DeepSORT Algorithm and the YOLOv4 Framework` (2021) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Integrated Video Based Crowdedness Forecasting Framework with a Review of Crowd Counting Models` (2021) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Hands Off: A Handshake Interaction Detection and Localization Model for COVID-19 Threat Control` (2021) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Real-Time multiple dyadic interaction detection in surveillance videos in the wild` (2023) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Ego Vehicle Speed Estimation Using Optical Flow Analysis` (2024) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `PoseView3D: Dynamic Multi-View Angular Encoding for Skeleton-Based Action Recognition` (2025) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `FAST-GAR: Fused-Attention Spatio-Temporal Transformer for Skeleton-based Group Activity Recognition` (2026) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `FlowSegModel: Advancing Perception in Autonomous Driving Through Weather-Resilient Segmentation` (2026) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `A Structured Analysis and Taxonomy of Scene Graph Representations for Group Activity Understanding` (2026) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Efficient and Intrinsically Interpretable Spatiotemporal Transformer with Gated Fusion for Group Activity Recognition` (2026) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Analysis of Super Resolution Spectral Estimation Techniques for Indoor Positioning Applications` (2008) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Versatile Algorithms for Accurate Indoor Geolocation` (2009) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `A Time Domain Eigen Value Method for Indoor Localization` (2010) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Enhancement of Interference Cancellation Systems through Eigen Filter based Subspace Separation` (2012) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Fast ICA Algorithm for Non-Gaussian Signal Separation` (2012) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Effect of training sequence bandwidth for Wiener filter-based interference cancellation systems` (2012) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Computationally Efficient Subspace Algorithm for High Resolution Dynamic Image Sequences` (2012) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Modelling of Acoustic Signals based on Optimal Pole Structure for Material based Classification` (2012) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `An Adaptive Approach for ICA Based Blind Source Separation for Multi-Sensory Systems` (2012) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Temporal ICA based Source Extraction from Dynamic Image Sequences with Visual Interference Under Noise` (2013) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `A Generic Object Counting Algorithm, under Partial Occlusion Conditions` (2013) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Material based Acoustic Signal Classification- A Subspace-based Approach` (2013) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Robust Classification of Acoustic Signals Based on Source Materials for Time Varying Noisy Environments` (2013) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Independent Component Analysis based Foreground Detection for Indoor Surveillance` (2014) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Hidden Signature Feature Extraction from Noisy Non-Stationary Signals Through Subspace Techniques` (2014) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Effective Image Representation using PCA and ICA for face recognition` (2015) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Face and Emotion Recognition using Eigenfaces with Probabilistic and Signal Cross Correlation Methods` (2015) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Frequency Domain ICA based Signal Restoration from Non-Linearly Distorted Acoustic Signals with Dropouts` (2015) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Interpolative Fingerprint Matching Technique for Indoor Localization` (2015) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Complex Valued Independent Component Analysis for Image Enhancement` (2015) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Eigen Map based Fingerprinting Techniques using Audible Sound` (2015) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Frequency Domain ICA Based Signal Restoration from Non-Linearly Distorted Acoustic Signals` (2015) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Enhanced Feature Space Clustering Via Spectral Parameter Weighting for Fingerprinting Based Indoor Localization` (2015) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `A Robust Expression Negation Algorithm for Accurate Face Recognition for Limited Training Data` (2015) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Improved PCA based Face Recognition Using Similarity Measurement Fusion` (2015) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Expression Neutralization Based Expression-Invariant Face Recognition Algorithm for Single Training Sample Problem` (2016) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Hierarchical Method to Classify Emotions in Speech Signals` (2016) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Expression neutralization based algorithm for expression-invariant face recognition for single training sample problem` (2017) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Transmittance Multispectral Imaging System to Estimate Potable Water Quality Parameters` (2021) - Spectral Imaging and Remote Sensing for Environmental and Industrial Monitoring
+- `Reflectance Multispectral Imaging for Identification of Algae Contamination in High Voltage Insulators` (2021) - Spectral Imaging and Remote Sensing for Environmental and Industrial Monitoring
+- `Spectral Imaging based Condition Assessment of Field Aged Power Transformers` (2023) - Spectral Imaging and Remote Sensing for Environmental and Industrial Monitoring
+
+## Missing issue
+
+- `Performance Benchmarking of Psychomotor Skills Using Wearable Devices: An Application in Sport` (2025) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `"Fetal Movement Dataset Recorded Using Four Inertial Measurement Units", Mendeley Data, V1` (2021) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `"Fetal Movement Detection Dataset Recorded Using MPU9250 Tri-Axial Accelerometer", Mendeley Data, v2` (2019) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `A Wearable Inertial Sensing Platform for Personalized Health and Motion Monitoring` (2026) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Empirical Framework for Efficient Voxel-to-Point Transformation in Medical Imaging` (2026) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Beyond Overlap: Topology-Aware Evaluation for Biomedical Image Segmentation` (2026) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Denoising IMU Data Using EKF and UKF for Improved Joint Angle Estimation` (2024) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Quality assessment of welding using regression analysis of biomechanical data` (2024) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Fetal Movement Identification Using Spectrograms with Attention Aided Models and Identifying a Set of Correlating Parameters with Gestational Age` (2023) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Fetal Movement Identification from Multi-Accelerometer Measurements using Recurrent Neural Networks` (2021) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Fetal Movement Detection using Long Short-Term Memory Network` (2021) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Comprehensive Study on Denoising of Medical Images Utilizing Neural Network Based Auto-encoder` (2021) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Non-Invasive Wearable Device for Fetal Movement Detection` (2020) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Standardized Fourth Central Moment Based Three Step Algorithm for Fetal Movements Identification` (2020) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Combining Local Non-Negative Matrix Factorization and Spectral Clustering to Detect Fetal Movements` (2020) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Fetal Movements Identification Based on Non-negative Matrix Factorization and Spectral Clustering` (2019) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Time domain analysis for fetal movement detection using accelerometer data` (2018) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Fetal heart abnormality detection based on subspace separation and Wiener filtering` (2017) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Extraction and Analysis of Fetal heart Signals with Abnormalities - An Eigen Analysis Based Approach` (2013) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Subspace Separation for Performance Improvement in Fetal Cardiac Signal Extraction` (2013) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `An Eigen filter Based Approach for Extraction of Fetal Heart Signals under Noisy Conditions Using Adaptive Filters` (2012) - Biomedical Signal Processing, Bio-Imaging, and Wearable AI
+- `Toward Finding Optimal Source Dictionaries for Single Channel Music Source Separation Using Nonnegative Matrix Factorization` (2018) - Generative AI, Signal Processing, and Image Processing - Algorithmic and Fundamental Theory
+- `A Retinex based GAN Pipeline to Utilize Paired and Unpaired Datasets for Enhancing Low Light Images` (2020) - Generative AI, Signal Processing, and Image Processing - Algorithmic and Fundamental Theory
+- `Adaptive Centroid Placement Based SNIC for Superpixel Segmentation` (2020) - Generative AI, Signal Processing, and Image Processing - Algorithmic and Fundamental Theory
+- `An Optical physics inspired CNN approach for intrinsic image decomposition` (2021) - Generative AI, Signal Processing, and Image Processing - Algorithmic and Fundamental Theory
+- `Feature Conditioned Diffusion for Audio Generation` (2026) - Generative AI, Signal Processing, and Image Processing - Algorithmic and Fundamental Theory
+- `From Samples to Functions: Implicit Neural Representations for Continuous Modeling` (2026) - Generative AI, Signal Processing, and Image Processing - Algorithmic and Fundamental Theory
+- `COSMO-INR: Complex Sinusoidal Modulation for Implicit Neural Representations` (2026) - Generative AI, Signal Processing, and Image Processing - Algorithmic and Fundamental Theory
+- `The influence of social interactions in mitigating psychological distress during the COVID−19 pandemic: a study in Sri Lanka` (2025) - AI for Public Health and Social Impact Modeling
+- `Family income does not necessarily lead to a holistic e-learning experience during COVID-19: a study in Sri Lanka` (2024) - AI for Public Health and Social Impact Modeling
+- `A dataset on the socioeconomic and behavioural impacts in Sri Lanka through multiple waves of COVID-19` (2024) - AI for Public Health and Social Impact Modeling
+- `PoPStat-COVID19: Leveraging Population Pyramids to Quantify Demographic Vulnerability to COVID-19` (2025) - AI for Public Health and Social Impact Modeling
+- `Correlation Analysis of Age Structure Metrics and Cause-Specific Mortality: A Global and WHO Regional Comparison Using the Top 5 Causes of Death in 2021` (2025) - AI for Public Health and Social Impact Modeling
+- `Unveiling Motion Patterns Through Unsupervised Clustering` (2024) - AI for Public Health and Social Impact Modeling
+- `Real World Data-Driven Agent-Based Modeling for Health Policy Insights During Epidemics` (2024) - AI for Public Health and Social Impact Modeling
+- `Spatial Analysis of COVID-19 and Socio-Economic Factors in Sri Lanka` (2021) - AI for Public Health and Social Impact Modeling
+- `Limited Data Forecasting for Dengue Propagation` (2021) - AI for Public Health and Social Impact Modeling
+- `Non-intrusive load monitoring under residential solar power influx` (2017) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Implementation of a robust real-time non-intrusive load monitoring solution` (2019) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Generalized approach to assess and characterise the impact of solar PV on LV networks` (2020) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Coordinated photovoltaic re-phasing: A novel method to maximize the renewable energy integration in low voltage networks by mitigating network unbalances` (2020) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `A complete state estimation algorithm for a three-phase four-wire low voltage distribution system with high penetration of solar PV` (2021) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Sky Image-Based Localized Short-term Solar Irradiance Forecasting for Multiple PV Sites via Cloud Motion Tracking` (2021) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Non-Intrusive Load monitoring for flexible demand estimation and management` (2019) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Individual Power Profile Estimation of Residential Appliances Based on Low Resolution Smart Meter Data` (2015) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Residential Appliance Monitoring based on Low Frequency Smart Meter Measurements` (2015) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `A Real-Time Non-Intrusive Load Monitoring System` (2016) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Robust Nonintrusive Load Monitoring (NILM) with Unknown Loads` (2016) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Cloud Motion Tracking for Short-Term On-Site Cloud Coverage Prediction` (2017) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Real-Time Non-Intrusive Appliance Load Monitoring under Supply Voltage Fluctuations` (2017) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Cross-correlation based cloud motion estimation for short-term solar irradiation predictions` (2017) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Very Short-Term Solar Power Forecasting Using Ground-based Sky Images` (2018) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Second Order Volterra Filter for Appliance Modelling` (2018) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `On-Site Solar Power Forecasting Using Sky-Images` (2020) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Modified Auto Regressive Technique for Univariate Time Series Prediction of Solar Irradiance` (2020) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Global Horizontal Irradiance Modeling from Sky Images Using ResNet Architectures` (2021) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `Comparison of Appliance Signature Classification Methods for Non-Intrusive Load Monitoring` (2024) - Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration
+- `July, 2019` (2019) - Remote Sensing and Hyperspectral Imaging
+- `Constrained Nonnegative Matrix Factorization for Blind Hyperspectral Unmixing Incorporating Endmember Independence` (2021) - Remote Sensing and Hyperspectral Imaging
+- `Hyperspectral unmixing with spatial context and endmember ensemble learning with attention mechanism` (2025) - Remote Sensing and Hyperspectral Imaging
+- `Preprocessing Algorithm Leveraging Geometric Modeling for Scale Correction in Hyperspectral Images for Improved Unmixing Performance` (2026) - Remote Sensing and Hyperspectral Imaging
+- `Mamba-FCS: Joint Spatio-Frequency Feature Fusion, Change-Guided Attention, and SeK Inspired Loss for Enhanced Semantic Change Detection in Remote Sensing` (2026) - Remote Sensing and Hyperspectral Imaging
+- `Hyperspectral Imaging Based Land Cover Mapping Using Data Obtained by the Hyperion Sensor` (2017) - Remote Sensing and Hyperspectral Imaging
+- `A Semi-Supervised Algorithm to Map Major Vegetation Zones using Satellite Hyperspectral Data` (2018) - Remote Sensing and Hyperspectral Imaging
+- `Locally Linear Embedding for Dimensionality Reduction in Hyperspectral Image Classification` (2019) - Remote Sensing and Hyperspectral Imaging
+- `Feature Extraction Using Minor Scatter Directions of Data to Distinguish Between Classes with Minute Differences of a Hyperspectral Image` (2019) - Remote Sensing and Hyperspectral Imaging
+- `Hyperspectral Imaging Based Method to Identify Potential Limestone Deposits` (2019) - Remote Sensing and Hyperspectral Imaging
+- `Enhanced Hyperspectral Unmixing via Non-Negative Matrix Factorization Incorporating the End Member Independence` (2019) - Remote Sensing and Hyperspectral Imaging
+- `Convolutional Autoencoder for Blind Hyperspectral Image Unmixing` (2020) - Remote Sensing and Hyperspectral Imaging
+- `Endmember Abundance Prediction in Hyperspectral Unmixing: The Impact of Endmember Extraction Algorithms and Self-Attention in Autoencoders` (2023) - Remote Sensing and Hyperspectral Imaging
+- `A Detailed Analysis of Datasets Used in HSI in the Context of Mixture Models for Unmixing` (2024) - Remote Sensing and Hyperspectral Imaging
+- `Comparative Analysis of Endmember Extraction Methods for Lithological Mapping Using Hyperspectral Imaging` (2024) - Remote Sensing and Hyperspectral Imaging
+- `Enhanced SCanNet with CBAM and Dice Loss for Semantic Change Detection` (2025) - Remote Sensing and Hyperspectral Imaging
+- `Precision Spatio-Temporal Feature Fusion for Robust Remote Sensing Change Detection` (2026) - Remote Sensing and Hyperspectral Imaging
+- `Validation of multispectral imaging for the detection of selected adulterants in turmeric samples` (2020) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Transmittance Multispectral Imaging for Reheated Coconut Oil Differentiation` (2022) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Deep learning for automated fish grading` (2023) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Aflatoxin contamination level estimation in food using reflectance multispectral imaging based system` (2024) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `"Data for: Application of multispectral imaging to assess the quality of coconut oil", Mendeley Data, v1` (2020) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `"A Multispectral Image Database of Common Sri Lankan Spices and Adulterants", Mendeley Data, v3` (2019) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `A multispectral imaging system to assess meat quality` (2018) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Multispectral Imaging for Detection of Adulterants in Turmeric Powder` (2019) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `A Multispectral Imaging System for Industrial Applications` (2019) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Transmittance Multispectral Imaging for Edible Oil Quality Assessment` (2020) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Multispectral imaging for automated fish quality grading` (2020) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Validation of Multispectral Imaging for The Detection of Sugar Adulteration in Black Tea` (2021) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Multispectral Imaging System to Estimate Sugar Adulteration Level of Black Tea` (2021) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Transmittance Multispectral Imaging for Adulteration Assessment of Coconut Oil` (2021) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Reflectance Multispectral Imaging for Fungal Growth Level Estimation` (2024) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Deep Learning for Soil Moisture Content Estimation via Reflectance Multispectral Imaging` (2024) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Multispectral Imaging and Machine Learning for Soil Classification through Moisture-Induced Spectral Dynamics` (2026) - Multispectral Imaging for Food, Agriculture, and Manufacturing Quality
+- `Design and Analysis of an Optical Camera Communication System for Underwater Applications` (2019) - Optical Wireless Communications
+- `Average Rate Analysis of Cooperative NOMA Aided Underwater Optical Wireless Systems` (2021) - Optical Wireless Communications
+- `Lighting the Way for a Sustainable Future: Overcoming Challenges in Light-Based IoT and Data-Energy Networking` (2025) - Optical Wireless Communications
+- `An Adaptive Modified Decision Directed Algorithm for Electronic Polarization Control in Coherent QPSK Optical Transmission` (2013) - Optical Wireless Communications
+- `Visible Light Communication System with Ambient Light Cancellation` (2015) - Optical Wireless Communications
+- `Development and Experimental Evaluation of a Visible Light Communication System with Ambient Light Cancellation` (2015) - Optical Wireless Communications
+- `Design and Implementation of a Bi-directional Visible Light Communication System` (2015) - Optical Wireless Communications
+- `Design and Analysis of an Under Water Visible Light MIMO Communication System with a Camera Receiver` (2017) - Optical Wireless Communications
+- `Camera based visible light communication system for underwater applications` (2017) - Optical Wireless Communications
+- `Relay-assisted optical wireless communications in turbid water` (2018) - Optical Wireless Communications
+- `Impact of receiver orientation on full-duplex relay aided NOMA underwater optical wireless systems` (2020) - Optical Wireless Communications
+- `Multi-AUV Placement for Coverage Maximization in Underwater Optical Wireless Sensor Networks` (2020) - Optical Wireless Communications
+- `Light-based Internet of Things: Implementation of an Optically Connected Energy-autonomous node` (2021) - Optical Wireless Communications
+- `Rate Maximization for Lightwave Power Transfer-Enabled Cooperative Half/Full-Duplex UOWC Systems` (2021) - Optical Wireless Communications
+- `Vision Based Obstacle Detection for Map Generation & Reconnaissance` (2014) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Human Motion Tracking under Dynamic Background Conditions` (2014) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Object Identification, Enhancement and Tracking under Dynamic Background Conditions` (2014) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Feature Similarity Evaluation and Event Clustering for Vision Systems` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Video Event Classification and Anomaly Identification using Spectral Clustering` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Multi-Feature based Hand-Gesture Recognition` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `A Study of Dynamic Aquatic Background Conditions for Foreground Estimation using Pixelwise Online Clustering` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `A Robust Foreground Estimation Technique for Rapidly Fluctuating Dynamic Backgrounds` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Event Detection Platform for Visual Surveillance Systems` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Adaptive Free Cylindrical Mixture Model for Foreground Estimation in Rapidly Fluctuating Dynamic Background Conditions` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Restoration and Clustering of Overexposed Background Elements for Vision Systems in Dynamic Aquatic Scenes` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Multi-Sensor Fusion for Position and Indoor Navigation` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Depth Map Generation for a Reconnaissance Robot Via Sensor Fusion` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Indoor Navigation Using Inertial Navigation System` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Odometry based Positioning and Navigation System for Indoor Omnidirectional Robot` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Accurate Depth Map from Stereo Web Camera Setup` (2015) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Intelligent Navigation System for Mapping Unknown Environments` (2016) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Modes of Clustering for Motion Pattern Analysis in Video Surveillance` (2016) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Laser Ranging Based Intelligent System for Unknown Environment Mapping` (2017) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Outdoor human navigation with GPS and sensor systems` (2017) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Autonomous exploration planning strategy for a reconnaissance agent` (2017) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Dynamic clustering for event detection and anomaly identification in video surveillance` (2017) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `A Robust Control Paradigm for Path Following of an Underwater Robotic Vehicle` (2018) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Detecting Abnormal Vehicle Movements and Accidents on Expressways using Clustering Techniques` (2019) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Vehicle number plate recognition using deep learning techniques` (2020) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Vehicle Detection and Localization for Autonomous Traffic Monitoring Systems in Unstructured Crowded Scenes` (2020) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Vehicle Tracking Based on an Improved DeepSORT Algorithm and the YOLOv4 Framework` (2021) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Integrated Video Based Crowdedness Forecasting Framework with a Review of Crowd Counting Models` (2021) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Hands Off: A Handshake Interaction Detection and Localization Model for COVID-19 Threat Control` (2021) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Real-Time multiple dyadic interaction detection in surveillance videos in the wild` (2023) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Ego Vehicle Speed Estimation Using Optical Flow Analysis` (2024) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `PoseView3D: Dynamic Multi-View Angular Encoding for Skeleton-Based Action Recognition` (2025) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `FAST-GAR: Fused-Attention Spatio-Temporal Transformer for Skeleton-based Group Activity Recognition` (2026) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `FlowSegModel: Advancing Perception in Autonomous Driving Through Weather-Resilient Segmentation` (2026) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `A Structured Analysis and Taxonomy of Scene Graph Representations for Group Activity Understanding` (2026) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Efficient and Intrinsically Interpretable Spatiotemporal Transformer with Gated Fusion for Group Activity Recognition` (2026) - Computer Vision, Machine Vision, Robotics, and Assisted Navigation
+- `Analysis of Super Resolution Spectral Estimation Techniques for Indoor Positioning Applications` (2008) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Versatile Algorithms for Accurate Indoor Geolocation` (2009) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `A Time Domain Eigen Value Method for Indoor Localization` (2010) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Enhancement of Interference Cancellation Systems through Eigen Filter based Subspace Separation` (2012) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Fast ICA Algorithm for Non-Gaussian Signal Separation` (2012) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Effect of training sequence bandwidth for Wiener filter-based interference cancellation systems` (2012) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Computationally Efficient Subspace Algorithm for High Resolution Dynamic Image Sequences` (2012) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Modelling of Acoustic Signals based on Optimal Pole Structure for Material based Classification` (2012) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `An Adaptive Approach for ICA Based Blind Source Separation for Multi-Sensory Systems` (2012) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Temporal ICA based Source Extraction from Dynamic Image Sequences with Visual Interference Under Noise` (2013) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `A Generic Object Counting Algorithm, under Partial Occlusion Conditions` (2013) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Material based Acoustic Signal Classification- A Subspace-based Approach` (2013) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Robust Classification of Acoustic Signals Based on Source Materials for Time Varying Noisy Environments` (2013) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Independent Component Analysis based Foreground Detection for Indoor Surveillance` (2014) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Hidden Signature Feature Extraction from Noisy Non-Stationary Signals Through Subspace Techniques` (2014) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Effective Image Representation using PCA and ICA for face recognition` (2015) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Face and Emotion Recognition using Eigenfaces with Probabilistic and Signal Cross Correlation Methods` (2015) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Frequency Domain ICA based Signal Restoration from Non-Linearly Distorted Acoustic Signals with Dropouts` (2015) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Interpolative Fingerprint Matching Technique for Indoor Localization` (2015) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Complex Valued Independent Component Analysis for Image Enhancement` (2015) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Eigen Map based Fingerprinting Techniques using Audible Sound` (2015) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Frequency Domain ICA Based Signal Restoration from Non-Linearly Distorted Acoustic Signals` (2015) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Enhanced Feature Space Clustering Via Spectral Parameter Weighting for Fingerprinting Based Indoor Localization` (2015) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `A Robust Expression Negation Algorithm for Accurate Face Recognition for Limited Training Data` (2015) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Improved PCA based Face Recognition Using Similarity Measurement Fusion` (2015) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Expression Neutralization Based Expression-Invariant Face Recognition Algorithm for Single Training Sample Problem` (2016) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Hierarchical Method to Classify Emotions in Speech Signals` (2016) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Expression neutralization based algorithm for expression-invariant face recognition for single training sample problem` (2017) - Image and Signal Processing for Enhancement, Recognition, and Localization
+- `Transmittance Multispectral Imaging System to Estimate Potable Water Quality Parameters` (2021) - Spectral Imaging and Remote Sensing for Environmental and Industrial Monitoring
+- `Reflectance Multispectral Imaging for Identification of Algae Contamination in High Voltage Insulators` (2021) - Spectral Imaging and Remote Sensing for Environmental and Industrial Monitoring
+- `Spectral Imaging based Condition Assessment of Field Aged Power Transformers` (2023) - Spectral Imaging and Remote Sensing for Environmental and Industrial Monitoring
+
+## Missing type
+
+- None
+
+## Missing theme
+
+- None
