@@ -1,1843 +1,1699 @@
-- name: 'Gayanthi Anuradha Ilangarathna'
-  slug: 'gayanthi-anuradha-ilangarathna'
-  batch: 'AG13'
-  university: 'Virginia Tech; University of Illinois Urbana-Champaign'
-  country: 'United States'
-  academic_area: 'Science and Interdisciplinary Fields'
-  current_affiliation: 'PhD Student @ University of Illinois Urbana-Champaign'
+- name: Gayanthi Anuradha Ilangarathna
+  slug: gayanthi-anuradha-ilangarathna
+  batch: AG13
+  university: Virginia Tech; University of Illinois Urbana-Champaign
+  country: United States
+  academic_area: Science and Interdisciplinary Fields
+  current_affiliation: PhD Student @ University of Illinois Urbana-Champaign
   status: ''
-  sort_name: 'Gayanthi Anuradha Ilangarathna'
-  image: 'gayanthi-anuradha-ilangarathna.jpg'
+  sort_name: Gayanthi Anuradha Ilangarathna
+  image: gayanthi-anuradha-ilangarathna.jpg
   profile_url: ''
   universities:
-    - 'Virginia Tech'
-    - 'University of Illinois Urbana-Champaign'
-  source_sheet: 'ChemMech'
+  - Virginia Tech
+  - University of Illinois Urbana-Champaign
+  source_sheet: ChemMech
   source_row: 5
-
-- name: 'Chinthaka Pathum Dinesh'
-  slug: 'chinthaka-pathum-dinesh'
-  batch: 'E07'
-  university: 'Simon Fraser University'
-  country: 'Canada'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'Assistant Teaching Professor, Northeastern University, Canada'
+- name: Chinthaka Pathum Dinesh
+  slug: chinthaka-pathum-dinesh
+  batch: E07
+  university: Simon Fraser University
+  country: Canada
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Assistant Teaching Professor, Northeastern University,Canada
   status: ''
-  sort_name: 'Chinthaka Pathum Dinesh'
-  image: 'chinthaka-pathum-dinesh.jpg'
+  sort_name: Chinthaka Pathum Dinesh
+  image: chinthaka-pathum-dinesh.jpg
   profile_url: ''
   universities:
-    - 'Simon Fraser University'
-  source_sheet: 'Elec'
+  - Simon Fraser University
+  source_sheet: Elec
   source_row: 3
-
-- name: 'Harini Kolamunna'
-  slug: 'harini-kolamunna'
-  batch: 'E07'
-  university: 'University of New South Wales'
-  country: 'Australia'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'Senior Lead Data Scientist, Yamaha agriculture'
+- name: Harini Kolamunna
+  slug: harini-kolamunna
+  batch: E07
+  university: University of New South Wales
+  country: Australia
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Senior Lead Data Scientist,Yamaha agriculture
   status: ''
-  sort_name: 'Harini Kolamunna'
-  image: 'harini-kolamunna.jpg'
+  sort_name: Harini Kolamunna
+  image: harini-kolamunna.jpg
   profile_url: ''
   universities:
-    - 'University of New South Wales'
-  source_sheet: 'Elec'
+  - University of New South Wales
+  source_sheet: Elec
   source_row: 4
-
-- name: 'Don Buddhika Nettasinghe'
-  slug: 'don-buddhika-nettasinghe'
-  batch: 'E08'
-  university: 'University of British Columbia; Cornell University'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'Assistant Professor, University of Lowa'
+- name: Don Buddhika Nettasinghe
+  slug: don-buddhika-nettasinghe
+  batch: E08
+  university: University of British Columbia; Cornell University
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Assistant Professor, University of Iowa
   status: ''
-  sort_name: 'Don Buddhika Nettasinghe'
-  image: 'don-buddhika-nettasinghe.jpg'
+  sort_name: Don Buddhika Nettasinghe
+  image: don-buddhika-nettasinghe.jpg
   profile_url: ''
   universities:
-    - 'University of British Columbia'
-    - 'Cornell University'
-  source_sheet: 'Elec'
+  - University of British Columbia
+  - Cornell University
+  source_sheet: Elec
   source_row: 5
-
-- name: 'Fathima Imara Mohamed Nazar'
-  slug: 'fathima-imara-mohamed-nazar'
-  batch: 'E09'
-  university: 'University at Albany, SUNY'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'Associate Data Consultant, Data Domain'
+- name: Fathima Imara Mohamed Nazar
+  slug: fathima-imara-mohamed-nazar
+  batch: E09
+  university: State University of New York at Albany
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Associate Data Consultant, Data Domain
   status: ''
-  sort_name: 'Fathima Imara Mohamed Nazar'
-  image: 'fathima-imara-mohamed-nazar.jpg'
+  sort_name: Fathima Imara Mohamed Nazar
+  image: fathima-imara-mohamed-nazar.jpg
   profile_url: ''
   universities:
-    - 'University at Albany, SUNY'
-  source_sheet: 'Elec'
+  - State University of New York at Albany
+  source_sheet: Elec
   source_row: 12
-
-- name: 'Gunendradasan Tharshini'
-  slug: 'gunendradasan-tharshini'
-  batch: 'E09'
-  university: 'University of New South Wales'
-  country: 'Australia'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'School of Electrical Engineering and Telecommunications, UNSW, Australia'
+- name: Gunendradasan Tharshini
+  slug: gunendradasan-tharshini
+  batch: E09
+  university: University of New South Wales
+  country: Australia
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: School of Electrical Engineering and Telecommunications, UNSW,
+    Australia
   status: ''
-  sort_name: 'Gunendradasan Tharshini'
-  image: 'gunendradasan-tharshini.webp'
+  sort_name: Gunendradasan Tharshini
+  image: gunendradasan-tharshini.webp
   profile_url: ''
   universities:
-    - 'University of New South Wales'
-  source_sheet: 'Elec'
+  - University of New South Wales
+  source_sheet: Elec
   source_row: 6
-
-- name: 'Hasitha Hewawasam'
-  slug: 'hasitha-hewawasam'
-  batch: 'E09'
-  university: 'Swinburne University of Technology'
-  country: 'Australia'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: ''
+- name: Hasitha Hewawasam
+  slug: hasitha-hewawasam
+  batch: E09
+  university: Swinburne University of Technology
+  country: Australia
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Co-founder | Robotics Engineer
   status: ''
-  sort_name: 'Hasitha Hewawasam'
-  image: 'hasitha-hewawasam.jpg'
+  sort_name: Hasitha Hewawasam
+  image: hasitha-hewawasam.jpg
   profile_url: ''
   universities:
-    - 'Swinburne University of Technology'
-  source_sheet: 'Elec'
+  - Swinburne University of Technology
+  source_sheet: Elec
   source_row: 13
-
-- name: 'Kamani Gettapola'
-  slug: 'kamani-gettapola'
-  batch: 'E09'
-  university: 'Monash University'
-  country: 'Australia'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'Data Scientist, Experian Asia Pacific'
+- name: Kamani Gettapola
+  slug: kamani-gettapola
+  batch: E09
+  university: Monash University
+  country: Australia
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Data Scientist, Experian Asia Pacific
   status: ''
-  sort_name: 'Kamani Gettapola'
-  image: 'kamani-gettapola.jpg'
+  sort_name: Kamani Gettapola
+  image: kamani-gettapola.jpg
   profile_url: ''
   universities:
-    - 'Monash University'
-  source_sheet: 'Elec'
+  - Monash University
+  source_sheet: Elec
   source_row: 8
-
-- name: 'Lasanthika Disawa'
-  slug: 'lasanthika-disawa'
-  batch: 'E09'
-  university: 'University of Wollongong; University of Peradeniya'
-  country: 'Australia'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'Power Systems Engineer, APD Global'
+- name: Lasanthika Disawa
+  slug: lasanthika-disawa
+  batch: E09
+  university: University of Wollongong; University of Peradeniya
+  country: Australia
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Power Systems Engineer, APD Global
   status: ''
-  sort_name: 'Lasanthika Disawa'
-  image: 'lasanthika-disawa.jpg'
+  sort_name: Lasanthika Disawa
+  image: lasanthika-disawa.jpg
   profile_url: ''
   universities:
-    - 'University of Wollongong'
-    - 'University of Peradeniya'
-  source_sheet: 'Elec'
+  - University of Wollongong
+  - University of Peradeniya
+  source_sheet: Elec
   source_row: 10
-
-- name: 'Nuwan Wijesinghe'
-  slug: 'nuwan-wijesinghe'
-  batch: 'E09'
-  university: 'University of Melbourne'
-  country: 'Australia'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'Graduate Researcher, University of Melbourne'
+- name: Nuwan Wijesinghe
+  slug: nuwan-wijesinghe
+  batch: E09
+  university: University of Melbourne
+  country: Australia
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Graduate Researcher, University of Melbourne
   status: ''
-  sort_name: 'Nuwan Wijesinghe'
-  image: 'nuwan-wijesinghe.jpg'
+  sort_name: Nuwan Wijesinghe
+  image: nuwan-wijesinghe.jpg
   profile_url: ''
   universities:
-    - 'University of Melbourne'
-  source_sheet: 'Elec'
+  - University of Melbourne
+  source_sheet: Elec
   source_row: 14
-
-- name: 'Pramuditha Perera'
-  slug: 'pramuditha-perera'
-  batch: 'E09'
-  university: 'Rutgers University; Johns Hopkins University'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'Principal Applied Scientist at Oracle'
+- name: Pramuditha Perera
+  slug: pramuditha-perera
+  batch: E09
+  university: Rutgers University; Johns Hopkins University
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Principal Applied Scientist at Oracle
   status: ''
-  sort_name: 'Pramuditha Perera'
-  image: 'pramuditha-perera.jpg'
+  sort_name: Pramuditha Perera
+  image: pramuditha-perera.jpg
   profile_url: ''
   universities:
-    - 'Rutgers University'
-    - 'Johns Hopkins University'
-  source_sheet: 'Elec'
+  - Rutgers University
+  - Johns Hopkins University
+  source_sheet: Elec
   source_row: 7
-
-- name: 'Samith Herath'
-  slug: 'samith-herath'
-  batch: 'E09'
-  university: 'Australian National University'
-  country: 'Australia'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'Senior Applied Scientist at Oracle'
+- name: Samith Herath
+  slug: samith-herath
+  batch: E09
+  university: Australian National University
+  country: Australia
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Senior Applied Scientist at Oracle
   status: ''
-  sort_name: 'Samith Herath'
-  image: 'samith-herath.jpg'
+  sort_name: Samith Herath
+  image: samith-herath.jpg
   profile_url: ''
   universities:
-    - 'Australian National University'
-  source_sheet: 'Elec'
+  - Australian National University
+  source_sheet: Elec
   source_row: 9
-
-- name: 'Sarith Fernando'
-  slug: 'sarith-fernando'
-  batch: 'E09'
-  university: 'University of New South Wales'
-  country: 'Australia'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'Chief Technology Officer, Open'
+- name: Sarith Fernando
+  slug: sarith-fernando
+  batch: E09
+  university: University of New South Wales
+  country: Australia
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Chief Technology Officer, Open
   status: ''
-  sort_name: 'Sarith Fernando'
-  image: 'sarith-fernando.jpg'
+  sort_name: Sarith Fernando
+  image: sarith-fernando.jpg
   profile_url: ''
   universities:
-    - 'University of New South Wales'
-  source_sheet: 'Elec'
+  - University of New South Wales
+  source_sheet: Elec
   source_row: 11
-
-- name: 'Chathumal Perera'
-  slug: 'chathumal-perera'
-  batch: 'E10'
-  university: 'University of Alberta'
-  country: 'Canada'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'Research Associate at University of Toronto'
+- name: Chathumal Perera
+  slug: chathumal-perera
+  batch: E10
+  university: University of Alberta
+  country: Canada
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Research Associate at University of Toronto
   status: ''
-  sort_name: 'Chathumal Perera'
-  image: 'chathumal-perera.jpg'
+  sort_name: Chathumal Perera
+  image: chathumal-perera.jpg
   profile_url: ''
   universities:
-    - 'University of Alberta'
-  source_sheet: 'Elec'
+  - University of Alberta
+  source_sheet: Elec
   source_row: 20
-
-- name: 'Dananjaya Liyanage'
-  slug: 'dananjaya-liyanage'
-  batch: 'E10'
-  university: 'Ohio State University'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'Senior Machine Learning Engineer at PayPal'
+- name: Dananjaya Liyanage
+  slug: dananjaya-liyanage
+  batch: E10
+  university: Ohio State University (Physics)
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Senior Machine Learning Engineer at PayPal
   status: ''
-  sort_name: 'Dananjaya Liyanage'
-  image: 'dananjaya-liyanage.jpg'
+  sort_name: Dananjaya Liyanage
+  image: dananjaya-liyanage.jpg
   profile_url: ''
   universities:
-    - 'Ohio State University'
-  source_sheet: 'Elec'
+  - Ohio State University (Physics)
+  source_sheet: Elec
   source_row: 17
-
-- name: 'Gayana Jayasinghe'
-  slug: 'gayana-jayasinghe'
-  batch: 'E10'
-  university: 'University of Illinois Urbana-Champaign'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'Postdoctoral Research Associate at Sapienza Università di Roma'
+- name: Gayana Jayasinghe
+  slug: gayana-jayasinghe
+  batch: E10
+  university: University of Illinois at Urbana-Champaign (Pure Maths)
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Postdoctoral Research Associate at Sapienza Università di Roma
   status: ''
-  sort_name: 'Gayana Jayasinghe'
-  image: 'gayana-jayasinghe.jpg'
+  sort_name: Gayana Jayasinghe
+  image: gayana-jayasinghe.jpg
   profile_url: ''
   universities:
-    - 'University of Illinois Urbana-Champaign'
-  source_sheet: 'Elec'
+  - University of Illinois at Urbana-Champaign (Pure Maths)
+  source_sheet: Elec
   source_row: 16
-
-- name: 'Nadun Rajasinghe'
-  slug: 'nadun-rajasinghe'
-  batch: 'E10'
-  university: 'University of Western Ontario'
-  country: 'Canada'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'Research Assistant at Western University'
+- name: Nadun Rajasinghe
+  slug: nadun-rajasinghe
+  batch: E10
+  university: University of Western Ontario
+  country: Canada
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Research Assistant at Western University
   status: ''
-  sort_name: 'Nadun Rajasinghe'
-  image: 'nadun-rajasinghe.jpg'
+  sort_name: Nadun Rajasinghe
+  image: nadun-rajasinghe.jpg
   profile_url: ''
   universities:
-    - 'University of Western Ontario'
-  source_sheet: 'Elec'
+  - University of Western Ontario
+  source_sheet: Elec
   source_row: 15
-
-- name: 'Sampath Edirisinghe'
-  slug: 'sampath-edirisinghe'
-  batch: 'E10'
-  university: 'University of Melbourne'
-  country: 'Australia'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'Postdoctoral Research Fellow at The University of Melbourne'
+- name: Sampath Edirisinghe
+  slug: sampath-edirisinghe
+  batch: E10
+  university: The University of Melbourne
+  country: Australia
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Senior Lecturer at the University of Sri Jayewardenepura,
   status: ''
-  sort_name: 'Sampath Edirisinghe'
-  image: 'sampath-edirisinghe.jpg'
+  sort_name: Sampath Edirisinghe
+  image: sampath-edirisinghe.jpg
   profile_url: ''
   universities:
-    - 'University of Melbourne'
-  source_sheet: 'Elec'
+  - The University of Melbourne
+  source_sheet: Elec
   source_row: 19
-
-- name: 'Shirantha Welikala'
-  slug: 'shirantha-welikala'
-  batch: 'E10'
-  university: 'Boston University'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'Assistant Professor at the Stevens Institute of Technology.'
+- name: Shirantha Welikala
+  slug: shirantha-welikala
+  batch: E10
+  university: Boston University
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Assistant Professor at the Stevens Institute of Technology.
   status: ''
-  sort_name: 'Shirantha Welikala'
-  image: 'shirantha-welikala.jpg'
+  sort_name: Shirantha Welikala
+  image: shirantha-welikala.jpg
   profile_url: ''
   universities:
-    - 'Boston University'
-  source_sheet: 'Elec'
+  - Boston University
+  source_sheet: Elec
   source_row: 18
-
-- name: 'Sivalingam Thushan'
-  slug: 'sivalingam-thushan'
-  batch: 'E10'
-  university: 'University of Oulu'
-  country: 'Finland'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'Postdoctoral Researcher at the University of Oulu'
+- name: Sivalingam Thushan
+  slug: sivalingam-thushan
+  batch: E10
+  university: University of Oulu
+  country: Finland
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Postdoctoral Researcher at the University of Oulu
   status: ''
-  sort_name: 'Sivalingam Thushan'
-  image: 'sivalingam-thushan.jpg'
+  sort_name: Sivalingam Thushan
+  image: sivalingam-thushan.jpg
   profile_url: ''
   universities:
-    - 'University of Oulu'
-  source_sheet: 'Elec'
+  - University of Oulu
+  source_sheet: Elec
   source_row: 22
-
-- name: 'Vivekananthan Athmajan'
-  slug: 'vivekananthan-athmajan'
-  batch: 'E10'
-  university: 'University of Oulu'
-  country: 'Finland'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'Researcher at CWC, University of Oulu, Finland'
+- name: Vivekananthan Athmajan
+  slug: vivekananthan-athmajan
+  batch: E10
+  university: University of Oulu
+  country: Finland
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Researcher at CWC, University of Oulu, Finland
   status: ''
-  sort_name: 'Vivekananthan Athmajan'
-  image: 'vivekananthan-athmajan.jpg'
+  sort_name: Vivekananthan Athmajan
+  image: vivekananthan-athmajan.jpg
   profile_url: ''
   universities:
-    - 'University of Oulu'
-  source_sheet: 'Elec'
+  - University of Oulu
+  source_sheet: Elec
   source_row: 21
-
-- name: 'Anuththara Rupasinghe'
-  slug: 'anuththara-rupasinghe'
-  batch: 'E11'
-  university: 'University of Maryland, College Park'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
+- name: Anuththara Rupasinghe
+  slug: anuththara-rupasinghe
+  batch: E11
+  university: University of Maryland, College Park
+  country: United States
+  academic_area: Electrical and Electronic Engineering
   current_affiliation: ''
   status: ''
-  sort_name: 'Anuththara Rupasinghe'
-  image: 'anuththara-rupasinghe.jpg'
+  sort_name: Anuththara Rupasinghe
+  image: anuththara-rupasinghe.jpg
   profile_url: ''
   universities:
-    - 'University of Maryland, College Park'
-  source_sheet: 'Elec'
+  - University of Maryland, College Park
+  source_sheet: Elec
   source_row: 23
-
-- name: 'Dilum Fernando'
-  slug: 'dilum-fernando'
-  batch: 'E11'
-  university: 'Johns Hopkins University'
-  country: 'United States'
-  academic_area: 'Chemical Engineering'
-  current_affiliation: 'PhD Student, Applied Mathematics and Statistics, Johns Hopkins University'
+- name: Dilum Fernando
+  slug: dilum-fernando
+  batch: E11
+  university: Johns Hopkins University
+  country: United States
+  academic_area: Chemical Engineering
+  current_affiliation: PhD Student, Applied Mathematics and Statistics, Johns Hopkins
+    University
   status: ''
-  sort_name: 'Dilum Fernando'
-  image: 'dilum-fernando.webp'
+  sort_name: Dilum Fernando
+  image: dilum-fernando.webp
   profile_url: ''
   universities:
-    - 'Johns Hopkins University'
-  source_sheet: 'ChemMech'
+  - Johns Hopkins University
+  source_sheet: ChemMech
   source_row: 3
-
-- name: 'Rashmi Boragolla'
-  slug: 'rashmi-boragolla'
-  batch: 'E11'
-  university: 'University of Manitoba'
-  country: 'Canada'
-  academic_area: 'Electrical and Electronic Engineering'
+- name: Rashmi Boragolla
+  slug: rashmi-boragolla
+  batch: E11
+  university: University of Manitoba
+  country: Canada
+  academic_area: Electrical and Electronic Engineering
   current_affiliation: ''
   status: ''
-  sort_name: 'Rashmi Boragolla'
-  image: 'rashmi-boragolla.jpg'
+  sort_name: Rashmi Boragolla
+  image: rashmi-boragolla.jpg
   profile_url: ''
   universities:
-    - 'University of Manitoba'
-  source_sheet: 'Elec'
+  - University of Manitoba
+  source_sheet: Elec
   source_row: 25
-
-- name: 'Yasith Liyanage'
-  slug: 'yasith-liyanage'
-  batch: 'E11'
-  university: 'University at Albany, SUNY'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
+- name: Yasith Liyanage
+  slug: yasith-liyanage
+  batch: E11
+  university: State University of New York at Albany
+  country: United States
+  academic_area: Electrical and Electronic Engineering
   current_affiliation: ''
   status: ''
-  sort_name: 'Yasith Liyanage'
-  image: 'yasith-liyanage.jpg'
+  sort_name: Yasith Liyanage
+  image: yasith-liyanage.jpg
   profile_url: ''
   universities:
-    - 'University at Albany, SUNY'
-  source_sheet: 'Elec'
+  - State University of New York at Albany
+  source_sheet: Elec
   source_row: 24
-
-- name: 'Amila Perera'
-  slug: 'amila-perera'
-  batch: 'E12'
-  university: 'University of Oulu'
-  country: 'Finland'
-  academic_area: 'Electrical and Electronic Engineering'
+- name: Amila Perera
+  slug: amila-perera
+  batch: E12
+  university: University of Oulu
+  country: Finland
+  academic_area: Electrical and Electronic Engineering
   current_affiliation: ''
   status: ''
-  sort_name: 'Amila Perera'
-  image: 'amila-perera.jpg'
+  sort_name: Amila Perera
+  image: amila-perera.jpg
   profile_url: ''
   universities:
-    - 'University of Oulu'
-  source_sheet: 'Elec'
+  - University of Oulu
+  source_sheet: Elec
   source_row: 37
-
-- name: 'Bathiya Rathnayake'
-  slug: 'bathiya-rathnayake'
-  batch: 'E12'
-  university: 'University of California, San Diego'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
+- name: Bathiya Rathnayake
+  slug: bathiya-rathnayake
+  batch: E12
+  university: University of California San Diego
+  country: United States
+  academic_area: Electrical and Electronic Engineering
   current_affiliation: ''
   status: ''
-  sort_name: 'Bathiya Rathnayake'
-  image: 'bathiya-rathnayake.jpg'
+  sort_name: Bathiya Rathnayake
+  image: bathiya-rathnayake.jpg
   profile_url: ''
   universities:
-    - 'University of California, San Diego'
-  source_sheet: 'Elec'
+  - University of California San Diego
+  source_sheet: Elec
   source_row: 28
-
-- name: 'Bavantha Lakshan Udugama'
-  slug: 'bavantha-lakshan-udugama'
-  batch: 'E12'
-  university: 'University of Twente'
-  country: 'Netherlands'
-  academic_area: 'Electrical and Electronic Engineering'
+- name: Bavantha Lakshan Udugama
+  slug: bavantha-lakshan-udugama
+  batch: E12
+  university: University of Twente
+  country: Netherlands
+  academic_area: Electrical and Electronic Engineering
   current_affiliation: ''
   status: ''
-  sort_name: 'Bavantha Lakshan Udugama'
-  image: 'bavantha-lakshan-udugama.jpg'
+  sort_name: Bavantha Lakshan Udugama
+  image: bavantha-lakshan-udugama.jpg
   profile_url: ''
   universities:
-    - 'University of Twente'
-  source_sheet: 'Elec'
+  - University of Twente
+  source_sheet: Elec
   source_row: 36
-
-- name: 'Diluka Galappaththige'
-  slug: 'diluka-galappaththige'
-  batch: 'E12'
-  university: 'Southern Illinois University'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
+- name: Diluka Galappaththige
+  slug: diluka-galappaththige
+  batch: E12
+  university: Southern Illinois University
+  country: United States
+  academic_area: Electrical and Electronic Engineering
   current_affiliation: ''
   status: ''
-  sort_name: 'Diluka Galappaththige'
-  image: 'diluka-galappaththige.jpg'
+  sort_name: Diluka Galappaththige
+  image: diluka-galappaththige.jpg
   profile_url: ''
   universities:
-    - 'Southern Illinois University'
-  source_sheet: 'Elec'
+  - Southern Illinois University
+  source_sheet: Elec
   source_row: 32
-
-- name: 'Hasitha Wimalarathna'
-  slug: 'hasitha-wimalarathna'
-  batch: 'E12'
-  university: 'Western University, Ontario'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
+- name: Hasitha Wimalarathna
+  slug: hasitha-wimalarathna
+  batch: E12
+  university: Western University
+  country: United States
+  academic_area: Electrical and Electronic Engineering
   current_affiliation: ''
   status: ''
-  sort_name: 'Hasitha Wimalarathna'
-  image: 'hasitha-wimalarathna.jpg'
+  sort_name: Hasitha Wimalarathna
+  image: hasitha-wimalarathna.jpg
   profile_url: ''
   universities:
-    - 'Western University, Ontario'
-  source_sheet: 'Elec'
+  - Western University
+  source_sheet: Elec
   source_row: 38
-
-- name: 'Kasun Weerakoon'
-  slug: 'kasun-weerakoon'
-  batch: 'E12'
-  university: 'University of Maryland, College Park'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
+- name: Kasun Weerakoon
+  slug: kasun-weerakoon
+  batch: E12
+  university: University of Maryland, College Park
+  country: United States
+  academic_area: Electrical and Electronic Engineering
   current_affiliation: ''
   status: ''
-  sort_name: 'Kasun Weerakoon'
-  image: 'kasun-weerakoon.jpg'
+  sort_name: Kasun Weerakoon
+  image: kasun-weerakoon.jpg
   profile_url: ''
   universities:
-    - 'University of Maryland, College Park'
-  source_sheet: 'Elec'
+  - University of Maryland, College Park
+  source_sheet: Elec
   source_row: 33
-
-- name: 'Maleen Jayasuriya'
-  slug: 'maleen-jayasuriya'
-  batch: 'E12'
-  university: 'University of Technology Sydney'
-  country: 'Australia'
-  academic_area: 'Electrical and Electronic Engineering'
+- name: Maleen Jayasuriya
+  slug: maleen-jayasuriya
+  batch: E12
+  university: University of Technology Sydney
+  country: Australia
+  academic_area: Electrical and Electronic Engineering
   current_affiliation: ''
   status: ''
-  sort_name: 'Maleen Jayasuriya'
-  image: 'maleen-jayasuriya.jpg'
+  sort_name: Maleen Jayasuriya
+  image: maleen-jayasuriya.jpg
   profile_url: ''
   universities:
-    - 'University of Technology Sydney'
-  source_sheet: 'Elec'
+  - University of Technology Sydney
+  source_sheet: Elec
   source_row: 31
-
-- name: 'Mohamed Akram Shafie'
-  slug: 'mohamed-akram-shafie'
-  batch: 'E12'
-  university: 'Australian National University'
-  country: 'Australia'
-  academic_area: 'Electrical and Electronic Engineering'
+- name: Mohamed Akram Shafie
+  slug: mohamed-akram-shafie
+  batch: E12
+  university: Australian National University
+  country: Australia
+  academic_area: Electrical and Electronic Engineering
   current_affiliation: ''
   status: ''
-  sort_name: 'Mohamed Akram Shafie'
-  image: 'mohamed-akram-shafie.jpg'
+  sort_name: Mohamed Akram Shafie
+  image: mohamed-akram-shafie.jpg
   profile_url: ''
   universities:
-    - 'Australian National University'
-  source_sheet: 'Elec'
+  - Australian National University
+  source_sheet: Elec
   source_row: 29
-
-- name: 'Neelanga Thelasinghe'
-  slug: 'neelanga-thelasinghe'
-  batch: 'E12'
-  university: 'Rensselaer Polytechnic Institute'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
+- name: Neelanga Thelasinghe
+  slug: neelanga-thelasinghe
+  batch: E12
+  university: Rensselaer Polytechnic Institute
+  country: United States
+  academic_area: Electrical and Electronic Engineering
   current_affiliation: ''
   status: ''
-  sort_name: 'Neelanga Thelasinghe'
-  image: 'neelanga-thelasinghe.jpg'
+  sort_name: Neelanga Thelasinghe
+  image: neelanga-thelasinghe.jpg
   profile_url: ''
   universities:
-    - 'Rensselaer Polytechnic Institute'
-  source_sheet: 'Elec'
+  - Rensselaer Polytechnic Institute
+  source_sheet: Elec
   source_row: 26
-
-- name: 'Ruwanthi abeysekara'
-  slug: 'ruwanthi-abeysekara'
-  batch: 'E12'
-  university: 'University of Maryland, College Park'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
+- name: Ruwanthi abeysekara
+  slug: ruwanthi-abeysekara
+  batch: E12
+  university: University of Maryland, College Park
+  country: United States
+  academic_area: Electrical and Electronic Engineering
   current_affiliation: ''
   status: ''
-  sort_name: 'Ruwanthi abeysekara'
-  image: 'ruwanthi-abeysekara.jpg'
+  sort_name: Ruwanthi abeysekara
+  image: ruwanthi-abeysekara.jpg
   profile_url: ''
   universities:
-    - 'University of Maryland, College Park'
-  source_sheet: 'Elec'
+  - University of Maryland, College Park
+  source_sheet: Elec
   source_row: 27
-
-- name: 'Sachini Piyoni Ekanayake'
-  slug: 'sachini-piyoni-ekanayake'
-  batch: 'E12'
-  university: 'University at Albany, SUNY'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
+- name: Sachini Piyoni Ekanayake
+  slug: sachini-piyoni-ekanayake
+  batch: E12
+  university: State University of New York at Albany
+  country: United States
+  academic_area: Electrical and Electronic Engineering
   current_affiliation: ''
   status: ''
-  sort_name: 'Sachini Piyoni Ekanayake'
-  image: 'sachini-piyoni-ekanayake.jpg'
+  sort_name: Sachini Piyoni Ekanayake
+  image: sachini-piyoni-ekanayake.jpg
   profile_url: ''
   universities:
-    - 'University at Albany, SUNY'
-  source_sheet: 'Elec'
+  - State University of New York at Albany
+  source_sheet: Elec
   source_row: 35
-
-- name: 'Sajani Vithana'
-  slug: 'sajani-vithana'
-  batch: 'E12'
-  university: 'University of Maryland, College Park'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
+- name: Sajani Vithana
+  slug: sajani-vithana
+  batch: E12
+  university: University of Maryland, College Park
+  country: United States
+  academic_area: Electrical and Electronic Engineering
   current_affiliation: ''
   status: ''
-  sort_name: 'Sajani Vithana'
-  image: 'sajani-vithana.jpg'
+  sort_name: Sajani Vithana
+  image: sajani-vithana.jpg
   profile_url: ''
   universities:
-    - 'University of Maryland, College Park'
-  source_sheet: 'Elec'
+  - University of Maryland, College Park
+  source_sheet: Elec
   source_row: 30
-
-- name: 'Samitha Gunarathne'
-  slug: 'samitha-gunarathne'
-  batch: 'E12'
-  university: 'University of Oulu'
-  country: 'Finland'
-  academic_area: 'Electrical and Electronic Engineering'
+- name: Samitha Gunarathne
+  slug: samitha-gunarathne
+  batch: E12
+  university: University of Oulu
+  country: Finland
+  academic_area: Electrical and Electronic Engineering
   current_affiliation: ''
   status: ''
-  sort_name: 'Samitha Gunarathne'
-  image: 'samitha-gunarathne.jpg'
+  sort_name: Samitha Gunarathne
+  image: samitha-gunarathne.jpg
   profile_url: ''
   universities:
-    - 'University of Oulu'
-  source_sheet: 'Elec'
+  - University of Oulu
+  source_sheet: Elec
   source_row: 39
-
-- name: 'Trevine Oorloff'
-  slug: 'trevine-oorloff'
-  batch: 'E12'
-  university: 'University of Maryland, College Park'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
+- name: Trevine Oorloff
+  slug: trevine-oorloff
+  batch: E12
+  university: University of Maryland, College Park
+  country: United States
+  academic_area: Electrical and Electronic Engineering
   current_affiliation: ''
   status: ''
-  sort_name: 'Trevine Oorloff'
-  image: 'trevine-oorloff.jpg'
+  sort_name: Trevine Oorloff
+  image: trevine-oorloff.jpg
   profile_url: ''
   universities:
-    - 'University of Maryland, College Park'
-  source_sheet: 'Elec'
+  - University of Maryland, College Park
+  source_sheet: Elec
   source_row: 34
-
-- name: 'Aranee Balachandran'
-  slug: 'aranee-balachandran'
-  batch: 'E13'
-  university: 'McMaster University'
-  country: 'Canada'
-  academic_area: 'Electrical and Electronic Engineering'
+- name: Aranee Balachandran
+  slug: aranee-balachandran
+  batch: E13
+  university: McMaster University
+  country: Canada
+  academic_area: Electrical and Electronic Engineering
   current_affiliation: ''
   status: ''
-  sort_name: 'Aranee Balachandran'
-  image: 'aranee-balachandran.jpg'
+  sort_name: Aranee Balachandran
+  image: aranee-balachandran.jpg
   profile_url: ''
   universities:
-    - 'McMaster University'
-  source_sheet: 'Elec'
+  - McMaster University
+  source_sheet: Elec
   source_row: 43
-
-- name: 'Chaminda Bandara'
-  slug: 'chaminda-bandara'
-  batch: 'E13'
-  university: 'Johns Hopkins University'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
+- name: Chaminda Bandara
+  slug: chaminda-bandara
+  batch: E13
+  university: Johns Hopkins University
+  country: United States
+  academic_area: Electrical and Electronic Engineering
   current_affiliation: ''
   status: ''
-  sort_name: 'Chaminda Bandara'
-  image: 'chaminda-bandara.jpg'
+  sort_name: Chaminda Bandara
+  image: chaminda-bandara.jpg
   profile_url: ''
   universities:
-    - 'Johns Hopkins University'
-  source_sheet: 'Elec'
+  - Johns Hopkins University
+  source_sheet: Elec
   source_row: 40
-
-- name: 'Hasantha Ekanayake'
-  slug: 'hasantha-ekanayake'
-  batch: 'E13'
-  university: 'University of Virginia'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
+- name: Hasantha Ekanayake
+  slug: hasantha-ekanayake
+  batch: E13
+  university: University of Virginia
+  country: United States
+  academic_area: Electrical and Electronic Engineering
   current_affiliation: ''
   status: ''
-  sort_name: 'Hasantha Ekanayake'
-  image: 'hasantha-ekanayake.jpg'
+  sort_name: Hasantha Ekanayake
+  image: hasantha-ekanayake.jpg
   profile_url: ''
   universities:
-    - 'University of Virginia'
-  source_sheet: 'Elec'
+  - University of Virginia
+  source_sheet: Elec
   source_row: 48
-
-- name: 'Kasun Prabath Withanage'
-  slug: 'kasun-prabath-withanage'
-  batch: 'E13'
-  university: 'University of New Mexico'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: ''
+- name: Kasun Prabath Withanage
+  slug: kasun-prabath-withanage
+  batch: E13
+  university: University of New Mexico
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Research Assistant, University of New Mexico School of Engineering
   status: ''
-  sort_name: 'Kasun Prabath Withanage'
-  image: 'kasun-prabath-withanage.jpg'
+  sort_name: Kasun Prabath Withanage
+  image: kasun-prabath-withanage.jpg
   profile_url: ''
   universities:
-    - 'University of New Mexico'
-  source_sheet: 'Elec'
+  - University of New Mexico
+  source_sheet: Elec
   source_row: 47
-
-- name: 'Mevan Ekanayake'
-  slug: 'mevan-ekanayake'
-  batch: 'E13'
-  university: 'Monash University'
-  country: 'Australia'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: ''
+- name: Mevan Ekanayake
+  slug: mevan-ekanayake
+  batch: E13
+  university: Monash University
+  country: Australia
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Postdoctoral Researcher in Deep Learning, Peter MacCallum Cancer
+    Centre
   status: ''
-  sort_name: 'Mevan Ekanayake'
-  image: 'mevan-ekanayake.jpg'
+  sort_name: Mevan Ekanayake
+  image: mevan-ekanayake.jpg
   profile_url: ''
   universities:
-    - 'Monash University'
-  source_sheet: 'Elec'
+  - Monash University
+  source_sheet: Elec
   source_row: 44
-
-- name: 'Neranjan Uditha'
-  slug: 'neranjan-uditha'
-  batch: 'E13'
-  university: 'Texas Tech University'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: ''
+- name: Neranjan Uditha
+  slug: neranjan-uditha
+  batch: E13
+  university: Texas Tech University
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Graduate Teaching Assistant at Texas Tech University
   status: ''
-  sort_name: 'Neranjan Uditha'
-  image: 'neranjan-uditha.jpg'
+  sort_name: Neranjan Uditha
+  image: neranjan-uditha.jpg
   profile_url: ''
   universities:
-    - 'Texas Tech University'
-  source_sheet: 'Elec'
+  - Texas Tech University
+  source_sheet: Elec
   source_row: 42
-
-- name: 'Neranjan Uditha'
-  slug: 'neranjan-uditha-e13'
-  batch: 'E13'
-  university: 'Texas Tech University, USA'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: ''
+- name: Thanushi Withanage
+  slug: thanushi-withanage
+  batch: E13
+  university: University of Maryland, College Park
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Ph.D. candidate and Graduate Research Assistant at University
+    of Maryland
   status: ''
-  sort_name: 'Neranjan Uditha'
-  image: 'neranjan-uditha-e13.jpg'
+  sort_name: Thanushi Withanage
+  image: thanushi-withanage.jpg
   profile_url: ''
   universities:
-    - 'Texas Tech University, USA'
-  source_sheet: 'Elec'
-  source_row: 45
-
-- name: 'Thanushi Withanage'
-  slug: 'thanushi-withanage'
-  batch: 'E13'
-  university: 'University of Maryland, College Park'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: ''
-  status: ''
-  sort_name: 'Thanushi Withanage'
-  image: 'thanushi-withanage.jpg'
-  profile_url: ''
-  universities:
-    - 'University of Maryland, College Park'
-  source_sheet: 'Elec'
+  - University of Maryland, College Park
+  source_sheet: Elec
   source_row: 46
-
-- name: 'Uthapala Ekanayake'
-  slug: 'uthapala-ekanayake'
-  batch: 'E13'
-  university: 'Monash University'
-  country: 'Australia'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: ''
+- name: Uthapala Ekanayake
+  slug: uthapala-ekanayake
+  batch: E13
+  university: Monash University
+  country: Australia
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Postdoctoral Researcher in Monash University
   status: ''
-  sort_name: 'Uthapala Ekanayake'
-  image: 'uthapala-ekanayake.jpg'
+  sort_name: Uthapala Ekanayake
+  image: uthapala-ekanayake.jpg
   profile_url: ''
   universities:
-    - 'Monash University'
-  source_sheet: 'Elec'
+  - Monash University
+  source_sheet: Elec
   source_row: 41
-
-- name: 'Dilshan Morawaliyadda'
-  slug: 'dilshan-morawaliyadda'
-  batch: 'E14'
-  university: 'University of Manitoba'
-  country: 'Canada'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: ''
+- name: Dilshan Morawaliyadda
+  slug: dilshan-morawaliyadda
+  batch: E14
+  university: University of Manitoba
+  country: Canada
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: PhD Candidate & Graduate Research Assistant at University of
+    Manitoba
   status: ''
-  sort_name: 'Dilshan Morawaliyadda'
-  image: 'dilshan-morawaliyadda.jpg'
+  sort_name: Dilshan Morawaliyadda
+  image: dilshan-morawaliyadda.jpg
   profile_url: ''
   universities:
-    - 'University of Manitoba'
-  source_sheet: 'Elec'
+  - University of Manitoba
+  source_sheet: Elec
   source_row: 58
-
-- name: 'Dushan Herath'
-  slug: 'dushan-herath'
-  batch: 'E14'
-  university: 'Louisiana State University'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
+- name: Dushan Herath
+  slug: dushan-herath
+  batch: E14
+  university: Louisiana State University
+  country: United States
+  academic_area: Electrical and Electronic Engineering
   current_affiliation: ''
   status: ''
-  sort_name: 'Dushan Herath'
-  image: 'dushan-herath.jpg'
+  sort_name: Dushan Herath
+  image: dushan-herath.jpg
   profile_url: ''
   universities:
-    - 'Louisiana State University'
-  source_sheet: 'Elec'
+  - Louisiana State University
+  source_sheet: Elec
   source_row: 62
-
-- name: 'Eranda Somathilake'
-  slug: 'eranda-somathilake'
-  batch: 'E14'
-  university: 'University of California, San Diego'
-  country: 'United States'
-  academic_area: 'Mechanical Engineering'
-  current_affiliation: 'PhD Student, Mechanical Engineering, San Diego'
+- name: Eranda Somathilake
+  slug: eranda-somathilake
+  batch: E14
+  university: University of California, San Diego
+  country: United States
+  academic_area: Mechanical Engineering
+  current_affiliation: PhD Student, Mechanical Engineering, San Diego
   status: ''
-  sort_name: 'Eranda Somathilake'
-  image: 'eranda-somathilake.jpg'
+  sort_name: Eranda Somathilake
+  image: eranda-somathilake.jpg
   profile_url: ''
   universities:
-    - 'University of California, San Diego'
-  source_sheet: 'ChemMech'
+  - University of California, San Diego
+  source_sheet: ChemMech
   source_row: 4
-
-- name: 'Gihan Jayatilaka'
-  slug: 'gihan-jayatilaka'
-  batch: 'E14'
-  university: 'University of Maryland, College Park'
-  country: 'United States'
-  academic_area: 'Computer Engineering'
+- name: Gihan Jayatilaka
+  slug: gihan-jayatilaka
+  batch: E14
+  university: University of Maryland, College Park
+  country: United States
+  academic_area: Computer Engineering
   current_affiliation: ''
   status: ''
-  sort_name: 'Gihan Jayatilaka'
-  image: 'gihan-jayatilaka.jpg'
+  sort_name: Gihan Jayatilaka
+  image: gihan-jayatilaka.jpg
   profile_url: ''
   universities:
-    - 'University of Maryland, College Park'
-  source_sheet: 'Computer'
+  - University of Maryland, College Park
+  source_sheet: Computer
   source_row: 3
-
-- name: 'Harshana Weligampola'
-  slug: 'harshana-weligampola'
-  batch: 'E14'
-  university: 'Purdue University'
-  country: 'United States'
-  academic_area: 'Computer Engineering'
-  current_affiliation: 'Research Assistant, Purdue University'
+- name: Harshana Weligampola
+  slug: harshana-weligampola
+  batch: E14
+  university: Purdue University
+  country: United States
+  academic_area: Computer Engineering
+  current_affiliation: Research Assistant, Purdue University
   status: ''
-  sort_name: 'Harshana Weligampola'
-  image: 'harshana-weligampola.jpg'
+  sort_name: Harshana Weligampola
+  image: harshana-weligampola.jpg
   profile_url: ''
   universities:
-    - 'Purdue University'
-  source_sheet: 'Computer'
+  - Purdue University
+  source_sheet: Computer
   source_row: 9
-
-- name: 'Hashan Kavinga Weerasooriya'
-  slug: 'hashan-kavinga-weerasooriya'
-  batch: 'E14'
-  university: 'Purdue University'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: ''
+- name: Hashan Kavinga Weerasooriya
+  slug: hashan-kavinga-weerasooriya
+  batch: E14
+  university: Purdue University
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Research Assistant on Electrical and Computer Engineering,
+    Purdue University
   status: ''
-  sort_name: 'Hashan Kavinga Weerasooriya'
-  image: 'hashan-kavinga-weerasooriya.jpg'
+  sort_name: Hashan Kavinga Weerasooriya
+  image: hashan-kavinga-weerasooriya.jpg
   profile_url: ''
   universities:
-    - 'Purdue University'
-  source_sheet: 'Elec'
+  - Purdue University
+  source_sheet: Elec
   source_row: 53
-
-- name: 'Ishan Rangajith'
-  slug: 'ishan-rangajith'
-  batch: 'E14'
-  university: 'University of Oulu'
-  country: 'Finland'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: ''
+- name: Ishan Rangajith
+  slug: ishan-rangajith
+  batch: E14
+  university: University of Oulu
+  country: Finland
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Doctoral Researcher in Oulu University
   status: ''
-  sort_name: 'Ishan Rangajith'
-  image: 'ishan-rangajith.jpg'
+  sort_name: Ishan Rangajith
+  image: ishan-rangajith.jpg
   profile_url: ''
   universities:
-    - 'University of Oulu'
-  source_sheet: 'Elec'
+  - University of Oulu
+  source_sheet: Elec
   source_row: 59
-
-- name: 'Jameel Hassan'
-  slug: 'jameel-hassan'
-  batch: 'E14'
-  university: 'Mohamed bin Zayed University of Artificial Intelligence'
-  country: 'United Arab Emirates'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: ''
+- name: Jameel Hassan
+  slug: jameel-hassan
+  batch: E14
+  university: Mohamed bin Zayed University of Artificial Intelligence
+  country: United Arab Emirates
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Ph.D student in Johns Hopkins University
   status: ''
-  sort_name: 'Jameel Hassan'
-  image: 'jameel-hassan.jpg'
+  sort_name: Jameel Hassan
+  image: jameel-hassan.jpg
   profile_url: ''
   universities:
-    - 'Mohamed bin Zayed University of Artificial Intelligence'
-  source_sheet: 'Elec'
+  - Mohamed bin Zayed University of Artificial Intelligence
+  source_sheet: Elec
   source_row: 51
-
-- name: 'Janith Bandara Senanayaka'
-  slug: 'janith-bandara-senanayaka'
-  batch: 'E14'
-  university: 'University of Maryland, College Park'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: ''
+- name: Janith Bandara Senanayaka
+  slug: janith-bandara-senanayaka
+  batch: E14
+  university: University of Maryland, College Park
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: PhD Candidate at University of Maryland, College Park
   status: ''
-  sort_name: 'Janith Bandara Senanayaka'
-  image: 'janith-bandara-senanayaka.jpg'
+  sort_name: Janith Bandara Senanayaka
+  image: janith-bandara-senanayaka.jpg
   profile_url: ''
   universities:
-    - 'University of Maryland, College Park'
-  source_sheet: 'Elec'
+  - University of Maryland, College Park
+  source_sheet: Elec
   source_row: 54
-
-- name: 'Mihitha Maithripala'
-  slug: 'mihitha-maithripala'
-  batch: 'E14'
-  university: 'University of Virginia'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
+- name: Mihitha Maithripala
+  slug: mihitha-maithripala
+  batch: E14
+  university: University of Virginia
+  country: United States
+  academic_area: Electrical and Electronic Engineering
   current_affiliation: ''
   status: ''
-  sort_name: 'Mihitha Maithripala'
-  image: 'mihitha-maithripala.jpg'
+  sort_name: Mihitha Maithripala
+  image: mihitha-maithripala.jpg
   profile_url: ''
   universities:
-    - 'University of Virginia'
-  source_sheet: 'Elec'
+  - University of Virginia
+  source_sheet: Elec
   source_row: 61
-
-- name: 'Sanjaya Herath'
-  slug: 'sanjaya-herath'
-  batch: 'E14'
-  university: 'University of Maryland, College Park'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
+- name: Sanjaya Herath
+  slug: sanjaya-herath
+  batch: E14
+  university: University of Maryland, College Park
+  country: United States
+  academic_area: Electrical and Electronic Engineering
   current_affiliation: ''
   status: ''
-  sort_name: 'Sanjaya Herath'
-  image: 'sanjaya-herath.jpg'
+  sort_name: Sanjaya Herath
+  image: sanjaya-herath.jpg
   profile_url: ''
   universities:
-    - 'University of Maryland, College Park'
-  source_sheet: 'Elec'
+  - University of Maryland, College Park
+  source_sheet: Elec
   source_row: 55
-
-- name: 'Shehan Senarath'
-  slug: 'shehan-senarath'
-  batch: 'E14'
-  university: 'University of Manitoba'
-  country: 'Canada'
-  academic_area: 'Electrical and Electronic Engineering'
+- name: Shehan Senarath
+  slug: shehan-senarath
+  batch: E14
+  university: University of Manitoba
+  country: Canada
+  academic_area: Electrical and Electronic Engineering
   current_affiliation: ''
   status: ''
-  sort_name: 'Shehan Senarath'
-  image: 'shehan-senarath.jpg'
+  sort_name: Shehan Senarath
+  image: shehan-senarath.jpg
   profile_url: ''
   universities:
-    - 'University of Manitoba'
-  source_sheet: 'Elec'
+  - University of Manitoba
+  source_sheet: Elec
   source_row: 57
-
-- name: 'Subash Wickramasinghe'
-  slug: 'subash-wickramasinghe'
-  batch: 'E14'
-  university: 'Old Dominion University'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
+- name: Subash Wickramasinghe
+  slug: subash-wickramasinghe
+  batch: E14
+  university: Old Dominion University
+  country: United States
+  academic_area: Electrical and Electronic Engineering
   current_affiliation: ''
   status: ''
-  sort_name: 'Subash Wickramasinghe'
-  image: 'subash-wickramasinghe.jpg'
+  sort_name: Subash Wickramasinghe
+  image: subash-wickramasinghe.jpg
   profile_url: ''
   universities:
-    - 'Old Dominion University'
-  source_sheet: 'Elec'
+  - Old Dominion University
+  source_sheet: Elec
   source_row: 52
-
-- name: 'Suren Sritharan'
-  slug: 'suren-sritharan'
-  batch: 'E14'
-  university: 'Technical University of Munich'
-  country: 'Germany'
-  academic_area: 'Computer Engineering'
+- name: Suren Sritharan
+  slug: suren-sritharan
+  batch: E14
+  university: Technical University of Munich
+  country: Germany
+  academic_area: Computer Engineering
   current_affiliation: ''
   status: ''
-  sort_name: 'Suren Sritharan'
-  image: 'suren-sritharan.jpg'
+  sort_name: Suren Sritharan
+  image: suren-sritharan.jpg
   profile_url: ''
   universities:
-    - 'Technical University of Munich'
-  source_sheet: 'Computer'
+  - Technical University of Munich
+  source_sheet: Computer
   source_row: 4
-
-- name: 'Thoshara Nawarathne'
-  slug: 'thoshara-nawarathne'
-  batch: 'E14'
-  university: 'University of Calgary'
-  country: 'Canada'
-  academic_area: 'Electrical and Electronic Engineering'
+- name: Thoshara Nawarathne
+  slug: thoshara-nawarathne
+  batch: E14
+  university: University of Calgary
+  country: Canada
+  academic_area: Electrical and Electronic Engineering
   current_affiliation: ''
   status: ''
-  sort_name: 'Thoshara Nawarathne'
-  image: 'thoshara-nawarathne.jpg'
+  sort_name: Thoshara Nawarathne
+  image: thoshara-nawarathne.jpg
   profile_url: ''
   universities:
-    - 'University of Calgary'
-  source_sheet: 'Elec'
+  - University of Calgary
+  source_sheet: Elec
   source_row: 56
-
-- name: 'Umar Marikkar'
-  slug: 'umar-marikkar'
-  batch: 'E14'
-  university: 'University of Surrey'
-  country: 'United Kingdom'
-  academic_area: 'Electrical and Electronic Engineering'
+- name: Umar Marikkar
+  slug: umar-marikkar
+  batch: E14
+  university: University of Surrey
+  country: United Kingdom
+  academic_area: Electrical and Electronic Engineering
   current_affiliation: ''
   status: ''
-  sort_name: 'Umar Marikkar'
-  image: 'umar-marikkar.jpg'
+  sort_name: Umar Marikkar
+  image: umar-marikkar.jpg
   profile_url: ''
   universities:
-    - 'University of Surrey'
-  source_sheet: 'Elec'
+  - University of Surrey
+  source_sheet: Elec
   source_row: 60
-
-- name: 'Upekha Delay'
-  slug: 'upekha-delay'
-  batch: 'E14'
-  university: 'Cornell University'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
+- name: Upekha Delay
+  slug: upekha-delay
+  batch: E14
+  university: Cornell University
+  country: United States
+  academic_area: Electrical and Electronic Engineering
   current_affiliation: ''
   status: ''
-  sort_name: 'Upekha Delay'
-  image: 'upekha-delay.jpg'
+  sort_name: Upekha Delay
+  image: upekha-delay.jpg
   profile_url: ''
   universities:
-    - 'Cornell University'
-  source_sheet: 'Elec'
+  - Cornell University
+  source_sheet: Elec
   source_row: 49
-
-- name: 'Yasiru Ranasinghe'
-  slug: 'yasiru-ranasinghe'
-  batch: 'E14'
-  university: 'Johns Hopkins University'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
+- name: Yasiru Ranasinghe
+  slug: yasiru-ranasinghe
+  batch: E14
+  university: Johns Hopkins University
+  country: United States
+  academic_area: Electrical and Electronic Engineering
   current_affiliation: ''
   status: ''
-  sort_name: 'Yasiru Ranasinghe'
-  image: 'yasiru-ranasinghe.jpg'
+  sort_name: Yasiru Ranasinghe
+  image: yasiru-ranasinghe.jpg
   profile_url: ''
   universities:
-    - 'Johns Hopkins University'
-  source_sheet: 'Elec'
+  - Johns Hopkins University
+  source_sheet: Elec
   source_row: 50
-
-- name: 'Akila Wijesinghe'
-  slug: 'akila-wijesinghe'
-  batch: 'E15'
-  university: 'Old Dominion University'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'Biomedical Engineering PhD student & Graduate Research Assistant at Old Dominion University'
+- name: Akila Wijesinghe
+  slug: akila-wijesinghe
+  batch: E15
+  university: Old Dominion University
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Biomedical Engineering PhD student & Graduate Research Assistant
+    at Old Dominion University
   status: ''
-  sort_name: 'Akila Wijesinghe'
-  image: 'akila-wijesinghe.png'
+  sort_name: Akila Wijesinghe
+  image: akila-wijesinghe.png
   profile_url: ''
   universities:
-    - 'Old Dominion University'
-  source_sheet: 'Elec'
+  - Old Dominion University
+  source_sheet: Elec
   source_row: 66
-
-- name: 'Aseni Jayarathne'
-  slug: 'aseni-jayarathne'
-  batch: 'E15'
-  university: 'Memorial University of Newfoundland'
-  country: 'Canada'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'PhD. student at the Memorial University of Newfoundland'
+- name: Aseni Jayarathne
+  slug: aseni-jayarathne
+  batch: E15
+  university: Memorial University of Newfoundland
+  country: Canada
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Ph.D. student at the Memorial University of Newfoundland
   status: ''
-  sort_name: 'Aseni Jayarathne'
-  image: 'aseni-jayarathne.png'
+  sort_name: Aseni Jayarathne
+  image: aseni-jayarathne.png
   profile_url: ''
   universities:
-    - 'Memorial University of Newfoundland'
-  source_sheet: 'Elec'
+  - Memorial University of Newfoundland
+  source_sheet: Elec
   source_row: 64
-
-- name: 'Bavantha Indrajith'
-  slug: 'bavantha-indrajith'
-  batch: 'E15'
-  university: 'University of Auckland'
-  country: 'New Zealand'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'PhD Scholar and Researcher at the University of Technology Sydney (UTS)'
+- name: Bavantha Indrajith
+  slug: bavantha-indrajith
+  batch: E15
+  university: University of Auckland
+  country: New Zealand
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: PhD Scholar and Researcher at the University of Technology
+    Sydney (UTS)
   status: ''
-  sort_name: 'Bavantha Indrajith'
-  image: 'bavantha-indrajith.png'
+  sort_name: Bavantha Indrajith
+  image: bavantha-indrajith.png
   profile_url: ''
   universities:
-    - 'University of Auckland'
-  source_sheet: 'Elec'
+  - University of Auckland
+  source_sheet: Elec
   source_row: 68
-
-- name: 'Harith Udawatte'
-  slug: 'harith-udawatte'
-  batch: 'E15'
-  university: 'Monash University'
-  country: 'Australia'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'PhD Candidate | Teaching Associate at Monash University, Australia'
+- name: Harith Udawatte
+  slug: harith-udawatte
+  batch: E15
+  university: Monash University
+  country: Australia
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: PhD Candidate | Teaching Associate at Monash University, Australia
   status: ''
-  sort_name: 'Harith Udawatte'
-  image: 'harith-udawatte.png'
+  sort_name: Harith Udawatte
+  image: harith-udawatte.png
   profile_url: ''
   universities:
-    - 'Monash University'
-  source_sheet: 'Elec'
+  - Monash University
+  source_sheet: Elec
   source_row: 65
-
-- name: 'Imalie Perera'
-  slug: 'imalie-perera'
-  batch: 'E15'
-  university: 'University of Illinois Urbana-Champaign'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'Mathematical and Statistical Sciences Grad Teacher of Record'
+- name: Imalie Perera
+  slug: imalie-perera
+  batch: E15
+  university: Clemson University
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Mathematical and Statistical Sciences Grad Teacher of Record
   status: ''
-  sort_name: 'Imalie Perera'
-  image: 'imalie-perera.png'
+  sort_name: Imalie Perera
+  image: imalie-perera.png
   profile_url: ''
   universities:
-    - 'University of Illinois Urbana-Champaign'
-  source_sheet: 'Elec'
+  - Clemson University
+  source_sheet: Elec
   source_row: 69
-
-- name: 'Kavishka Dissanayake'
-  slug: 'kavishka-dissanayake'
-  batch: 'E15'
-  university: 'University of Auckland'
-  country: 'New Zealand'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'PhD Candidate and Graduate Teaching Assistant at the University of Auckland in New Zealand'
+- name: Kavishka Dissanayake
+  slug: kavishka-dissanayake
+  batch: E15
+  university: University of Auckland
+  country: New Zealand
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: PhD Candidate and Graduate Teaching Assistant at the University
+    of Auckland in New Zealand
   status: ''
-  sort_name: 'Kavishka Dissanayake'
-  image: 'kavishka-dissanayake.jpeg'
+  sort_name: Kavishka Dissanayake
+  image: kavishka-dissanayake.jpeg
   profile_url: ''
   universities:
-    - 'University of Auckland'
-  source_sheet: 'Elec'
+  - University of Auckland
+  source_sheet: Elec
   source_row: 67
-
-- name: 'Lakshitha Ramanayake'
-  slug: 'lakshitha-ramanayake'
-  batch: 'E15'
-  university: 'Rutgers University'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'PhD. Student .Rutgers University'
+- name: Lakshitha Ramanayake
+  slug: lakshitha-ramanayake
+  batch: E15
+  university: Rutgers University
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Ph.D. Student .Rutgers University
   status: ''
-  sort_name: 'Lakshitha Ramanayake'
-  image: 'lakshitha-ramanayake.png'
+  sort_name: Lakshitha Ramanayake
+  image: lakshitha-ramanayake.png
   profile_url: ''
   universities:
-    - 'Rutgers University'
-  source_sheet: 'Elec'
+  - Rutgers University
+  source_sheet: Elec
   source_row: 70
-
-- name: 'Neranjan Senarath'
-  slug: 'neranjan-senarath'
-  batch: 'E15'
-  university: 'Rensselaer Polytechnic Institute'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'Research Assistant, Rensselaer Polytechnic Institute'
+- name: Neranjan Senarath
+  slug: neranjan-senarath
+  batch: E15
+  university: Rensselaer Polytechnic Institute
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Research Assistant, Rensselaer Polytechnic Institute
   status: ''
-  sort_name: 'Neranjan Senarath'
-  image: 'neranjan-senarath.png'
+  sort_name: Neranjan Senarath
+  image: neranjan-senarath.png
   profile_url: ''
   universities:
-    - 'Rensselaer Polytechnic Institute'
-  source_sheet: 'Elec'
+  - Rensselaer Polytechnic Institute
+  source_sheet: Elec
   source_row: 71
-
-- name: 'Nipun Dulantha Wickramasinghe'
-  slug: 'nipun-dulantha-wickramasinghe'
-  batch: 'E15'
-  university: 'University at Albany, SUNY'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'Graduate Research Assistant - University at Albany, SUNY'
+- name: Nipun Dulantha Wickramasinghe
+  slug: nipun-dulantha-wickramasinghe
+  batch: E15
+  university: State University of New York at Albany
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Graduate Research Assistant - University at Albany, SUNY
   status: ''
-  sort_name: 'Nipun Dulantha Wickramasinghe'
-  image: 'nipun-dulantha-wickramasinghe.jpg'
+  sort_name: Nipun Dulantha Wickramasinghe
+  image: nipun-dulantha-wickramasinghe.jpg
   profile_url: ''
   universities:
-    - 'University at Albany, SUNY'
-  source_sheet: 'Elec'
+  - State University of New York at Albany
+  source_sheet: Elec
   source_row: 73
-
-- name: 'Ramitha Dissanayake Ralalage'
-  slug: 'ramitha-dissanayake-ralalage'
-  batch: 'E15'
-  university: 'Western Michigan University'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'Associate Power Engineer @ Schweitzer Engineering Laboratories (SEL)'
+- name: Ramitha Dissanayake Ralalage
+  slug: ramitha-dissanayake-ralalage
+  batch: E15
+  university: Western Michigan University
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Associate Power Engineer @ Schweitzer Engineering Laboratories
+    (SEL)
   status: ''
-  sort_name: 'Ramitha Dissanayake Ralalage'
-  image: 'ramitha-dissanayake-ralalage.jpg'
+  sort_name: Ramitha Dissanayake Ralalage
+  image: ramitha-dissanayake-ralalage.jpg
   profile_url: ''
   universities:
-    - 'Western Michigan University'
-  source_sheet: 'Elec'
+  - Western Michigan University
+  source_sheet: Elec
   source_row: 74
-
-- name: 'Sahan Wijethunga'
-  slug: 'sahan-wijethunga'
-  batch: 'E15'
-  university: 'Western Michigan University'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'Graduate assistant - Western Michigan University'
+- name: Sahan Wijethunga
+  slug: sahan-wijethunga
+  batch: E15
+  university: Western Michigan University
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Graduate assistant - Western Michigan University
   status: ''
-  sort_name: 'Sahan Wijethunga'
-  image: 'sahan-wijethunga.jpg'
+  sort_name: Sahan Wijethunga
+  image: sahan-wijethunga.jpg
   profile_url: ''
   universities:
-    - 'Western Michigan University'
-  source_sheet: 'Elec'
+  - Western Michigan University
+  source_sheet: Elec
   source_row: 75
-
-- name: 'Shehan Senevirathna'
-  slug: 'shehan-senevirathna'
-  batch: 'E15'
-  university: 'Rensselaer Polytechnic Institute'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'PhD. candidate in the Intelligent Systems Lab at Rensselaer Polytechnic Institute (RPI)'
+- name: Shehan Senevirathna
+  slug: shehan-senevirathna
+  batch: E15
+  university: Rensselaer Polytechnic Institute
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Ph.D. candidate in the Intelligent Systems Lab at Rensselaer
+    Polytechnic Institute (RPI)
   status: ''
-  sort_name: 'Shehan Senevirathna'
-  image: 'shehan-senevirathna.jpg'
+  sort_name: Shehan Senevirathna
+  image: shehan-senevirathna.jpg
   profile_url: ''
   universities:
-    - 'Rensselaer Polytechnic Institute'
-  source_sheet: 'Elec'
+  - Rensselaer Polytechnic Institute
+  source_sheet: Elec
   source_row: 63
-
-- name: 'Viraj Dhananjaya Bandara Jayasundara'
-  slug: 'viraj-dhananjaya-bandara-jayasundara'
-  batch: 'E15'
-  university: 'Johns Hopkins University'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'Graduate Research Assistant-Johns Hopkins University'
+- name: Viraj Dhananjaya Bandara Jayasundara
+  slug: viraj-dhananjaya-bandara-jayasundara
+  batch: E15
+  university: Johns Hopkins University
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Graduate Research Assistant-Johns Hopkins University
   status: ''
-  sort_name: 'Viraj Dhananjaya Bandara Jayasundara'
-  image: 'viraj-dhananjaya-bandara-jayasundara.jpg'
+  sort_name: Viraj Dhananjaya Bandara Jayasundara
+  image: viraj-dhananjaya-bandara-jayasundara.jpg
   profile_url: ''
   universities:
-    - 'Johns Hopkins University'
-  source_sheet: 'Elec'
+  - Johns Hopkins University
+  source_sheet: Elec
   source_row: 72
-
-- name: 'Avishka Perera'
-  slug: 'avishka-perera'
-  batch: 'E16'
-  university: 'University of Maryland, College Park'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'PhD Student - University of Maryland'
+- name: Avishka Perera
+  slug: avishka-perera
+  batch: E16
+  university: University of Maryland, College Park
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: PhD Student - University of Maryland
   status: ''
-  sort_name: 'Avishka Perera'
-  image: 'avishka-perera.jpg'
+  sort_name: Avishka Perera
+  image: avishka-perera.jpg
   profile_url: ''
   universities:
-    - 'University of Maryland, College Park'
-  source_sheet: 'Elec'
+  - University of Maryland, College Park
+  source_sheet: Elec
   source_row: 81
-
-- name: 'Darsha Udayanga Herath'
-  slug: 'darsha-udayanga-herath'
-  batch: 'E16'
-  university: 'Rensselaer Polytechnic Institute'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'PhD Student @ Rensselaer Polytechnic Institute'
+- name: Darsha Udayanga Herath
+  slug: darsha-udayanga-herath
+  batch: E16
+  university: Rensselaer Polytechnic Institute
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: PhD Student @ Rensselaer Polytechnic Institute
   status: ''
-  sort_name: 'Darsha Udayanga Herath'
-  image: 'darsha-udayanga-herath.jpg'
+  sort_name: Darsha Udayanga Herath
+  image: darsha-udayanga-herath.jpg
   profile_url: ''
   universities:
-    - 'Rensselaer Polytechnic Institute'
-  source_sheet: 'Elec'
+  - Rensselaer Polytechnic Institute
+  source_sheet: Elec
   source_row: 79
-
-- name: 'Insaf Ismath'
-  slug: 'insaf-ismath'
-  batch: 'E16'
-  university: 'University of Artificial Intelligence'
-  country: 'United Arab Emirates'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'AI Engineer @ 2PointZero'
+- name: Insaf Ismath
+  slug: insaf-ismath
+  batch: E16
+  university: University of Artificial Intelligence
+  country: United Arab Emirates
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: AI Engineer @ 2PointZero
   status: ''
-  sort_name: 'Insaf Ismath'
-  image: 'insaf-ismath.jpg'
+  sort_name: Insaf Ismath
+  image: insaf-ismath.jpg
   profile_url: ''
   universities:
-    - 'University of Artificial Intelligence'
-  source_sheet: 'Elec'
+  - University of Artificial Intelligence
+  source_sheet: Elec
   source_row: 77
-
-- name: 'Isuru Pamuditha Thilakasiri'
-  slug: 'isuru-pamuditha-thilakasiri'
-  batch: 'E16'
-  university: 'University of Georgia'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'Graduate Research Assistant - University of Georgia'
+- name: Isuru Pamuditha Thilakasiri
+  slug: isuru-pamuditha-thilakasiri
+  batch: E16
+  university: University of Georgia
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Graduate Research Assistant - University of Georgia
   status: ''
-  sort_name: 'Isuru Pamuditha Thilakasiri'
-  image: 'isuru-pamuditha-thilakasiri.jpg'
+  sort_name: Isuru Pamuditha Thilakasiri
+  image: isuru-pamuditha-thilakasiri.jpg
   profile_url: ''
   universities:
-    - 'University of Georgia'
-  source_sheet: 'Elec'
+  - University of Georgia
+  source_sheet: Elec
   source_row: 82
-
-- name: 'Kavindu Dilshan Wickramathilake Herath'
-  slug: 'kavindu-dilshan-wickramathilake-herath'
-  batch: 'E16'
-  university: 'Purdue University'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'Research Assistant - Purdue University'
+- name: Kavindu Dilshan Wickramathilake Herath
+  slug: kavindu-dilshan-wickramathilake-herath
+  batch: E16
+  university: Purdue University
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Research Assistant - Purdue University
   status: ''
-  sort_name: 'Kavindu Dilshan Wickramathilake Herath'
-  image: 'kavindu-dilshan-wickramathilake-herath.jpg'
+  sort_name: Kavindu Dilshan Wickramathilake Herath
+  image: kavindu-dilshan-wickramathilake-herath.jpg
   profile_url: ''
   universities:
-    - 'Purdue University'
-  source_sheet: 'Elec'
+  - Purdue University
+  source_sheet: Elec
   source_row: 80
-
-- name: 'Mohammed Zumri Ilmuz Zaman'
-  slug: 'mohammed-zumri-ilmuz-zaman'
-  batch: 'E16'
-  university: 'Mohamed bin Zayed University of Artificial Intelligence'
-  country: 'United Arab Emirates'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'Research Engineer - MBZUAI(Mohammad Bin Zayed University of Artificial Intelligence)'
+- name: Mohammed Zumri Ilmuz Zaman
+  slug: mohammed-zumri-ilmuz-zaman
+  batch: E16
+  university: Mohamed bin Zayed University of Artificial Intelligence
+  country: United Arab Emirates
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Research Engineer - MBZUAI(Mohammad Bin Zayed University of
+    Artificial Intelligence)
   status: ''
-  sort_name: 'Mohammed Zumri Ilmuz Zaman'
-  image: 'mohammed-zumri-ilmuz-zaman.jpg'
+  sort_name: Mohammed Zumri Ilmuz Zaman
+  image: mohammed-zumri-ilmuz-zaman.jpg
   profile_url: ''
   universities:
-    - 'Mohamed bin Zayed University of Artificial Intelligence'
-  source_sheet: 'Elec'
+  - Mohamed bin Zayed University of Artificial Intelligence
+  source_sheet: Elec
   source_row: 83
-
-- name: 'Praditha Alwis'
-  slug: 'praditha-alwis'
-  batch: 'E16'
-  university: 'Purdue University'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'PhD Student @ Nanoelectronics Research Laboratory, Purdue University'
+- name: Praditha Alwis
+  slug: praditha-alwis
+  batch: E16
+  university: Purdue University
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: PhD Student @ Nanoelectronics Research Laboratory, Purdue University
   status: ''
-  sort_name: 'Praditha Alwis'
-  image: 'praditha-alwis.jpg'
+  sort_name: Praditha Alwis
+  image: praditha-alwis.jpg
   profile_url: ''
   universities:
-    - 'Purdue University'
-  source_sheet: 'Elec'
+  - Purdue University
+  source_sheet: Elec
   source_row: 78
-
-- name: 'Rahal Nanayakkara'
-  slug: 'rahal-nanayakkara'
-  batch: 'E16'
-  university: 'University of California, Los Angeles'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'Graduate Student Researcher @ Cyber-Physical Systems Lab, University of California'
+- name: Rahal Nanayakkara
+  slug: rahal-nanayakkara
+  batch: E16
+  university: University of California, Los Angeles
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Graduate Student Researcher @ Cyber-Physical Systems Lab, University
+    of California
   status: ''
-  sort_name: 'Rahal Nanayakkara'
-  image: 'rahal-nanayakkara.jpg'
+  sort_name: Rahal Nanayakkara
+  image: rahal-nanayakkara.jpg
   profile_url: ''
   universities:
-    - 'University of California, Los Angeles'
-  source_sheet: 'Elec'
+  - University of California, Los Angeles
+  source_sheet: Elec
   source_row: 76
-
-- name: 'Rusiru Thushara'
-  slug: 'rusiru-thushara'
-  batch: 'E16'
-  university: 'Johns Hopkins University'
-  country: 'United States'
-  academic_area: 'Computer Engineering'
+- name: Rusiru Thushara
+  slug: rusiru-thushara
+  batch: E16
+  university: Johns Hopkins University
+  country: United States
+  academic_area: Computer Engineering
   current_affiliation: ''
   status: ''
-  sort_name: 'Rusiru Thushara'
-  image: 'rusiru-thushara.jpg'
+  sort_name: Rusiru Thushara
+  image: rusiru-thushara.jpg
   profile_url: ''
   universities:
-    - 'Johns Hopkins University'
-  source_sheet: 'Computer'
+  - Johns Hopkins University
+  source_sheet: Computer
   source_row: 5
-
-- name: 'Akila Karunanayake'
-  slug: 'akila-karunanayake'
-  batch: 'E17'
-  university: 'University of Maryland, College Park'
-  country: 'United States'
-  academic_area: 'Computer Engineering'
+- name: Akila Karunanayake
+  slug: akila-karunanayake
+  batch: E17
+  university: University of Maryland, College Park
+  country: United States
+  academic_area: Computer Engineering
   current_affiliation: ''
   status: ''
-  sort_name: 'Akila Karunanayake'
-  image: 'akila-karunanayake.jpg'
+  sort_name: Akila Karunanayake
+  image: akila-karunanayake.jpg
   profile_url: ''
   universities:
-    - 'University of Maryland, College Park'
-  source_sheet: 'Computer'
+  - University of Maryland, College Park
+  source_sheet: Computer
   source_row: 6
-
-- name: 'Chiranjith Dammage'
-  slug: 'chiranjith-dammage'
-  batch: 'E17'
-  university: 'University of Auckland'
-  country: 'New Zealand'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: ''
+- name: Chiranjith Dammage
+  slug: chiranjith-dammage
+  batch: E17
+  university: University of Auckland
+  country: New Zealand
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: PhD Student - University of Auckland
   status: ''
-  sort_name: 'Chiranjith Dammage'
-  image: 'chiranjith-dammage.jpg'
+  sort_name: Chiranjith Dammage
+  image: chiranjith-dammage.jpg
   profile_url: ''
   universities:
-    - 'University of Auckland'
-  source_sheet: 'Elec'
+  - University of Auckland
+  source_sheet: Elec
   source_row: 95
-
-- name: 'Isuri Devindi'
-  slug: 'isuri-devindi'
-  batch: 'E17'
-  university: 'University of Maryland, College Park'
-  country: 'United States'
-  academic_area: 'Computer Engineering'
+- name: Isuri Devindi
+  slug: isuri-devindi
+  batch: E17
+  university: University of Maryland, College Park
+  country: United States
+  academic_area: Computer Engineering
   current_affiliation: ''
   status: ''
-  sort_name: 'Isuri Devindi'
-  image: 'isuri-devindi.jpg'
+  sort_name: Isuri Devindi
+  image: isuri-devindi.jpg
   profile_url: ''
   universities:
-    - 'University of Maryland, College Park'
-  source_sheet: 'Computer'
+  - University of Maryland, College Park
+  source_sheet: Computer
   source_row: 7
-
-- name: 'Keshawa Rathnayaka'
-  slug: 'keshawa-rathnayaka'
-  batch: 'E17'
-  university: 'Purdue University'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'Teaching Assistant - Purdue University Elmore Family School of Electrical and Computer Engineering'
+- name: Keshawa Rathnayaka
+  slug: keshawa-rathnayaka
+  batch: E17
+  university: Purdue University
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Teaching Assistant - Purdue University Elmore Family School
+    of Electrical and Computer Engineering
   status: ''
-  sort_name: 'Keshawa Rathnayaka'
-  image: 'keshawa-rathnayaka.jpg'
+  sort_name: Keshawa Rathnayaka
+  image: keshawa-rathnayaka.jpg
   profile_url: ''
   universities:
-    - 'Purdue University'
-  source_sheet: 'Elec'
+  - Purdue University
+  source_sheet: Elec
   source_row: 89
-
-- name: 'Madhumini Kulathunga'
-  slug: 'madhumini-kulathunga'
-  batch: 'E17'
-  university: 'University of Alberta'
-  country: 'Canada'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: ''
+- name: Madhumini Kulathunge
+  slug: madhumini-kulathunge
+  batch: E17
+  university: University of Waterloo
+  country: Canada
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: PhD Student - University of Waterloo
   status: ''
-  sort_name: 'Madhumini Kulathunga'
-  image: 'madhumini-kulathunga.jpg'
+  sort_name: Madhumini Kulathunge
+  image: madhumini-kulathunge.jpg
   profile_url: ''
   universities:
-    - 'University of Alberta'
-  source_sheet: 'Elec'
-  source_row: 94
-
-- name: 'Madhumini Kulathunge'
-  slug: 'madhumini-kulathunge'
-  batch: 'E17'
-  university: 'University of Waterloo'
-  country: 'Canada'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'PhD Student - University of Waterloo'
-  status: ''
-  sort_name: 'Madhumini Kulathunge'
-  image: 'madhumini-kulathunge.jpg'
-  profile_url: ''
-  universities:
-    - 'University of Waterloo'
-  source_sheet: 'Elec'
+  - University of Waterloo
+  source_sheet: Elec
   source_row: 85
-
-- name: 'Mahesha Viduranga'
-  slug: 'mahesha-viduranga'
-  batch: 'E17'
-  university: 'Virginia Tech'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: ''
+- name: Mahesha Viduranga
+  slug: mahesha-viduranga
+  batch: E17
+  university: Virginia Tech
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: PhD Student - Virginia Tech
   status: ''
-  sort_name: 'Mahesha Viduranga'
-  image: 'mahesha-viduranga.jpg'
+  sort_name: Mahesha Viduranga
+  image: mahesha-viduranga.jpg
   profile_url: ''
   universities:
-    - 'Virginia Tech'
-  source_sheet: 'Elec'
+  - Virginia Tech
+  source_sheet: Elec
   source_row: 93
-
-- name: 'Oshada Rathnayake'
-  slug: 'oshada-rathnayake'
-  batch: 'E17'
-  university: 'University of Virginia'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'PhD Student - University of Virginia'
+- name: Oshada Rathnayake
+  slug: oshada-rathnayake
+  batch: E17
+  university: University of Virginia
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: PhD Student - University of Virginia
   status: ''
-  sort_name: 'Oshada Rathnayake'
-  image: 'oshada-rathnayake.jpg'
+  sort_name: Oshada Rathnayake
+  image: oshada-rathnayake.jpg
   profile_url: ''
   universities:
-    - 'University of Virginia'
-  source_sheet: 'Elec'
+  - University of Virginia
+  source_sheet: Elec
   source_row: 86
-
-- name: 'Pasindu Malshan'
-  slug: 'pasindu-malshan'
-  batch: 'E17'
-  university: 'University of Maryland, College Park'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'PhD Student - University of Maryland'
+- name: Pasindu Malshan
+  slug: pasindu-malshan
+  batch: E17
+  university: University of Maryland, College Park
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: PhD Student - University of Maryland
   status: ''
-  sort_name: 'Pasindu Malshan'
-  image: 'pasindu-malshan.jpg'
+  sort_name: Pasindu Malshan
+  image: pasindu-malshan.jpg
   profile_url: ''
   universities:
-    - 'University of Maryland, College Park'
-  source_sheet: 'Elec'
+  - University of Maryland, College Park
+  source_sheet: Elec
   source_row: 91
-
-- name: 'Pathum Shehara'
-  slug: 'pathum-shehara'
-  batch: 'E17'
-  university: 'University of Maryland, College Park'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'PhD Student - University of Maryland'
+- name: Pathum Shehara
+  slug: pathum-shehara
+  batch: E17
+  university: University of Maryland, College Park
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: PhD Student - University of Maryland
   status: ''
-  sort_name: 'Pathum Shehara'
-  image: 'pathum-shehara.jpg'
+  sort_name: Pathum Shehara
+  image: pathum-shehara.jpg
   profile_url: ''
   universities:
-    - 'University of Maryland, College Park'
-  source_sheet: 'Elec'
+  - University of Maryland, College Park
+  source_sheet: Elec
   source_row: 92
-
-- name: 'Ravindu Rodrigo'
-  slug: 'ravindu-rodrigo'
-  batch: 'E17'
-  university: 'Purdue University'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'Graduate Teaching Assistant - Purdue University Daniels School of Business'
+- name: Ravindu Rodrigo
+  slug: ravindu-rodrigo
+  batch: E17
+  university: Purdue University
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Graduate Teaching Assistant - Purdue University Daniels School
+    of Business
   status: ''
-  sort_name: 'Ravindu Rodrigo'
-  image: 'ravindu-rodrigo.jpg'
+  sort_name: Ravindu Rodrigo
+  image: ravindu-rodrigo.jpg
   profile_url: ''
   universities:
-    - 'Purdue University'
-  source_sheet: 'Elec'
+  - Purdue University
+  source_sheet: Elec
   source_row: 90
-
-- name: 'Sanjula Senadeera'
-  slug: 'sanjula-senadeera'
-  batch: 'E17'
-  university: 'Western Illinois University'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'Graduate Teaching Assistant - Western Illinois University'
+- name: Sanjula Senadeera
+  slug: sanjula-senadeera
+  batch: E17
+  university: Western Illinois University
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: Graduate Teaching Assistant - Western Illinois University
   status: ''
-  sort_name: 'Sanjula Senadeera'
-  image: 'sanjula-senadeera.jpg'
+  sort_name: Sanjula Senadeera
+  image: sanjula-senadeera.jpg
   profile_url: ''
   universities:
-    - 'Western Illinois University'
-  source_sheet: 'Elec'
+  - Western Illinois University
+  source_sheet: Elec
   source_row: 87
-
-- name: 'Sanjula Senadheera'
-  slug: 'sanjula-senadheera'
-  batch: 'E17'
-  university: 'Western Illinois University'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
+- name: Sashini Liyanage
+  slug: sashini-liyanage
+  batch: E17
+  university: Princeton University
+  country: United States
+  academic_area: Computer Engineering
   current_affiliation: ''
   status: ''
-  sort_name: 'Sanjula Senadheera'
-  image: 'sanjula-senadheera.jpg'
+  sort_name: Sashini Liyanage
+  image: sashini-liyanage.jpg
   profile_url: ''
   universities:
-    - 'Western Illinois University'
-  source_sheet: 'Elec'
-  source_row: 96
-
-- name: 'Sashini Liyanage'
-  slug: 'sashini-liyanage'
-  batch: 'E17'
-  university: 'Princeton University'
-  country: 'United States'
-  academic_area: 'Computer Engineering'
-  current_affiliation: ''
-  status: ''
-  sort_name: 'Sashini Liyanage'
-  image: 'sashini-liyanage.jpg'
-  profile_url: ''
-  universities:
-    - 'Princeton University'
-  source_sheet: 'Computer'
+  - Princeton University
+  source_sheet: Computer
   source_row: 8
-
-- name: 'Shakthi Perera'
-  slug: 'shakthi-perera'
-  batch: 'E17'
-  university: 'Maryland University'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'PhD Student - University of Maryland'
+- name: Shakthi Perera
+  slug: shakthi-perera
+  batch: E17
+  university: University of Maryland, College Park
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: PhD Student - University of Maryland
   status: ''
-  sort_name: 'Shakthi Perera'
-  image: 'shakthi-perera.jpg'
+  sort_name: Shakthi Perera
+  image: shakthi-perera.jpg
   profile_url: ''
   universities:
-    - 'Maryland University'
-  source_sheet: 'Elec'
+  - University of Maryland, College Park
+  source_sheet: Elec
   source_row: 84
-
-- name: 'Tharaka Fonseka'
-  slug: 'tharaka-fonseka'
-  batch: 'E17'
-  university: 'Princeton University'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: 'PhD Student - Princeton University'
+- name: Tharaka Fonseka
+  slug: tharaka-fonseka
+  batch: E17
+  university: Princeton University
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: PhD Student - Princeton University
   status: ''
-  sort_name: 'Tharaka Fonseka'
-  image: 'tharaka-fonseka.jpg'
+  sort_name: Tharaka Fonseka
+  image: tharaka-fonseka.jpg
   profile_url: ''
   universities:
-    - 'Princeton University'
-  source_sheet: 'Elec'
+  - Princeton University
+  source_sheet: Elec
   source_row: 88
-
-- name: 'Thiwanka Alahakoon'
-  slug: 'thiwanka-alahakoon'
-  batch: 'E17'
-  university: 'Tennessee Technological University'
-  country: 'United States'
-  academic_area: 'Mechanical Engineering'
-  current_affiliation: 'BSc.(Hons) in Mechanical Engineering. University of Peradeniya'
+- name: Thiwanka Alahakoon
+  slug: thiwanka-alahakoon
+  batch: E17
+  university: Tennessee Technological University
+  country: United States
+  academic_area: Mechanical Engineering
+  current_affiliation: BSc.(Hons) in Mechanical Engineering. University of Peradeniya
   status: ''
-  sort_name: 'Thiwanka Alahakoon'
-  image: 'thiwanka-alahakoon.jpg'
+  sort_name: Thiwanka Alahakoon
+  image: thiwanka-alahakoon.jpg
   profile_url: ''
   universities:
-    - 'Tennessee Technological University'
-  source_sheet: 'ChemMech'
+  - Tennessee Technological University
+  source_sheet: ChemMech
   source_row: 7
-
-- name: 'Avishka Ranasinghe'
-  slug: 'avishka-ranasinghe'
-  batch: 'E18'
-  university: 'Clemson University'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: ''
+- name: Avishka Ranasinghe
+  slug: avishka-ranasinghe
+  batch: E18
+  university: Clemson University
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: PhD Student - Clemson University
   status: ''
-  sort_name: 'Avishka Ranasinghe'
-  image: 'avishka-ranasinghe.jpg'
+  sort_name: Avishka Ranasinghe
+  image: avishka-ranasinghe.jpg
   profile_url: ''
   universities:
-    - 'Clemson University'
-  source_sheet: 'Elec'
+  - Clemson University
+  source_sheet: Elec
   source_row: 99
-
-- name: 'Kalana Jayasooriya'
-  slug: 'kalana-jayasooriya'
-  batch: 'E18'
-  university: 'Rutgers University'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: ''
+- name: Kalana Jayasooriya
+  slug: kalana-jayasooriya
+  batch: E18
+  university: Rutgers University
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: PhD Student - Rutgers University
   status: ''
-  sort_name: 'Kalana Jayasooriya'
-  image: 'kalana-jayasooriya.jpg'
+  sort_name: Kalana Jayasooriya
+  image: kalana-jayasooriya.jpg
   profile_url: ''
   universities:
-    - 'Rutgers University'
-  source_sheet: 'Elec'
+  - Rutgers University
+  source_sheet: Elec
   source_row: 101
-
-- name: 'Minindu Liyanage'
-  slug: 'minindu-liyanage'
-  batch: 'E18'
-  university: 'Rensselaer Polytechnic Institute'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: ''
+- name: Minindu Liyanage
+  slug: minindu-liyanage
+  batch: E18
+  university: Rensselaer Polytechnic Institute
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: PhD Student - Rensselaer Polytechnic Institute, New York
   status: ''
-  sort_name: 'Minindu Liyanage'
-  image: 'minindu-liyanage.jpg'
+  sort_name: Minindu Liyanage
+  image: minindu-liyanage.jpg
   profile_url: ''
   universities:
-    - 'Rensselaer Polytechnic Institute'
-  source_sheet: 'Elec'
+  - Rensselaer Polytechnic Institute
+  source_sheet: Elec
   source_row: 98
-
-- name: 'Pandula Thennakoon'
-  slug: 'pandula-thennakoon'
-  batch: 'E18'
-  university: 'Rice University'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: ''
+- name: Pandula Thennakoon
+  slug: pandula-thennakoon
+  batch: E18
+  university: Rice University
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: PhD Student - Rice University
   status: ''
-  sort_name: 'Pandula Thennakoon'
-  image: 'pandula-thennakoon.jpg'
+  sort_name: Pandula Thennakoon
+  image: pandula-thennakoon.jpg
   profile_url: ''
   universities:
-    - 'Rice University'
-  source_sheet: 'Elec'
+  - Rice University
+  source_sheet: Elec
   source_row: 97
-
-- name: 'Uthpala Ranasinghe'
-  slug: 'uthpala-ranasinghe'
-  batch: 'E18'
-  university: 'Australian National University'
-  country: 'Australia'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: ''
+- name: Uthpala Ranasinghe
+  slug: uthpala-ranasinghe
+  batch: E18
+  university: Australian National University
+  country: Australia
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: PhD Student - Australian National University
   status: ''
-  sort_name: 'Uthpala Ranasinghe'
-  image: 'uthpala-ranasinghe.jpg'
+  sort_name: Uthpala Ranasinghe
+  image: uthpala-ranasinghe.jpg
   profile_url: ''
   universities:
-    - 'Australian National University'
-  source_sheet: 'Elec'
+  - Australian National University
+  source_sheet: Elec
   source_row: 100
-
-- name: 'Dilshara Herath'
-  slug: 'dilshara-herath'
-  batch: 'E18,UOR'
-  university: 'Columbia University'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: ''
+- name: Dilshara Herath
+  slug: dilshara-herath
+  batch: E18,UOR
+  university: Columbia University
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: PhD Student - Columbia University
   status: ''
-  sort_name: 'Dilshara Herath'
-  image: 'dilshara-herath.jpg'
+  sort_name: Dilshara Herath
+  image: dilshara-herath.jpg
   profile_url: ''
   universities:
-    - 'Columbia University'
-  source_sheet: 'Elec'
+  - Columbia University
+  source_sheet: Elec
   source_row: 102
-
-- name: 'Buddhi Wijenakayake'
-  slug: 'buddhi-wijenakayake'
-  batch: 'E19'
-  university: 'Johns Hopkins University'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: ''
+- name: Buddhi Wijenakayake
+  slug: buddhi-wijenakayake
+  batch: E19
+  university: Johns Hopkins University
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: PhD Student - Johns Hopkins University
   status: ''
-  sort_name: 'Buddhi Wijenakayake'
-  image: 'buddhi-wijenakayake.jpg'
+  sort_name: Buddhi Wijenakayake
+  image: buddhi-wijenakayake.jpg
   profile_url: ''
   universities:
-    - 'Johns Hopkins University'
-  source_sheet: 'Elec'
+  - Johns Hopkins University
+  source_sheet: Elec
   source_row: 105
-
-- name: 'Mario De Silva'
-  slug: 'mario-de-silva'
-  batch: 'E19'
-  university: 'Princeton University'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: ''
+- name: Mario De Silva
+  slug: mario-de-silva
+  batch: E19
+  university: Princeton University
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: PhD Student - Princeton University
   status: ''
-  sort_name: 'Mario De Silva'
-  image: 'mario-de-silva.jpg'
+  sort_name: Mario De Silva
+  image: mario-de-silva.jpg
   profile_url: ''
   universities:
-    - 'Princeton University'
-  source_sheet: 'Elec'
+  - Princeton University
+  source_sheet: Elec
   source_row: 103
-
-- name: 'Praveen Sumanasekara'
-  slug: 'praveen-sumanasekara'
-  batch: 'E19'
-  university: 'University of Michigan-Ann Arbor'
-  country: 'United States'
-  academic_area: 'Electrical and Electronic Engineering'
-  current_affiliation: ''
+- name: Praveen Sumanasekara
+  slug: praveen-sumanasekara
+  batch: E19
+  university: University of Michigan-Ann Arbor
+  country: United States
+  academic_area: Electrical and Electronic Engineering
+  current_affiliation: PhD Student - University of Michigan-Ann Arbor
   status: ''
-  sort_name: 'Praveen Sumanasekara'
-  image: 'praveen-sumanasekara.jpg'
+  sort_name: Praveen Sumanasekara
+  image: praveen-sumanasekara.jpg
   profile_url: ''
   universities:
-    - 'University of Michigan-Ann Arbor'
-  source_sheet: 'Elec'
+  - University of Michigan-Ann Arbor
+  source_sheet: Elec
   source_row: 104
-
-- name: 'Rumali Navoda Perera'
-  slug: 'rumali-navoda-perera'
-  batch: 'S14'
-  university: 'Ohio State University'
-  country: 'United States'
-  academic_area: 'Science and Interdisciplinary Fields'
-  current_affiliation: 'Graduate Teaching Assistant at the Ohio State University'
+- name: Rumali Navoda Perera
+  slug: rumali-navoda-perera
+  batch: S14
+  university: Ohio State University
+  country: United States
+  academic_area: Science and Interdisciplinary Fields
+  current_affiliation: Graduate Teaching Assistant at the Ohio State University
   status: ''
-  sort_name: 'Rumali Navoda Perera'
-  image: 'rumali-navoda-perera.jpg'
+  sort_name: Rumali Navoda Perera
+  image: rumali-navoda-perera.jpg
   profile_url: ''
   universities:
-    - 'Ohio State University'
-  source_sheet: 'ChemMech'
+  - Ohio State University
+  source_sheet: ChemMech
   source_row: 6
