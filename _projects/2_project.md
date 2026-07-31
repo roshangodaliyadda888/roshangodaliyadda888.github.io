@@ -1,81 +1,34 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: HeritageAI Hardware Acceleration
+description: Advanced generative modeling utilizing an in-kind 8K A100 GPU-hours allocation provided by the NVIDIA Academic Grant Program.
 importance: 2
-category: work
+category: Generative AI & LLMs
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Project Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+**HeritageAI** is an academic grant program supported by NVIDIA, aimed at leveraging cutting-edge deep learning, generative artificial intelligence, and implicit neural representations for preserving cultural heritage. The project utilizes high-performance GPU hours to build continuous 3D and multidimensional models of heritage sites and historical artifacts, allowing digital restoration, archive visualization, and immersive interactions.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+### Project Details
+- **Role**: Principal Investigator
+- **Funding Agency**: NVIDIA Academic Grant Program
+- **In-kind Support**: 8,000 A100 GPU-hours (via Brev)
+- **Timeline**: 2026
+- **Status**: Ongoing
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+---
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Key Research Objectives
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+1. **Implicit Neural Representations (INRs)**: Developing coordinate-based neural networks (like Sinusoidal Representation Networks) for continuous modeling of detailed shapes and materials.
+2. **Generative Restoration**: Reconstructing damaged artifacts and sites digitally using generative models and diffusion-based structures.
+3. **High-Performance Scalability**: Optimizing training pipelines to leverage thousands of A100 GPU-hours efficiently.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+---
 
-{% raw %}
+## Related Publications
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+- **Thennakoon, P., Ranasinghe, A., de Silva, M., Epakanda, B., Godaliyadda, R., Ekanayake, M. P. B., & Herath, V. R.** (2026). *COSMO-INR: Complex Sinusoidal Modulation for Implicit Neural Representations*. Proceedings of the 14th International Conference on Learning Representations (ICLR 2026), Rio de Janeiro, Brazil.
+- **Epakanda, B., de Silva, M., Ranasinghe, A., Thennakoon, P., Godaliyadda, R., Ekanayake, M. P. B., & Herath, V. R.** (2026). *From Samples to Functions: Implicit Neural Representations for Continuous Modeling*. Proceedings of the IEEE 19th International Conference on Industrial and Information Systems (ICIIS-2025).

@@ -1,81 +1,35 @@
 ---
 layout: page
-title: project 8
-description: an other project with a background image and giscus comments
-img: assets/img/9.jpg
-importance: 2
-category: work
+title: High Voltage Insulator Surface Pollution Monitoring
+description: Monitoring surface contamination on high-voltage insulators using a custom multispectral imaging system. Supported by URC Grant No. URG/2017/26/E (LKR 400,000).
+importance: 8
+category: Multispectral Imaging & Remote Sensing
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Project Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Sustained contamination and pollution on high-voltage transmission insulators can lead to leakage currents, flashovers, and widespread power grid failures. This project developed a **non-contact multispectral imaging system** to monitor insulator surface pollution levels. By capturing light reflectance and transmittance across specific spectral bands, the system estimates the severity and composition of surface contaminants (such as dust, salt, or algae growth) in real time.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+### Project Details
+- **Role**: Co-Investigator
+- **Funding Agency**: University Research Council (URC), University of Peradeniya
+- **Grant Number**: Grant No. URG/2017/26/E
+- **Funding Amount**: LKR 400,000.00
+- **Timeline**: November 2017 – November 2018
+- **Status**: Completed
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+---
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Key Research Objectives
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+1. **Multispectral Spectral Signature Analysis**: Identifying the optimal narrow spectral bands that change systematically with insulator pollution severity.
+2. **Algae Contamination Mapping**: Creating reflectance index models to detect biological algae growth on ceramic and composite insulators.
+3. **Remote Condition Assessment**: Building an image-processing pipeline capable of checking insulator health remotely under varied sunlight conditions.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+---
 
-{% raw %}
+## Related Publications
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+- **Abeysekara, A. H. A. D., Kumara, J. R. S. S., Fernando, M. A. R. M., Ekanayake, M. P. B., Godaliyadda, G. M. R. I., & Wijayakulasooriya, J. V.** (2017). *Remote Leakage Current Detector for Identification of Insulators Discharges*. IEEE Transactions on Dielectrics and Electrical Insulation.
+- **Ramanayake, L., Senerath, N., Jayasundara, D., Prabath, K., Weerasooriya, K., Fernando, M., Kumara, S., Herath, V., Godaliyadda, R., Ekanayake, P., & Athukorala, S.** (2021). *Reflectance Multispectral Imaging for Identification of Algae Contamination in High Voltage Insulators*. OSA Imaging and Applied Optics Congress.

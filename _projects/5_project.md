@@ -1,80 +1,35 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+title: Wearable Device for Biometric Monitoring
+description: Development of a wearable device for real-time monitoring of biometric signals in pregnant women, athletes, and others. Supported by URC Grant No. 207 (LKR 1,147,250).
+importance: 5
+category: Biomedical Signal Processing & Wearable AI
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Project Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This project designed, fabricated, and tested a **non-invasive wearable device** to monitor biometric signals of pregnant women, athletes, and general individuals in real time. The device uses multi-accelerometer, inertial, and physiological sensors to track human motion, detect abnormalities, and identify specific events (such as fetal movement or sports-related psychomotor patterns) on-device using lightweight hybrid machine learning models.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+### Project Details
+- **Role**: Co-Investigator
+- **Funding Agency**: University Research Council (URC), University of Peradeniya
+- **Grant Number**: Grant No. 207
+- **Funding Amount**: LKR 1,147,250.00
+- **Timeline**: June 2022 – August 2023
+- **Status**: Completed
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+---
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Key Research Objectives
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+1. **Low-power Hardware Co-design**: Fabricating custom wearable inertial measurement sensor modules with long battery lives.
+2. **Fetal & Maternal Tracking**: Creating noise-resilient hybrid algorithms to differentiate fetal movements from maternal motions.
+3. **Sports Analytics**: Benchmarking psychomotor coordination and skill tracking for sports training applications.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+---
 
-{% raw %}
+## Related Publications
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+- **Pandukabhaya, M., Fonseka, T., Kulathunge, M., Godaliyadda, R., Ekanayake, P., Senanayake, C., & Herath, V.** (2025). *Performance Benchmarking of Psychomotor Skills Using Wearable Devices: An Application in Sport*. IEEE Access.
+- **Delay, U., Nawarathne, T., Dissanayake, S., Gunarathne, S., Withanage, T., Godaliyadda, R., Rathnayake, C., Ekanayake, P., & Wijayakulasooriya, J.** (2021). *Novel non-invasive in-house fabricated wearable system with a hybrid algorithm for fetal movement recognition*. PLOS ONE.
+- **Senanayaka, J., Somathilake, E., Delay, U., Gunarathne, S., Godaliyadda, R., Ekanayake, M. P., Wijayakulasooriya, J., & Ratnayake, C.** (2021). *Fetal Movement Dataset Recorded Using Four Inertial Measurement Units*. Mendeley Data.

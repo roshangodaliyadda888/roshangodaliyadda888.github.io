@@ -1,81 +1,36 @@
 ---
 layout: page
-title: project 7
-description: with background image
-img: assets/img/4.jpg
-importance: 1
-category: work
+title: Smart Distribution Management System (S-DMS)
+description: Predictive distribution systems designed to maximize rooftop PV absorption capacity in last-mile networks. Supported by NSF Grant No. RG/2018/EA&ICT/01 (LKR 2,183,289).
+importance: 7
+category: Smart Grids & Energy Analytics
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Project Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+With the rapid adoption of residential solar photovoltaic (PV) systems, modern low-voltage distribution grids experience voltage imbalances, reverse power flows, and line overloads. This project developed a **Predictive Smart Distribution Management System (S-DMS)** to address these challenges. By predicting localized solar irradiance and power generation patterns, the system performs dynamic phase balancing and voltage optimization to maximize PV absorption capacity without requiring grid infrastructure upgrades.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+### Project Details
+- **Role**: Co-Investigator
+- **Funding Agency**: National Science Foundation (NSF), Sri Lanka
+- **Grant Number**: Grant No. RG/2018/EA&ICT/01
+- **Funding Amount**: LKR 2,183,289.00
+- **Timeline**: March 2019 – March 2021
+- **Status**: Completed
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+---
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Key Research Objectives
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+1. **Short-Term Solar Forecasting**: Utilizing sky images and cloud-motion tracking algorithms to forecast localized solar power generation minutes in advance.
+2. **Dynamic Photovoltaic Re-Phasing**: Designing coordinated control algorithms to re-phase low-voltage connections, mitigating network unbalances.
+3. **Low-Voltage Grid Modeling**: Formulating state estimation and sensitivity matrix approaches for real-time voltage regulation.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+---
 
-{% raw %}
+## Related Publications
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+- **Bandara, W. G. C., Almeida, D., Godaliyadda, R. I., Ekanayake, M. P. B., & Ekanayake, J.** (2021). *A complete state estimation algorithm for a three-phase four-wire low voltage distribution system with high penetration of solar PV*. International Journal of Electrical Power & Energy Systems.
+- **Bandara, W. G. C., Godaliyadda, G. M. R. I., Ekanayake, M. P. B., & Ekanayake, J. B.** (2020). *Coordinated photovoltaic re-phasing: A novel method to maximize the renewable energy integration in low voltage networks by mitigating network unbalances*. Applied Energy.
+- **Dissawa, L. H., Godaliyadda, R. I., Ekanayake, P. B., Agalgaonkar, A. P., Robinson, D., Ekanayake, J. B., & Perera, S.** (2021). *Sky Image-Based Localized Short-term Solar Irradiance Forecasting for Multiple PV Sites via Cloud Motion Tracking*. International Journal of Photoenergy.
