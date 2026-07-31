@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">Profile photograph placeholder</title>
+  <desc id="desc">Neutral silhouette placeholder for a student profile photograph.</desc>
+  <rect width="160" height="160" rx="12" fill="#f4f1ef"/>
+  <circle cx="80" cy="56" r="28" fill="#c6bbb5"/>
+  <path d="M38 136c6-24 24-38 42-38s36 14 42 38" fill="#c6bbb5"/>
+</svg>

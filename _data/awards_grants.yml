@@ -1,0 +1,175 @@
+awards:
+  - year: 2022
+    title: Faculty Research Excellence Award
+    organization: University of Peradeniya
+    category: Research Award
+    source: January 2026 CV; university profile
+    notes: For the period 2020–2021 according to the university profile.
+  - year: 2020
+    title: President's Award for Scientific Publications
+    organization: ""
+    category: Research Award
+    source: January 2026 CV; university profile
+    notes: Awarded in 2023 according to the university profile.
+  - year: 2020
+    title: Faculty Research Excellence Award
+    organization: University of Peradeniya
+    category: Research Award
+    source: January 2026 CV; university profile
+    notes: For the period 2018–2019 according to the university profile.
+  - year: 2019
+    title: President's Award for Scientific Publications
+    organization: ""
+    category: Research Award
+    source: January 2026 CV; university profile
+    notes: Awarded in 2023 according to the university profile.
+  - year: 2018
+    title: Faculty Research Excellence Award
+    organization: University of Peradeniya
+    category: Research Award
+    source: January 2026 CV; university profile
+    notes: For the period 2016–2017 according to the university profile.
+  - year: 2018
+    title: Best Paper Award
+    organization: 13th IEEE International Conference on Computer Science & Education (ICCSE), Colombo, Sri Lanka
+    category: Research Award
+    source: January 2026 CV; university profile
+    notes: Counted under the grouped CV entry for multiple IEEE best paper awards.
+  - year: 2017
+    title: President's Award for Scientific Publications
+    organization: ""
+    category: Research Award
+    source: January 2026 CV; university profile
+    notes: Awarded in 2019 according to the university profile.
+  - year: 2017
+    title: Best Paper Award
+    organization: 12th IEEE International Conference on Industrial and Information Systems (ICIIS 2017), Peradeniya, Sri Lanka
+    category: Research Award
+    source: January 2026 CV; university profile
+    notes: Counted under the grouped CV entry for multiple IEEE best paper awards.
+  - year: 2017
+    title: Best Paper Award
+    organization: 17th International Conference on Advances in ICT for Emerging Regions (ICTer 2017), Colombo, Sri Lanka
+    category: Research Award
+    source: January 2026 CV; university profile
+    notes: Counted under the grouped CV entry for multiple IEEE best paper awards.
+  - year: 2016
+    title: President's Award for Scientific Publications
+    organization: ""
+    category: Research Award
+    source: January 2026 CV; university profile
+    notes: Awarded in 2018 according to the university profile.
+  - year: 2014
+    title: Best Paper Award
+    organization: 9th IEEE International Conference on Industrial and Information Systems (ICIIS 2014), Gwalior, India
+    category: Research Award
+    source: January 2026 CV; university profile
+    notes: Counted under the grouped CV entry for multiple IEEE best paper awards.
+  - year: 2006
+    title: National University of Singapore Research Scholarship
+    organization: National University of Singapore
+    category: Scholarship
+    source: January 2026 CV; university profile
+    notes: Awarded in August 2006 for PhD studies; period Aug. 2006–Aug. 2010 according to the university profile.
+
+grants:
+  - title: AI-Driven Digital Twin Framework for Sustainable and Optimal Resource Use in Tea Cultivation
+    funding_organization: National Research Council
+    grant_number: ""
+    role: Co-Investigator
+    funding_period: Commencing February 2026
+    amount: "19,965,000.00"
+    currency: LKR
+    status: Awarded
+    collaborators: ""
+    source: January 2026 CV
+    notes: ""
+  - title: HeritageAI (Academic Grant Program)
+    funding_organization: NVIDIA Academic Grant Program
+    grant_number: ""
+    role: Principal Investigator
+    funding_period: "2026"
+    amount: 8K A100 GPU-hours
+    currency: ""
+    status: Ongoing
+    collaborators: ""
+    source: January 2026 CV
+    notes: In-kind support; CV includes the note `Brev`.
+  - title: Preterm Birth Detection Using EHG and Tocogram
+    funding_organization: University Research Council
+    grant_number: "33"
+    role: Co-Investigator
+    funding_period: May 2025–November 2026
+    amount: "2,229,328.00"
+    currency: LKR
+    status: Ongoing
+    collaborators: ""
+    source: January 2026 CV
+    notes: Multidisciplinary Research Grant.
+  - title: Insights on Language Studies via Large Language Models (LLMs)
+    funding_organization: University Research Council
+    grant_number: "32"
+    role: Co-Investigator
+    funding_period: May 2025–November 2026
+    amount: "2,624,628.00"
+    currency: LKR
+    status: Ongoing
+    collaborators: ""
+    source: January 2026 CV
+    notes: Multidisciplinary Research Grant.
+  - title: A Wearable Device for Real-Time Monitoring of Biometric Signals of Pregnant Women, Athletes and Other Persons
+    funding_organization: University Research Council
+    grant_number: "207"
+    role: Co-Investigator
+    funding_period: June 2022–August 2023
+    amount: "1,147,250.00"
+    currency: LKR
+    status: Completed
+    collaborators: ""
+    source: January 2026 CV; university profile
+    notes: Multidisciplinary Research Grant.
+  - title: Artificial Intelligence Framework for Threat Assessment and Containment for COVID-19 and Future Epidemics While Mitigating the Socioeconomic Impact to Women, Children, and Underprivileged Groups
+    funding_organization: International Development Research Centre (IDRC), Canada
+    grant_number: ""
+    role: Co-Investigator
+    funding_period: February 2021–August 2023
+    amount: 0.8 million
+    currency: CAD
+    status: Completed
+    collaborators: ""
+    source: January 2026 CV; university profile
+    notes: CV states `as a member`.
+  - title: Development of a Novel Predictive Based Smart Distribution Management System (S-DMS) to Maximize the Rooftop PV Absorption Capacity of Last Mile Networks
+    funding_organization: National Science Foundation (NSF), Sri Lanka
+    grant_number: RG/2018/EA&ICT/01
+    role: Co-Investigator
+    funding_period: March 2019–March 2021
+    amount: "2,183,289.00"
+    currency: LKR
+    status: Completed
+    collaborators: ""
+    source: January 2026 CV; university profile
+    notes: ""
+  - title: High Voltage Insulator Surface Pollution Monitoring Using a Multispectral Imaging System
+    funding_organization: University Research Grant
+    grant_number: URG/2017/26/E
+    role: Co-Investigator
+    funding_period: November 2017–November 2018
+    amount: "400,000.00"
+    currency: LKR
+    status: Completed
+    collaborators: ""
+    source: January 2026 CV; university profile
+    notes: ""
+  - title: Non-intrusive Load Monitoring for Flexible Demand Estimation and Management
+    funding_organization: National Science Foundation (NSF), Sri Lanka
+    grant_number: RG/2016/EA&ICT/01
+    role: Principal Investigator
+    funding_period: June 2016–June 2018
+    amount: "1,582,768.00"
+    currency: LKR
+    status: Completed
+    collaborators: ""
+    source: January 2026 CV; university profile
+    notes: ""
+
