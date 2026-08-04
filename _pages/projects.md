@@ -1,53 +1,55 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of your research projects and grants.
+description: This page presents selected funded research projects and major multidisciplinary research initiatives led or co-led by Professor G. M. R. I. Godaliyadda. The projects span biomedical sensing, artificial intelligence, smart energy systems, imaging, public health, robotics, and optical communications.
 nav: true
 nav_order: 3
-display_categories: ["Biomedical Signal Processing & Wearable AI", "Smart Grids & Energy Analytics", "Multispectral Imaging & Remote Sensing", "Generative AI & LLMs", "AI for Public Health & Social Impact", "Computer Vision, Robotics & Assisted Navigation", "Optical Wireless Communications"]
+display_categories: ["Biomedical Signal Processing & Wearable AI", "Computer Vision, Robotics & Assisted Navigation", "Smart Grids & Sustainable Energy", "Multispectral Imaging & Remote Sensing", "AI for Public Health, Education & Society", "Optical Wireless Communications", "AI Foundations & Generative Models"]
 horizontal: false
 ---
 
-<!-- pages/projects.md -->
+<link rel="stylesheet" href="{{ '/assets/css/projects-page.css' | relative_url }}">
+
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
+  <p class="projects-page-intro">
+    This page presents selected funded research projects and major multidisciplinary research initiatives led or co-led by Professor G. M. R. I. Godaliyadda. The projects span biomedical sensing, artificial intelligence, smart energy systems, imaging, public health, robotics, and optical communications.
+  </p>
+
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
     {% if category == "Biomedical Signal Processing & Wearable AI" %}
       {% assign cat_img = "assets/img/biomedical_wearable_ai.jpg" %}
-      {% assign cat_desc = "Advanced wearable devices, fetal movement detection, and biomedical signal analysis for healthcare applications." %}
-    {% elsif category == "Smart Grids & Energy Analytics" %}
-      {% assign cat_img = "assets/img/smart_grids_energy.jpg" %}
-      {% assign cat_desc = "Non-intrusive load monitoring (NILM), photovoltaic integration, and smart distribution systems for sustainable energy management." %}
-    {% elsif category == "Multispectral Imaging & Remote Sensing" %}
-      {% assign cat_img = "assets/img/multispectral_remote_sensing.jpg" %}
-      {% assign cat_desc = "Hyperspectral unmixing, agricultural digital twins, and industrial monitoring using advanced spectral imaging techniques." %}
-    {% elsif category == "Generative AI & LLMs" %}
-      {% assign cat_img = "assets/img/generative_ai_llms.jpg" %}
-      {% assign cat_desc = "Implicit neural representations, audio generation, and large language model insights for multidisciplinary research." %}
-    {% elsif category == "AI for Public Health & Social Impact" %}
-      {% assign cat_img = "assets/img/public_health_social.jpg" %}
-      {% assign cat_desc = "Epidemic modeling, social interaction modeling during pandemics, and educational impact analysis." %}
+      {% assign cat_alt = "Biomedical sensing and wearable health technologies" %}
+      {% assign cat_desc = "Wearable sensing, physiological-signal analysis, maternal and fetal monitoring, and AI-assisted assessment of health and human performance." %}
     {% elsif category == "Computer Vision, Robotics & Assisted Navigation" %}
       {% assign cat_img = "assets/img/computer_vision_robotics.jpg" %}
-      {% assign cat_desc = "Visual surveillance, vehicle tracking, robotic path planning, and autonomous navigation in complex environments." %}
+      {% assign cat_alt = "Computer vision, robotics, and assisted navigation" %}
+      {% assign cat_desc = "Visual intelligence, scene understanding, activity recognition, robotic navigation, and decision-support systems." %}
+    {% elsif category == "Smart Grids & Sustainable Energy" %}
+      {% assign cat_img = "assets/img/smart_grids_energy.jpg" %}
+      {% assign cat_alt = "Smart grids and sustainable energy systems" %}
+      {% assign cat_desc = "Data-driven monitoring, load disaggregation, renewable-energy integration, distribution-system analysis, and intelligent energy management." %}
+    {% elsif category == "Multispectral Imaging & Remote Sensing" %}
+      {% assign cat_img = "assets/img/multispectral_remote_sensing.jpg" %}
+      {% assign cat_alt = "Multispectral imaging and remote sensing" %}
+      {% assign cat_desc = "Imaging and machine-learning methods for agriculture, food quality, infrastructure monitoring, environmental sensing, and remote observation." %}
+    {% elsif category == "AI for Public Health, Education & Society" %}
+      {% assign cat_img = "assets/img/public_health_social.jpg" %}
+      {% assign cat_alt = "Artificial intelligence for public health, education, and society" %}
+      {% assign cat_desc = "Multidisciplinary AI and data-driven modelling for public health, education, social research, policy analysis, and societal resilience." %}
     {% elsif category == "Optical Wireless Communications" %}
       {% assign cat_img = "assets/img/optical_communications.jpg" %}
-      {% assign cat_desc = "Visible light communication (VLC), underwater optical wireless communication, and energy-autonomous light-based IoT." %}
+      {% assign cat_alt = "Optical wireless communication systems and light-based IoT" %}
+      {% assign cat_desc = "Optical communication systems, light-based IoT, underwater links, energy-aware networking, and related communication technologies." %}
+    {% elsif category == "AI Foundations & Generative Models" %}
+      {% assign cat_img = "assets/img/generative_ai_llms.jpg" %}
+      {% assign cat_alt = "AI foundations and generative modelling" %}
+      {% assign cat_desc = "Research on generative modelling, implicit neural representations, computational acceleration, and emerging machine-learning architectures." %}
     {% endif %}
 
-    <div class="category-banner my-5 p-4 rounded shadow-sm" style="background: var(--global-card-bg); border-left: 5px solid var(--global-theme-color); transition: all 0.3s ease;">
-      <div style="display: flex; flex-direction: row; align-items: center; justify-content: flex-start; gap: 24px; flex-wrap: nowrap;">
-        <div style="flex: 0 0 25%; max-width: 25%; min-width: 150px;">
-          <img src="{{ cat_img | relative_url }}" alt="Sector Banner" class="img-fluid rounded premium-banner-class" style="width: 100%; height: 140px; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.15);">
-        </div>
-        <div style="flex: 1 1 auto; min-width: 0;">
-          <h2 class="category-title font-weight-bold" style="color: var(--global-text-color); font-size: 1.6rem; margin: 0; word-wrap: break-word;">{{ category }}</h2>
-          <p class="category-description text-muted mt-2 mb-0" style="font-size: 0.95rem; line-height: 1.5; word-wrap: break-word;">{{ cat_desc }}</p>
-        </div>
-      </div>
-    </div>
+    {% include project_sector_banner.liquid title=category description=cat_desc image=cat_img alt=cat_alt %}
 
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
