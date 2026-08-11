@@ -16,7 +16,7 @@ profile:
       <p class="professor-sidebar__org">University of Peradeniya, Sri Lanka</p>
       <div class="professor-sidebar__divider"></div>
       <p class="professor-sidebar__eyebrow">Deputy Director - Research &amp; Innovation</p>
-      <p class="professor-sidebar__org">Multidisciplinary AI Research Centre, MARC-UoP</p>
+      <p class="professor-sidebar__org">Multidisciplinary AI Research Centre(MARC), University of Peradeniya</p>
       <div class="professor-sidebar__contacts">
         <a href="tel:+94777709035" aria-label="Call Professor G. M. R. I. Godaliyadda at +94 77 770 9035"><span aria-hidden="true">&#9742;</span><span>+94 77 770 9035</span></a>
         <a href="mailto:roshangod@ee.pdn.ac.lk" aria-label="Email roshangod@ee.pdn.ac.lk"><span aria-hidden="true">&#9993;</span><span>roshangod@ee.pdn.ac.lk</span></a>
