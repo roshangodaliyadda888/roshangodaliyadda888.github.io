@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Professor, Department of Electrical and Electronic Engineering, University of Peradeniya, Sri Lanka
 
