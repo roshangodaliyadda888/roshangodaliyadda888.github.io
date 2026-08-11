@@ -1,20 +1,27 @@
 ---
 layout: page
-title: Optical Wireless Communications & IoT
-description: Dedicated research track advancing Visible Light Communication (VLC), underwater optical wireless systems, and Light-Based IoT network architectures.
+title: Research Initiative in Optical Wireless Communications & Light-Based IoT
+description: Sustained research initiative on visible-light communication, underwater optical wireless links, and light-based IoT system design.
 importance: 11
 category: Optical Wireless Communications
 ---
 
 ## Project Overview
 
-This project represents a dedicated research track focused on advancing optical wireless communication networks, visible light communication, and light-based IoT network architectures. By utilizing light waves instead of radio frequencies, the research provides sustainable, high-speed, and secure connectivity solutions for underwater sensing networks and low-power IoT devices.
+This research initiative consolidates sustained work on optical wireless communication networks, visible-light communication, and light-based IoT architectures. The initiative investigates communication methods that use light as a transmission medium for high-speed, energy-aware, and application-specific connectivity, including underwater sensing and low-power device networks.
 
-### Key Research Objectives
+### Initiative Scope
+- **Nature**: Ongoing research initiative
+- **Focus Areas**: Visible-light communication, underwater optical wireless links, and light-based IoT architectures
+- **Status**: Ongoing
+
+---
+
+## Key Research Objectives
 
 1. **Light-Based Internet of Things**: Developing full-duplex energy-autonomous IoT nodes utilizing printed electronics for sustainable data-energy networking.
-2. **Underwater Optical Wireless Communication (UOWC)**: Mitigating turbid water conditions, modeling blockage prediction, and optimizing multi-AUV (Autonomous Underwater Vehicle) placement for coverage maximization.
-3. **Visible Light Communication (VLC)**: Implementing VLC transceiver circuits with active ambient light cancellation to enable reliable visible light link connectivity.
+2. **Underwater Optical Wireless Communication (UOWC)**: Mitigating turbid-water conditions, modelling blockage prediction, and optimizing multi-AUV placement for coverage maximization.
+3. **Visible Light Communication (VLC)**: Implementing VLC transceiver circuits with active ambient-light cancellation to enable reliable visible-light link connectivity.
 
 ---
 

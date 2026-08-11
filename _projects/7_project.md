@@ -3,20 +3,20 @@ layout: page
 title: Smart Distribution Management System (S-DMS)
 description: Predictive distribution systems designed to maximize rooftop PV absorption capacity in last-mile networks. Supported by NSF Grant No. RG/2018/EA&ICT/01 (LKR 2,183,289).
 importance: 7
-category: Smart Grids & Energy Analytics
+category: Smart Grids & Sustainable Energy
 related_publications: true
 ---
 
 ## Project Overview
 
-With the rapid adoption of residential solar photovoltaic (PV) systems, modern low-voltage distribution grids experience voltage imbalances, reverse power flows, and line overloads. This project developed a **Predictive Smart Distribution Management System (S-DMS)** to address these challenges. By predicting localized solar irradiance and power generation patterns, the system performs dynamic phase balancing and voltage optimization to maximize PV absorption capacity without requiring grid infrastructure upgrades.
+With the rapid adoption of residential solar photovoltaic (PV) systems, modern low-voltage distribution grids experience voltage imbalances, reverse power flows, and line overloads. This project developed a **Predictive Smart Distribution Management System (S-DMS)** to address these challenges. By predicting localized solar irradiance and generation patterns, the system supports dynamic phase balancing and voltage optimization to maximize PV absorption capacity without requiring grid-infrastructure upgrades.
 
 ### Project Details
 - **Role**: Co-Investigator
 - **Funding Agency**: National Science Foundation (NSF), Sri Lanka
 - **Grant Number**: Grant No. RG/2018/EA&ICT/01
 - **Funding Amount**: LKR 2,183,289.00
-- **Timeline**: March 2019 – March 2021
+- **Timeline**: March 2019–March 2021
 - **Status**: Completed
 
 ---
@@ -25,7 +25,7 @@ With the rapid adoption of residential solar photovoltaic (PV) systems, modern l
 
 1. **Short-Term Solar Forecasting**: Utilizing sky images and cloud-motion tracking algorithms to forecast localized solar power generation minutes in advance.
 2. **Dynamic Photovoltaic Re-Phasing**: Designing coordinated control algorithms to re-phase low-voltage connections, mitigating network unbalances.
-3. **Low-Voltage Grid Modeling**: Formulating state estimation and sensitivity matrix approaches for real-time voltage regulation.
+3. **Low-Voltage Grid Modeling**: Formulating state-estimation and sensitivity-matrix approaches for real-time voltage regulation.
 
 ---
 

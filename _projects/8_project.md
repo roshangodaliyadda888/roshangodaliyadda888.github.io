@@ -9,14 +9,14 @@ giscus_comments: true
 
 ## Project Overview
 
-Sustained contamination and pollution on high-voltage transmission insulators can lead to leakage currents, flashovers, and widespread power grid failures. This project developed a **non-contact multispectral imaging system** to monitor insulator surface pollution levels. By capturing light reflectance and transmittance across specific spectral bands, the system estimates the severity and composition of surface contaminants (such as dust, salt, or algae growth) in real time.
+Sustained contamination and pollution on high-voltage transmission insulators can lead to leakage currents, flashovers, and widespread power-grid failures. This project developed a **non-contact multispectral imaging system** to monitor insulator surface pollution levels. By capturing light reflectance and transmittance across specific spectral bands, the system estimates the severity and composition of surface contaminants, such as dust, salt, or algae growth, in real time.
 
 ### Project Details
 - **Role**: Co-Investigator
 - **Funding Agency**: University Research Council (URC), University of Peradeniya
 - **Grant Number**: Grant No. URG/2017/26/E
 - **Funding Amount**: LKR 400,000.00
-- **Timeline**: November 2017 – November 2018
+- **Timeline**: November 2017–November 2018
 - **Status**: Completed
 
 ---
@@ -24,7 +24,7 @@ Sustained contamination and pollution on high-voltage transmission insulators ca
 ## Key Research Objectives
 
 1. **Multispectral Spectral Signature Analysis**: Identifying the optimal narrow spectral bands that change systematically with insulator pollution severity.
-2. **Algae Contamination Mapping**: Creating reflectance index models to detect biological algae growth on ceramic and composite insulators.
+2. **Algae Contamination Mapping**: Creating reflectance-index models to detect biological algae growth on ceramic and composite insulators.
 3. **Remote Condition Assessment**: Building an image-processing pipeline capable of checking insulator health remotely under varied sunlight conditions.
 
 ---

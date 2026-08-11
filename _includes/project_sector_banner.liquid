@@ -1,0 +1,19 @@
+<section class="project-sector">
+  <div class="project-sector__content">
+    <h2 class="project-sector__title">{{ include.title }}</h2>
+    {% if include.description %}
+      <p class="project-sector__description">{{ include.description }}</p>
+    {% endif %}
+  </div>
+
+  {% if include.image %}
+    <div class="project-sector__media">
+      <img
+        class="project-sector__image"
+        src="{{ include.image | relative_url }}"
+        alt="{{ include.alt | default: include.title }}"
+        loading="lazy"
+      >
+    </div>
+  {% endif %}
+</section>

@@ -1,20 +1,27 @@
 ---
 layout: page
-title: Computer Vision & Autonomous Robotics
-description: Ongoing research thrust focusing on autonomous exploration, reconnaissance robotics, ego vehicle speed estimation, and spatiotemporal activity recognition.
+title: Research Initiative in Computer Vision, Robotics & Assisted Navigation
+description: Sustained research initiative on autonomous exploration, visual perception, robotic navigation, and spatiotemporal activity understanding.
 importance: 10
 category: Computer Vision, Robotics & Assisted Navigation
 ---
 
 ## Project Overview
 
-This project encompasses ongoing research in computer vision, machine learning, and autonomous systems, specifically focused on robotic navigation, speed estimation, and group activity recognition. By analyzing spatiotemporal features in visual feeds, the algorithms enable reconnaissance agents to explore unstructured environments and autonomous vehicles to perceive objects under challenging weather conditions.
+This research initiative brings together sustained work in computer vision, machine learning, and autonomous systems, with emphasis on robotic navigation, ego-vehicle speed estimation, and group activity recognition. The initiative focuses on visual perception and decision-support methods for unstructured environments, autonomous platforms, and surveillance-oriented scene understanding.
 
-### Key Research Objectives
+### Initiative Scope
+- **Nature**: Ongoing research initiative
+- **Focus Areas**: Robotic navigation, autonomous perception, visual scene analysis, and spatiotemporal activity understanding
+- **Status**: Ongoing
+
+---
+
+## Key Research Objectives
 
 1. **Autonomous Exploration**: Developing path-following and mapping planning strategies for reconnaissance robots in unknown environments.
-2. **Ego Vehicle Speed Estimation**: Designing optical flow and CNN pipelines for real-time speed estimation and vehicle tracking.
-3. **Group Activity Recognition**: Structuring scene graph representations and fused-attention spatiotemporal transformers for human activity understanding in surveillance.
+2. **Ego Vehicle Speed Estimation**: Designing optical-flow and CNN pipelines for real-time speed estimation and vehicle tracking.
+3. **Group Activity Recognition**: Structuring scene-graph representations and fused-attention spatiotemporal transformers for human activity understanding in surveillance.
 
 ---
 

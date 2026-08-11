@@ -146,6 +146,8 @@ chart:
 </script>
 <script>
   (function () {
+    const studentCharts = {};
+
     function batchKey(batch) {
       const match = String(batch || "").match(/^([A-Z]+)(\d+)(.*)$/i);
       if (!match) return ["ZZZ", Number.MAX_SAFE_INTEGER, ""];
@@ -188,18 +190,39 @@ chart:
       return value || fallback;
     }
 
-    function buildPalette(count) {
+    function destroyChart(canvasId) {
+      if (studentCharts[canvasId]) {
+        studentCharts[canvasId].destroy();
+        delete studentCharts[canvasId];
+      }
+    }
+
+    function buildCategoricalPalette(count) {
       const palette = [
-        getThemeValue("--student-accent", "#6e1f2a"),
-        "#8a4a54",
-        "#a96a74",
-        "#c68e97",
-        "#d6adb4",
-        "#d9c6c1",
-        "#b9b9b9",
-        "#8a8a8a",
-        "#666666",
-        "#4d4d4d",
+        getThemeValue("--student-accent", "#7a1f2b"),
+        "#5b6f8e",
+        "#8c6a43",
+        "#4f6b5a",
+        "#b07a86",
+        "#7b8794",
+        "#d1c7c0",
+        "#9ca3af",
+      ];
+      return Array.from({ length: count }, (_, index) => palette[index % palette.length]);
+    }
+
+    function buildSequentialPalette(count) {
+      const palette = [
+        getThemeValue("--student-accent", "#7a1f2b"),
+        "#8f4452",
+        "#a56a77",
+        "#ba8f98",
+        "#c7a9ae",
+        "#6b7280",
+        "#858d98",
+        "#a1a8b0",
+        "#bebfc3",
+        "#d6d3d1",
       ];
       return Array.from({ length: count }, (_, index) => palette[index % palette.length]);
     }
@@ -231,7 +254,10 @@ chart:
     function createChart(canvasId, configuration) {
       const canvas = document.getElementById(canvasId);
       if (!canvas || typeof Chart === "undefined") return null;
-      return new Chart(canvas, configuration);
+      destroyChart(canvasId);
+      const chart = new Chart(canvas, configuration);
+      studentCharts[canvasId] = chart;
+      return chart;
     }
 
     function normalizeText(value) {
@@ -351,87 +377,16 @@ chart:
         });
       }
 
-      const gridColor = getThemeValue("--student-border", "rgba(0,0,0,0.12)");
-      const textColor = getThemeValue("--student-muted-strong", "#3e3e3e");
       const reducedMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-      const sharedPlugins = {
-        legend: {
-          labels: {
-            color: textColor,
-            font: { size: 12 },
-          },
-        },
-        tooltip: {
-          callbacks: {
-            label: function (context) {
-              const data = context.dataset.data || [];
-              const total = data.reduce((sum, value) => sum + value, 0);
-              const parsed = typeof context.parsed === "object" ? context.parsed.x : context.parsed;
-              const value = parsed || 0;
-              const percent = total ? ((value / total) * 100).toFixed(1) : "0.0";
-              return `${context.label}: ${value} (${percent}%)`;
-            },
-          },
-        },
-      };
-
       const countryEntries = groupCounts(
         Object.entries(countBy(records.map((record) => record.country))).sort((a, b) => b[1] - a[1]),
         6,
         "Other"
       );
       renderSummaryTable("students-by-country-summary", countryEntries, totalStudents, "Count");
-      createChart("students-by-country-chart", {
-        type: "doughnut",
-        data: {
-          labels: countryEntries.map(([label]) => label),
-          datasets: [
-            {
-              data: countryEntries.map(([, value]) => value),
-              backgroundColor: buildPalette(countryEntries.length),
-              borderColor: getThemeValue("--student-surface", "#ffffff"),
-              borderWidth: 1,
-            },
-          ],
-        },
-        options: {
-          responsive: true,
-          maintainAspectRatio: false,
-          animation: reducedMotion ? false : { duration: 300 },
-          plugins: sharedPlugins,
-        },
-      });
 
       const batchEntries = Object.entries(countBy(records.map((record) => record.batch))).sort((a, b) => compareBatches(a[0], b[0]));
       renderSummaryTable("students-by-batch-summary", batchEntries, totalStudents, "Count");
-      createChart("students-by-batch-chart", {
-        type: "bar",
-        data: {
-          labels: batchEntries.map(([label]) => label),
-          datasets: [
-            {
-              label: "Students",
-              data: batchEntries.map(([, value]) => value),
-              backgroundColor: buildPalette(batchEntries.length),
-              borderWidth: 0,
-            },
-          ],
-        },
-        options: {
-          responsive: true,
-          maintainAspectRatio: false,
-          animation: reducedMotion ? false : { duration: 300 },
-          plugins: { ...sharedPlugins, legend: { display: false } },
-          scales: {
-            x: { ticks: { color: textColor }, grid: { color: gridColor } },
-            y: {
-              beginAtZero: true,
-              ticks: { color: textColor, precision: 0 },
-              grid: { color: gridColor },
-            },
-          },
-        },
-      });
 
       const universityEntries = groupCounts(
         Object.entries(countBy(records.flatMap((record) => getUniversities(record)))).sort((a, b) => b[1] - a[1]),
@@ -443,50 +398,102 @@ chart:
       if (universityWrap) {
         universityWrap.style.minHeight = Math.max(320, universityEntries.length * 38) + "px";
       }
-      createChart("students-by-university-chart", {
-        type: "bar",
-        data: {
-          labels: universityEntries.map(([label]) => label),
-          datasets: [
-            {
-              label: "Students",
-              data: universityEntries.map(([, value]) => value),
-              backgroundColor: buildPalette(universityEntries.length),
-              borderWidth: 0,
-            },
-          ],
-        },
-        options: {
-          indexAxis: "y",
-          responsive: true,
-          maintainAspectRatio: false,
-          animation: reducedMotion ? false : { duration: 300 },
-          plugins: { ...sharedPlugins, legend: { display: false } },
-          scales: {
-            x: {
-              beginAtZero: true,
-              ticks: { color: textColor, precision: 0 },
-              grid: { color: gridColor },
-            },
-            y: { ticks: { color: textColor }, grid: { display: false } },
-          },
-        },
-      });
 
       const areaValues = records.map((record) => record.academic_area).filter(Boolean);
       const areaCard = document.getElementById("students-by-area-card");
+      let areaEntries = [];
       if (areaValues.length >= Math.ceil(records.length * 0.7)) {
-        const areaEntries = Object.entries(countBy(areaValues)).sort((a, b) => b[1] - a[1]);
+        areaEntries = Object.entries(countBy(areaValues)).sort((a, b) => b[1] - a[1]);
         renderSummaryTable("students-by-area-summary", areaEntries, totalStudents, "Count");
-        createChart("students-by-area-chart", {
+      } else if (areaCard) {
+        areaCard.hidden = true;
+      }
+
+      function renderAnalyticsCharts() {
+        const gridColor = getThemeValue("--student-chart-grid", getThemeValue("--student-border", "rgba(0,0,0,0.12)"));
+        const textColor = getThemeValue("--student-chart-text", getThemeValue("--student-muted-strong", "#3e3e3e"));
+        const sharedPlugins = {
+          legend: {
+            labels: {
+              color: textColor,
+              font: { size: 12 },
+            },
+          },
+          tooltip: {
+            titleColor: textColor,
+            bodyColor: textColor,
+            callbacks: {
+              label: function (context) {
+                const data = context.dataset.data || [];
+                const total = data.reduce((sum, value) => sum + value, 0);
+                const parsed = typeof context.parsed === "object" ? context.parsed.x : context.parsed;
+                const value = parsed || 0;
+                const percent = total ? ((value / total) * 100).toFixed(1) : "0.0";
+                return `${context.label}: ${value} (${percent}%)`;
+              },
+            },
+          },
+        };
+
+        createChart("students-by-country-chart", {
+          type: "doughnut",
+          data: {
+            labels: countryEntries.map(([label]) => label),
+            datasets: [
+              {
+                data: countryEntries.map(([, value]) => value),
+                backgroundColor: buildCategoricalPalette(countryEntries.length),
+                borderColor: getThemeValue("--student-surface", "#ffffff"),
+                borderWidth: 1,
+              },
+            ],
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            animation: reducedMotion ? false : { duration: 300 },
+            plugins: sharedPlugins,
+          },
+        });
+
+        createChart("students-by-batch-chart", {
           type: "bar",
           data: {
-            labels: areaEntries.map(([label]) => label),
+            labels: batchEntries.map(([label]) => label),
             datasets: [
               {
                 label: "Students",
-                data: areaEntries.map(([, value]) => value),
-                backgroundColor: buildPalette(areaEntries.length),
+                data: batchEntries.map(([, value]) => value),
+                backgroundColor: buildSequentialPalette(batchEntries.length),
+                borderWidth: 0,
+              },
+            ],
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            animation: reducedMotion ? false : { duration: 300 },
+            plugins: { ...sharedPlugins, legend: { display: false } },
+            scales: {
+              x: { ticks: { color: textColor }, grid: { color: gridColor } },
+              y: {
+                beginAtZero: true,
+                ticks: { color: textColor, precision: 0 },
+                grid: { color: gridColor },
+              },
+            },
+          },
+        });
+
+        createChart("students-by-university-chart", {
+          type: "bar",
+          data: {
+            labels: universityEntries.map(([label]) => label),
+            datasets: [
+              {
+                label: "Students",
+                data: universityEntries.map(([, value]) => value),
+                backgroundColor: buildSequentialPalette(universityEntries.length),
                 borderWidth: 0,
               },
             ],
@@ -507,9 +514,58 @@ chart:
             },
           },
         });
-      } else if (areaCard) {
-        areaCard.hidden = true;
+
+        if (areaEntries.length) {
+          createChart("students-by-area-chart", {
+          type: "bar",
+          data: {
+            labels: areaEntries.map(([label]) => label),
+            datasets: [
+              {
+                label: "Students",
+                data: areaEntries.map(([, value]) => value),
+                backgroundColor: buildSequentialPalette(areaEntries.length),
+                borderWidth: 0,
+              },
+            ],
+          },
+          options: {
+            indexAxis: "y",
+            responsive: true,
+            maintainAspectRatio: false,
+            animation: reducedMotion ? false : { duration: 300 },
+            plugins: { ...sharedPlugins, legend: { display: false } },
+            scales: {
+              x: {
+                beginAtZero: true,
+                ticks: { color: textColor, precision: 0 },
+                grid: { color: gridColor },
+              },
+              y: { ticks: { color: textColor }, grid: { display: false } },
+            },
+          },
+        });
+        } else {
+          destroyChart("students-by-area-chart");
+        }
       }
+
+      renderAnalyticsCharts();
+
+      let themeRefreshFrame = null;
+      function scheduleThemeRefresh() {
+        if (themeRefreshFrame) {
+          cancelAnimationFrame(themeRefreshFrame);
+        }
+        themeRefreshFrame = requestAnimationFrame(() => {
+          renderAnalyticsCharts();
+          themeRefreshFrame = null;
+        });
+      }
+
+      const themeObserver = new MutationObserver(scheduleThemeRefresh);
+      themeObserver.observe(document.documentElement, { attributes: true, attributeFilter: ["class", "data-theme"] });
+      themeObserver.observe(document.body, { attributes: true, attributeFilter: ["class", "data-theme"] });
 
       const grid = document.getElementById("student-directory-grid");
       const noResults = document.getElementById("student-no-results");
@@ -597,6 +653,8 @@ chart:
     --student-surface: rgba(255, 255, 255, 0.98);
     --student-muted: #5c5c5c;
     --student-muted-strong: #3e3e3e;
+    --student-chart-text: #4b5563;
+    --student-chart-grid: rgba(24, 24, 24, 0.12);
     --student-grid-gap: 1.25rem;
     display: grid;
     gap: 2rem;
@@ -938,9 +996,11 @@ chart:
     --student-accent: #d69aa3;
     --student-accent-soft: rgba(214, 154, 163, 0.09);
     --student-accent-border: rgba(214, 154, 163, 0.26);
-    --student-border: rgba(255, 255, 255, 0.14);
-    --student-surface: rgba(255, 255, 255, 0.02);
-    --student-muted: #c3c3c3;
-    --student-muted-strong: #e0e0e0;
+    --student-border: rgba(255, 255, 255, 0.16);
+    --student-surface: rgba(255, 255, 255, 0.03);
+    --student-muted: #d0d4da;
+    --student-muted-strong: #edf1f5;
+    --student-chart-text: #f3f4f6;
+    --student-chart-grid: rgba(255, 255, 255, 0.16);
   }
 </style>

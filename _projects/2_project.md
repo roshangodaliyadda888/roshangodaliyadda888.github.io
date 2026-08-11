@@ -3,13 +3,13 @@ layout: page
 title: HeritageAI Hardware Acceleration
 description: Advanced generative modeling utilizing an in-kind 8K A100 GPU-hours allocation provided by the NVIDIA Academic Grant Program.
 importance: 2
-category: Generative AI & LLMs
+category: AI Foundations & Generative Models
 giscus_comments: true
 ---
 
 ## Project Overview
 
-**HeritageAI** is an academic grant program supported by NVIDIA, aimed at leveraging cutting-edge deep learning, generative artificial intelligence, and implicit neural representations for preserving cultural heritage. The project utilizes high-performance GPU hours to build continuous 3D and multidimensional models of heritage sites and historical artifacts, allowing digital restoration, archive visualization, and immersive interactions.
+**HeritageAI** is an academic grant programme supported by NVIDIA, aimed at leveraging deep learning, generative artificial intelligence, and implicit neural representations for preserving cultural heritage. The project utilizes high-performance GPU hours to build continuous 3D and multidimensional models of heritage sites and historical artifacts, enabling digital restoration, archive visualization, and immersive interaction.
 
 ### Project Details
 - **Role**: Principal Investigator
@@ -22,9 +22,9 @@ giscus_comments: true
 
 ## Key Research Objectives
 
-1. **Implicit Neural Representations (INRs)**: Developing coordinate-based neural networks (like Sinusoidal Representation Networks) for continuous modeling of detailed shapes and materials.
+1. **Implicit Neural Representations (INRs)**: Developing coordinate-based neural networks for continuous modelling of detailed shapes and materials.
 2. **Generative Restoration**: Reconstructing damaged artifacts and sites digitally using generative models and diffusion-based structures.
-3. **High-Performance Scalability**: Optimizing training pipelines to leverage thousands of A100 GPU-hours efficiently.
+3. **High-Performance Scalability**: Optimizing training pipelines to leverage large-scale A100 GPU allocations efficiently.
 
 ---
 
