@@ -2,18 +2,24 @@
 layout: page
 permalink: /awards/
 title: Awards & Grants
+nav_title: awards
 description: Awards, recognitions, and funded research activity.
 nav: true
 nav_order: 5
 ---
 
-{% assign awards = site.data.awards_grants.awards | sort: "year" | reverse %}
+{% assign awards = site.data.awards_grants.awards %}
 {% assign grants = site.data.awards_grants.grants %}
 
 <div class="awards-grants-page">
   <p class="section-intro">
-    A structured record of academic honours and funded research activity, prepared from the January 2026 curriculum vitae and checked against the University of Peradeniya public profile.
+    Prof. Roshan Godaliyadda’s remarkable academic journey is defined by a continuous commitment to research excellence. This section highlights his prestigious accolades, including multiple President's Awards and international Best Paper honors, alongside significant research grants secured from prominent organizations like the NSF and IDRC.
   </p>
+
+  <nav class="section-links" aria-label="Awards and grants sections">
+    <a href="#awards-heading">Awards</a>
+    <a href="#grants-heading">Grants</a>
+  </nav>
 
   <section class="awards-grants-section" aria-labelledby="awards-heading">
     <h2 id="awards-heading">Awards</h2>
@@ -30,6 +36,13 @@ nav_order: 5
             </p>
             {% if award.notes != blank %}
               <p class="entry-notes">{{ award.notes }}</p>
+            {% endif %}
+            {% if award.citations %}
+              <ul class="award-citations">
+                {% for citation in award.citations %}
+                  <li>{{ citation }}</li>
+                {% endfor %}
+              </ul>
             {% endif %}
           </div>
         </article>
@@ -71,9 +84,29 @@ nav_order: 5
   }
 
   .awards-grants-page .section-intro {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     color: var(--global-text-color);
     line-height: 1.75;
+  }
+
+  .awards-grants-page .section-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .awards-grants-page .section-links a {
+    color: var(--global-text-color);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.35);
+    padding-bottom: 0.1rem;
+  }
+
+  .awards-grants-page .section-links a:hover,
+  .awards-grants-page .section-links a:focus-visible {
+    color: var(--global-theme-color);
+    border-bottom-color: var(--global-theme-color);
   }
 
   .awards-grants-page .awards-grants-section + .awards-grants-section {
@@ -131,6 +164,17 @@ nav_order: 5
   .awards-grants-page .entry-notes {
     margin-top: 0.25rem;
     opacity: 0.82;
+  }
+
+  .awards-grants-page .award-citations {
+    margin: 0.6rem 0 0;
+    padding-left: 1.15rem;
+  }
+
+  .awards-grants-page .award-citations li {
+    margin: 0.35rem 0;
+    line-height: 1.65;
+    color: var(--global-text-color);
   }
 
   .awards-grants-page .meta-separator {
