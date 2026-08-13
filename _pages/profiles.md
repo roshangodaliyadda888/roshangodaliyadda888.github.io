@@ -15,26 +15,125 @@ chart:
     <h1 id="students-directory-title" class="visually-hidden">PhD Students and Alumni</h1>
     <p class="student-directory-page__intro">
       Under the dedicated mentorship of Prof. Roshan Godaliyadda and his team of supervisors, our alumni have
-      achieved remarkable global success. His rigorous research supervision and commitment to cultivating academic
+      achieved <strong>remarkable global success</strong>. His rigorous research supervision and commitment to cultivating academic
       excellence have consistently empowered students to secure highly competitive PhD placements at the world's
       most prestigious institutions.
     </p>
     <p class="student-directory-page__intro">
-      Our past researchers have proudly advanced their studies at:
+      Our past researchers have proudly advanced into leading doctoral programs and influential industry roles.
     </p>
-    <ul class="student-directory-page__intro-list" aria-label="Prestigious doctoral destinations">
-      <li>
-        <strong>Ivy League &amp; Elite Institutions:</strong> Princeton University, Columbia University, Cornell
-        University, and Rice University
-      </li>
-      <li>
-        <strong>Premier Global Research Hubs:</strong> University of Michigan, UIUC, UC San Diego, UCLA, and the
-        University of Waterloo
-      </li>
-    </ul>
+    <div class="student-placements-ribbon" aria-label="Highlighted university and industry destinations">
+      <div class="student-placements-ribbon__track">
+        <div class="student-placements-ribbon__item">
+          <img src="{{ '/assets/img/placements/princeton.png' | relative_url }}" alt="Princeton University logo" class="student-placements-ribbon__logo">
+          <span>Princeton University</span>
+        </div>
+        <div class="student-placements-ribbon__item">
+          <img src="{{ '/assets/img/placements/columbia.png' | relative_url }}" alt="Columbia University logo" class="student-placements-ribbon__logo">
+          <span>Columbia University</span>
+        </div>
+        <div class="student-placements-ribbon__item">
+          <img src="{{ '/assets/img/placements/cornell.png' | relative_url }}" alt="Cornell University logo" class="student-placements-ribbon__logo">
+          <span>Cornell University</span>
+        </div>
+        <div class="student-placements-ribbon__item">
+          <img src="{{ '/assets/img/placements/rice.png' | relative_url }}" alt="Rice University logo" class="student-placements-ribbon__logo">
+          <span>Rice University</span>
+        </div>
+        <div class="student-placements-ribbon__item">
+          <img src="{{ '/assets/img/placements/michigan.png' | relative_url }}" alt="University of Michigan logo" class="student-placements-ribbon__logo">
+          <span>University of Michigan</span>
+        </div>
+        <div class="student-placements-ribbon__item">
+          <img src="{{ '/assets/img/placements/uiuc.png' | relative_url }}" alt="UIUC logo" class="student-placements-ribbon__logo">
+          <span>UIUC</span>
+        </div>
+        <div class="student-placements-ribbon__item">
+          <img src="{{ '/assets/img/placements/ucsd.png' | relative_url }}" alt="UC San Diego logo" class="student-placements-ribbon__logo">
+          <span>UC San Diego</span>
+        </div>
+        <div class="student-placements-ribbon__item">
+          <img src="{{ '/assets/img/placements/ucla.png' | relative_url }}" alt="UCLA logo" class="student-placements-ribbon__logo">
+          <span>UCLA</span>
+        </div>
+        <div class="student-placements-ribbon__item">
+          <img src="{{ '/assets/img/placements/waterloo.png' | relative_url }}" alt="University of Waterloo logo" class="student-placements-ribbon__logo">
+          <span>University of Waterloo</span>
+        </div>
+        <div class="student-placements-ribbon__item">
+          <img src="{{ '/assets/img/placements/apple.png' | relative_url }}" alt="Apple logo" class="student-placements-ribbon__logo">
+          <span>Apple</span>
+        </div>
+        <div class="student-placements-ribbon__item">
+          <img src="{{ '/assets/img/placements/meta.png' | relative_url }}" alt="Meta logo" class="student-placements-ribbon__logo">
+          <span>Meta</span>
+        </div>
+        <div class="student-placements-ribbon__item">
+          <img src="{{ '/assets/img/placements/microsoft.png' | relative_url }}" alt="Microsoft logo" class="student-placements-ribbon__logo">
+          <span>Microsoft</span>
+        </div>
+        <div class="student-placements-ribbon__item">
+          <img src="{{ '/assets/img/placements/paypal.png' | relative_url }}" alt="PayPal logo" class="student-placements-ribbon__logo">
+          <span>PayPal</span>
+        </div>
+
+        <div class="student-placements-ribbon__item" aria-hidden="true">
+          <img src="{{ '/assets/img/placements/princeton.png' | relative_url }}" alt="" class="student-placements-ribbon__logo">
+          <span>Princeton University</span>
+        </div>
+        <div class="student-placements-ribbon__item" aria-hidden="true">
+          <img src="{{ '/assets/img/placements/columbia.png' | relative_url }}" alt="" class="student-placements-ribbon__logo">
+          <span>Columbia University</span>
+        </div>
+        <div class="student-placements-ribbon__item" aria-hidden="true">
+          <img src="{{ '/assets/img/placements/cornell.png' | relative_url }}" alt="" class="student-placements-ribbon__logo">
+          <span>Cornell University</span>
+        </div>
+        <div class="student-placements-ribbon__item" aria-hidden="true">
+          <img src="{{ '/assets/img/placements/rice.png' | relative_url }}" alt="" class="student-placements-ribbon__logo">
+          <span>Rice University</span>
+        </div>
+        <div class="student-placements-ribbon__item" aria-hidden="true">
+          <img src="{{ '/assets/img/placements/michigan.png' | relative_url }}" alt="" class="student-placements-ribbon__logo">
+          <span>University of Michigan</span>
+        </div>
+        <div class="student-placements-ribbon__item" aria-hidden="true">
+          <img src="{{ '/assets/img/placements/uiuc.png' | relative_url }}" alt="" class="student-placements-ribbon__logo">
+          <span>UIUC</span>
+        </div>
+        <div class="student-placements-ribbon__item" aria-hidden="true">
+          <img src="{{ '/assets/img/placements/ucsd.png' | relative_url }}" alt="" class="student-placements-ribbon__logo">
+          <span>UC San Diego</span>
+        </div>
+        <div class="student-placements-ribbon__item" aria-hidden="true">
+          <img src="{{ '/assets/img/placements/ucla.png' | relative_url }}" alt="" class="student-placements-ribbon__logo">
+          <span>UCLA</span>
+        </div>
+        <div class="student-placements-ribbon__item" aria-hidden="true">
+          <img src="{{ '/assets/img/placements/waterloo.png' | relative_url }}" alt="" class="student-placements-ribbon__logo">
+          <span>University of Waterloo</span>
+        </div>
+        <div class="student-placements-ribbon__item" aria-hidden="true">
+          <img src="{{ '/assets/img/placements/apple.png' | relative_url }}" alt="" class="student-placements-ribbon__logo">
+          <span>Apple</span>
+        </div>
+        <div class="student-placements-ribbon__item" aria-hidden="true">
+          <img src="{{ '/assets/img/placements/meta.png' | relative_url }}" alt="" class="student-placements-ribbon__logo">
+          <span>Meta</span>
+        </div>
+        <div class="student-placements-ribbon__item" aria-hidden="true">
+          <img src="{{ '/assets/img/placements/microsoft.png' | relative_url }}" alt="" class="student-placements-ribbon__logo">
+          <span>Microsoft</span>
+        </div>
+        <div class="student-placements-ribbon__item" aria-hidden="true">
+          <img src="{{ '/assets/img/placements/paypal.png' | relative_url }}" alt="" class="student-placements-ribbon__logo">
+          <span>PayPal</span>
+        </div>
+      </div>
+    </div>
     <p class="student-directory-page__intro">
       Building upon this world-class foundational research training, these exceptional scholars have transitioned
-      into highly influential roles, driving technological innovation at global industry giants such as Apple,
+      into <strong>highly influential roles</strong>, driving technological innovation at global industry giants such as Apple,
       Meta, Microsoft, and PayPal. Prof. Godaliyadda's expert guidance continues to shape the trajectory of
       engineering leaders worldwide.
     </p>
@@ -729,16 +828,51 @@ chart:
     margin-top: 0.9rem;
   }
 
-  .student-directory-page__intro-list {
-    max-width: 46rem;
-    margin: 0.9rem 0;
-    padding-left: 1.15rem;
+  .student-placements-ribbon {
+    max-width: 100%;
+    margin: 1rem 0 1.15rem;
+    overflow: hidden;
+    border-top: 1px solid var(--student-border);
+    border-bottom: 1px solid var(--student-border);
+    padding: 0.85rem 0;
   }
 
-  .student-directory-page__intro-list li {
-    margin: 0.45rem 0;
-    line-height: 1.7;
+  .student-placements-ribbon__track {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    width: max-content;
+    animation: student-placements-scroll 34s linear infinite;
+  }
+
+  .student-placements-ribbon__item {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.7rem;
+    padding: 0.72rem 0.95rem;
+    border: 1px solid var(--student-border);
+    border-radius: 999px;
+    background: var(--student-surface);
     color: var(--student-muted-strong);
+    font-size: 0.94rem;
+    line-height: 1.4;
+    white-space: nowrap;
+  }
+
+  .student-placements-ribbon__logo {
+    width: 1.25rem;
+    height: 1.25rem;
+    flex: 0 0 1.25rem;
+    object-fit: contain;
+  }
+
+  @keyframes student-placements-scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
   }
 
   .student-section-heading h2,
@@ -1040,6 +1174,22 @@ chart:
     .student-card__media {
       width: 100%;
       max-width: 132px;
+    }
+
+    .student-placements-ribbon__item {
+      font-size: 0.9rem;
+      padding: 0.68rem 0.85rem;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .student-placements-ribbon {
+      overflow-x: auto;
+      padding-bottom: 0.55rem;
+    }
+
+    .student-placements-ribbon__track {
+      animation: none;
     }
   }
 
