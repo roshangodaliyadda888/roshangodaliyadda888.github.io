@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
+title: Teaching
 description: Undergraduate and postgraduate teaching contributions of Professor G. M. R. I. Godaliyadda.
 nav: true
 nav_order: 6

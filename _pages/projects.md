@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: This page presents selected funded research projects and major multidisciplinary research initiatives led or co-led by Professor G. M. R. I. Godaliyadda. The projects span biomedical sensing, artificial intelligence, smart energy systems, imaging, public health, robotics, and optical communications.
+description: Selected funded research projects and major multidisciplinary research initiatives led or co-led by Professor G. M. R. I. Godaliyadda.
 nav: true
 nav_order: 3
 display_categories: ["Biomedical Signal Processing & Wearable AI", "Computer Vision, Robotics & Assisted Navigation", "Smart Grids & Sustainable Energy", "Multispectral Imaging & Remote Sensing", "AI for Public Health, Education & Society", "Optical Wireless Communications", "AI Foundations & Generative Models"]
@@ -14,7 +14,7 @@ horizontal: false
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <p class="projects-page-intro">
-    This page presents selected funded research projects and major multidisciplinary research initiatives led or co-led by Professor G. M. R. I. Godaliyadda. The projects span biomedical sensing, artificial intelligence, smart energy systems, imaging, public health, robotics, and optical communications.
+    Selected funded research projects and major multidisciplinary research initiatives led or co-led by Professor G. M. R. I. Godaliyadda. The projects span biomedical sensing, artificial intelligence, smart energy systems, imaging, public health, robotics, and optical communications.
   </p>
 
   <!-- Display categorized projects -->

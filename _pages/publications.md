@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Scholarly publications organized chronologically with selected works highlighted separately.
+description: Journal articles, conference papers, datasets, book chapters, and other scholarly outputs.
 nav: true
 nav_order: 2
 ---
@@ -13,9 +13,7 @@ nav_order: 2
 
 {% include bib_search.liquid %}
 
-This page presents journal articles, conference papers, datasets, book chapters, and other scholarly outputs. Publications are organized chronologically, with selected works highlighted separately.
-
-## Selected Publications
+## Selected Work
 
 <div class="publications">
 

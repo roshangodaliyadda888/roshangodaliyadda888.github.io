@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Professor, Department of Electrical and Electronic Engineering, University of Peradeniya, Sri Lanka
 
@@ -16,7 +16,7 @@ profile:
       <p class="professor-sidebar__org">University of Peradeniya, Sri Lanka</p>
       <div class="professor-sidebar__divider"></div>
       <p class="professor-sidebar__eyebrow">Deputy Director - Research &amp; Innovation</p>
-      <p class="professor-sidebar__org">Multidisciplinary AI Research Centre, MARC-UoP</p>
+      <p class="professor-sidebar__org">Multidisciplinary AI Research Centre [MARC], University of Peradeniya</p>
       <div class="professor-sidebar__contacts">
         <a href="tel:+94777709035" aria-label="Call Professor G. M. R. I. Godaliyadda at +94 77 770 9035"><span aria-hidden="true">&#9742;</span><span>+94 77 770 9035</span></a>
         <a href="mailto:roshangod@ee.pdn.ac.lk" aria-label="Email roshangod@ee.pdn.ac.lk"><span aria-hidden="true">&#9993;</span><span>roshangod@ee.pdn.ac.lk</span></a>
@@ -41,11 +41,11 @@ latest_posts:
 <section class="professor-homepage" aria-labelledby="biography-heading">
   <h2 id="biography-heading" class="visually-hidden">Biography</h2>
 
-  <p>G M Roshan Indika Godaliyadda is a Professor in the Department of Electrical and Electronic Engineering at the University of Peradeniya, Sri Lanka. He also serves as Deputy Director - Research &amp; Innovation at the Multidisciplinary AI Research Centre, MARC-UoP.</p>
+  <p>G M Roshan Indika Godaliyadda is a Professor in the Department of Electrical and Electronic Engineering at the University of Peradeniya, Sri Lanka. He also serves as Deputy Director - Research &amp; Innovation at the Multidisciplinary AI Research Centre [MARC], University of Peradeniya.</p>
 
   <p>His research spans signal and image processing, computer vision, machine learning, generative AI, hyperspectral and multispectral imaging, remote sensing, smart grids, renewable-energy integration, biomedical signal processing, wearable sensing, human-motion analysis, computational epidemiology, and AI for social sciences.</p>
 
-  <p>He obtained a PhD in Electrical and Computer Engineering from the National University of Singapore and a BSc Engineering degree with First Class Honours in Electrical and Electronic Engineering from the University of Peradeniya. His academic contributions include publications, doctoral supervision, research leadership, and academic program development.</p>
+  <p>After completing his BSc Engineering Degree in Electrical and Electronic Engineering with first class honours from the University of Peradeniya, he obtained his PhD in Electrical and Computer Engineering from the National University of Singapore. His academic contributions include publications, doctoral supervision, research leadership, and academic program development.</p>
 </section>
 
 <section class="professor-homepage__section" aria-labelledby="interests-heading">
@@ -67,12 +67,6 @@ latest_posts:
   <h2 id="profiles-heading">Academic Links</h2>
   <div class="professor-section-divider" aria-hidden="true"></div>
   <div class="professor-links" role="list" aria-label="Academic links">
-    {% if site.data.socials.email and site.data.socials.email != "" %}
-      <a class="professor-link" role="listitem" href="mailto:{{ site.data.socials.email }}" aria-label="Send an email to {{ site.data.socials.email }}" title="Email">
-        <i class="fa-solid fa-envelope" aria-hidden="true"></i>
-        <span>Email</span>
-      </a>
-    {% endif %}
     {% if site.data.socials.linkedin_url and site.data.socials.linkedin_url != "" %}
       <a class="professor-link" role="listitem" href="{{ site.data.socials.linkedin_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open LinkedIn profile in a new tab" title="LinkedIn">
         <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
@@ -283,6 +277,8 @@ latest_posts:
     max-width: 320px;
     aspect-ratio: 4 / 5;
     object-fit: cover;
+    display: block;
+    margin: 0 auto;
     border-radius: 1rem;
     box-shadow: 0 14px 28px rgba(33, 18, 21, 0.12);
   }

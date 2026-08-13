@@ -2,7 +2,7 @@
 layout: page
 permalink: /people/
 title: PhD Students and Alumni
-nav_title: people
+nav_title: People
 description: PhD students and alumni supervised by Professor G. M. R. I. Godaliyadda.
 nav: true
 nav_order: 7
@@ -170,17 +170,29 @@ chart:
     const studentCharts = {};
 
     function batchKey(batch) {
-      const match = String(batch || "").match(/^([A-Z]+)(\d+)(.*)$/i);
-      if (!match) return ["ZZZ", Number.MAX_SAFE_INTEGER, ""];
-      return [match[1].toUpperCase(), Number(match[2]), match[3] || ""];
+      const value = String(batch || "").trim().toUpperCase();
+      const match = value.match(/^([A-Z]+)(\d+)(.*)$/i);
+      if (!match) return [Number.MAX_SAFE_INTEGER, 99, value];
+      const prefix = match[1].toUpperCase();
+      const year = Number(match[2]);
+      const suffix = (match[3] || "").trim();
+      const prefixRank =
+        prefix === "E"
+          ? 0
+          : prefix === "AG"
+            ? 1
+            : prefix === "S"
+              ? 2
+              : 3;
+      return [year, prefixRank, suffix];
     }
 
     function compareBatches(left, right) {
       const a = batchKey(left);
       const b = batchKey(right);
-      if (a[0] !== b[0]) return a[0].localeCompare(b[0]);
+      if (a[0] !== b[0]) return a[0] - b[0];
       if (a[1] !== b[1]) return a[1] - b[1];
-      return a[2].localeCompare(b[2]);
+      return String(a[2]).localeCompare(String(b[2]));
     }
 
     function countBy(values) {
@@ -194,7 +206,7 @@ chart:
     function normalizeBatchForChart(batch) {
       const value = String(batch || "").trim();
       if (!value) return "";
-      if (/^E\d+/i.test(value)) return value.toUpperCase();
+      if (/^E\d+$/i.test(value)) return value.toUpperCase();
       return "Non-Engineering / Other";
     }
 

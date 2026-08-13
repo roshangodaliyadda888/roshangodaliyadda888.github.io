@@ -2,7 +2,7 @@
 layout: page
 permalink: /awards/
 title: Awards & Grants
-nav_title: awards
+nav_title: Awards
 description: Awards, recognitions, and funded research activity.
 nav: true
 nav_order: 5
@@ -97,16 +97,26 @@ nav_order: 5
   }
 
   .awards-grants-page .section-links a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.5rem;
+    padding: 0.35rem 0.9rem;
     color: var(--global-text-color);
     text-decoration: none;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.35);
-    padding-bottom: 0.1rem;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    border-radius: 999px;
+    background: rgba(128, 128, 128, 0.05);
+    transition:
+      color 0.2s ease,
+      border-color 0.2s ease,
+      background-color 0.2s ease;
   }
 
   .awards-grants-page .section-links a:hover,
   .awards-grants-page .section-links a:focus-visible {
     color: var(--global-theme-color);
-    border-bottom-color: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+    background: rgba(128, 128, 128, 0.09);
   }
 
   .awards-grants-page .awards-grants-section + .awards-grants-section {
@@ -121,10 +131,6 @@ nav_order: 5
     height: 1px;
     margin-bottom: 0.75rem;
     background: rgba(128, 128, 128, 0.28);
-  }
-
-  .awards-grants-page .entry-list {
-    border-top: 1px solid rgba(128, 128, 128, 0.18);
   }
 
   .awards-grants-page .entry-row {
