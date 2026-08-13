@@ -208,8 +208,28 @@ calendar: false
   }
 
   @media (max-width: 700px) {
+    .teaching-page {
+      max-width: 100%;
+    }
+
+    .teaching-page__section {
+      margin-top: 2rem;
+    }
+
+    .teaching-page__section h2 {
+      font-size: 1.3rem;
+    }
+
     .course-card {
       padding: 1rem 1rem 1.05rem;
+    }
+
+    .course-card h3 {
+      font-size: 1.02rem;
+    }
+
+    .course-card ul {
+      padding-left: 1rem;
     }
   }
 </style>

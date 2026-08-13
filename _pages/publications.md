@@ -314,9 +314,24 @@ nav_order: 2
       font-size: 1.8rem;
     }
 
+    .impact-audit__heading h2 {
+      font-size: 1.04rem;
+      line-height: 1.4;
+    }
+
+    .impact-field h3 {
+      font-size: 0.96rem;
+      padding-left: 0.7rem;
+    }
+
     .impact-item {
       gap: 0.45rem;
       padding: 0.9rem 0;
+    }
+
+    .impact-field__list {
+      padding: 0.15rem 0.85rem 0.1rem;
+      border-radius: 10px;
     }
   }
 </style>

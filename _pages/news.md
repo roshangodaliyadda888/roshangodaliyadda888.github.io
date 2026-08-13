@@ -219,12 +219,29 @@ nav_order: 2
   }
 
   @media (max-width: 860px) {
+    .news-page {
+      max-width: 100%;
+    }
+
+    .news-page__intro {
+      margin-bottom: 1.5rem;
+    }
+
+    .news-group + .news-group {
+      margin-top: 2rem;
+    }
+
     .news-feature {
       grid-template-columns: 1fr;
+      gap: 1rem;
     }
 
     .news-feature__media {
-      max-width: 28rem;
+      max-width: 100%;
+    }
+
+    .news-feature__content h3 {
+      font-size: 1.08rem;
     }
   }
 </style>

@@ -190,13 +190,33 @@ nav_order: 5
   }
 
   @media (max-width: 700px) {
+    .awards-grants-page {
+      max-width: 100%;
+    }
+
+    .awards-grants-page .section-links {
+      gap: 0.7rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .awards-grants-page .section-links a {
+      min-height: 2.35rem;
+      padding: 0.35rem 0.8rem;
+      font-size: 0.92rem;
+    }
+
     .awards-grants-page .entry-row {
       grid-template-columns: minmax(0, 1fr);
       gap: 0.45rem;
+      padding: 0.85rem 0;
     }
 
     .awards-grants-page .entry-year {
       font-size: 0.95rem;
+    }
+
+    .awards-grants-page .entry-body h3 {
+      font-size: 1rem;
     }
   }
 </style>

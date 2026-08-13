@@ -347,6 +347,16 @@ latest_posts:
       max-width: 100%;
     }
 
+    .post .profile {
+      width: 100%;
+      margin: 0 0 1.25rem;
+      float: none;
+    }
+
+    .post .clearfix {
+      display: block;
+    }
+
     .professor-homepage p {
       font-size: 0.97rem;
     }
@@ -367,6 +377,16 @@ latest_posts:
 
     .professor-link:not(:last-child)::after {
       margin: 0 0.6rem;
+    }
+
+    .professor-sidebar {
+      padding: 0.95rem 1rem;
+      border-radius: 0.85rem;
+    }
+
+    .professor-sidebar__contacts a {
+      align-items: flex-start;
+      word-break: break-word;
     }
   }
 </style>

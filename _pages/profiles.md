@@ -164,7 +164,7 @@ chart:
 
       <article class="student-chart-card">
         <h3>Students by Batch</h3>
-        <div class="student-chart-card__canvas student-chart-card__canvas--tall">
+        <div class="student-chart-card__canvas student-chart-card__canvas--tall" id="students-by-batch-canvas-wrap">
           <canvas id="students-by-batch-chart" aria-label="Bar chart showing students by batch"></canvas>
         </div>
         <div id="students-by-batch-summary" class="student-chart-summary"></div>
@@ -180,7 +180,7 @@ chart:
 
       <article class="student-chart-card" id="students-by-area-card">
         <h3>Students by Academic Area</h3>
-        <div class="student-chart-card__canvas">
+        <div class="student-chart-card__canvas" id="students-by-area-canvas-wrap">
           <canvas id="students-by-area-chart" aria-label="Chart showing students by academic area"></canvas>
         </div>
         <div id="students-by-area-summary" class="student-chart-summary"></div>
@@ -534,6 +534,8 @@ chart:
       const universityEntries = Object.entries(countBy(records.flatMap((record) => getUniversities(record)))).sort((a, b) => b[1] - a[1]);
       renderSummaryTable("students-by-university-summary", universityEntries, totalStudents, "Count");
       const universityWrap = document.getElementById("students-by-university-canvas-wrap");
+      const batchWrap = document.getElementById("students-by-batch-canvas-wrap");
+      const areaWrap = document.getElementById("students-by-area-canvas-wrap");
       if (universityWrap) {
         universityWrap.style.minHeight = Math.max(320, universityEntries.length * 38) + "px";
       }
@@ -549,13 +551,15 @@ chart:
       }
 
       function renderAnalyticsCharts() {
+        const isNarrowScreen = window.innerWidth <= 640;
         const gridColor = getThemeValue("--student-chart-grid", getThemeValue("--student-border", "rgba(0,0,0,0.12)"));
         const textColor = getThemeValue("--student-chart-text", getThemeValue("--student-muted-strong", "#3e3e3e"));
         const sharedPlugins = {
           legend: {
+            display: !isNarrowScreen,
             labels: {
               color: textColor,
-              font: { size: 12 },
+              font: { size: isNarrowScreen ? 10 : 12 },
             },
           },
           tooltip: {
@@ -591,7 +595,13 @@ chart:
             responsive: true,
             maintainAspectRatio: false,
             animation: reducedMotion ? false : { duration: 300 },
-            plugins: sharedPlugins,
+            plugins: {
+              ...sharedPlugins,
+              legend: {
+                ...sharedPlugins.legend,
+                position: isNarrowScreen ? "bottom" : "top",
+              },
+            },
           },
         });
 
@@ -614,10 +624,10 @@ chart:
             animation: reducedMotion ? false : { duration: 300 },
             plugins: { ...sharedPlugins, legend: { display: false } },
             scales: {
-              x: { ticks: { color: textColor }, grid: { color: gridColor } },
+              x: { ticks: { color: textColor, maxRotation: isNarrowScreen ? 35 : 0, minRotation: isNarrowScreen ? 35 : 0, font: { size: isNarrowScreen ? 10 : 12 } }, grid: { color: gridColor } },
               y: {
                 beginAtZero: true,
-                ticks: { color: textColor, precision: 0 },
+                ticks: { color: textColor, precision: 0, font: { size: isNarrowScreen ? 10 : 12 } },
                 grid: { color: gridColor },
               },
             },
@@ -646,10 +656,10 @@ chart:
             scales: {
               x: {
                 beginAtZero: true,
-                ticks: { color: textColor, precision: 0 },
+                ticks: { color: textColor, precision: 0, font: { size: isNarrowScreen ? 10 : 12 } },
                 grid: { color: gridColor },
               },
-              y: { ticks: { color: textColor }, grid: { display: false } },
+              y: { ticks: { color: textColor, font: { size: isNarrowScreen ? 10 : 12 } }, grid: { display: false } },
             },
           },
         });
@@ -677,15 +687,31 @@ chart:
             scales: {
               x: {
                 beginAtZero: true,
-                ticks: { color: textColor, precision: 0 },
+                ticks: { color: textColor, precision: 0, font: { size: isNarrowScreen ? 10 : 12 } },
                 grid: { color: gridColor },
               },
-              y: { ticks: { color: textColor }, grid: { display: false } },
+              y: { ticks: { color: textColor, font: { size: isNarrowScreen ? 10 : 12 } }, grid: { display: false } },
             },
           },
         });
         } else {
           destroyChart("students-by-area-chart");
+        }
+
+        if (batchWrap) {
+          batchWrap.style.overflowX = isNarrowScreen ? "auto" : "visible";
+          const batchCanvas = document.getElementById("students-by-batch-chart");
+          if (batchCanvas) batchCanvas.style.minWidth = isNarrowScreen ? Math.max(520, batchEntries.length * 42) + "px" : "";
+        }
+        if (universityWrap) {
+          universityWrap.style.overflowX = isNarrowScreen ? "auto" : "visible";
+          const universityCanvas = document.getElementById("students-by-university-chart");
+          if (universityCanvas) universityCanvas.style.minWidth = isNarrowScreen ? "560px" : "";
+        }
+        if (areaWrap) {
+          areaWrap.style.overflowX = isNarrowScreen ? "auto" : "visible";
+          const areaCanvas = document.getElementById("students-by-area-chart");
+          if (areaCanvas) areaCanvas.style.minWidth = isNarrowScreen ? "520px" : "";
         }
       }
 
@@ -705,6 +731,7 @@ chart:
       const themeObserver = new MutationObserver(scheduleThemeRefresh);
       themeObserver.observe(document.documentElement, { attributes: true, attributeFilter: ["class", "data-theme"] });
       themeObserver.observe(document.body, { attributes: true, attributeFilter: ["class", "data-theme"] });
+      window.addEventListener("resize", scheduleThemeRefresh);
 
       const grid = document.getElementById("student-directory-grid");
       const noResults = document.getElementById("student-no-results");
@@ -938,18 +965,20 @@ chart:
     font-weight: 600;
   }
 
-  .student-chart-card__canvas {
-    position: relative;
-    min-height: 260px;
-  }
+    .student-chart-card__canvas {
+      position: relative;
+      min-height: 260px;
+      overflow-x: visible;
+      -webkit-overflow-scrolling: touch;
+    }
 
   .student-chart-card__canvas--tall {
     min-height: 320px;
   }
 
-  .student-chart-card__canvas--wide {
-    min-height: 360px;
-  }
+    .student-chart-card__canvas--wide {
+      min-height: 360px;
+    }
 
   .student-chart-summary {
     margin-top: 1rem;
@@ -1157,28 +1186,192 @@ chart:
   }
 
   @media (max-width: 640px) {
+    .student-directory-page {
+      gap: 1.35rem;
+    }
+
+    .student-directory-page__header {
+      max-width: 100%;
+    }
+
+    .student-directory-page__intro,
+    .student-data-note p {
+      font-size: 0.95rem;
+      line-height: 1.75;
+    }
+
     .student-stats__grid,
     .student-filter-form {
       grid-template-columns: 1fr;
     }
 
+    .student-analytics__grid,
+    .student-directory__grid {
+      gap: 0.95rem;
+    }
+
+    .student-section-heading h2,
+    .student-directory__toolbar h2 {
+      font-size: 1rem;
+    }
+
+    .student-stat {
+      padding: 0.75rem 0;
+    }
+
+    .student-stat__value {
+      font-size: 1.45rem;
+    }
+
+    .student-chart-card {
+      padding: 0.85rem;
+      border-radius: 7px;
+    }
+
+    .student-chart-card h3 {
+      margin-bottom: 0.7rem;
+      font-size: 0.95rem;
+      line-height: 1.4;
+    }
+
+    .student-chart-card__canvas {
+      min-height: 220px;
+    }
+
+    .student-chart-card__canvas--tall,
+    .student-chart-card__canvas--wide {
+      min-height: 240px;
+    }
+
+    .student-chart-summary {
+      display: none;
+    }
+
+    .student-chart-card__canvas,
+    .student-chart-card__canvas--tall,
+    .student-chart-card__canvas--wide {
+      overflow-x: auto;
+      overflow-y: hidden;
+    }
+
+    .student-filter-form {
+      gap: 0.8rem;
+    }
+
+    .student-filter-form label {
+      font-size: 0.88rem;
+    }
+
+    .student-filter-form input,
+    .student-filter-form select,
+    .student-filter-form button {
+      min-height: 2.6rem;
+      padding: 0.58rem 0.75rem;
+      font-size: 0.94rem;
+    }
+
+    .student-filter-form__actions {
+      width: 100%;
+    }
+
+    .student-filter-form__actions button {
+      width: 100%;
+    }
+
     .student-directory__toolbar {
       flex-direction: column;
       align-items: flex-start;
+      gap: 0.35rem;
+      margin-bottom: 0.8rem;
     }
 
     .student-card {
       grid-template-columns: 1fr;
+      gap: 0.8rem;
+      padding: 0.9rem;
+      border-radius: 7px;
     }
 
     .student-card__media {
       width: 100%;
-      max-width: 132px;
+      max-width: 9.5rem;
+      aspect-ratio: 1 / 1;
+      margin: 0 auto;
+    }
+
+    .student-placements-ribbon {
+      margin: 0.85rem 0 1rem;
+      overflow: visible;
+      padding: 0;
+      border-top: 0;
+      border-bottom: 0;
+    }
+
+    .student-placements-ribbon__track {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      width: 100%;
+      gap: 0.55rem;
+      animation: none;
     }
 
     .student-placements-ribbon__item {
+      justify-content: flex-start;
       font-size: 0.9rem;
-      padding: 0.68rem 0.85rem;
+      padding: 0.62rem 0.75rem;
+      min-width: 0;
+      border-radius: 0.85rem;
+      white-space: normal;
+    }
+
+    .student-placements-ribbon__logo {
+      width: 1.1rem;
+      height: 1.1rem;
+      flex-basis: 1.1rem;
+    }
+
+    .student-placements-ribbon__item[aria-hidden="true"] {
+      display: none;
+    }
+
+    .student-card__name {
+      font-size: 0.98rem;
+      line-height: 1.35;
+      text-align: center;
+    }
+
+    .student-card__meta,
+    .student-card__affiliation,
+    .student-card__area,
+    .student-directory__link,
+    .student-directory__count {
+      font-size: 0.9rem;
+    }
+
+    .student-card__meta,
+    .student-card__affiliation,
+    .student-card__area {
+      text-align: center;
+    }
+
+    .student-directory__link {
+      justify-content: center;
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 420px) {
+    .student-placements-ribbon__track {
+      grid-template-columns: 1fr;
+    }
+
+    .student-chart-card__canvas {
+      min-height: 200px;
+    }
+
+    .student-chart-card__canvas--tall,
+    .student-chart-card__canvas--wide {
+      min-height: 220px;
     }
   }
 
