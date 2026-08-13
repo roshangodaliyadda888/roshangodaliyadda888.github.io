@@ -1,0 +1,262 @@
+summary:
+  q1_journals: 32
+  tier1_conferences: 1
+  distinct_q1_journals: 24
+  high_impact_fields: 8
+groups:
+- name: AI for public health, social impact, and education
+  items:
+  - id: J01
+    key: I2025TheInfluenceOfSocial
+    year: 2025
+    title: 'The influence of social interactions in mitigating psychological distress
+      during the COVID?19 pandemic: a study in Sri Lanka'
+    authors_abbrev: Thilakasiri et al. (includes G. M. R. I. Godaliyadda)
+    venue_line: Front. Psychol. | 2025 SJR Q1
+  - id: J02
+    key: Senarath2024FamilyIncomeDoesNot
+    year: 2024
+    title: 'Family income does not necessarily lead to a holistic e-learning experience
+      during COVID-19: a study in Sri Lanka'
+    authors_abbrev: Senarath et al. (includes G. M. R. I. Godaliyadda)
+    venue_line: Humanities and Social Sciences Communications 11 | 2025 SJR Q1
+  - id: J03
+    key: Ilangarathna2024ADatasetOnThe
+    year: 2024
+    title: A dataset on the socioeconomic and behavioural impacts in Sri Lanka through
+      multiple waves of COVID-19
+    authors_abbrev: Ilangarathna et al. (includes G. M. R. I. Godaliyadda)
+    venue_line: Data in Brief | 2025 SJR Q1
+  - id: J04
+    key: Weligampola2023PandemicSimulatorAnAgent
+    year: 2023
+    title: 'Pandemic Simulator: An Agent-Based Framework with Human Behavior Modeling
+      for Pandemic-Impact Assessment to Build Sustainable Communities'
+    authors_abbrev: Weligampola et al. (includes G. M. R. I. Godaliyadda)
+    venue_line: Sustainability | 2025 SJR Q1
+  - id: J05
+    key: Ilangarathna2022AComprehensiveOverviewOf
+    year: 2022
+    title: 'A Comprehensive Overview of Education During Three COVID-19 Pandemic Periods:
+      Impact on Engineering Students in Sri Lanka'
+    authors_abbrev: Ilangarathna et al. (includes G. M. R. I. Godaliyadda)
+    venue_line: Education Sciences | 2025 SJR Q1
+  count: 5
+- name: Biomedical signal processing, wearable sensing, and AI
+  items:
+  - id: J06
+    key: Pandukabhaya2025PerformanceBenchmarkingOfPsychomotor
+    year: 2025
+    title: 'Performance Benchmarking of Psychomotor Skills Using Wearable Devices:
+      An Application in Sport'
+    authors_abbrev: Pandukabhaya et al. (includes G. M. R. I. Godaliyadda)
+    venue_line: IEEE Access | 2025 SJR Q1
+  - id: J07
+    key: Somathilake2022AssessmentOfFetalAnd
+    year: 2022
+    title: Assessment of Fetal and Maternal Well-Being During Pregnancy Using Passive
+      Wearable Inertial Sensor
+    authors_abbrev: Somathilake et al. (includes G. M. R. I. Godaliyadda)
+    venue_line: IEEE Transactions on Instrumentation and Measurement | 2025 SJR Q1
+  - id: J08
+    key: Delay2021NovelNonInvasiveIn
+    year: 2021
+    title: Novel non-invasive in-house fabricated wearable system with a hybrid algorithm
+      for fetal movement recognition
+    authors_abbrev: Delay et al. (includes G. M. R. I. Godaliyadda)
+    venue_line: PLOS ONE | 2025 SJR Q1
+  count: 3
+- name: Multispectral imaging for food and agricultural quality
+  items:
+  - id: J09
+    key: Udayanga2024DualModeMultispectralImaging
+    year: 2024
+    title: Dual Mode Multispectral Imaging System for Food and Agricultural Product
+      Quality Estimation
+    authors_abbrev: Udayanga et al. (includes G. M. R. I. Godaliyadda)
+    venue_line: IEEE Transactions on Instrumentation & Measurement | 2025 SJR Q1
+  - id: J10
+    key: Madushan2024AflatoxinContaminationLevelEstimation
+    year: 2024
+    title: Aflatoxin contamination level estimation in food using reflectance multispectral
+      imaging based system
+    authors_abbrev: Madushan et al. (includes G. M. R. I. Godaliyadda)
+    venue_line: Journal of Agriculture and Food Research | 2025 SJR Q1
+  - id: J11
+    key: Jayasundara2023DeepLearningForAutomated
+    year: 2023
+    title: Deep learning for automated fish grading
+    authors_abbrev: Jayasundara et al. (includes G. M. R. I. Godaliyadda)
+    venue_line: Journal of Agriculture and Food Research | 2025 SJR Q1
+  - id: J12
+    key: Ranasinghe2022TransmittanceMultispectralImagingFor
+    year: 2022
+    title: Transmittance Multispectral Imaging for Reheated Coconut Oil Differentiation
+    authors_abbrev: Ranasinghe et al. (includes G. M. R. I. Godaliyadda)
+    venue_line: IEEE Access | 2025 SJR Q1
+  - id: J13
+    key: Bandara2020ValidationOfMultispectralImaging
+    year: 2020
+    title: Validation of multispectral imaging for the detection of selected adulterants
+      in turmeric samples
+    authors_abbrev: Bandara et al. (includes G. M. R. I. Godaliyadda)
+    venue_line: Journal of Food Engineering | 2025 SJR Q1
+  count: 5
+- name: Optical wireless communications and light-based IoT
+  items:
+  - id: J14
+    key: Perera2025LightingTheWayFor
+    year: 2025
+    title: 'Lighting the Way for a Sustainable Future: Overcoming Challenges in Light-Based
+      IoT and Data-Energy Networking'
+    authors_abbrev: Perera et al. (includes G. M. R. I. Godaliyadda)
+    venue_line: IEEE Communications Magazine | 2025 SJR Q1
+  - id: J15
+    key: Palitharathna2024NeuralNetworkBasedBlockage
+    year: 2024
+    title: Neural Network-Based Blockage Prediction and Optimization in Lightwave
+      Power Transfer-Enabled Hybrid VLC/RF Systems
+    authors_abbrev: Palitharathna et al. (includes G. M. R. I. Godaliyadda)
+    venue_line: IEEE Internet of Things Journal | 2025 SJR Q1
+  - id: J16
+    key: Palitharathna2022NeuralNetworkBasedChannel
+    year: 2022
+    title: Neural Network-Based Channel Estimation and Detection in Spatial Modulation
+      VLC Systems
+    authors_abbrev: Palitharathna et al. (includes G. M. R. I. Godaliyadda)
+    venue_line: IEEE Communications Letters | 2025 SJR Q1
+  - id: J17
+    key: Palitharathna2022LightwavePowerTransferIn
+    year: 2022
+    title: Lightwave Power Transfer in Full-Duplex NOMA Underwater Optical Wireless
+      Communication Systems
+    authors_abbrev: Palitharathna et al. (includes G. M. R. I. Godaliyadda)
+    venue_line: IEEE Communications Letters | 2025 SJR Q1
+  - id: J18
+    key: Perera2021LightBasedIotDeveloping
+    year: 2021
+    title: 'Light-Based IoT: Developing a Full-Duplex Energy Autonomous IoT Node Using
+      Printed Electronics Technology'
+    authors_abbrev: Perera et al. (includes G. M. R. I. Godaliyadda)
+    venue_line: Sensors | 2025 SJR Q1
+  - id: J19
+    key: Palitharathna2021AverageRateAnalysisOf
+    year: 2021
+    title: Average Rate Analysis of Cooperative NOMA Aided Underwater Optical Wireless
+      Systems
+    authors_abbrev: Palitharathna et al. (includes G. M. R. I. Godaliyadda)
+    venue_line: IEEE Open Journal of the Communications Society | 2025 SJR Q1
+  count: 6
+- name: Remote sensing and hyperspectral image processing
+  items:
+  - id: J20
+    key: Ratnayake2025HyperspectralUnmixingWithSpatial
+    year: 2025
+    title: Hyperspectral unmixing with spatial context and endmember ensemble learning
+      with attention mechanism
+    authors_abbrev: Ratnayake et al. (includes G. M. R. I. Godaliyadda)
+    venue_line: ISPRS Open Journal of Photogrammetry and Remote Sensing | 2025 SJR
+      Q1
+  - id: J21
+    key: Wickramathilaka2023GaussGuidedEncoderDecoder
+    year: 2023
+    title: 'GAUSS: Guided encoder - decoder Architecture for hyperspectral Unmixing
+      with Spatial Smoothness'
+    authors_abbrev: Wickramathilaka et al. (includes G. M. R. I. Godaliyadda)
+    venue_line: European Journal of Remote Sensing | 2025 SJR Q1
+  - id: J22
+    key: Ekanayake2021ConstrainedNonnegativeMatrixFactorization
+    year: 2021
+    title: Constrained Nonnegative Matrix Factorization for Blind Hyperspectral Unmixing
+      Incorporating Endmember Independence
+    authors_abbrev: Ekanayake et al. (includes G. M. R. I. Godaliyadda)
+    venue_line: IEEE Journal of Selected Topics in Applied Earth Observations and
+      Remote Sensing | 2025 SJR Q1
+  - id: J23
+    key: Rathnayake2020GraphBasedBlindHyperspectral
+    year: 2020
+    title: Graph-Based Blind Hyperspectral Unmixing via Nonnegative Matrix Factorization
+    authors_abbrev: Rathnayake et al. (includes G. M. R. I. Godaliyadda)
+    venue_line: IEEE Transactions on Geoscience and Remote Sensing | 2025 SJR Q1
+  count: 4
+- name: Smart grids, NILM, solar PV integration, and forecasting
+  items:
+  - id: J24
+    key: Bandara2021ACompleteStateEstimation
+    year: 2021
+    title: A complete state estimation algorithm for a three-phase four-wire low voltage
+      distribution system with high penetration of solar PV
+    authors_abbrev: Bandara et al. (includes G. M. R. I. Godaliyadda)
+    venue_line: International Journal of Electrical Power & Energy Systems | 2025
+      SJR Q1
+  - id: J25
+    key: Hassan2021ASensitivityMatrixApproach
+    year: 2021
+    title: A Sensitivity Matrix Approach Using Two-Stage Optimization for Voltage
+      Regulation of LV Networks with High PV Penetration
+    authors_abbrev: Hassan et al. (includes G. M. R. I. Godaliyadda)
+    venue_line: Energies | 2025 SJR Q1
+  - id: J26
+    key: Almeida2020GeneralizedApproachToAssess
+    year: 2020
+    title: Generalized approach to assess and characterise the impact of solar PV
+      on LV networks
+    authors_abbrev: Almeida et al. (includes G. M. R. I. Godaliyadda)
+    venue_line: International Journal of Electrical Power & Energy Systems | 2025
+      SJR Q1
+  - id: J27
+    key: Bandara2020CoordinatedPhotovoltaicRePhasing
+    year: 2020
+    title: 'Coordinated photovoltaic re-phasing: A novel method to maximize the renewable
+      energy integration in low voltage networks by mitigating network unbalances'
+    authors_abbrev: Bandara et al. (includes G. M. R. I. Godaliyadda)
+    venue_line: Applied Energy | 2025 SJR Q1
+  - id: J28
+    key: Welikala2019IncorporatingApplianceUsagePatterns
+    year: 2019
+    title: Incorporating Appliance Usage Patterns for Non-Intrusive Load Monitoring
+      and Load Forecasting
+    authors_abbrev: Welikala et al. (includes G. M. R. I. Godaliyadda)
+    venue_line: IEEE Transactions on Smart Grid | 2025 SJR Q1
+  - id: J29
+    key: Welikala2019ImplementationOfARobust
+    year: 2019
+    title: Implementation of a robust real-time non-intrusive load monitoring solution
+    authors_abbrev: Welikala et al. (includes G. M. R. I. Godaliyadda)
+    venue_line: Applied Energy | 2025 SJR Q1
+  - id: J30
+    key: Dinesh2017NonIntrusiveLoadMonitoring
+    year: 2017
+    title: Non-intrusive load monitoring under residential solar power influx
+    authors_abbrev: Dinesh et al. (includes G. M. R. I. Godaliyadda)
+    venue_line: Applied Energy | 2025 SJR Q1
+  - id: J31
+    key: Dinesh2016ResidentialApplianceIdentificationBased
+    year: 2016
+    title: Residential Appliance Identification based on Spectral Information of Low
+      Frequency Smart Meter Measurements
+    authors_abbrev: Dinesh et al. (includes G. M. R. I. Godaliyadda)
+    venue_line: IEEE Trans. Smart Grid | 2025 SJR Q1
+  count: 8
+- name: Spectral condition monitoring of electrical insulation
+  items:
+  - id: J32
+    key: Abeysekara2017RemoteLeakageCurrentDetector
+    year: 2017
+    title: Remote Leakage Current Detector for Identification of Insulators Discharges
+    authors_abbrev: Abeysekara et al. (includes G. M. R. I. Godaliyadda)
+    venue_line: IEEE Transactions on Dielectrics and Electrical Insulation | 2025
+      SJR Q1
+  count: 1
+- name: Tier-1 conference publication
+  items:
+  - &id001
+    id: C01
+    key: Thennakoon2026CosmoInrComplexSinusoidal
+    year: 2026
+    title: 'COSMO-INR: Complex Sinusoidal Modulation for Implicit Neural Representations'
+    authors_abbrev: Thennakoon et al. (includes G. M. R. I. Godaliyadda)
+    venue_line: the 14th International Conference on Learning Representations (ICLR
+      2026). Rio de Janeiro, Brazil | ICORE2026 A*
+  count: 1
+tier1: *id001
