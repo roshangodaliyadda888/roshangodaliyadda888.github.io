@@ -1,7 +1,8 @@
 ---
 layout: page
 permalink: /people/
-title: people
+title: PhD Students and Alumni
+nav_title: people
 description: PhD students and alumni supervised by Professor G. M. R. I. Godaliyadda.
 nav: true
 nav_order: 7
@@ -11,11 +12,31 @@ chart:
 
 <section class="student-directory-page" aria-labelledby="students-directory-title">
   <header class="student-directory-page__header">
-    <p class="student-directory-page__eyebrow">Research Supervision</p>
-    <h1 id="students-directory-title">PhD Students and Alumni</h1>
+    <h1 id="students-directory-title" class="visually-hidden">PhD Students and Alumni</h1>
     <p class="student-directory-page__intro">
-      An overview of the PhD students and alumni supervised by Professor G. M. R. I. Godaliyadda, including their academic destinations,
-      institutions and current professional affiliations.
+      Under the dedicated mentorship of Prof. Roshan Godaliyadda and his team of supervisors, our alumni have
+      achieved remarkable global success. His rigorous research supervision and commitment to cultivating academic
+      excellence have consistently empowered students to secure highly competitive PhD placements at the world's
+      most prestigious institutions.
+    </p>
+    <p class="student-directory-page__intro">
+      Our past researchers have proudly advanced their studies at:
+    </p>
+    <ul class="student-directory-page__intro-list" aria-label="Prestigious doctoral destinations">
+      <li>
+        <strong>Ivy League &amp; Elite Institutions:</strong> Princeton University, Columbia University, Cornell
+        University, and Rice University
+      </li>
+      <li>
+        <strong>Premier Global Research Hubs:</strong> University of Michigan, UIUC, UC San Diego, UCLA, and the
+        University of Waterloo
+      </li>
+    </ul>
+    <p class="student-directory-page__intro">
+      Building upon this world-class foundational research training, these exceptional scholars have transitioned
+      into highly influential roles, driving technological innovation at global industry giants such as Apple,
+      Meta, Microsoft, and PayPal. Prof. Godaliyadda's expert guidance continues to shape the trajectory of
+      engineering leaders worldwide.
     </p>
   </header>
 
@@ -168,6 +189,13 @@ chart:
         accumulator[value] = (accumulator[value] || 0) + 1;
         return accumulator;
       }, {});
+    }
+
+    function normalizeBatchForChart(batch) {
+      const value = String(batch || "").trim();
+      if (!value) return "";
+      if (/^E\d+/i.test(value)) return value.toUpperCase();
+      return "Non-Engineering / Other";
     }
 
     function getUniversities(record) {
@@ -385,14 +413,14 @@ chart:
       );
       renderSummaryTable("students-by-country-summary", countryEntries, totalStudents, "Count");
 
-      const batchEntries = Object.entries(countBy(records.map((record) => record.batch))).sort((a, b) => compareBatches(a[0], b[0]));
+      const batchEntries = Object.entries(countBy(records.map((record) => normalizeBatchForChart(record.batch)))).sort((a, b) => {
+        if (a[0] === "Non-Engineering / Other") return 1;
+        if (b[0] === "Non-Engineering / Other") return -1;
+        return compareBatches(a[0], b[0]);
+      });
       renderSummaryTable("students-by-batch-summary", batchEntries, totalStudents, "Count");
 
-      const universityEntries = groupCounts(
-        Object.entries(countBy(records.flatMap((record) => getUniversities(record)))).sort((a, b) => b[1] - a[1]),
-        10,
-        "Other"
-      );
+      const universityEntries = Object.entries(countBy(records.flatMap((record) => getUniversities(record)))).sort((a, b) => b[1] - a[1]);
       renderSummaryTable("students-by-university-summary", universityEntries, totalStudents, "Count");
       const universityWrap = document.getElementById("students-by-university-canvas-wrap");
       if (universityWrap) {
@@ -664,18 +692,16 @@ chart:
     max-width: 46rem;
   }
 
-  .student-directory-page__eyebrow {
-    margin: 0 0 0.4rem;
-    font-size: 0.92rem;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: var(--student-accent);
-  }
-
-  .student-directory-page__header h1 {
-    margin-bottom: 0.75rem;
-    font-size: clamp(2rem, 3vw, 2.5rem);
-    font-weight: 600;
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
   }
 
   .student-directory-page__intro,
@@ -683,6 +709,22 @@ chart:
     max-width: 46rem;
     margin: 0;
     font-size: 1rem;
+    line-height: 1.7;
+    color: var(--student-muted-strong);
+  }
+
+  .student-directory-page__intro + .student-directory-page__intro {
+    margin-top: 0.9rem;
+  }
+
+  .student-directory-page__intro-list {
+    max-width: 46rem;
+    margin: 0.9rem 0;
+    padding-left: 1.15rem;
+  }
+
+  .student-directory-page__intro-list li {
+    margin: 0.45rem 0;
     line-height: 1.7;
     color: var(--student-muted-strong);
   }
