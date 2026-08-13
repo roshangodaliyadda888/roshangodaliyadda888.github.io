@@ -896,7 +896,7 @@
   current_affiliation: ''
   status: ''
   sort_name: Subash Wickramasinghe
-  image: subash-wickramasinghe.jpg
+  image: placeholder-person.svg
   profile_url: ''
   universities:
   - Old Dominion University
@@ -911,7 +911,7 @@
   current_affiliation: ''
   status: ''
   sort_name: Suren Sritharan
-  image: suren-sritharan.jpg
+  image: suren-sritharan.webp
   profile_url: ''
   universities:
   - Technical University of Munich
@@ -1592,16 +1592,16 @@
   - Rice University
   source_sheet: Elec
   source_row: 97
-- name: Uthpala Ranasinghe
-  slug: uthpala-ranasinghe
+- name: Uthpala Ratnayake
+  slug: uthpala-ratnayake
   batch: E18
   university: Australian National University
   country: Australia
   academic_area: Electrical and Electronic Engineering
   current_affiliation: PhD Student - Australian National University
   status: ''
-  sort_name: Uthpala Ranasinghe
-  image: uthpala-ranasinghe.jpg
+  sort_name: Uthpala Ratnayake
+  image: uthpala-ratnayake.jpg
   profile_url: ''
   universities:
   - Australian National University
