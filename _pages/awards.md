@@ -2,18 +2,24 @@
 layout: page
 permalink: /awards/
 title: Awards & Grants
+nav_title: Awards
 description: Awards, recognitions, and funded research activity.
 nav: true
 nav_order: 5
 ---
 
-{% assign awards = site.data.awards_grants.awards | sort: "year" | reverse %}
+{% assign awards = site.data.awards_grants.awards %}
 {% assign grants = site.data.awards_grants.grants %}
 
 <div class="awards-grants-page">
   <p class="section-intro">
-    A structured record of academic honours and funded research activity, prepared from the January 2026 curriculum vitae and checked against the University of Peradeniya public profile.
+    Prof. Roshan Godaliyadda’s remarkable academic journey is defined by a continuous commitment to research excellence. This section highlights his prestigious accolades, including multiple President's Awards and international Best Paper honors, alongside significant research grants secured from prominent organizations like the NSF and IDRC.
   </p>
+
+  <nav class="section-links" aria-label="Awards and grants sections">
+    <a href="#awards-heading">Awards</a>
+    <a href="#grants-heading">Grants</a>
+  </nav>
 
   <section class="awards-grants-section" aria-labelledby="awards-heading">
     <h2 id="awards-heading">Awards</h2>
@@ -30,6 +36,13 @@ nav_order: 5
             </p>
             {% if award.notes != blank %}
               <p class="entry-notes">{{ award.notes }}</p>
+            {% endif %}
+            {% if award.citations %}
+              <ul class="award-citations">
+                {% for citation in award.citations %}
+                  <li>{{ citation }}</li>
+                {% endfor %}
+              </ul>
             {% endif %}
           </div>
         </article>
@@ -71,9 +84,39 @@ nav_order: 5
   }
 
   .awards-grants-page .section-intro {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     color: var(--global-text-color);
     line-height: 1.75;
+  }
+
+  .awards-grants-page .section-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .awards-grants-page .section-links a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.5rem;
+    padding: 0.35rem 0.9rem;
+    color: var(--global-text-color);
+    text-decoration: none;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    border-radius: 999px;
+    background: rgba(128, 128, 128, 0.05);
+    transition:
+      color 0.2s ease,
+      border-color 0.2s ease,
+      background-color 0.2s ease;
+  }
+
+  .awards-grants-page .section-links a:hover,
+  .awards-grants-page .section-links a:focus-visible {
+    color: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+    background: rgba(128, 128, 128, 0.09);
   }
 
   .awards-grants-page .awards-grants-section + .awards-grants-section {
@@ -88,10 +131,6 @@ nav_order: 5
     height: 1px;
     margin-bottom: 0.75rem;
     background: rgba(128, 128, 128, 0.28);
-  }
-
-  .awards-grants-page .entry-list {
-    border-top: 1px solid rgba(128, 128, 128, 0.18);
   }
 
   .awards-grants-page .entry-row {
@@ -133,6 +172,17 @@ nav_order: 5
     opacity: 0.82;
   }
 
+  .awards-grants-page .award-citations {
+    margin: 0.6rem 0 0;
+    padding-left: 1.15rem;
+  }
+
+  .awards-grants-page .award-citations li {
+    margin: 0.35rem 0;
+    line-height: 1.65;
+    color: var(--global-text-color);
+  }
+
   .awards-grants-page .meta-separator {
     display: inline-block;
     margin: 0 0.55rem;
@@ -140,13 +190,33 @@ nav_order: 5
   }
 
   @media (max-width: 700px) {
+    .awards-grants-page {
+      max-width: 100%;
+    }
+
+    .awards-grants-page .section-links {
+      gap: 0.7rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .awards-grants-page .section-links a {
+      min-height: 2.35rem;
+      padding: 0.35rem 0.8rem;
+      font-size: 0.92rem;
+    }
+
     .awards-grants-page .entry-row {
       grid-template-columns: minmax(0, 1fr);
       gap: 0.45rem;
+      padding: 0.85rem 0;
     }
 
     .awards-grants-page .entry-year {
       font-size: 0.95rem;
+    }
+
+    .awards-grants-page .entry-body h3 {
+      font-size: 1rem;
     }
   }
 </style>

@@ -1,7 +1,8 @@
 ---
 layout: page
 permalink: /people/
-title: people
+title: PhD Students and Alumni
+nav_title: People
 description: PhD students and alumni supervised by Professor G. M. R. I. Godaliyadda.
 nav: true
 nav_order: 7
@@ -11,11 +12,130 @@ chart:
 
 <section class="student-directory-page" aria-labelledby="students-directory-title">
   <header class="student-directory-page__header">
-    <p class="student-directory-page__eyebrow">Research Supervision</p>
-    <h1 id="students-directory-title">PhD Students and Alumni</h1>
+    <h1 id="students-directory-title" class="visually-hidden">PhD Students and Alumni</h1>
     <p class="student-directory-page__intro">
-      An overview of the PhD students and alumni supervised by Professor G. M. R. I. Godaliyadda, including their academic destinations,
-      institutions and current professional affiliations.
+      Under the dedicated mentorship of Prof. Roshan Godaliyadda and his team of supervisors, our alumni have
+      achieved <strong>remarkable global success</strong>. His rigorous research supervision and commitment to cultivating academic
+      excellence have consistently empowered students to secure highly competitive PhD placements at the world's
+      most prestigious institutions.
+    </p>
+    <p class="student-directory-page__intro">
+      Our past researchers have proudly advanced into leading doctoral programs and influential industry roles.
+    </p>
+    <div class="student-placements-ribbon" aria-label="Highlighted university and industry destinations">
+      <div class="student-placements-ribbon__track">
+        <div class="student-placements-ribbon__item">
+          <img src="{{ '/assets/img/placements/princeton.png' | relative_url }}" alt="Princeton University logo" class="student-placements-ribbon__logo">
+          <span>Princeton University</span>
+        </div>
+        <div class="student-placements-ribbon__item">
+          <img src="{{ '/assets/img/placements/columbia.png' | relative_url }}" alt="Columbia University logo" class="student-placements-ribbon__logo">
+          <span>Columbia University</span>
+        </div>
+        <div class="student-placements-ribbon__item">
+          <img src="{{ '/assets/img/placements/cornell.png' | relative_url }}" alt="Cornell University logo" class="student-placements-ribbon__logo">
+          <span>Cornell University</span>
+        </div>
+        <div class="student-placements-ribbon__item">
+          <img src="{{ '/assets/img/placements/rice.png' | relative_url }}" alt="Rice University logo" class="student-placements-ribbon__logo">
+          <span>Rice University</span>
+        </div>
+        <div class="student-placements-ribbon__item">
+          <img src="{{ '/assets/img/placements/michigan.png' | relative_url }}" alt="University of Michigan logo" class="student-placements-ribbon__logo">
+          <span>University of Michigan</span>
+        </div>
+        <div class="student-placements-ribbon__item">
+          <img src="{{ '/assets/img/placements/uiuc.png' | relative_url }}" alt="UIUC logo" class="student-placements-ribbon__logo">
+          <span>UIUC</span>
+        </div>
+        <div class="student-placements-ribbon__item">
+          <img src="{{ '/assets/img/placements/ucsd.png' | relative_url }}" alt="UC San Diego logo" class="student-placements-ribbon__logo">
+          <span>UC San Diego</span>
+        </div>
+        <div class="student-placements-ribbon__item">
+          <img src="{{ '/assets/img/placements/ucla.png' | relative_url }}" alt="UCLA logo" class="student-placements-ribbon__logo">
+          <span>UCLA</span>
+        </div>
+        <div class="student-placements-ribbon__item">
+          <img src="{{ '/assets/img/placements/waterloo.png' | relative_url }}" alt="University of Waterloo logo" class="student-placements-ribbon__logo">
+          <span>University of Waterloo</span>
+        </div>
+        <div class="student-placements-ribbon__item">
+          <img src="{{ '/assets/img/placements/apple.png' | relative_url }}" alt="Apple logo" class="student-placements-ribbon__logo">
+          <span>Apple</span>
+        </div>
+        <div class="student-placements-ribbon__item">
+          <img src="{{ '/assets/img/placements/meta.png' | relative_url }}" alt="Meta logo" class="student-placements-ribbon__logo">
+          <span>Meta</span>
+        </div>
+        <div class="student-placements-ribbon__item">
+          <img src="{{ '/assets/img/placements/microsoft.png' | relative_url }}" alt="Microsoft logo" class="student-placements-ribbon__logo">
+          <span>Microsoft</span>
+        </div>
+        <div class="student-placements-ribbon__item">
+          <img src="{{ '/assets/img/placements/paypal.png' | relative_url }}" alt="PayPal logo" class="student-placements-ribbon__logo">
+          <span>PayPal</span>
+        </div>
+
+        <div class="student-placements-ribbon__item" aria-hidden="true">
+          <img src="{{ '/assets/img/placements/princeton.png' | relative_url }}" alt="" class="student-placements-ribbon__logo">
+          <span>Princeton University</span>
+        </div>
+        <div class="student-placements-ribbon__item" aria-hidden="true">
+          <img src="{{ '/assets/img/placements/columbia.png' | relative_url }}" alt="" class="student-placements-ribbon__logo">
+          <span>Columbia University</span>
+        </div>
+        <div class="student-placements-ribbon__item" aria-hidden="true">
+          <img src="{{ '/assets/img/placements/cornell.png' | relative_url }}" alt="" class="student-placements-ribbon__logo">
+          <span>Cornell University</span>
+        </div>
+        <div class="student-placements-ribbon__item" aria-hidden="true">
+          <img src="{{ '/assets/img/placements/rice.png' | relative_url }}" alt="" class="student-placements-ribbon__logo">
+          <span>Rice University</span>
+        </div>
+        <div class="student-placements-ribbon__item" aria-hidden="true">
+          <img src="{{ '/assets/img/placements/michigan.png' | relative_url }}" alt="" class="student-placements-ribbon__logo">
+          <span>University of Michigan</span>
+        </div>
+        <div class="student-placements-ribbon__item" aria-hidden="true">
+          <img src="{{ '/assets/img/placements/uiuc.png' | relative_url }}" alt="" class="student-placements-ribbon__logo">
+          <span>UIUC</span>
+        </div>
+        <div class="student-placements-ribbon__item" aria-hidden="true">
+          <img src="{{ '/assets/img/placements/ucsd.png' | relative_url }}" alt="" class="student-placements-ribbon__logo">
+          <span>UC San Diego</span>
+        </div>
+        <div class="student-placements-ribbon__item" aria-hidden="true">
+          <img src="{{ '/assets/img/placements/ucla.png' | relative_url }}" alt="" class="student-placements-ribbon__logo">
+          <span>UCLA</span>
+        </div>
+        <div class="student-placements-ribbon__item" aria-hidden="true">
+          <img src="{{ '/assets/img/placements/waterloo.png' | relative_url }}" alt="" class="student-placements-ribbon__logo">
+          <span>University of Waterloo</span>
+        </div>
+        <div class="student-placements-ribbon__item" aria-hidden="true">
+          <img src="{{ '/assets/img/placements/apple.png' | relative_url }}" alt="" class="student-placements-ribbon__logo">
+          <span>Apple</span>
+        </div>
+        <div class="student-placements-ribbon__item" aria-hidden="true">
+          <img src="{{ '/assets/img/placements/meta.png' | relative_url }}" alt="" class="student-placements-ribbon__logo">
+          <span>Meta</span>
+        </div>
+        <div class="student-placements-ribbon__item" aria-hidden="true">
+          <img src="{{ '/assets/img/placements/microsoft.png' | relative_url }}" alt="" class="student-placements-ribbon__logo">
+          <span>Microsoft</span>
+        </div>
+        <div class="student-placements-ribbon__item" aria-hidden="true">
+          <img src="{{ '/assets/img/placements/paypal.png' | relative_url }}" alt="" class="student-placements-ribbon__logo">
+          <span>PayPal</span>
+        </div>
+      </div>
+    </div>
+    <p class="student-directory-page__intro">
+      Building upon this world-class foundational research training, these exceptional scholars have transitioned
+      into <strong>highly influential roles</strong>, driving technological innovation at global industry giants such as Apple,
+      Meta, Microsoft, and PayPal. Prof. Godaliyadda's expert guidance continues to shape the trajectory of
+      engineering leaders worldwide.
     </p>
   </header>
 
@@ -44,7 +164,7 @@ chart:
 
       <article class="student-chart-card">
         <h3>Students by Batch</h3>
-        <div class="student-chart-card__canvas student-chart-card__canvas--tall">
+        <div class="student-chart-card__canvas student-chart-card__canvas--tall" id="students-by-batch-canvas-wrap">
           <canvas id="students-by-batch-chart" aria-label="Bar chart showing students by batch"></canvas>
         </div>
         <div id="students-by-batch-summary" class="student-chart-summary"></div>
@@ -60,7 +180,7 @@ chart:
 
       <article class="student-chart-card" id="students-by-area-card">
         <h3>Students by Academic Area</h3>
-        <div class="student-chart-card__canvas">
+        <div class="student-chart-card__canvas" id="students-by-area-canvas-wrap">
           <canvas id="students-by-area-chart" aria-label="Chart showing students by academic area"></canvas>
         </div>
         <div id="students-by-area-summary" class="student-chart-summary"></div>
@@ -149,17 +269,29 @@ chart:
     const studentCharts = {};
 
     function batchKey(batch) {
-      const match = String(batch || "").match(/^([A-Z]+)(\d+)(.*)$/i);
-      if (!match) return ["ZZZ", Number.MAX_SAFE_INTEGER, ""];
-      return [match[1].toUpperCase(), Number(match[2]), match[3] || ""];
+      const value = String(batch || "").trim().toUpperCase();
+      const match = value.match(/^([A-Z]+)(\d+)(.*)$/i);
+      if (!match) return [Number.MAX_SAFE_INTEGER, 99, value];
+      const prefix = match[1].toUpperCase();
+      const year = Number(match[2]);
+      const suffix = (match[3] || "").trim();
+      const prefixRank =
+        prefix === "E"
+          ? 0
+          : prefix === "AG"
+            ? 1
+            : prefix === "S"
+              ? 2
+              : 3;
+      return [year, prefixRank, suffix];
     }
 
     function compareBatches(left, right) {
       const a = batchKey(left);
       const b = batchKey(right);
-      if (a[0] !== b[0]) return a[0].localeCompare(b[0]);
+      if (a[0] !== b[0]) return a[0] - b[0];
       if (a[1] !== b[1]) return a[1] - b[1];
-      return a[2].localeCompare(b[2]);
+      return String(a[2]).localeCompare(String(b[2]));
     }
 
     function countBy(values) {
@@ -168,6 +300,13 @@ chart:
         accumulator[value] = (accumulator[value] || 0) + 1;
         return accumulator;
       }, {});
+    }
+
+    function normalizeBatchForChart(batch) {
+      const value = String(batch || "").trim();
+      if (!value) return "";
+      if (/^E\d+$/i.test(value)) return value.toUpperCase();
+      return "Non-Engineering / Other";
     }
 
     function getUniversities(record) {
@@ -385,16 +524,18 @@ chart:
       );
       renderSummaryTable("students-by-country-summary", countryEntries, totalStudents, "Count");
 
-      const batchEntries = Object.entries(countBy(records.map((record) => record.batch))).sort((a, b) => compareBatches(a[0], b[0]));
+      const batchEntries = Object.entries(countBy(records.map((record) => normalizeBatchForChart(record.batch)))).sort((a, b) => {
+        if (a[0] === "Non-Engineering / Other") return 1;
+        if (b[0] === "Non-Engineering / Other") return -1;
+        return compareBatches(a[0], b[0]);
+      });
       renderSummaryTable("students-by-batch-summary", batchEntries, totalStudents, "Count");
 
-      const universityEntries = groupCounts(
-        Object.entries(countBy(records.flatMap((record) => getUniversities(record)))).sort((a, b) => b[1] - a[1]),
-        10,
-        "Other"
-      );
+      const universityEntries = Object.entries(countBy(records.flatMap((record) => getUniversities(record)))).sort((a, b) => b[1] - a[1]);
       renderSummaryTable("students-by-university-summary", universityEntries, totalStudents, "Count");
       const universityWrap = document.getElementById("students-by-university-canvas-wrap");
+      const batchWrap = document.getElementById("students-by-batch-canvas-wrap");
+      const areaWrap = document.getElementById("students-by-area-canvas-wrap");
       if (universityWrap) {
         universityWrap.style.minHeight = Math.max(320, universityEntries.length * 38) + "px";
       }
@@ -410,13 +551,15 @@ chart:
       }
 
       function renderAnalyticsCharts() {
+        const isNarrowScreen = window.innerWidth <= 640;
         const gridColor = getThemeValue("--student-chart-grid", getThemeValue("--student-border", "rgba(0,0,0,0.12)"));
         const textColor = getThemeValue("--student-chart-text", getThemeValue("--student-muted-strong", "#3e3e3e"));
         const sharedPlugins = {
           legend: {
+            display: !isNarrowScreen,
             labels: {
               color: textColor,
-              font: { size: 12 },
+              font: { size: isNarrowScreen ? 10 : 12 },
             },
           },
           tooltip: {
@@ -452,7 +595,13 @@ chart:
             responsive: true,
             maintainAspectRatio: false,
             animation: reducedMotion ? false : { duration: 300 },
-            plugins: sharedPlugins,
+            plugins: {
+              ...sharedPlugins,
+              legend: {
+                ...sharedPlugins.legend,
+                position: isNarrowScreen ? "bottom" : "top",
+              },
+            },
           },
         });
 
@@ -475,10 +624,10 @@ chart:
             animation: reducedMotion ? false : { duration: 300 },
             plugins: { ...sharedPlugins, legend: { display: false } },
             scales: {
-              x: { ticks: { color: textColor }, grid: { color: gridColor } },
+              x: { ticks: { color: textColor, maxRotation: isNarrowScreen ? 35 : 0, minRotation: isNarrowScreen ? 35 : 0, font: { size: isNarrowScreen ? 10 : 12 } }, grid: { color: gridColor } },
               y: {
                 beginAtZero: true,
-                ticks: { color: textColor, precision: 0 },
+                ticks: { color: textColor, precision: 0, font: { size: isNarrowScreen ? 10 : 12 } },
                 grid: { color: gridColor },
               },
             },
@@ -507,10 +656,10 @@ chart:
             scales: {
               x: {
                 beginAtZero: true,
-                ticks: { color: textColor, precision: 0 },
+                ticks: { color: textColor, precision: 0, font: { size: isNarrowScreen ? 10 : 12 } },
                 grid: { color: gridColor },
               },
-              y: { ticks: { color: textColor }, grid: { display: false } },
+              y: { ticks: { color: textColor, font: { size: isNarrowScreen ? 10 : 12 } }, grid: { display: false } },
             },
           },
         });
@@ -538,15 +687,31 @@ chart:
             scales: {
               x: {
                 beginAtZero: true,
-                ticks: { color: textColor, precision: 0 },
+                ticks: { color: textColor, precision: 0, font: { size: isNarrowScreen ? 10 : 12 } },
                 grid: { color: gridColor },
               },
-              y: { ticks: { color: textColor }, grid: { display: false } },
+              y: { ticks: { color: textColor, font: { size: isNarrowScreen ? 10 : 12 } }, grid: { display: false } },
             },
           },
         });
         } else {
           destroyChart("students-by-area-chart");
+        }
+
+        if (batchWrap) {
+          batchWrap.style.overflowX = isNarrowScreen ? "auto" : "visible";
+          const batchCanvas = document.getElementById("students-by-batch-chart");
+          if (batchCanvas) batchCanvas.style.minWidth = isNarrowScreen ? Math.max(520, batchEntries.length * 42) + "px" : "";
+        }
+        if (universityWrap) {
+          universityWrap.style.overflowX = isNarrowScreen ? "auto" : "visible";
+          const universityCanvas = document.getElementById("students-by-university-chart");
+          if (universityCanvas) universityCanvas.style.minWidth = isNarrowScreen ? "560px" : "";
+        }
+        if (areaWrap) {
+          areaWrap.style.overflowX = isNarrowScreen ? "auto" : "visible";
+          const areaCanvas = document.getElementById("students-by-area-chart");
+          if (areaCanvas) areaCanvas.style.minWidth = isNarrowScreen ? "520px" : "";
         }
       }
 
@@ -566,6 +731,7 @@ chart:
       const themeObserver = new MutationObserver(scheduleThemeRefresh);
       themeObserver.observe(document.documentElement, { attributes: true, attributeFilter: ["class", "data-theme"] });
       themeObserver.observe(document.body, { attributes: true, attributeFilter: ["class", "data-theme"] });
+      window.addEventListener("resize", scheduleThemeRefresh);
 
       const grid = document.getElementById("student-directory-grid");
       const noResults = document.getElementById("student-no-results");
@@ -664,18 +830,16 @@ chart:
     max-width: 46rem;
   }
 
-  .student-directory-page__eyebrow {
-    margin: 0 0 0.4rem;
-    font-size: 0.92rem;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: var(--student-accent);
-  }
-
-  .student-directory-page__header h1 {
-    margin-bottom: 0.75rem;
-    font-size: clamp(2rem, 3vw, 2.5rem);
-    font-weight: 600;
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
   }
 
   .student-directory-page__intro,
@@ -685,6 +849,57 @@ chart:
     font-size: 1rem;
     line-height: 1.7;
     color: var(--student-muted-strong);
+  }
+
+  .student-directory-page__intro + .student-directory-page__intro {
+    margin-top: 0.9rem;
+  }
+
+  .student-placements-ribbon {
+    max-width: 100%;
+    margin: 1rem 0 1.15rem;
+    overflow: hidden;
+    border-top: 1px solid var(--student-border);
+    border-bottom: 1px solid var(--student-border);
+    padding: 0.85rem 0;
+  }
+
+  .student-placements-ribbon__track {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    width: max-content;
+    animation: student-placements-scroll 34s linear infinite;
+  }
+
+  .student-placements-ribbon__item {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.7rem;
+    padding: 0.72rem 0.95rem;
+    border: 1px solid var(--student-border);
+    border-radius: 999px;
+    background: var(--student-surface);
+    color: var(--student-muted-strong);
+    font-size: 0.94rem;
+    line-height: 1.4;
+    white-space: nowrap;
+  }
+
+  .student-placements-ribbon__logo {
+    width: 1.25rem;
+    height: 1.25rem;
+    flex: 0 0 1.25rem;
+    object-fit: contain;
+  }
+
+  @keyframes student-placements-scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
   }
 
   .student-section-heading h2,
@@ -750,18 +965,20 @@ chart:
     font-weight: 600;
   }
 
-  .student-chart-card__canvas {
-    position: relative;
-    min-height: 260px;
-  }
+    .student-chart-card__canvas {
+      position: relative;
+      min-height: 260px;
+      overflow-x: visible;
+      -webkit-overflow-scrolling: touch;
+    }
 
   .student-chart-card__canvas--tall {
     min-height: 320px;
   }
 
-  .student-chart-card__canvas--wide {
-    min-height: 360px;
-  }
+    .student-chart-card__canvas--wide {
+      min-height: 360px;
+    }
 
   .student-chart-summary {
     margin-top: 1rem;
@@ -969,23 +1186,203 @@ chart:
   }
 
   @media (max-width: 640px) {
+    .student-directory-page {
+      gap: 1.35rem;
+    }
+
+    .student-directory-page__header {
+      max-width: 100%;
+    }
+
+    .student-directory-page__intro,
+    .student-data-note p {
+      font-size: 0.95rem;
+      line-height: 1.75;
+    }
+
     .student-stats__grid,
     .student-filter-form {
       grid-template-columns: 1fr;
     }
 
+    .student-analytics__grid,
+    .student-directory__grid {
+      gap: 0.95rem;
+    }
+
+    .student-section-heading h2,
+    .student-directory__toolbar h2 {
+      font-size: 1rem;
+    }
+
+    .student-stat {
+      padding: 0.75rem 0;
+    }
+
+    .student-stat__value {
+      font-size: 1.45rem;
+    }
+
+    .student-chart-card {
+      padding: 0.85rem;
+      border-radius: 7px;
+    }
+
+    .student-chart-card h3 {
+      margin-bottom: 0.7rem;
+      font-size: 0.95rem;
+      line-height: 1.4;
+    }
+
+    .student-chart-card__canvas {
+      min-height: 220px;
+    }
+
+    .student-chart-card__canvas--tall,
+    .student-chart-card__canvas--wide {
+      min-height: 240px;
+    }
+
+    .student-chart-summary {
+      display: none;
+    }
+
+    .student-chart-card__canvas,
+    .student-chart-card__canvas--tall,
+    .student-chart-card__canvas--wide {
+      overflow-x: auto;
+      overflow-y: hidden;
+    }
+
+    .student-filter-form {
+      gap: 0.8rem;
+    }
+
+    .student-filter-form label {
+      font-size: 0.88rem;
+    }
+
+    .student-filter-form input,
+    .student-filter-form select,
+    .student-filter-form button {
+      min-height: 2.6rem;
+      padding: 0.58rem 0.75rem;
+      font-size: 0.94rem;
+    }
+
+    .student-filter-form__actions {
+      width: 100%;
+    }
+
+    .student-filter-form__actions button {
+      width: 100%;
+    }
+
     .student-directory__toolbar {
       flex-direction: column;
       align-items: flex-start;
+      gap: 0.35rem;
+      margin-bottom: 0.8rem;
     }
 
     .student-card {
       grid-template-columns: 1fr;
+      gap: 0.8rem;
+      padding: 0.9rem;
+      border-radius: 7px;
     }
 
     .student-card__media {
       width: 100%;
-      max-width: 132px;
+      max-width: 9.5rem;
+      aspect-ratio: 1 / 1;
+      margin: 0 auto;
+    }
+
+    .student-placements-ribbon {
+      margin: 0.85rem 0 1rem;
+      overflow: visible;
+      padding: 0;
+      border-top: 0;
+      border-bottom: 0;
+    }
+
+    .student-placements-ribbon__track {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      width: 100%;
+      gap: 0.55rem;
+      animation: none;
+    }
+
+    .student-placements-ribbon__item {
+      justify-content: flex-start;
+      font-size: 0.9rem;
+      padding: 0.62rem 0.75rem;
+      min-width: 0;
+      border-radius: 0.85rem;
+      white-space: normal;
+    }
+
+    .student-placements-ribbon__logo {
+      width: 1.1rem;
+      height: 1.1rem;
+      flex-basis: 1.1rem;
+    }
+
+    .student-placements-ribbon__item[aria-hidden="true"] {
+      display: none;
+    }
+
+    .student-card__name {
+      font-size: 0.98rem;
+      line-height: 1.35;
+      text-align: center;
+    }
+
+    .student-card__meta,
+    .student-card__affiliation,
+    .student-card__area,
+    .student-directory__link,
+    .student-directory__count {
+      font-size: 0.9rem;
+    }
+
+    .student-card__meta,
+    .student-card__affiliation,
+    .student-card__area {
+      text-align: center;
+    }
+
+    .student-directory__link {
+      justify-content: center;
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 420px) {
+    .student-placements-ribbon__track {
+      grid-template-columns: 1fr;
+    }
+
+    .student-chart-card__canvas {
+      min-height: 200px;
+    }
+
+    .student-chart-card__canvas--tall,
+    .student-chart-card__canvas--wide {
+      min-height: 220px;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .student-placements-ribbon {
+      overflow-x: auto;
+      padding-bottom: 0.55rem;
+    }
+
+    .student-placements-ribbon__track {
+      animation: none;
     }
   }
 
