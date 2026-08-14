@@ -22,7 +22,7 @@ nav_order: 2
 
   <section class="news-group" aria-labelledby="spotlight-heading">
     <div class="news-group__header">
-      <h2 id="spotlight-heading">In the Spotlight</h2>
+      <h2 id="spotlight-heading"><strong>In the Spotlight</strong></h2>
       <div class="news-group__rule" aria-hidden="true"></div>
     </div>
     <article class="news-feature news-feature--spotlight">
@@ -58,7 +58,7 @@ nav_order: 2
 
   <section class="news-group" aria-labelledby="workshops-heading">
     <div class="news-group__header">
-      <h2 id="workshops-heading">Workshops</h2>
+      <h2 id="workshops-heading"><strong>Workshops</strong></h2>
       <div class="news-group__rule" aria-hidden="true"></div>
     </div>
     <article class="news-feature">
@@ -94,7 +94,7 @@ nav_order: 2
 
   <section class="news-group" aria-labelledby="papers-heading">
     <div class="news-group__header">
-      <h2 id="papers-heading">Paper Acceptances</h2>
+      <h2 id="papers-heading"><strong>Paper Acceptances</strong></h2>
       <div class="news-group__rule" aria-hidden="true"></div>
     </div>
     <article class="news-feature">
@@ -142,6 +142,7 @@ nav_order: 2
   .news-page__intro {
     margin-bottom: 2rem;
     line-height: 1.75;
+    text-align: justify;
   }
 
   .news-group + .news-group {
@@ -150,6 +151,7 @@ nav_order: 2
 
   .news-group__header h2 {
     margin-bottom: 0.45rem;
+    font-weight: 700;
   }
 
   .news-group__rule {
@@ -207,11 +209,14 @@ nav_order: 2
     margin: 0 0 0.75rem;
     font-size: 1.2rem;
     line-height: 1.45;
+    font-weight: 700;
+    color: #7b1e2b;
   }
 
   .news-feature__content p {
     margin: 0 0 0.95rem;
     line-height: 1.75;
+    text-align: justify;
   }
 
   .news-feature__content p:last-child {
@@ -243,5 +248,12 @@ nav_order: 2
     .news-feature__content h3 {
       font-size: 1.08rem;
     }
+  }
+
+  html[data-theme="dark"] .news-feature__content h3,
+  body[data-theme="dark"] .news-feature__content h3,
+  html.dark .news-feature__content h3,
+  body.dark .news-feature__content h3 {
+    color: #f0c7ce;
   }
 </style>
