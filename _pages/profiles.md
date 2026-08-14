@@ -17,7 +17,9 @@ chart:
       Under the dedicated mentorship of Prof. Roshan Godaliyadda and his team of supervisors, our alumni have
       achieved <strong>remarkable global success</strong>. His rigorous research supervision and commitment to cultivating academic
       excellence have consistently empowered students to secure highly competitive PhD placements at the world's
-      most prestigious institutions.
+      most prestigious institutions, including <strong>Princeton University</strong>, <strong>Columbia University</strong>,
+      <strong>Cornell University</strong>, <strong>Rice University</strong>, <strong>University of Michigan</strong>,
+      <strong>UIUC</strong>, <strong>UC San Diego</strong>, <strong>UCLA</strong>, and <strong>University of Waterloo</strong>.
     </p>
     <p class="student-directory-page__intro">
       Our past researchers have proudly advanced into leading doctoral programs and influential industry roles.
@@ -76,6 +78,14 @@ chart:
           <img src="{{ '/assets/img/placements/paypal.png' | relative_url }}" alt="PayPal logo" class="student-placements-ribbon__logo">
           <span>PayPal</span>
         </div>
+        <div class="student-placements-ribbon__item">
+          <img src="{{ '/assets/img/placements/oracle.png' | relative_url }}" alt="Oracle logo" class="student-placements-ribbon__logo">
+          <span>Oracle</span>
+        </div>
+        <div class="student-placements-ribbon__item">
+          <i class="fa-brands fa-amazon student-placements-ribbon__icon" aria-hidden="true"></i>
+          <span>Amazon</span>
+        </div>
 
         <div class="student-placements-ribbon__item" aria-hidden="true">
           <img src="{{ '/assets/img/placements/princeton.png' | relative_url }}" alt="" class="student-placements-ribbon__logo">
@@ -129,12 +139,21 @@ chart:
           <img src="{{ '/assets/img/placements/paypal.png' | relative_url }}" alt="" class="student-placements-ribbon__logo">
           <span>PayPal</span>
         </div>
+        <div class="student-placements-ribbon__item" aria-hidden="true">
+          <img src="{{ '/assets/img/placements/oracle.png' | relative_url }}" alt="" class="student-placements-ribbon__logo">
+          <span>Oracle</span>
+        </div>
+        <div class="student-placements-ribbon__item" aria-hidden="true">
+          <i class="fa-brands fa-amazon student-placements-ribbon__icon" aria-hidden="true"></i>
+          <span>Amazon</span>
+        </div>
       </div>
     </div>
     <p class="student-directory-page__intro">
       Building upon this world-class foundational research training, these exceptional scholars have transitioned
-      into <strong>highly influential roles</strong>, driving technological innovation at global industry giants such as Apple,
-      Meta, Microsoft, and PayPal. Prof. Godaliyadda's expert guidance continues to shape the trajectory of
+      into <strong>highly influential roles</strong>, driving technological innovation at global industry giants such as
+      <strong>Apple</strong>, <strong>Meta</strong>, <strong>Microsoft</strong>, <strong>PayPal</strong>, <strong>Oracle</strong>,
+      and <strong>Amazon</strong>. Prof. Godaliyadda's expert guidance continues to shape the trajectory of
       engineering leaders worldwide.
     </p>
   </header>
@@ -159,7 +178,6 @@ chart:
         <div class="student-chart-card__canvas">
           <canvas id="students-by-country-chart" aria-label="Doughnut chart showing students by country"></canvas>
         </div>
-        <div id="students-by-country-summary" class="student-chart-summary"></div>
       </article>
 
       <article class="student-chart-card">
@@ -167,7 +185,6 @@ chart:
         <div class="student-chart-card__canvas student-chart-card__canvas--tall" id="students-by-batch-canvas-wrap">
           <canvas id="students-by-batch-chart" aria-label="Bar chart showing students by batch"></canvas>
         </div>
-        <div id="students-by-batch-summary" class="student-chart-summary"></div>
       </article>
 
       <article class="student-chart-card student-chart-card--wide">
@@ -175,7 +192,6 @@ chart:
         <div class="student-chart-card__canvas student-chart-card__canvas--wide" id="students-by-university-canvas-wrap">
           <canvas id="students-by-university-chart" aria-label="Horizontal bar chart showing students by university"></canvas>
         </div>
-        <div id="students-by-university-summary" class="student-chart-summary"></div>
       </article>
 
       <article class="student-chart-card" id="students-by-area-card">
@@ -183,7 +199,6 @@ chart:
         <div class="student-chart-card__canvas" id="students-by-area-canvas-wrap">
           <canvas id="students-by-area-chart" aria-label="Chart showing students by academic area"></canvas>
         </div>
-        <div id="students-by-area-summary" class="student-chart-summary"></div>
       </article>
     </div>
   </section>
@@ -554,6 +569,8 @@ chart:
         const isNarrowScreen = window.innerWidth <= 640;
         const gridColor = getThemeValue("--student-chart-grid", getThemeValue("--student-border", "rgba(0,0,0,0.12)"));
         const textColor = getThemeValue("--student-chart-text", getThemeValue("--student-muted-strong", "#3e3e3e"));
+        const tooltipBackground = getThemeValue("--student-tooltip-background", "rgba(255,255,255,0.96)");
+        const tooltipBorder = getThemeValue("--student-tooltip-border", "rgba(24,24,24,0.14)");
         const sharedPlugins = {
           legend: {
             display: !isNarrowScreen,
@@ -563,8 +580,13 @@ chart:
             },
           },
           tooltip: {
+            backgroundColor: tooltipBackground,
+            borderColor: tooltipBorder,
+            borderWidth: 1,
             titleColor: textColor,
             bodyColor: textColor,
+            displayColors: true,
+            padding: 10,
             callbacks: {
               label: function (context) {
                 const data = context.dataset.data || [];
@@ -821,6 +843,8 @@ chart:
     --student-muted-strong: #3e3e3e;
     --student-chart-text: #4b5563;
     --student-chart-grid: rgba(24, 24, 24, 0.12);
+    --student-tooltip-background: rgba(255, 255, 255, 0.97);
+    --student-tooltip-border: rgba(24, 24, 24, 0.16);
     --student-grid-gap: 1.25rem;
     display: grid;
     gap: 2rem;
@@ -847,27 +871,30 @@ chart:
     max-width: 46rem;
     margin: 0;
     font-size: 1rem;
-    line-height: 1.7;
+    line-height: 1.82;
     color: var(--student-muted-strong);
+    text-align: justify;
+    text-justify: inter-word;
   }
 
   .student-directory-page__intro + .student-directory-page__intro {
-    margin-top: 0.9rem;
+    margin-top: 1.15rem;
   }
 
   .student-placements-ribbon {
-    max-width: 100%;
-    margin: 1rem 0 1.15rem;
+    max-width: 46rem;
+    width: 100%;
+    margin: 1.25rem 0 1.35rem;
     overflow: hidden;
     border-top: 1px solid var(--student-border);
     border-bottom: 1px solid var(--student-border);
-    padding: 0.85rem 0;
+    padding: 0.95rem 0;
   }
 
   .student-placements-ribbon__track {
     display: flex;
     align-items: center;
-    gap: 0.8rem;
+    gap: 0.9rem;
     width: max-content;
     animation: student-placements-scroll 34s linear infinite;
   }
@@ -876,7 +903,7 @@ chart:
     display: inline-flex;
     align-items: center;
     gap: 0.7rem;
-    padding: 0.72rem 0.95rem;
+    padding: 0.74rem 1rem;
     border: 1px solid var(--student-border);
     border-radius: 999px;
     background: var(--student-surface);
@@ -891,6 +918,19 @@ chart:
     height: 1.25rem;
     flex: 0 0 1.25rem;
     object-fit: contain;
+  }
+
+  .student-placements-ribbon__icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.25rem;
+    height: 1.25rem;
+    flex: 0 0 1.25rem;
+    color: var(--student-accent);
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1;
   }
 
   @keyframes student-placements-scroll {
@@ -1197,7 +1237,7 @@ chart:
     .student-directory-page__intro,
     .student-data-note p {
       font-size: 0.95rem;
-      line-height: 1.75;
+      line-height: 1.78;
     }
 
     .student-stats__grid,
@@ -1300,7 +1340,7 @@ chart:
     }
 
     .student-placements-ribbon {
-      margin: 0.85rem 0 1rem;
+      margin: 1rem 0 1.1rem;
       overflow: visible;
       padding: 0;
       border-top: 0;
@@ -1399,5 +1439,7 @@ chart:
     --student-muted-strong: #edf1f5;
     --student-chart-text: #f3f4f6;
     --student-chart-grid: rgba(255, 255, 255, 0.16);
+    --student-tooltip-background: rgba(18, 18, 20, 0.96);
+    --student-tooltip-border: rgba(255, 255, 255, 0.18);
   }
 </style>

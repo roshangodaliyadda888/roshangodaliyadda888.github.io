@@ -887,21 +887,6 @@
   - University of Manitoba
   source_sheet: Elec
   source_row: 57
-- name: Subash Wickramasinghe
-  slug: subash-wickramasinghe
-  batch: E14
-  university: Old Dominion University
-  country: United States
-  academic_area: Electrical and Electronic Engineering
-  current_affiliation: ''
-  status: ''
-  sort_name: Subash Wickramasinghe
-  image: placeholder-person.svg
-  profile_url: ''
-  universities:
-  - Old Dominion University
-  source_sheet: Elec
-  source_row: 52
 - name: Suren Sritharan
   slug: suren-sritharan
   batch: E14
