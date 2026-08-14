@@ -82,17 +82,17 @@ awards:
   source: January 2026 CV; university profile; Prof. Godaliyadda portfolio.pdf
   notes: For 2018.
 grants:
-- title: AI-Driven Digital Twin Framework for Sustainable and Optimal Resource Use in Tea Cultivation
-  funding_organization: National Research Council
+- title: Artificial Intelligence Framework for Threat Assessment and Containment for COVID-19 and Future Epidemics While Mitigating the Socioeconomic Impact to Women, Children, and Underprivileged Groups
+  funding_organization: International Development Research Centre (IDRC), Canada
   grant_number: ''
   role: Co-Investigator
-  funding_period: Commencing February 2026
-  amount: 19,965,000.00
-  currency: LKR
-  status: Awarded
+  funding_period: February 2021-August 2023
+  amount: 0.8 million
+  currency: CAD
+  status: Completed
   collaborators: ''
-  source: January 2026 CV
-  notes: ''
+  source: January 2026 CV; university profile
+  notes: CV states `as a member`.
 - title: HeritageAI (Academic Grant Program)
   funding_organization: NVIDIA Academic Grant Program
   grant_number: ''
@@ -104,6 +104,17 @@ grants:
   collaborators: ''
   source: January 2026 CV
   notes: In-kind support; CV includes the note `Brev`.
+- title: AI-Driven Digital Twin Framework for Sustainable and Optimal Resource Use in Tea Cultivation
+  funding_organization: National Research Council
+  grant_number: ''
+  role: Co-Investigator
+  funding_period: Commencing February 2026
+  amount: 19,965,000.00
+  currency: LKR
+  status: Awarded
+  collaborators: ''
+  source: January 2026 CV
+  notes: ''
 - title: Preterm Birth Detection Using EHG and Tocogram
   funding_organization: University Research Council
   grant_number: '33'
@@ -137,17 +148,6 @@ grants:
   collaborators: ''
   source: January 2026 CV; university profile
   notes: Multidisciplinary Research Grant.
-- title: Artificial Intelligence Framework for Threat Assessment and Containment for COVID-19 and Future Epidemics While Mitigating the Socioeconomic Impact to Women, Children, and Underprivileged Groups
-  funding_organization: International Development Research Centre (IDRC), Canada
-  grant_number: ''
-  role: Co-Investigator
-  funding_period: February 2021-August 2023
-  amount: 0.8 million
-  currency: CAD
-  status: Completed
-  collaborators: ''
-  source: January 2026 CV; university profile
-  notes: CV states `as a member`.
 - title: Development of a Novel Predictive Based Smart Distribution Management System (S-DMS) to Maximize the Rooftop PV Absorption Capacity of Last Mile Networks
   funding_organization: National Science Foundation (NSF), Sri Lanka
   grant_number: RG/2018/EA&ICT/01

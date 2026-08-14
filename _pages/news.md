@@ -210,7 +210,7 @@ nav_order: 2
     font-size: 1.2rem;
     line-height: 1.45;
     font-weight: 700;
-    color: #7b1e2b;
+    color: #000;
   }
 
   .news-feature__content p {
@@ -254,6 +254,6 @@ nav_order: 2
   body[data-theme="dark"] .news-feature__content h3,
   html.dark .news-feature__content h3,
   body.dark .news-feature__content h3 {
-    color: #f0c7ce;
+    color: #fff;
   }
 </style>
