@@ -322,13 +322,15 @@
               label: function (context) {
                 const data = context.dataset.data || [];
                 const total = data.reduce((sum, value) => sum + value, 0);
-                const parsed =
-                  typeof context.parsed === "object"
-                    ? typeof context.parsed.y === "number"
-                      ? context.parsed.y
-                      : context.parsed.x
-                    : context.parsed;
-                const value = parsed || 0;
+                const parsed = typeof context.parsed === "object" ? context.parsed : {};
+                const value =
+                  typeof context.raw === "number"
+                    ? context.raw
+                    : typeof parsed.x === "number" && typeof parsed.y !== "number"
+                      ? parsed.x
+                      : typeof parsed.y === "number" && typeof parsed.x !== "number"
+                        ? parsed.y
+                        : 0;
                 const percent = total ? ((value / total) * 100).toFixed(1) : "0.0";
                 return `${context.label}: ${value} (${percent}%)`;
               },
