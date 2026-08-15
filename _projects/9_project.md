@@ -6,6 +6,8 @@ importance: 9
 category: Renewable Energy & Smart Grid
 ---
 
+<div class="project-overview" markdown="1">
+
 ## Overview
 
 This project focuses on Non-Intrusive Load Monitoring (NILM), a technique that identifies the
@@ -23,5 +25,8 @@ building lightweight, computationally efficient architectures that maintain high
 accuracy while minimizing memory footprint and processing overhead, enabling real-time,
 on-device energy monitoring without dependence on cloud computing or high-frequency
 sampling infrastructure.
+</div>
 
 ![Non-Intrusive Load Monitoring]({{ '/assets/img/projects/nilm.png' | relative_url }}){: .img-fluid .rounded .z-depth-1 .mb-4 .project-detail-image }
+
+

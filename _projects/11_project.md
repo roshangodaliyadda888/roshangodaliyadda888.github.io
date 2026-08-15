@@ -6,9 +6,10 @@ importance: 11
 category: Light-based Communications
 ---
 
+<div class="project-overview" markdown="1">
+
 ## Overview
 
-This project explores Data-Energy Networking enabled Light-based IoT (DE-LIoT), a
 sustainable approach for creating battery-free indoor sensor networks. Instead of relying on
 conventional batteries, IoT nodes harvest energy from indoor illumination while exchanging
 information through optical wireless communication. Nodes located in well-lit areas can
@@ -20,5 +21,10 @@ digital twin of the DE-LIoT environment, we can explore multiple deployment, ill
 node-placement, and energy-demand scenarios virtually, analyze network behavior, and
 develop smarter strategies for deciding when, where, and how much energy should be
 shared.
+</div>
 
 ![Data-Energy Networking enabled Light-based IoT]({{ '/assets/img/projects/energy-networking.png' | relative_url }}){: .img-fluid .rounded .z-depth-1 .mb-4 .project-detail-image }
+
+
+
+

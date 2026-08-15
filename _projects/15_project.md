@@ -6,6 +6,8 @@ importance: 15
 category: AI for Sociology, Humanities & Socio-economics
 ---
 
+<div class="project-overview" markdown="1">
+
 ## Overview
 
 Do elephants follow our seasons or do they experience seasons differently?
@@ -29,5 +31,8 @@ validate the framework across additional elephants and unseen trajectories.
 Ultimately, the goal is to move from describing where elephants move to understanding why and
 when their movement changes, supporting data-driven wildlife conservation and water-resource
 management.
+</div>
 
 ![Agent-Based Modelling]({{ '/assets/img/projects/agent-based-modelling.png' | relative_url }}){: .img-fluid .rounded .z-depth-1 .mb-4 .project-detail-image }
+
+

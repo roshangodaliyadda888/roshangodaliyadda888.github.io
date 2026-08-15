@@ -6,12 +6,9 @@ importance: 20
 category: Computer Vision (CV)
 ---
 
+<div class="project-overview" markdown="1">
+
 ## Overview
-
-Virtual Surgical Planning Tool for Mandibular and Maxillary Reconstruction
-
-
-
 
 Reconstructing the jaw after cancer surgery or severe trauma is one of the most complex
 procedures in craniomaxillofacial surgery — and the software that plans it (Materialise ProPlan,
@@ -24,5 +21,8 @@ surgical planning PDF report. Built on the open-source 3D Slicer platform, the t
 advanced reconstructive planning accessible to hospitals worldwide, not just those who can
 afford commercial licenses — while contributing a citable, validated pipeline to the surgical
 research community.
+</div>
 
 ![Virtual Surgical Planning]({{ '/assets/img/projects/cv-dental.png' | relative_url }}){: .img-fluid .rounded .z-depth-1 .mb-4 .project-detail-image }
+
+

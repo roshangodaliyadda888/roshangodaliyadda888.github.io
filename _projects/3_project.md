@@ -6,6 +6,8 @@ importance: 3
 category: Biomedical Engineering & Bio-imaging
 ---
 
+<div class="project-overview" markdown="1">
+
 ## Overview
 
 This project investigates non-invasive preterm birth risk assessment using electrohysterography
@@ -19,5 +21,8 @@ methods, while the next phase will establish a prospective Sri Lankan EHG datase
 validation and model development. A dedicated higher-density EHG acquisition device has also
 been developed to support prospective data collection, richer spatial analysis, and future
 clinically relevant preterm birth risk assessment.
+</div>
 
 ![Preterm Birth Risk Assessment]({{ '/assets/img/projects/preterm-birth-risk-assessment.png' | relative_url }}){: .img-fluid .rounded .z-depth-1 .mb-4 .project-detail-image }
+
+

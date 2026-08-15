@@ -6,9 +6,10 @@ importance: 22
 category: Wearable Technology
 ---
 
+<div class="project-overview" markdown="1">
+
 ## Overview
 
-Gait and Posture Research
 “Your walk, our proof”
 
 
@@ -28,5 +29,8 @@ coordination among the hip, knee, and ankle. By identifying which joints predomi
 generate, receive, or adapt to changes in movement, the research provides deeper insight into the
 mechanisms underlying human gait adaptation. The work has potential applications in objective
 gait assessment, rehabilitation, wearable biomechanics, and footwear design.
+</div>
 
 ![Gait and Posture Research]({{ '/assets/img/projects/gait-and-posture.png' | relative_url }}){: .img-fluid .rounded .z-depth-1 .mb-4 .project-detail-image }
+
+

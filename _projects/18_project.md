@@ -6,6 +6,8 @@ importance: 18
 category: Biomedical Engineering & Bio-imaging
 ---
 
+<div class="project-overview" markdown="1">
+
 ## Overview
 
 This ongoing research project focuses on data-centric artificial intelligence for dermatology,
@@ -22,5 +24,8 @@ surrounding clutter and remain robust on smartphone and edge-device images, trai
 dataset in which every mask is explicitly validated. Together, they form a general-purpose
 framework for equitable, deployment-ready dermatological image analysis across diverse
 patient populations.
+</div>
 
 ![Data-Centric Dermatology AI]({{ '/assets/img/projects/dermatology-ai.png' | relative_url }}){: .img-fluid .rounded .z-depth-1 .mb-4 .project-detail-image }
+
+

@@ -6,9 +6,10 @@ importance: 4
 category: Generative AI (GenAI)
 ---
 
+<div class="project-overview" markdown="1">
+
 ## Overview
 
-LLMs Research Group investigates how large language models behave in real-world
 human-centered settings, with a focus on trust, safety, and responsible AI. Our work currently
 spans three complementary research directions. First, we study social and gender bias in
 LLM-generated content, examining how stereotypes emerge across models, prompts, cultural
@@ -21,5 +22,8 @@ projects aim to understand not only what LLMs say, but also when, why, and how t
 may become biased, unsafe, or misleading, ultimately contributing toward more reliable,
 transparent, and socially responsible AI systems for diverse users and real-world applications
 worldwide.
+</div>
 
 ![Large Language Models]({{ '/assets/img/projects/large-language-models.png' | relative_url }}){: .img-fluid .rounded .z-depth-1 .mb-4 .project-detail-image }
+
+

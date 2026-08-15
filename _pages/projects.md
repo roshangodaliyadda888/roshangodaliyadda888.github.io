@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Research projects grouped by the updated thematic categories in the project portfolio source document.
+description:
 nav: true
 nav_order: 3
 display_categories: ["Generative AI (GenAI)", "AI for Remote Sensing & GIS", "AI for Sociology, Humanities & Socio-economics", "Biomedical Engineering & Bio-imaging", "Computer Vision (CV)", "Wearable Technology", "Agrivoltaics & Plant Growth", "Light-based Communications", "Renewable Energy & Smart Grid", "Multispectral Imaging (MSI)"]
@@ -12,8 +12,51 @@ display_categories: ["Generative AI (GenAI)", "AI for Remote Sensing & GIS", "AI
 
 <div class="projects">
   <p class="projects-page-intro">
-    This page reorganizes the active project portfolio into the updated research categories provided in the source document. Each entry includes a short summary here, with a fuller explanation and the relevant visual on the project page itself.
+    Selected funded research projects and major multidisciplinary research initiatives led or co-led by Professor G. M. R. I. Godaliyadda.
+    The projects span generative AI, remote sensing and GIS, sociology and socio-economics, biomedical engineering and bio-imaging, computer vision, wearable technology, agrivoltaics and plant growth, light-based communications, renewable energy and smart-grid systems, and multispectral imaging.
   </p>
+  <section class="projects-highlight-ribbon" aria-label="Research highlight carousel">
+    <div class="projects-highlight-ribbon__viewport">
+      <div class="projects-highlight-ribbon__track">
+        <figure class="projects-highlight-ribbon__slide">
+          <img src="{{ '/assets/img/projects/carousel/01-generative-ai-genai.webp' | relative_url }}" alt="Generative AI research highlight" class="projects-highlight-ribbon__image">
+        </figure>
+        <figure class="projects-highlight-ribbon__slide">
+          <img src="{{ '/assets/img/projects/carousel/02-ai-for-socio-economics-public-health.webp' | relative_url }}" alt="AI for socio-economics and public health research highlight" class="projects-highlight-ribbon__image">
+        </figure>
+        <figure class="projects-highlight-ribbon__slide">
+          <img src="{{ '/assets/img/projects/carousel/03-agrivoltaics-plant-modeling.webp' | relative_url }}" alt="Agrivoltaics and plant modeling research highlight" class="projects-highlight-ribbon__image">
+        </figure>
+        <figure class="projects-highlight-ribbon__slide">
+          <img src="{{ '/assets/img/projects/carousel/04-gis-remote-sensing.webp' | relative_url }}" alt="GIS and remote sensing research highlight" class="projects-highlight-ribbon__image">
+        </figure>
+        <figure class="projects-highlight-ribbon__slide">
+          <img src="{{ '/assets/img/projects/carousel/05-wearable-technology.webp' | relative_url }}" alt="Wearable technology research highlight" class="projects-highlight-ribbon__image">
+        </figure>
+        <figure class="projects-highlight-ribbon__slide">
+          <img src="{{ '/assets/img/projects/carousel/06-light-based-communications.webp' | relative_url }}" alt="Light-based communications research highlight" class="projects-highlight-ribbon__image">
+        </figure>
+        <figure class="projects-highlight-ribbon__slide" aria-hidden="true">
+          <img src="{{ '/assets/img/projects/carousel/01-generative-ai-genai.webp' | relative_url }}" alt="" class="projects-highlight-ribbon__image">
+        </figure>
+        <figure class="projects-highlight-ribbon__slide" aria-hidden="true">
+          <img src="{{ '/assets/img/projects/carousel/02-ai-for-socio-economics-public-health.webp' | relative_url }}" alt="" class="projects-highlight-ribbon__image">
+        </figure>
+        <figure class="projects-highlight-ribbon__slide" aria-hidden="true">
+          <img src="{{ '/assets/img/projects/carousel/03-agrivoltaics-plant-modeling.webp' | relative_url }}" alt="" class="projects-highlight-ribbon__image">
+        </figure>
+        <figure class="projects-highlight-ribbon__slide" aria-hidden="true">
+          <img src="{{ '/assets/img/projects/carousel/04-gis-remote-sensing.webp' | relative_url }}" alt="" class="projects-highlight-ribbon__image">
+        </figure>
+        <figure class="projects-highlight-ribbon__slide" aria-hidden="true">
+          <img src="{{ '/assets/img/projects/carousel/05-wearable-technology.webp' | relative_url }}" alt="" class="projects-highlight-ribbon__image">
+        </figure>
+        <figure class="projects-highlight-ribbon__slide" aria-hidden="true">
+          <img src="{{ '/assets/img/projects/carousel/06-light-based-communications.webp' | relative_url }}" alt="" class="projects-highlight-ribbon__image">
+        </figure>
+      </div>
+    </div>
+  </section>
   {% for category in page.display_categories %}
     {% case category %}
       {% when "Generative AI (GenAI)" %}
@@ -45,10 +88,13 @@ display_categories: ["Generative AI (GenAI)", "AI for Remote Sensing & GIS", "AI
           <h2 class="project-category__title">{{ category }}</h2>
           <p class="project-category__description">{{ cat_desc }}</p>
         </div>
-        <div class="row row-cols-1 row-cols-lg-2">
+        <div class="project-category__content">
+          <p class="project-category__sublabel">Projects in this area</p>
+          <div class="row row-cols-1 row-cols-lg-2 project-category__projects">
           {% for project in sorted_projects %}
             {% include projects_horizontal.liquid %}
           {% endfor %}
+          </div>
         </div>
       </section>
     {% endif %}

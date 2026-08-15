@@ -6,6 +6,8 @@ importance: 21
 category: Computer Vision (CV)
 ---
 
+<div class="project-overview" markdown="1">
+
 ## Overview
 
 This project develops an energy-efficient vision system for always-on edge applications. Instead
@@ -20,5 +22,8 @@ where they are needed, the system reduces unnecessary power consumption and proc
 while maintaining useful visual information. This approach is suitable for applications such as
 robotics, smart surveillance, drones, and other battery-powered edge vision systems that
 require continuous environmental awareness and efficient real-time processing.
+</div>
 
 ![Foveated Vision]({{ '/assets/img/projects/foveated-vision.png' | relative_url }}){: .img-fluid .rounded .z-depth-1 .mb-4 .project-detail-image }
+
+

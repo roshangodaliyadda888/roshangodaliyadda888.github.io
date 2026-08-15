@@ -6,9 +6,9 @@ importance: 1
 category: Agrivoltaics & Plant Growth
 ---
 
-## Overview
+<div class="project-overview" markdown="1">
 
-Digital Twins for Agriculture
+## Overview
 
 Digital twins are virtual representations of physical systems that integrate real-world data to
 support monitoring, prediction, and decision-making. Our research explores the potential of
@@ -23,5 +23,8 @@ site is an agrivoltaic facility in Hanthana, where tea growth is studied under d
 environmental conditions. This multidisciplinary research brings together expertise from
 engineering, agriculture, and botany to develop data-driven approaches for sustainable and
 resource-efficient agriculture.
+</div>
 
 ![Digital Twins for Agriculture]({{ '/assets/img/projects/digital-twins-for-agriculture.png' | relative_url }}){: .img-fluid .rounded .z-depth-1 .mb-4 .project-detail-image }
+
+

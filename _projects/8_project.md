@@ -6,9 +6,10 @@ importance: 8
 category: Multispectral Imaging (MSI)
 ---
 
+<div class="project-overview" markdown="1">
+
 ## Overview
 
-Multispectral Imaging (MSI)
 Multispectral Imaging (MSI) is a non-destructive optical sensing technique that captures
 wavelength-dependent spatial data to reveal subtle chemical and physical variations invisible to
 standard RGB imaging. To advance this field, we have developed a cost-effective, in-house MSI
@@ -23,5 +24,8 @@ highlight MSI’s immense potential for non-destructive quality evaluation. Movi
 to evolve this technology into portable, application-specific MSI systems that seamlessly
 combine customized optical hardware with intelligent data analysis for practical field and
 laboratory use.
+</div>
 
 ![Multispectral Imaging]({{ '/assets/img/projects/multispectral-imaging-platform.png' | relative_url }}){: .img-fluid .rounded .z-depth-1 .mb-4 .project-detail-image }
+
+

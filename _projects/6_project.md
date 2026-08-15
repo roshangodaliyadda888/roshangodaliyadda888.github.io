@@ -6,9 +6,11 @@ importance: 6
 category: AI for Sociology, Humanities & Socio-economics
 ---
 
+<div class="project-overview" markdown="1">
+
 ## Overview
 
-Demographic Analysis is a multidisciplinary research project focused on developing
+is a multidisciplinary research project focused on developing
 data-driven methods to better understand how population structure influences demographic and
 public-health outcomes. A central theme of the project is the use of complete population
 pyramids rather than conventional summary indicators such as median age or the proportion of
@@ -23,5 +25,8 @@ health outcomes varies substantially across diseases and geographical regions.
 The broader project combines demographic data, statistical modelling, information theory,
 epidemiology, and large-scale computational analysis to uncover interpretable patterns in
 population evolution and support evidence-based public-health planning.
+</div>
 
 ![Demographic Analysis]({{ '/assets/img/projects/demographic-analysis.png' | relative_url }}){: .img-fluid .rounded .z-depth-1 .mb-4 .project-detail-image }
+
+

@@ -6,8 +6,13 @@ importance: 7
 category: AI for Remote Sensing & GIS
 ---
 
+<div class="project-overview" markdown="1">
+
 ## Overview
 
-The supplied PDF contains only the project title “Change Detection” and does not include a written project description.
+**Change Detection**
+</div>
 
 ![AI for Remote Sensing and GIS]({{ '/assets/img/projects/remote-sensing-gis-overview.png' | relative_url }}){: .img-fluid .rounded .z-depth-1 .mb-4 .project-detail-image }
+
+

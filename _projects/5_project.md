@@ -6,9 +6,9 @@ importance: 5
 category: Wearable Technology
 ---
 
-## Overview
+<div class="project-overview" markdown="1">
 
-Biomechanical Motion Capture & Sports Performance Analysis
+## Overview
 
 This ongoing research project focuses on wearable, IMU-based human motion capture and
 biomechanical analysis for sports performance assessment. A wireless, ergonomic, and
@@ -28,5 +28,8 @@ technique across athletes.
 The platform is designed as a general-purpose biomechanical analysis system, with future
 applications extending to high-speed and complex-motion sports such as athletics, cricket,
 and other performance-intensive disciplines.
+</div>
 
 ![Biomechanical Motion Capture and Sports Performance Analysis]({{ '/assets/img/projects/biomechanics.png' | relative_url }}){: .img-fluid .rounded .z-depth-1 .mb-4 .project-detail-image }
+
+

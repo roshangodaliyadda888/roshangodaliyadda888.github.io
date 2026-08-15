@@ -6,6 +6,8 @@ importance: 12
 category: Generative AI (GenAI)
 ---
 
+<div class="project-overview" markdown="1">
+
 ## Overview
 
 Our ongoing research explores diffusion models across computer vision, medical imaging, and
@@ -21,5 +23,10 @@ expression imputation, where generative models are used to estimate missing or s
 observed gene-expression values while preserving biologically meaningful relationships.
 Collectively, these projects aim to advance diffusion modeling both methodologically and
 through impactful applications in heritage preservation, healthcare, and computational biology.
+</div>
 
 ![Diffusion Models]({{ '/assets/img/projects/diffusion-models.png' | relative_url }}){: .img-fluid .rounded .z-depth-1 .mb-4 .project-detail-image }
+
+
+
+

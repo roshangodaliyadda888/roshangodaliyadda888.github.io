@@ -6,10 +6,9 @@ importance: 2
 category: Generative AI (GenAI)
 ---
 
+<div class="project-overview" markdown="1">
+
 ## Overview
-
-Implicit Neural Representations
-
 
 Implicit Neural Representations (INRs) are neural networks that represent signals such as
 images, audio, 3D shapes, and other continuous data as functions of their spatial or temporal
@@ -23,5 +22,8 @@ marking the first top-tier AI conference paper produced by a fully Sri Lankan-af
 team. Beyond theory, we apply our INR advances to real-world problems, including restoration
 of degraded historical images for cultural heritage preservation through the Heritage AI project,
 supported by the NVIDIA Academic Grant.
+</div>
 
 ![Implicit Neural Representations]({{ '/assets/img/projects/implicit-neural-representations.png' | relative_url }}){: .img-fluid .rounded .z-depth-1 .mb-4 .project-detail-image }
+
+

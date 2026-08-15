@@ -6,6 +6,8 @@ importance: 17
 category: Biomedical Engineering & Bio-imaging
 ---
 
+<div class="project-overview" markdown="1">
+
 ## Overview
 
 This project aims to develop and validate a multimodal artificial intelligence model that can
@@ -21,5 +23,8 @@ different types of information can provide more accurate and comprehensive predi
 individual recovery than conventional clinical information alone. The study will also examine the
 contribution of each modality and develop an interpretable model that could eventually support
 personalized rehabilitation planning and post-stroke care.
+</div>
 
 ![Stroke Recovery Modelling]({{ '/assets/img/projects/stroke-recovery-modelling.png' | relative_url }}){: .img-fluid .rounded .z-depth-1 .mb-4 .project-detail-image }
+
+
