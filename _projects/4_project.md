@@ -1,34 +1,29 @@
 ---
 layout: page
-title: Insights on Language Studies via LLMs
-description: Multidisciplinary research exploring language studies and textual analytics using Large Language Models. Supported by URC Grant No. 32 (LKR 2,624,628).
+title: Large Language Models (LLMs)
+description: Responsible-AI research on bias, psychological cue recognition, hallucination detection, and trustworthy LLM behaviour.
 importance: 4
-category: AI for Public Health, Education & Society
+category: Generative AI (GenAI)
 ---
 
-## Project Overview
+<div class="project-overview" markdown="1">
 
-This project explores the integration of **Large Language Models (LLMs)** and natural language processing (NLP) architectures to analyze language studies, multilingual discourse, and social interactions. By parsing complex linguistic datasets, the project supports inquiry into education models, cognitive-development patterns, and the social dimensions of technological change across different communities.
+## Overview
 
-### Project Details
-- **Role**: Co-Investigator
-- **Funding Agency**: University Research Council (URC), University of Peradeniya
-- **Grant Number**: Grant No. 32
-- **Funding Amount**: LKR 2,624,628.00
-- **Timeline**: May 2025–November 2026
-- **Status**: Ongoing
+human-centered settings, with a focus on trust, safety, and responsible AI. Our work currently
+spans three complementary research directions. First, we study social and gender bias in
+LLM-generated content, examining how stereotypes emerge across models, prompts, cultural
+settings, and narrative roles. Second, in collaboration with the Department of Psychology, we
+evaluate how effectively LLMs recognize psychological and depression-related cues in
+conversations, including situations where users may or may not explicitly ask for help. Third, we
+investigate misinformation and hallucinations in LLM outputs, exploring methods such as
+semantic uncertainty and internal model signals to identify unreliable responses. Together, these
+projects aim to understand not only what LLMs say, but also when, why, and how their outputs
+may become biased, unsafe, or misleading, ultimately contributing toward more reliable,
+transparent, and socially responsible AI systems for diverse users and real-world applications
+worldwide.
+</div>
 
----
+![Large Language Models]({{ '/assets/img/projects/large-language-models.png' | relative_url }}){: .img-fluid .rounded .z-depth-1 .mb-4 .project-detail-image }
 
-## Key Research Objectives
 
-1. **Multilingual and Dialect Analysis**: Adapting LLMs to better understand regional nuances and dialects in South Asian contexts.
-2. **Textual Sentiment & Cognitive Mapping**: Evaluating psychological distress and social connection changes by analyzing textual transcripts and surveys.
-3. **Educational Content Adaptation**: Using generative AI systems to analyze and summarize student learning behaviours and adapt curriculum material.
-
----
-
-## Related Publications
-
-- **Senarath, N., Dedunupitiya, W., Ilangarathna, G., Thilakasiri, I., Samarakoon, B., Ramanayake, L., Godaliyadda, R., Ekanayake, P., Herath, V., Pinnawala, M., Yatigammana, S., Ekanayake, J., Dharmarathne, S., & Tilakaratne, G.** (2024). *Family income does not necessarily lead to a holistic e-learning experience during COVID-19: a study in Sri Lanka*. Humanities and Social Sciences Communications (Nature Portfolio).
-- **Thilakasiri, I., Fonseka, T., Mapa, I., Godaliyadda, R., Herath, V., Thowfeek, R., Rathnayake, A., Ekanayake, P., & Ekanayake, J.** (2025). *The influence of social interactions in mitigating psychological distress during the COVID-19 pandemic: a study in Sri Lanka*. Frontiers in Psychology.

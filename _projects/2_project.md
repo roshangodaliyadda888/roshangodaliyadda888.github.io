@@ -1,34 +1,29 @@
 ---
 layout: page
-title: HeritageAI Hardware Acceleration
-description: Advanced generative modeling utilizing an in-kind 8K A100 GPU-hours allocation provided by the NVIDIA Academic Grant Program.
+title: Implicit Neural Representations (INR)
+description: Fundamental and applied research on implicit neural representations, including spectral-bias analysis and the COSMO-INR framework.
 importance: 2
-category: AI Foundations & Generative Models
-giscus_comments: true
+category: Generative AI (GenAI)
 ---
 
-## Project Overview
+<div class="project-overview" markdown="1">
 
-**HeritageAI** is an academic grant programme supported by NVIDIA, aimed at leveraging deep learning, generative artificial intelligence, and implicit neural representations for preserving cultural heritage. The project utilizes high-performance GPU hours to build continuous 3D and multidimensional models of heritage sites and historical artifacts, enabling digital restoration, archive visualization, and immersive interaction.
+## Overview
 
-### Project Details
-- **Role**: Principal Investigator
-- **Funding Agency**: NVIDIA Academic Grant Program
-- **In-kind Support**: 8,000 A100 GPU-hours (via Brev)
-- **Timeline**: 2026
-- **Status**: Ongoing
+Implicit Neural Representations (INRs) are neural networks that represent signals such as
+images, audio, 3D shapes, and other continuous data as functions of their spatial or temporal
+coordinates. Our research on INRs spans both fundamental theory and practical applications. A
+major theoretical focus is spectral bias, the tendency of neural networks to learn low-frequency
+components of a signal faster than high-frequency details. Through our studies, we identified
+that odd or even symmetry in activation functions contributes to this behaviour. To address this
+limitation, we proposed COSMO-INR, a new INR framework that achieved state-of-the-art
+performance across several INR benchmarks. COSMO-INR was published at ICLR 2026,
+marking the first top-tier AI conference paper produced by a fully Sri Lankan-affiliated research
+team. Beyond theory, we apply our INR advances to real-world problems, including restoration
+of degraded historical images for cultural heritage preservation through the Heritage AI project,
+supported by the NVIDIA Academic Grant.
+</div>
 
----
+![Implicit Neural Representations]({{ '/assets/img/projects/implicit-neural-representations.png' | relative_url }}){: .img-fluid .rounded .z-depth-1 .mb-4 .project-detail-image }
 
-## Key Research Objectives
 
-1. **Implicit Neural Representations (INRs)**: Developing coordinate-based neural networks for continuous modelling of detailed shapes and materials.
-2. **Generative Restoration**: Reconstructing damaged artifacts and sites digitally using generative models and diffusion-based structures.
-3. **High-Performance Scalability**: Optimizing training pipelines to leverage large-scale A100 GPU allocations efficiently.
-
----
-
-## Related Publications
-
-- **Thennakoon, P., Ranasinghe, A., de Silva, M., Epakanda, B., Godaliyadda, R., Ekanayake, M. P. B., & Herath, V. R.** (2026). *COSMO-INR: Complex Sinusoidal Modulation for Implicit Neural Representations*. Proceedings of the 14th International Conference on Learning Representations (ICLR 2026), Rio de Janeiro, Brazil.
-- **Epakanda, B., de Silva, M., Ranasinghe, A., Thennakoon, P., Godaliyadda, R., Ekanayake, M. P. B., & Herath, V. R.** (2026). *From Samples to Functions: Implicit Neural Representations for Continuous Modeling*. Proceedings of the IEEE 19th International Conference on Industrial and Information Systems (ICIIS-2025).

@@ -1,34 +1,32 @@
 ---
 layout: page
-title: AI Framework for Pandemic Threat Assessment
-description: Artificial Intelligence framework for COVID-19 and epidemic threat containment, mitigating socioeconomic impacts. Backed by the International Development Research Centre (CAD 0.8 Million).
+title: Demographic Analysis
+description: Population-structure analysis using PoPDivergence, PoPStat, and interdisciplinary modelling for demographic and public-health outcomes.
 importance: 6
-category: AI for Public Health, Education & Society
+category: AI for Sociology, Humanities & Socio-economics
 ---
 
-## Project Overview
+<div class="project-overview" markdown="1">
 
-This international research project developed an **Artificial Intelligence Framework** for pandemic threat assessment and containment. Focusing on the COVID-19 pandemic and preparedness for future epidemics, the project created agent-based computational models that simulate human behavioural dynamics and policy interventions. The framework evaluates threat-containment strategies while accounting for socioeconomic impacts on women, children, and underprivileged groups.
+## Overview
 
-### Project Details
-- **Role**: Co-Investigator (Member)
-- **Funding Agency**: International Development Research Centre (IDRC), Canada
-- **Funding Amount**: CAD 800,000.00 (approx. LKR 180 Million)
-- **Timeline**: February 2021–August 2023
-- **Status**: Completed
+is a multidisciplinary research project focused on developing
+data-driven methods to better understand how population structure influences demographic and
+public-health outcomes. A central theme of the project is the use of complete population
+pyramids rather than conventional summary indicators such as median age or the proportion of
+people aged over 65.
 
----
+Our work introduced PoPDivergence and PoPStat, information-theoretic and statistical
+measures that transform complex age–sex distributions into interpretable demographic
+indicators and relate them to cause-specific mortality across hundreds of diseases and
+countries. The framework has subsequently been applied to regional mortality analysis and
+COVID-19 vulnerability, demonstrating that the relationship between population structure and
+health outcomes varies substantially across diseases and geographical regions.
+The broader project combines demographic data, statistical modelling, information theory,
+epidemiology, and large-scale computational analysis to uncover interpretable patterns in
+population evolution and support evidence-based public-health planning.
+</div>
 
-## Key Research Objectives
+![Demographic Analysis]({{ '/assets/img/projects/demographic-analysis.png' | relative_url }}){: .img-fluid .rounded .z-depth-1 .mb-4 .project-detail-image }
 
-1. **Agent-Based Behavioral Modeling**: Building virtual societies where agents simulate realistic human behaviour, mobility patterns, and contact networks.
-2. **Socioeconomic Impact Assessment**: Developing quantitative tools to evaluate how lockdowns, school closures, and economic shutdowns affect vulnerable groups.
-3. **Optimized Containment Policies**: Using reinforcement learning and multi-objective optimization to propose public-health interventions that control spread while preserving social welfare.
 
----
-
-## Related Publications
-
-- **Ilangarathna, G. et al.** (2022). *Artificial Intelligence framework for threat assessment and containment for covid-19 and future epidemics while mitigating the socioeconomic impact to women, children, and underprivileged groups*. Journal of the National Science Foundation of Sri Lanka.
-- **Weligampola, H., Ramanayake, L., Ranasinghe, Y., Ilangarathna, G., Senarath, N., Samarakoon, B., Godaliyadda, R., Herath, V., Ekanayake, P., Ekanayake, J., Maheswaran, M., Theminimulle, S., Rathnayake, A., Dharmaratne, S., Pinnawala, M., Yatigammana, S., & Tilakaratne, G.** (2023). *Pandemic Simulator: An Agent-Based Framework with Human Behavior Modeling for Pandemic-Impact Assessment to Build Sustainable Communities*. Sustainability.
-- **Ilangarathna, G. A., Ramanayake, L., Senarath, N., Ranasinghe, Y., Weligampola, H., Dedunupitiya, W., Thilakasiri, I., Godaliyadda, R., Ekanayake, P., Herath, V., Ekanayake, J., Yatigammana, S., Rathnayake, A., Pinnawala, M., Maheswaran, M., Tilakaratne, G., & Dharmarathne, S.** (2024). *A dataset on the socioeconomic and behavioural impacts in Sri Lanka through multiple waves of COVID-19*. Data in Brief.

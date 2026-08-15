@@ -1,33 +1,30 @@
 ---
 layout: page
-title: Research Initiative in Optical Wireless Communications & Light-Based IoT
-description: Sustained research initiative on visible-light communication, underwater optical wireless links, and light-based IoT system design.
+title: Data-Energy Networking enabled Light-based IoT (DE-LIoT)
+description: Battery-free light-based IoT with optical wireless power transfer, cooperative energy sharing, and digital-twin optimization.
 importance: 11
-category: Optical Wireless Communications
+category: Light-based Communications
 ---
 
-## Project Overview
+<div class="project-overview" markdown="1">
 
-This research initiative consolidates sustained work on optical wireless communication networks, visible-light communication, and light-based IoT architectures. The initiative investigates communication methods that use light as a transmission medium for high-speed, energy-aware, and application-specific connectivity, including underwater sensing and low-power device networks.
+## Overview
 
-### Initiative Scope
-- **Nature**: Ongoing research initiative
-- **Focus Areas**: Visible-light communication, underwater optical wireless links, and light-based IoT architectures
-- **Status**: Ongoing
+sustainable approach for creating battery-free indoor sensor networks. Instead of relying on
+conventional batteries, IoT nodes harvest energy from indoor illumination while exchanging
+information through optical wireless communication. Nodes located in well-lit areas can
+accumulate surplus energy and redistribute it to nearby energy-deficient nodes through Optical
+Wireless Power Transfer (OWPT), creating a cooperative energy-sharing network.The main
+focus of the project is to study, optimize, and intelligently manage this energy-sharing
+process so that available energy is used as efficiently as possible across the network. Using a
+digital twin of the DE-LIoT environment, we can explore multiple deployment, illumination,
+node-placement, and energy-demand scenarios virtually, analyze network behavior, and
+develop smarter strategies for deciding when, where, and how much energy should be
+shared.
+</div>
 
----
+![Data-Energy Networking enabled Light-based IoT]({{ '/assets/img/projects/energy-networking.png' | relative_url }}){: .img-fluid .rounded .z-depth-1 .mb-4 .project-detail-image }
 
-## Key Research Objectives
 
-1. **Light-Based Internet of Things**: Developing full-duplex energy-autonomous IoT nodes utilizing printed electronics for sustainable data-energy networking.
-2. **Underwater Optical Wireless Communication (UOWC)**: Mitigating turbid-water conditions, modelling blockage prediction, and optimizing multi-AUV placement for coverage maximization.
-3. **Visible Light Communication (VLC)**: Implementing VLC transceiver circuits with active ambient-light cancellation to enable reliable visible-light link connectivity.
 
----
 
-## Related Publications
-
-- **Perera, A., Godaliyadda, R., Hakkinen, J., Katz, M., & Strommer, E.** (2025). *Lighting the Way for a Sustainable Future: Overcoming Challenges in Light-Based IoT and Data-Energy Networking*. IEEE Communications Magazine.
-- **Palitharathna, K. W. S., Suraweera, H. A., Godaliyadda, R. I., Herath, V. R., & Thompson, J. S.** (2024). *Neural Network-Based Blockage Prediction and Optimization in Lightwave Power Transfer-Enabled Hybrid VLC/RF Systems*. IEEE Internet of Things Journal.
-- **Perera, A., Katz, M., Godaliyadda, R., Hakkinen, J., & Strommer, E.** (2021). *Light-based Internet of Things: Implementation of an Optically Connected Energy-autonomous node*. Proceedings of the IEEE Wireless Communications and Networking Conference (WCNC).
-- **Palitharathna, K. W. S., Suraweera, H. A., Godaliyadda, R. I., Herath, V. R., & Thompson, J. S.** (2020). *Multi-AUV Placement for Coverage Maximization in Underwater Optical Wireless Sensor Networks*. Proceedings of the IEEE OCEANS Conference.

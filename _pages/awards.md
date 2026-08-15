@@ -29,20 +29,31 @@ nav_order: 5
         <article class="entry-row" role="listitem">
           <div class="entry-year">{{ award.year }}</div>
           <div class="entry-body">
-            <h3>{{ award.title }}</h3>
-            <p class="entry-meta">
-              {% if award.organization != blank %}{{ award.organization }}{% else %}Organization not specified in source{% endif %}
-              {% if award.category != blank %}<span class="meta-separator">•</span>{{ award.category }}{% endif %}
-            </p>
-            {% if award.notes != blank %}
-              <p class="entry-notes">{{ award.notes }}</p>
-            {% endif %}
+            {% assign is_president_award = award.title contains "President's Award for Scientific Publications" %}
+            <h3>{{ award.title }}{% if is_president_award and award.notes != blank %} ({{ award.notes }}){% endif %}</h3>
+            {% unless is_president_award %}
+              <p class="entry-meta">
+                {% if award.organization != blank %}{{ award.organization }}{% else %}Organization not specified in source{% endif %}
+                {% if award.category != blank %}<span class="meta-separator">&bull;</span>{{ award.category }}{% endif %}
+              </p>
+              {% if award.notes != blank %}
+                <p class="entry-notes">{{ award.notes }}</p>
+              {% endif %}
+            {% endunless %}
             {% if award.citations %}
-              <ul class="award-citations">
-                {% for citation in award.citations %}
-                  <li>{{ citation }}</li>
-                {% endfor %}
-              </ul>
+              {% if is_president_award %}
+                <div class="award-citations award-citations--president">
+                  {% for citation in award.citations %}
+                    <p>{{ citation }}</p>
+                  {% endfor %}
+                </div>
+              {% else %}
+                <ul class="award-citations">
+                  {% for citation in award.citations %}
+                    <li>{{ citation }}</li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
             {% endif %}
           </div>
         </article>

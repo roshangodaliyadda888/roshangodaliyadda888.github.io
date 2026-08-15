@@ -1,35 +1,32 @@
 ---
 layout: page
 title: Non-Intrusive Load Monitoring (NILM)
-description: Non-intrusive load monitoring framework for flexible demand estimation and electrical management. Supported by NSF Grant No. RG/2016/EA&ICT/01 (LKR 1,582,768).
+description: AI-based NILM for lightweight, edge-deployable appliance-level energy disaggregation from aggregate meter signals.
 importance: 9
-category: Smart Grids & Sustainable Energy
+category: Renewable Energy & Smart Grid
 ---
 
-## Project Overview
+<div class="project-overview" markdown="1">
 
-**Non-Intrusive Load Monitoring (NILM)** is a cost-effective technology that estimates the power consumption of individual household appliances by analyzing aggregate electrical signals measured at a single point, such as the main smart meter. This project developed NILM algorithms based on appliance-usage pattern recognition, spectral transients of low-frequency measurements, and robust load forecasting to support household energy audits and smart-grid demand response.
+## Overview
 
-### Project Details
-- **Role**: Principal Investigator
-- **Funding Agency**: National Science Foundation (NSF), Sri Lanka
-- **Grant Number**: Grant No. RG/2016/EA&ICT/01
-- **Funding Amount**: LKR 1,582,768.00
-- **Timeline**: June 2016–June 2018
-- **Status**: Completed
+This project focuses on Non-Intrusive Load Monitoring (NILM), a technique that identifies the
+energy consumption of individual household appliances using only a single aggregate power
+meter, rather than installing separate sensors on each device. Unlike Intrusive Load Monitoring
+(ILM), which requires per-appliance metering hardware, NILM is more cost-effective, easier to
+deploy, and better suited to existing smart-meter infrastructure, making it a practical solution for
+large-scale residential and commercial energy monitoring. By disaggregating total power signals
+into appliance-level insights, NILM supports demand-side management, energy efficiency
+programs, and consumer feedback systems that encourage reduced electricity usage.
 
----
+This research aims to develop AI-based NILM models specifically optimized for deployment on
+resource-constrained edge devices such as smart meters and microcontrollers. The focus is on
+building lightweight, computationally efficient architectures that maintain high disaggregation
+accuracy while minimizing memory footprint and processing overhead, enabling real-time,
+on-device energy monitoring without dependence on cloud computing or high-frequency
+sampling infrastructure.
+</div>
 
-## Key Research Objectives
+![Non-Intrusive Load Monitoring]({{ '/assets/img/projects/nilm.png' | relative_url }}){: .img-fluid .rounded .z-depth-1 .mb-4 .project-detail-image }
 
-1. **Appliance Signature Identification**: Differentiating appliances based on low-frequency active-power profiles and harmonic transient currents.
-2. **Robustness to Voltage Fluctuations**: Developing appliance-identification algorithms that remain accurate under fluctuating residential supply voltages.
-3. **Usage Pattern Modeling**: Integrating temporal behavioural models to forecast household demand profiles.
 
----
-
-## Related Publications
-
-- **Welikala, S., Godaliyadda, R. I., Ekanayake, M. P. B., & Wijayakulasooriya, J. V.** (2019). *Incorporating Appliance Usage Patterns for Non-Intrusive Load Monitoring and Load Forecasting*. IEEE Transactions on Smart Grid.
-- **Dinesh, C., Godaliyadda, R. I., Ekanayake, M. P. B., & Wijayakulasooriya, J. V.** (2016). *Residential Appliance Identification Based on Spectral Information of Low-Frequency Smart Meter Measurements*. IEEE Transactions on Smart Grid.
-- **Dinesh, C., Welikala, S., Liyanage, Y., Ekanayake, M. P. B., Godaliyadda, R. I., & Ekanayake, J.** (2017). *Non-intrusive load monitoring under residential solar power influx*. Applied Energy.

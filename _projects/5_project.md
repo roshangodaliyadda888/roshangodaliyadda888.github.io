@@ -1,35 +1,35 @@
 ---
 layout: page
-title: Wearable Device for Biometric Monitoring
-description: Development of a wearable device for real-time monitoring of biometric signals in pregnant women, athletes, and others. Supported by URC Grant No. 207 (LKR 1,147,250).
+title: Biomechanical Motion Capture & Sports Performance Analysis
+description: Wearable IMU-based motion capture and biomechanics for joint-angle estimation, skill analysis, and athlete-performance assessment.
 importance: 5
-category: Biomedical Signal Processing & Wearable AI
+category: Wearable Technology
 ---
 
-## Project Overview
+<div class="project-overview" markdown="1">
 
-This project designed, fabricated, and tested a **non-invasive wearable device** to monitor biometric signals of pregnant women, athletes, and general individuals in real time. The device uses multi-accelerometer, inertial, and physiological sensors to track human motion, detect abnormalities, and identify specific events (such as fetal movement or sports-related psychomotor patterns) on-device using lightweight hybrid machine learning models.
+## Overview
 
-### Project Details
-- **Role**: Co-Investigator
-- **Funding Agency**: University Research Council (URC), University of Peradeniya
-- **Grant Number**: Grant No. 207
-- **Funding Amount**: LKR 1,147,250.00
-- **Timeline**: June 2022 – August 2023
-- **Status**: Completed
+This ongoing research project focuses on wearable, IMU-based human motion capture and
+biomechanical analysis for sports performance assessment. A wireless, ergonomic, and
+cost-effective wearable sensing platform has been designed and developed to capture human
+movement using distributed inertial sensors. Sensor-fusion and signal-processing algorithms
+have been implemented for accurate estimation of dynamic joint-angle variations during
+complex movements.
 
----
+The current research focuses on weightlifting technique analysis, combining IMU-derived
+motion data with video recordings and athlete-specific information from Commonwealth,
+national, and amateur-level weightlifters. Signal processing, entropy-based analysis, and
+graph-theoretic methods are being explored for movement pattern recognition and
+quantitative characterization of sports techniques. A performance space and benchmarking
+framework are being developed to enable objective comparison of movement quality and
+technique across athletes.
 
-## Key Research Objectives
+The platform is designed as a general-purpose biomechanical analysis system, with future
+applications extending to high-speed and complex-motion sports such as athletics, cricket,
+and other performance-intensive disciplines.
+</div>
 
-1. **Low-power Hardware Co-design**: Fabricating custom wearable inertial measurement sensor modules with long battery lives.
-2. **Fetal & Maternal Tracking**: Creating noise-resilient hybrid algorithms to differentiate fetal movements from maternal motions.
-3. **Sports Analytics**: Benchmarking psychomotor coordination and skill tracking for sports training applications.
+![Biomechanical Motion Capture and Sports Performance Analysis]({{ '/assets/img/projects/biomechanics.png' | relative_url }}){: .img-fluid .rounded .z-depth-1 .mb-4 .project-detail-image }
 
----
 
-## Related Publications
-
-- **Pandukabhaya, M., Fonseka, T., Kulathunge, M., Godaliyadda, R., Ekanayake, P., Senanayake, C., & Herath, V.** (2025). *Performance Benchmarking of Psychomotor Skills Using Wearable Devices: An Application in Sport*. IEEE Access.
-- **Delay, U., Nawarathne, T., Dissanayake, S., Gunarathne, S., Withanage, T., Godaliyadda, R., Rathnayake, C., Ekanayake, P., & Wijayakulasooriya, J.** (2021). *Novel non-invasive in-house fabricated wearable system with a hybrid algorithm for fetal movement recognition*. PLOS ONE.
-- **Senanayaka, J., Somathilake, E., Delay, U., Gunarathne, S., Godaliyadda, R., Ekanayake, M. P., Wijayakulasooriya, J., & Ratnayake, C.** (2021). *Fetal Movement Dataset Recorded Using Four Inertial Measurement Units*. Mendeley Data.

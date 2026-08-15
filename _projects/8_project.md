@@ -1,35 +1,31 @@
 ---
 layout: page
-title: High Voltage Insulator Surface Pollution Monitoring
-description: Monitoring surface contamination on high-voltage insulators using a custom multispectral imaging system. Supported by URC Grant No. URG/2017/26/E (LKR 400,000).
+title: Multispectral Imaging (MSI)
+description: In-house multispectral imaging platform for non-destructive soil, food, oil, and adulteration analysis.
 importance: 8
-category: Multispectral Imaging & Remote Sensing
-giscus_comments: true
+category: Multispectral Imaging (MSI)
 ---
 
-## Project Overview
+<div class="project-overview" markdown="1">
 
-Sustained contamination and pollution on high-voltage transmission insulators can lead to leakage currents, flashovers, and widespread power-grid failures. This project developed a **non-contact multispectral imaging system** to monitor insulator surface pollution levels. By capturing light reflectance and transmittance across specific spectral bands, the system estimates the severity and composition of surface contaminants, such as dust, salt, or algae growth, in real time.
+## Overview
 
-### Project Details
-- **Role**: Co-Investigator
-- **Funding Agency**: University Research Council (URC), University of Peradeniya
-- **Grant Number**: Grant No. URG/2017/26/E
-- **Funding Amount**: LKR 400,000.00
-- **Timeline**: November 2017–November 2018
-- **Status**: Completed
+Multispectral Imaging (MSI) is a non-destructive optical sensing technique that captures
+wavelength-dependent spatial data to reveal subtle chemical and physical variations invisible to
+standard RGB imaging. To advance this field, we have developed a cost-effective, in-house MSI
+system supporting both reflectance and transmittance imaging. This modular device leverages
+advanced image processing, machine learning, and deep learning for the robust classification
+and quantitative assessment of diverse materials.
 
----
+Our current research focuses on rapid, non-invasive agricultural and food quality applications.
+Key ongoing projects include estimating USDA soil texture, detecting aflatoxin contamination in
+food, differentiating reheated coconut oil, and identifying adulterants in turmeric. These studies
+highlight MSI’s immense potential for non-destructive quality evaluation. Moving forward, we aim
+to evolve this technology into portable, application-specific MSI systems that seamlessly
+combine customized optical hardware with intelligent data analysis for practical field and
+laboratory use.
+</div>
 
-## Key Research Objectives
+![Multispectral Imaging]({{ '/assets/img/projects/multispectral-imaging-platform.png' | relative_url }}){: .img-fluid .rounded .z-depth-1 .mb-4 .project-detail-image }
 
-1. **Multispectral Spectral Signature Analysis**: Identifying the optimal narrow spectral bands that change systematically with insulator pollution severity.
-2. **Algae Contamination Mapping**: Creating reflectance-index models to detect biological algae growth on ceramic and composite insulators.
-3. **Remote Condition Assessment**: Building an image-processing pipeline capable of checking insulator health remotely under varied sunlight conditions.
 
----
-
-## Related Publications
-
-- **Abeysekara, A. H. A. D., Kumara, J. R. S. S., Fernando, M. A. R. M., Ekanayake, M. P. B., Godaliyadda, G. M. R. I., & Wijayakulasooriya, J. V.** (2017). *Remote Leakage Current Detector for Identification of Insulators Discharges*. IEEE Transactions on Dielectrics and Electrical Insulation.
-- **Ramanayake, L., Senerath, N., Jayasundara, D., Prabath, K., Weerasooriya, K., Fernando, M., Kumara, S., Herath, V., Godaliyadda, R., Ekanayake, P., & Athukorala, S.** (2021). *Reflectance Multispectral Imaging for Identification of Algae Contamination in High Voltage Insulators*. OSA Imaging and Applied Optics Congress.

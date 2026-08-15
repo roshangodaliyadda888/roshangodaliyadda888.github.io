@@ -1,34 +1,28 @@
 ---
 layout: page
-title: Preterm Birth Detection via EHG & Tocogram
-description: Multidisciplinary research detecting preterm birth using electrohysterogram and tocogram signals. Supported by URC Grant No. 33 (LKR 2,229,328).
+title: Preterm Birth Risk Assessment
+description: Non-invasive preterm birth risk assessment using electrohysterography, signal processing, and machine learning.
 importance: 3
-category: Biomedical Signal Processing & Wearable AI
+category: Biomedical Engineering & Bio-imaging
 ---
 
-## Project Overview
+<div class="project-overview" markdown="1">
 
-Preterm birth remains a leading cause of neonatal mortality and morbidity globally. This project, funded by the University Research Council, develops advanced signal processing and machine learning techniques to analyze **Electrohysterogram (EHG)**—which measures uterine electrical activity—and **Tocogram (TOCO)** records. The goal is to identify early markers of preterm labor and develop reliable, non-invasive systems for predicting birth timing.
+## Overview
 
-### Project Details
-- **Role**: Co-Investigator
-- **Funding Agency**: University Research Council (URC), University of Peradeniya
-- **Grant Number**: Grant No. 33
-- **Funding Amount**: LKR 2,229,328.00
-- **Timeline**: May 2025 – November 2026
-- **Status**: Ongoing
+This project investigates non-invasive preterm birth risk assessment using electrohysterography
+(EHG), which records uterine electrical activity from the maternal abdomen. The work is being
+carried out through a multidisciplinary collaboration involving the Department of Obstetrics &
+Gynaecology and the Department of Community Medicine of the Faculty of Medicine, together
+with the Department of Sociology at the University of Peradeniya. The research combines signal
+processing and machine learning to identify EHG patterns associated with preterm delivery.
+Initial studies use established public datasets to develop and rigorously evaluate prediction
+methods, while the next phase will establish a prospective Sri Lankan EHG dataset for local
+validation and model development. A dedicated higher-density EHG acquisition device has also
+been developed to support prospective data collection, richer spatial analysis, and future
+clinically relevant preterm birth risk assessment.
+</div>
 
----
+![Preterm Birth Risk Assessment]({{ '/assets/img/projects/preterm-birth-risk-assessment.png' | relative_url }}){: .img-fluid .rounded .z-depth-1 .mb-4 .project-detail-image }
 
-## Key Research Objectives
 
-1. **Multi-Modal Signal Fusion**: Combining EHG (uterine electromyography) and tocography signals to increase classification reliability.
-2. **Feature Extraction**: Applying advanced mathematical transforms and deep learning structures (such as RNNs/LSTMs) to detect labor contraction patterns.
-3. **Clinical Translation**: Developing algorithms suitable for low-power integration in portable devices for remote monitoring of high-risk pregnancies.
-
----
-
-## Related Publications
-
-- **Somathilake, E., Delay, U. H., Senanayaka, J. B., Gunarathne, S. L., Godaliyadda, R. I., Ekanayake, M. P., Wijayakulasooriya, J., & Rathnayake, C.** (2022). *Assessment of Fetal and Maternal Well-Being During Pregnancy Using Passive Wearable Inertial Sensor*. IEEE Transactions on Instrumentation and Measurement.
-- **Somathilake, E., Senanayaka, J. B., Delay, U., Gunarathne, S., Nawarathne, T., Withanage, T., Godaliyadda, R., Ekanayake, P., Wijayakulasooriya, J., & Rathnayake, C.** (2021). *Fetal Movement Detection using Long Short-Term Memory Network*. Proceedings of the 2021 IEEE 10th International Conference on Information and Automation for Sustainability (ICIAfS 2021).

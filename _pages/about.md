@@ -17,10 +17,8 @@ profile:
       <div class="professor-sidebar__divider"></div>
       <p class="professor-sidebar__eyebrow">Deputy Director - Research &amp; Innovation</p>
       <p class="professor-sidebar__org">Multidisciplinary AI Research Centre [MARC], University of Peradeniya</p>
-      <p class="professor-sidebar__org">Multidisciplinary AI Research Centre(MARC), University of Peradeniya</p>
       <div class="professor-sidebar__contacts">
-        <a href="tel:+94777709035" aria-label="Call Professor G. M. R. I. Godaliyadda at +94 77 770 9035"><span aria-hidden="true">&#9742;</span><span>+94 77 770 9035</span></a>
-        <a href="mailto:roshangod@ee.pdn.ac.lk" aria-label="Email roshangod@ee.pdn.ac.lk"><span aria-hidden="true">&#9993;</span><span>roshangod@ee.pdn.ac.lk</span></a>
+        <a href="mailto:roshangodd@ee.pdn.ac.lk" aria-label="Email roshangodd@ee.pdn.ac.lk"><span aria-hidden="true">&#9993;</span><span>roshangodd@ee.pdn.ac.lk</span></a>
         <a href="mailto:roshang@eng.pdn.ac.lk" aria-label="Email roshang@eng.pdn.ac.lk"><span aria-hidden="true">&#9993;</span><span>roshang@eng.pdn.ac.lk</span></a>
       </div>
     </div>
@@ -117,6 +115,7 @@ latest_posts:
   .professor-homepage p {
     margin: 0 0 1rem;
     font-size: 0.99rem;
+    text-align: justify;
   }
 
   .professor-homepage__section {
@@ -216,7 +215,7 @@ latest_posts:
 
   .professor-sidebar {
     margin-top: 1rem;
-    padding: 1rem 1.1rem;
+    padding: 1rem 1rem 0.95rem;
     border: 1px solid rgba(110, 31, 42, 0.12);
     border-radius: 1rem;
     background: rgba(110, 31, 42, 0.03);
@@ -225,30 +224,32 @@ latest_posts:
   }
 
   .professor-sidebar__eyebrow {
-    margin: 0 0 0.35rem;
+    margin: 0 0 0.45rem;
     color: var(--professor-accent-strong);
     font-size: 0.94rem;
     font-weight: 700;
+    line-height: 1.35;
   }
 
   .professor-sidebar__org {
-    margin: 0;
+    margin: 0 0 0.3rem;
     color: var(--professor-text-soft);
     font-size: 0.93rem;
-    line-height: 1.55;
+    line-height: 1.42;
+    text-align: left;
   }
 
   .professor-sidebar__divider {
     width: 100%;
     height: 1px;
-    margin: 0.85rem 0;
+    margin: 0.95rem 0 1.05rem;
     background: rgba(110, 31, 42, 0.12);
   }
 
   .professor-sidebar__contacts {
     display: grid;
-    gap: 0.55rem;
-    margin-top: 0.9rem;
+    gap: 0.45rem;
+    margin-top: 0.95rem;
   }
 
   .professor-sidebar__contacts a {

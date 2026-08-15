@@ -2,98 +2,101 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Selected funded research projects and major multidisciplinary research initiatives led or co-led by Professor G. M. R. I. Godaliyadda.
+description:
 nav: true
 nav_order: 3
-display_categories: ["Biomedical Signal Processing & Wearable AI", "Computer Vision, Robotics & Assisted Navigation", "Smart Grids & Sustainable Energy", "Multispectral Imaging & Remote Sensing", "AI for Public Health, Education & Society", "Optical Wireless Communications", "AI Foundations & Generative Models"]
-horizontal: false
+display_categories: ["Generative AI (GenAI)", "AI for Remote Sensing & GIS", "AI for Sociology, Humanities & Socio-economics", "Biomedical Engineering & Bio-imaging", "Computer Vision (CV)", "Wearable Technology", "Agrivoltaics & Plant Growth", "Light-based Communications", "Renewable Energy & Smart Grid", "Multispectral Imaging (MSI)"]
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/projects-page.css' | relative_url }}">
 
 <div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
   <p class="projects-page-intro">
-    Selected funded research projects and major multidisciplinary research initiatives led or co-led by Professor G. M. R. I. Godaliyadda. The projects span biomedical sensing, artificial intelligence, smart energy systems, imaging, public health, robotics, and optical communications.
+    Selected funded research projects and major multidisciplinary research initiatives led or co-led by Professor G. M. R. I. Godaliyadda.
+    The projects span generative AI, remote sensing and GIS, sociology and socio-economics, biomedical engineering and bio-imaging, computer vision, wearable technology, agrivoltaics and plant growth, light-based communications, renewable energy and smart-grid systems, and multispectral imaging.
   </p>
-
-  <!-- Display categorized projects -->
+  <section class="projects-highlight-ribbon" aria-label="Research highlight carousel">
+    <div class="projects-highlight-ribbon__viewport">
+      <div class="projects-highlight-ribbon__track">
+        <figure class="projects-highlight-ribbon__slide">
+          <img src="{{ '/assets/img/projects/carousel/01-generative-ai-genai.webp' | relative_url }}" alt="Generative AI research highlight" class="projects-highlight-ribbon__image">
+        </figure>
+        <figure class="projects-highlight-ribbon__slide">
+          <img src="{{ '/assets/img/projects/carousel/02-ai-for-socio-economics-public-health.webp' | relative_url }}" alt="AI for socio-economics and public health research highlight" class="projects-highlight-ribbon__image">
+        </figure>
+        <figure class="projects-highlight-ribbon__slide">
+          <img src="{{ '/assets/img/projects/carousel/03-agrivoltaics-plant-modeling.webp' | relative_url }}" alt="Agrivoltaics and plant modeling research highlight" class="projects-highlight-ribbon__image">
+        </figure>
+        <figure class="projects-highlight-ribbon__slide">
+          <img src="{{ '/assets/img/projects/carousel/04-gis-remote-sensing.webp' | relative_url }}" alt="GIS and remote sensing research highlight" class="projects-highlight-ribbon__image">
+        </figure>
+        <figure class="projects-highlight-ribbon__slide">
+          <img src="{{ '/assets/img/projects/carousel/05-wearable-technology.webp' | relative_url }}" alt="Wearable technology research highlight" class="projects-highlight-ribbon__image">
+        </figure>
+        <figure class="projects-highlight-ribbon__slide">
+          <img src="{{ '/assets/img/projects/carousel/06-light-based-communications.webp' | relative_url }}" alt="Light-based communications research highlight" class="projects-highlight-ribbon__image">
+        </figure>
+        <figure class="projects-highlight-ribbon__slide" aria-hidden="true">
+          <img src="{{ '/assets/img/projects/carousel/01-generative-ai-genai.webp' | relative_url }}" alt="" class="projects-highlight-ribbon__image">
+        </figure>
+        <figure class="projects-highlight-ribbon__slide" aria-hidden="true">
+          <img src="{{ '/assets/img/projects/carousel/02-ai-for-socio-economics-public-health.webp' | relative_url }}" alt="" class="projects-highlight-ribbon__image">
+        </figure>
+        <figure class="projects-highlight-ribbon__slide" aria-hidden="true">
+          <img src="{{ '/assets/img/projects/carousel/03-agrivoltaics-plant-modeling.webp' | relative_url }}" alt="" class="projects-highlight-ribbon__image">
+        </figure>
+        <figure class="projects-highlight-ribbon__slide" aria-hidden="true">
+          <img src="{{ '/assets/img/projects/carousel/04-gis-remote-sensing.webp' | relative_url }}" alt="" class="projects-highlight-ribbon__image">
+        </figure>
+        <figure class="projects-highlight-ribbon__slide" aria-hidden="true">
+          <img src="{{ '/assets/img/projects/carousel/05-wearable-technology.webp' | relative_url }}" alt="" class="projects-highlight-ribbon__image">
+        </figure>
+        <figure class="projects-highlight-ribbon__slide" aria-hidden="true">
+          <img src="{{ '/assets/img/projects/carousel/06-light-based-communications.webp' | relative_url }}" alt="" class="projects-highlight-ribbon__image">
+        </figure>
+      </div>
+    </div>
+  </section>
   {% for category in page.display_categories %}
-    {% if category == "Biomedical Signal Processing & Wearable AI" %}
-      {% assign cat_img = "assets/img/biomedical_wearable_ai.jpg" %}
-      {% assign cat_alt = "Biomedical sensing and wearable health technologies" %}
-      {% assign cat_desc = "Wearable sensing, physiological-signal analysis, maternal and fetal monitoring, and AI-assisted assessment of health and human performance." %}
-    {% elsif category == "Computer Vision, Robotics & Assisted Navigation" %}
-      {% assign cat_img = "assets/img/computer_vision_robotics.jpg" %}
-      {% assign cat_alt = "Computer vision, robotics, and assisted navigation" %}
-      {% assign cat_desc = "Visual intelligence, scene understanding, activity recognition, robotic navigation, and decision-support systems." %}
-    {% elsif category == "Smart Grids & Sustainable Energy" %}
-      {% assign cat_img = "assets/img/smart_grids_energy.jpg" %}
-      {% assign cat_alt = "Smart grids and sustainable energy systems" %}
-      {% assign cat_desc = "Data-driven monitoring, load disaggregation, renewable-energy integration, distribution-system analysis, and intelligent energy management." %}
-    {% elsif category == "Multispectral Imaging & Remote Sensing" %}
-      {% assign cat_img = "assets/img/multispectral_remote_sensing.jpg" %}
-      {% assign cat_alt = "Multispectral imaging and remote sensing" %}
-      {% assign cat_desc = "Imaging and machine-learning methods for agriculture, food quality, infrastructure monitoring, environmental sensing, and remote observation." %}
-    {% elsif category == "AI for Public Health, Education & Society" %}
-      {% assign cat_img = "assets/img/public_health_social.jpg" %}
-      {% assign cat_alt = "Artificial intelligence for public health, education, and society" %}
-      {% assign cat_desc = "Multidisciplinary AI and data-driven modelling for public health, education, social research, policy analysis, and societal resilience." %}
-    {% elsif category == "Optical Wireless Communications" %}
-      {% assign cat_img = "assets/img/optical_communications.jpg" %}
-      {% assign cat_alt = "Optical wireless communication systems and light-based IoT" %}
-      {% assign cat_desc = "Optical communication systems, light-based IoT, underwater links, energy-aware networking, and related communication technologies." %}
-    {% elsif category == "AI Foundations & Generative Models" %}
-      {% assign cat_img = "assets/img/generative_ai_llms.jpg" %}
-      {% assign cat_alt = "AI foundations and generative modelling" %}
-      {% assign cat_desc = "Research on generative modelling, implicit neural representations, computational acceleration, and emerging machine-learning architectures." %}
+    {% case category %}
+      {% when "Generative AI (GenAI)" %}
+        {% assign cat_desc = "Research on large language models, diffusion models, and implicit neural representations for trustworthy AI, imaging, cultural heritage, and computational biology." %}
+      {% when "AI for Remote Sensing & GIS" %}
+        {% assign cat_desc = "Geospatial and remote-sensing research spanning change analysis, socio-hydrology, and hyperspectral interpretation for environmentally grounded decision support." %}
+      {% when "AI for Sociology, Humanities & Socio-economics" %}
+        {% assign cat_desc = "Interdisciplinary AI and statistical modelling for demographic analysis, behavioural simulation, and socially relevant population-level insight." %}
+      {% when "Biomedical Engineering & Bio-imaging" %}
+        {% assign cat_desc = "Clinical and translational work on preterm birth risk assessment, respiratory monitoring, dermatology AI, and multimodal stroke recovery modelling." %}
+      {% when "Computer Vision (CV)" %}
+        {% assign cat_desc = "Computer-vision projects covering activity understanding, surgical planning, irradiance-aware visual analysis, and energy-efficient foveated perception." %}
+      {% when "Wearable Technology" %}
+        {% assign cat_desc = "Wearable sensing systems for gait analysis, posture evaluation, biomechanics, and sports-performance monitoring outside conventional laboratory settings." %}
+      {% when "Agrivoltaics & Plant Growth" %}
+        {% assign cat_desc = "Digital-twin and plant-modelling research for sustainable agrivoltaic environments, tea growth monitoring, and data-driven resource optimization." %}
+      {% when "Light-based Communications" %}
+        {% assign cat_desc = "Optical wireless and light-based IoT research centered on energy-aware indoor networking, battery-free sensing, and data-energy co-optimization." %}
+      {% when "Renewable Energy & Smart Grid" %}
+        {% assign cat_desc = "AI-enabled energy research on appliance-level load disaggregation and efficient monitoring for scalable smart-grid deployment." %}
+      {% when "Multispectral Imaging (MSI)" %}
+        {% assign cat_desc = "In-house optical sensing systems for non-destructive assessment of soils, food quality, edible oils, and material characterization." %}
+    {% endcase %}
+
+    {% assign sorted_projects = site.projects | where: "category", category | sort: "importance" %}
+    {% if sorted_projects.size > 0 %}
+      <section class="project-category">
+        <div class="project-category__header">
+          <h2 class="project-category__title">{{ category }}</h2>
+          <p class="project-category__description">{{ cat_desc }}</p>
+        </div>
+        <div class="project-category__content">
+          <p class="project-category__sublabel">Projects in this area</p>
+          <div class="row row-cols-1 row-cols-lg-2 project-category__projects">
+          {% for project in sorted_projects %}
+            {% include projects_horizontal.liquid %}
+          {% endfor %}
+          </div>
+        </div>
+      </section>
     {% endif %}
-
-    {% include project_sector_banner.liquid title=category description=cat_desc image=cat_img alt=cat_alt %}
-
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
   {% endfor %}
-
-{% else %}
-
-<!-- Display projects without categories -->
-
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
 </div>

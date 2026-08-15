@@ -3,65 +3,174 @@
   color: var(--global-text-color);
   font-size: 1rem;
   line-height: 1.7;
+  max-width: 48rem;
+  text-align: justify;
 }
 
-.project-sector {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(220px, 32%);
-  align-items: stretch;
-  gap: 1.5rem;
-  margin: 2.5rem 0 1.5rem;
-  padding: 1.25rem 0 1.5rem;
+.project-category {
+  margin: 2.5rem 0 0;
+  padding-top: 1.5rem;
   border-top: 1px solid var(--global-divider-color, var(--global-border-color));
 }
 
-.project-sector__content {
-  min-width: 0;
+.project-category__header {
+  max-width: 50rem;
+  margin-bottom: 1.25rem;
+  padding-left: 1rem;
+  padding-top: 0.35rem;
+  padding-bottom: 0.35rem;
+  padding-right: 0.9rem;
+  border-left: 4px solid var(--global-theme-color);
+  background: color-mix(in srgb, var(--global-theme-color) 6%, transparent);
+  border-radius: 0 0.45rem 0.45rem 0;
 }
 
-.project-sector__title {
+.project-category__title {
   margin: 0;
   color: var(--global-text-color);
-  font-size: 1.5rem;
-  line-height: 1.3;
+  font-size: 1.75rem;
+  line-height: 1.25;
+  font-weight: 800;
+  letter-spacing: -0.01em;
 }
 
-.project-sector__description {
+.project-category__description {
   margin: 0.75rem 0 0;
   color: var(--global-text-color-light, var(--global-text-color));
   font-size: 0.97rem;
   line-height: 1.65;
+  text-align: justify;
 }
 
-.project-sector__media {
-  min-width: 0;
+.project-category__content {
+  padding-left: 1.35rem;
 }
 
-.project-sector__image {
+.project-category__sublabel {
+  margin: 0 0 0.8rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--global-text-color-light, var(--global-text-color));
+  opacity: 0.82;
+}
+
+.project-category__projects {
+  position: relative;
+}
+
+.projects .row {
+  margin-right: -0.35rem;
+  margin-left: -0.35rem;
+}
+
+.projects .row > .col,
+.projects .row > [class*="col-"] {
+  padding-right: 0.35rem;
+  padding-left: 0.35rem;
+}
+
+.project-entry-col {
+  margin-bottom: 0.8rem !important;
+}
+
+.projects .project-entry-card {
+  border: 0;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.16);
+  border-left: 2px solid color-mix(in srgb, var(--global-theme-color) 62%, transparent);
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  transition: transform 0.18s ease, border-color 0.18s ease, background-color 0.18s ease;
+}
+
+.projects .project-entry-card:hover {
+  transform: translateY(-1px);
+  box-shadow: none;
+  border-left-color: var(--global-theme-color);
+  background: color-mix(in srgb, var(--global-theme-color) 3%, transparent);
+}
+
+.projects .card-body {
+  padding: 0.9rem 0.95rem 0.85rem 1rem;
+}
+
+.project-entry-label {
+  margin: 0 0 0.28rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--global-text-color-light, var(--global-text-color));
+  opacity: 0.72;
+}
+
+.projects .card-title {
+  margin-bottom: 0.32rem;
+  font-size: 0.98rem;
+  line-height: 1.32;
+  font-weight: 700;
+}
+
+.projects .card-text {
+  margin-bottom: 0;
+  color: var(--global-text-color-light, var(--global-text-color));
+  font-size: 0.91rem;
+  line-height: 1.55;
+  text-align: justify;
+}
+
+.project-detail-image {
   display: block;
-  width: 100%;
-  height: 100%;
-  min-height: 170px;
-  border: 1px solid var(--global-divider-color, var(--global-border-color));
-  border-radius: 0.75rem;
-  object-fit: cover;
-  background-color: var(--global-bg-color);
+  width: auto;
+  max-width: min(100%, 58rem);
+  max-height: min(72vh, 42rem);
+  height: auto;
+  margin: 1.5rem auto 0;
 }
 
-.projects .row + .project-sector {
-  margin-top: 3rem;
+.project-overview p {
+  text-align: justify;
 }
 
 @media (max-width: 768px) {
-  .project-sector {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-    margin: 2rem 0 1.25rem;
-    padding-top: 1rem;
+  .project-category {
+    margin-top: 2rem;
+    padding-top: 1.1rem;
   }
 
-  .project-sector__image {
-    min-height: 150px;
-    max-height: 220px;
+  .project-category__header {
+    margin-bottom: 1rem;
+    padding-left: 0.85rem;
+    padding-right: 0.75rem;
+    border-left-width: 3px;
+  }
+
+  .project-category__content {
+    padding-left: 0.55rem;
+  }
+
+  .project-category__title {
+    font-size: 1.5rem;
+  }
+
+  .project-category__sublabel {
+    margin-bottom: 0.7rem;
+    font-size: 0.76rem;
+  }
+
+  .projects .card-body {
+    padding: 0.82rem 0.8rem 0.78rem 0.9rem;
+  }
+
+  .project-entry-label {
+    font-size: 0.68rem;
+  }
+
+  .project-detail-image {
+    max-width: 100%;
+    max-height: 60vh;
+    margin-top: 1.25rem;
   }
 }
