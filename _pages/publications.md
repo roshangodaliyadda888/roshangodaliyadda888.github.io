@@ -13,7 +13,7 @@ nav_order: 2
 <div class="impact-audit">
   <section class="impact-audit__hero" aria-labelledby="impact-audit-title">
     <p class="impact-audit__eyebrow">Publication Impact Screen</p>
-    <h1 id="impact-audit-title">Q1 Journal and Tier-1 Conference Publications</h1>
+    <h1 id="impact-audit-title">Q1 Journal and Top-tier Conference Publications</h1>
     <p class="impact-audit__subtitle">
       A ranking-verified, deduplicated filter of the January 2026 long-form CV of Professor G. M. R. I.
       Godaliyadda.
@@ -32,8 +32,8 @@ nav_order: 2
         <p class="impact-audit__stat-label">Q1 journal articles</p>
       </article>
       <article class="impact-audit__stat" role="listitem">
-        <p class="impact-audit__stat-value">{{ audit.summary.tier1_conferences }}</p>
-        <p class="impact-audit__stat-label">Tier-1 conference paper</p>
+        <p class="impact-audit__stat-value">23</p>
+        <p class="impact-audit__stat-label">Top-tier conference papers</p>
       </article>
       <article class="impact-audit__stat" role="listitem">
         <p class="impact-audit__stat-value">{{ audit.summary.distinct_q1_journals }}</p>
@@ -48,7 +48,7 @@ nav_order: 2
     <div class="impact-audit__note">
       <p>
         This page mirrors the curated high-impact audit order: reverse-chronological within each field, limited to
-        the screened Q1 journal set and the qualifying Tier-1 conference paper.
+        the screened Q1 journal set and the selected top-tier conference publications.
       </p>
     </div>
   </section>
@@ -82,19 +82,195 @@ nav_order: 2
 
   <section class="impact-audit__section" aria-labelledby="impact-tier1-title">
     <div class="impact-audit__heading">
-      <h2 id="impact-tier1-title">3. Tier-1 Conference Publication</h2>
+      <h2 id="impact-tier1-title">3. Top-tier Conference Publications</h2>
       <div class="impact-audit__divider" aria-hidden="true"></div>
     </div>
 
-    <article class="impact-item impact-item--conference">
-      <div class="impact-item__id">{{ audit.tier1.id }}</div>
-      <div class="impact-item__body">
-        <p class="impact-item__year">{{ audit.tier1.year }}</p>
-        <h4>{{ audit.tier1.title }}</h4>
-        <p class="impact-item__authors">{{ audit.tier1.authors_abbrev }}</p>
-        <p class="impact-item__venue">{{ audit.tier1.venue_line }}</p>
+    <section class="impact-field" aria-labelledby="impact-conf-1">
+      <h3 id="impact-conf-1">Generative AI, Signal Processing, and Image Processing (Diffusion, INR and LLMs) – Algorithmic and Fundamental Theory</h3>
+      <div class="impact-field__list">
+        <article class="impact-item impact-item--conference">
+          <div class="impact-item__id">C01</div>
+          <div class="impact-item__body">
+            <p class="impact-item__venue">Harshana Weligampola, Gihan Jayatilaka, Suren Sritharan, Parakrama Ekanayake, Roshan Ragel, Vijitha Herath, Roshan Godaliyadda, “An Optical physics inspired CNN approach for intrinsic image decomposition,” IEEE ICIP 2021, Anchorage, Alaska, USA, September, 2021.</p>
+          </div>
+        </article>
+        <article class="impact-item impact-item--conference">
+          <div class="impact-item__id">C02</div>
+          <div class="impact-item__body">
+            <p class="impact-item__venue">P. Thennakoon, A. Ranasinghe, M. de Silva, B. Epakanda, R. Godaliyadda, M. P. B. Ekanayake, and V. R. Herath, “COSMO-INR: Complex Sinusoidal Modulation for Implicit Neural Representations,” in proceedings of the 14th International Conference on Learning Representations (ICLR 2026). Rio de Janeiro, Brazil, April 2026.</p>
+          </div>
+        </article>
       </div>
-    </article>
+    </section>
+
+    <section class="impact-field" aria-labelledby="impact-conf-2">
+      <h3 id="impact-conf-2">Smart Grid: NILM, Forecasting, Agrovoltaics and PV Integration</h3>
+      <div class="impact-field__list">
+        <article class="impact-item impact-item--conference">
+          <div class="impact-item__id">C03</div>
+          <div class="impact-item__body">
+            <p class="impact-item__venue">H. G. C. P. Dinesh, P. H. Perera, G. M. R. I. Godaliyadda, M. P. B. Ekanayake, J. B. Ekanayake, “Residential Appliance Monitoring based on Low Frequency Smart Meter Measurements,” 6th IEEE International Conference on Smart grid Communications (IEEE SmartGridComm), Miami, Florida, USA, November, 2015.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="impact-field" aria-labelledby="impact-conf-3">
+      <h3 id="impact-conf-3">Remote Sensing and Hyperspectral Imaging</h3>
+      <div class="impact-field__list">
+        <article class="impact-item impact-item--conference">
+          <div class="impact-item__id">C04</div>
+          <div class="impact-item__body">
+            <p class="impact-item__venue">Mevan Ekanayake, Hasantha Ekanayake, Anusha Rathnayake, Sajani Vithana, Vijitha Herath, Roshan Godaliyadda and Parakrama Ekanayake, “A Semi-Supervised Algorithm to Map Major Vegetation Zones using Satellite Hyperspectral Data,” in 9th Workshop on Hyperspectral Image and Signal Processing (WHISPERS 2018), Amsterdam, The Netherlands, Sep. 2018.</p>
+          </div>
+        </article>
+        <article class="impact-item impact-item--conference">
+          <div class="impact-item__id">C05</div>
+          <div class="impact-item__body">
+            <p class="impact-item__venue">Mevan Ekanayake; Bhathiya Rathnayake; Hasantha Ekanayake; Anusha Rathnayake; Vijitha Herath; Roshan Godaliyadda; Parakrama Ekanayake; “Enhanced Hyperspectral Unmixing via Non-Negative Matrix Factorization Incorporating the End Member Independence”, in IEEE International Geoscience and Remote Sensing Symposium (IGARSS-2019), Yokohama, Japan, August, 2019.</p>
+          </div>
+        </article>
+        <article class="impact-item impact-item--conference">
+          <div class="impact-item__id">C06</div>
+          <div class="impact-item__body">
+            <p class="impact-item__venue">N. Wasalathilaka, D. Perea, O. Samarakoon, B. Wijenayake, R. Godaliyadda, V. Herath, and P. Ekanayake, “A Controlled Benchmark of Visual State-Space Backbones with Domain-Shift and Boundary Analysis for Remote-Sensing Segmentation,” in the 2026 IEEE International Geoscience and Remote Sensing Symposium (IGARSS 2026), Washington, D.C., USA, August 2026.</p>
+          </div>
+        </article>
+        <article class="impact-item impact-item--conference">
+          <div class="impact-item__id">C07</div>
+          <div class="impact-item__body">
+            <p class="impact-item__venue">B. Wijenayake, N. Wasalathilake, R. Godaliyadda, V. Herath, P. Ekanayake, and V. M. Patel, “Mitigating Long-Tail Bias via Prompt-Controlled Diffusion Augmentation,” in the 2026 IEEE International Geoscience and Remote Sensing Symposium (IGARSS 2026), Washington, D.C., USA, August 2026.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="impact-field" aria-labelledby="impact-conf-4">
+      <h3 id="impact-conf-4">Multispectral Imaging for Food, Agriculture, and Manufacturing Quality</h3>
+      <div class="impact-field__list">
+        <article class="impact-item impact-item--conference">
+          <div class="impact-item__id">C08</div>
+          <div class="impact-item__body">
+            <p class="impact-item__venue">G. W. K. Prabhath, W. G. C. Bandara, D. W. S. C. B. Dissanayake, H. M. V. R. Hearath, G. M. R. I. Godaliyadda, M. P. B. Ekanayake, S. M. D. Demini, and T. Madhujith, "Multispectral Imaging for Detection of Adulterants in Turmeric Powder," in Optical Sensors and Sensing Congress (ES, FTS, HISE, Sensors), OSA Technical Digest (Optical Society of America, 2019), paper HTu3B.3., San Jose, California, USA, June, 2019.</p>
+          </div>
+        </article>
+        <article class="impact-item impact-item--conference">
+          <div class="impact-item__id">C09</div>
+          <div class="impact-item__body">
+            <p class="impact-item__venue">H. M. H. K. Weerasooriya, H. M. S. Lakmal, D. Y. L. Ranasinghe, W. G. C. Bandara, H. M. V. R. Herath, G. M. R. I. Godaliyadda, M. P. B. Ekanayake, and T. Madujith, "Transmittance Multispectral Imaging for Edible Oil Quality Assessment," in Imaging and Applied Optics Congress, OSA Technical Digest (Optical Society of America, 2020), paper JW5C.8., Vancouver, Canada, June, 2020.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="impact-field" aria-labelledby="impact-conf-5">
+      <h3 id="impact-conf-5">Optical Wireless Communications</h3>
+      <div class="impact-field__list">
+        <article class="impact-item impact-item--conference">
+          <div class="impact-item__id">C10</div>
+          <div class="impact-item__body">
+            <p class="impact-item__venue">K. W. S. Palitharathna, R. I. Godaliyadda, V. R. Herath, and H. A. Suraweera, "Relay-assisted optical wireless communications in turbid water," in Proc. 13th ACM International Conference on Underwater Networks and Systems (WUWNET '18), Shenzhen, China, Dec. 2018.</p>
+          </div>
+        </article>
+        <article class="impact-item impact-item--conference">
+          <div class="impact-item__id">C11</div>
+          <div class="impact-item__body">
+            <p class="impact-item__venue">K. W. S. Palitharathna, H. A. Suraweera, R. I. Godaliyadda, V. R. Herath and Z. Ding, "Impact of receiver orientation on full-duplex relay aided NOMA underwater optical wireless systems," in Proc. IEEE International Conference on Communications (ICC 2020), Dublin, Ireland, June, 2020.</p>
+          </div>
+        </article>
+        <article class="impact-item impact-item--conference">
+          <div class="impact-item__id">C12</div>
+          <div class="impact-item__body">
+            <p class="impact-item__venue">K. W. S. Palitharathna, H. A. Suraweera, R. I. Godaliyadda, V. R. Herath and J.S. Thompson, "Multi-AUV Placement for Coverage Maximization in Underwater Optical Wireless Sensor Networks," in Proc. Global OCEANS 2020 MTS/IEEE, Marina Bay, Singapore, October, 2020.</p>
+          </div>
+        </article>
+        <article class="impact-item impact-item--conference">
+          <div class="impact-item__id">C13</div>
+          <div class="impact-item__body">
+            <p class="impact-item__venue">A. Perera, M. Katz, R. Godaliyadda, J. Hakkinen, E. Strommer, “Light-based Internet of Things: Implementation of an Optically Connected Energy-autonomous node”, IEEE Wireless Communications and Networking Conference (IEEE WCNC 2021), Nanjing, China, April, 2021.</p>
+          </div>
+        </article>
+        <article class="impact-item impact-item--conference">
+          <div class="impact-item__id">C14</div>
+          <div class="impact-item__body">
+            <p class="impact-item__venue">K. W. S. Palitharathna, H. A. Suraweera, R. I. Godaliyadda, V. R. Herath, "Rate Maximization for Lightwave Power Transfer-Enabled Cooperative Half/Full-Duplex UOWC Systems," in Proc. 2021 IEEE 22nd International Workshop on Signal Processing Advances in Wireless Communications (SPAWC 2021), Lucca, Italy, September, 2021.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="impact-field" aria-labelledby="impact-conf-6">
+      <h3 id="impact-conf-6">Computer Vision, Machine Vision, Robotics, and Assisted Navigation</h3>
+      <div class="impact-field__list">
+        <article class="impact-item impact-item--conference">
+          <div class="impact-item__id">C15</div>
+          <div class="impact-item__body">
+            <p class="impact-item__venue">S. Narthana, S. Sivasthigan, M. Thamayanthi, R. Godaliyadda, P. Ekanayake, and V. Herath, “A Structured Analysis and Taxonomy of Scene Graph Representations for Group Activity Understanding,” in Proceedings of the SG4SI Workshop, IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), Tucson, Arizona, March 2026.</p>
+          </div>
+        </article>
+        <article class="impact-item impact-item--conference">
+          <div class="impact-item__id">C16</div>
+          <div class="impact-item__body">
+            <p class="impact-item__venue">S. Narthana, S. Sivasthigan, R. Godaliyadda, P. Ekanayake, and V. Herath, “Efficient and Intrinsically Interpretable Spatiotemporal Transformer with Gated Fusion for Group Activity Recognition,” in Proceedings of the 2nd SAUAFG (Second International Workshop on AI-driven Skilled Activity Understanding, Assessment &amp; Feedback Generation) Workshop, CVPR Workshops, Denver, Colorado, June 2026.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="impact-field" aria-labelledby="impact-conf-7">
+      <h3 id="impact-conf-7">Image and Signal Processing for Enhancement, Recognition, and Localization</h3>
+      <div class="impact-field__list">
+        <article class="impact-item impact-item--conference">
+          <div class="impact-item__id">C17</div>
+          <div class="impact-item__body">
+            <p class="impact-item__venue">G.M.R.I. Godaliyadda and H.K. Garg, “Analysis of Super Resolution Spectral Estimation Techniques for Indoor Positioning Applications,” in Proc. 9th International Conference on Signal Processing (ICSP’08), Beijing, China, October, 2008.</p>
+          </div>
+        </article>
+        <article class="impact-item impact-item--conference">
+          <div class="impact-item__id">C18</div>
+          <div class="impact-item__body">
+            <p class="impact-item__venue">G.M.R.I. Godaliyadda and H.K. Garg, “Versatile Algorithms for Accurate Indoor Geolocation,” in Proc. 16th International Conference on Digital Signal Processing (DSP ‘09), Santorini, Greece, July, 2009.</p>
+          </div>
+        </article>
+        <article class="impact-item impact-item--conference">
+          <div class="impact-item__id">C19</div>
+          <div class="impact-item__body">
+            <p class="impact-item__venue">G.M.R.I. Godaliyadda and H.K. Garg, “A Time Domain Eigen Value Method for Indoor Localization,” in Proc. 9th Annual Wireless Telecommunications Symposium (WTS’10), Tampa, Florida, USA, April, 2010.</p>
+          </div>
+        </article>
+        <article class="impact-item impact-item--conference">
+          <div class="impact-item__id">C20</div>
+          <div class="impact-item__body">
+            <p class="impact-item__venue">T.A. Ratnayake, N.N. Pollwaththage, D.B.W. Nettasinghe, G.M.R.I. Godaliyadda, M.P.B. Ekanayake, J.V. Wijayakulasooriya, “Material based Acoustic Signal Classification- A Subspace-based Approach,” TENCON-2013, Xian, China, October, 2013.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="impact-field" aria-labelledby="impact-conf-8">
+      <h3 id="impact-conf-8">Spectral Imaging and Remote Sensing for Environmental and Industrial Monitoring</h3>
+      <div class="impact-field__list">
+        <article class="impact-item impact-item--conference">
+          <div class="impact-item__id">C21</div>
+          <div class="impact-item__body">
+            <p class="impact-item__venue">A. Wijesinghe, D. Wickramsinghe, C. Wijedasa, Y. Ranasinghe, V. Herath, R. Godaliyadda, P. Ekanayake, S. Jinadasa, “Transmittance Multispectral Imaging System to Estimate Potable Water Quality Parameters,” OSA Imaging and Applied Optics Congress, OSA Virtual Meeting, July, 2021.</p>
+          </div>
+        </article>
+        <article class="impact-item impact-item--conference">
+          <div class="impact-item__id">C22</div>
+          <div class="impact-item__body">
+            <p class="impact-item__venue">L. Ramanayake, N. Senerath, D. Jayasundara, K. Prabath, K. Weerasooriya, M. Fernando, S. Kumara, V. Herath, R. Godaliyadda, P. Ekanayake, S. Athukorala, “Reflectance Multispectral Imaging for Identification of Algae Contamination in High Voltage Insulators,” OSA Imaging and Applied Optics Congress, OSA Virtual Meeting, July, 2021.</p>
+          </div>
+        </article>
+        <article class="impact-item impact-item--conference">
+          <div class="impact-item__id">C23</div>
+          <div class="impact-item__body">
+            <p class="impact-item__venue">I.Z.M. Zumri, M.L.A.S. Mahmood, Bandara S., M.A.R.M. Fernando, G.M.R.I. Godaliyadda, H.M.V.R. Herath, M.P.B. Ekanayake, J.R.S. Kumara, K.M.K.S. Bandara, “Spectral Imaging based Condition Assessment of Field Aged Power Transformers,” Imaging Systems and Applications, Optica Imaging Congress, Boston, Massachusetts, USA, August, 2023.</p>
+          </div>
+        </article>
+      </div>
+    </section>
   </section>
 </div>
 
