@@ -1,0 +1,343 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> Gait and Posture Research | G. M. R. I. Godaliyadda </title> <meta name="author" content="G. M. R. I. Godaliyadda"> <meta name="description" content="Wearable gait analysis using IMUs, sensor fusion, and coordination metrics beyond conventional laboratory-only assessment."> <meta name="keywords" content="g. m. r. i. godaliyadda, university of peradeniya, electrical engineering, computer vision, machine learning, signal processing"> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
+  :root {
+    --max-content-width: 930px;
+  }
+</style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?v=f0b101217084a90093badfe99ff9a7d1"> <link rel="canonical" href="https://roshangodaliyadda888.github.io/projects/22_project/"> <script src="/assets/js/theme.js?v=7af685e2ba20b37fef545c97b8064050"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> G. M. R. I. Godaliyadda </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">About </a> </li> <li class="nav-item "> <a class="nav-link" href="/news/">News </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">Publications </a> </li> <li class="nav-item active"> <a class="nav-link" href="/projects/">Projects <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/awards/">Awards </a> </li> <li class="nav-item "> <a class="nav-link" href="/teaching/">Teaching </a> </li> <li class="nav-item "> <a class="nav-link" href="/people/">People </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">Gait and Posture Research</h1> <p class="post-description">Wearable gait analysis using IMUs, sensor fusion, and coordination metrics beyond conventional laboratory-only assessment.</p> </header> <article> <div class="project-overview"> <h2 id="overview">Overview</h2> <p>“Your walk, our proof”</p> <p>Description:</p> <p>This project develops a wearable, IMU-based framework for capturing and analysing human gait beyond conventional laboratory environments. The system uses strategically positioned inertial sensors around the hip, knee, and ankle to acquire lower-limb motion and derive reliable joint kinematics through sensor fusion and advanced filtering. Moving beyond conventional gait parameters, the project introduces and tests different frameworks like Kalman Filter (KF), Principle Component Analysis (PCA),Transfer Entropy (TE) to provide a data-driven perspective on inter-joint coordination and muscle strength. The framework is used to investigate how footwear characteristics and terrain variations influence gait dynamics and redistribute coordination among the hip, knee, and ankle. By identifying which joints predominantly generate, receive, or adapt to changes in movement, the research provides deeper insight into the mechanisms underlying human gait adaptation. The work has potential applications in objective gait assessment, rehabilitation, wearable biomechanics, and footwear design.</p> </div> <p><img src="/assets/img/projects/gait-and-posture.png" alt="Gait and Posture Research" class="img-fluid rounded z-depth-1 mb-4 project-detail-image"></p> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 G. M. R. I. Godaliyadda. Academic portfolio of Professor G. M. R. I. Godaliyadda, Department of Electrical and Electronic Engineering, <a href="https://eng.pdn.ac.lk/deee/" target="_blank" rel="noopener noreferrer">University of Peradeniya</a>, Sri Lanka. </div> </footer> <script>
+  window.alFolio = {
+    compatBootstrap: false
+  };
+</script> <script src="/assets/js/nav-toggle.js?v=141bd79a73ebc0f0b6ea58e440ae79fc"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js?v=e49affc7bd2646f6acdad1dbe02c2359" type="text/javascript"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/assets/al_math/js/mathjax-setup.js"></script> <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script> <script src="/assets/js/tooltips-setup.js?v=fe487e99db6c43751e6e7bdb2d6a0611"></script> <script src="/assets/js/no_defer.js?v=53b1b1a645525975c963ce8bf8bfefcf"></script> <script defer src="/assets/js/common.js?v=87baac90f765f2f3362dcf6aaf312a8a"></script> <script defer src="/assets/js/copy_code.js?v=c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?v=896d254890d9b47f0281f63bfccf0dee"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/al_img_tools/js/zoom.js"></script> <script defer src="/assets/js/progress-bar.js?v=499464c5c63ced6cf7ad62509f1e2610" type="text/javascript"></script> <script src="https://cdn.jsdelivr.net/npm/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js" integrity="sha256-uMJJ3EoTyfRBoTbR+lrfu1uRQ87RZG8AR3cVNuQVeFg=" crossorigin="anonymous"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/assets/al_search/js/search/ninja-keys.min.js"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/al_search/js/search-setup.js"></script> <script>
+// get the ninja-keys element
+const ninja = document.querySelector('ninja-keys');
+
+// add the home and posts menu items
+ninja.data = [{
+    id: "nav-about",
+    title: "About",
+    section: "Navigation",
+    handler: () => {
+      window.location.href = "/";
+    },
+  },{id: "nav-news",
+          title: "News",
+          description: "Highlights, workshops, and recent paper acceptances from Professor G. M. R. I. Godaliyadda’s research group.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/news/";
+          },
+        },{id: "nav-publications",
+          title: "Publications",
+          description: "High-impact publication audit aligned to the curated PDF structure.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "nav-projects",
+          title: "Projects",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-awards-amp-grants",
+          title: "Awards &amp; Grants",
+          description: "Awards, recognitions, and funded research activity.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/awards/";
+          },
+        },{id: "nav-teaching",
+          title: "Teaching",
+          description: "Undergraduate and postgraduate teaching contributions of Professor G. M. R. I. Godaliyadda.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
+        },{id: "nav-phd-students-and-alumni",
+          title: "PhD Students and Alumni",
+          description: "PhD students and alumni supervised by Professor G. M. R. I. Godaliyadda.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/people/";
+          },
+        },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
+        
+          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
+          
+        },
+      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
+        
+          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
+          
+        },
+      },{id: "books-the-godfather",
+          title: 'The Godfather',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_godfather/";
+            },},{id: "news-joined-the-management-committee-of-the-university-research-council-university-of-peradeniya",
+          title: 'Joined the Management Committee of the University Research Council, University of Peradeniya.',
+          description: "",
+          section: "News",},{id: "news-research-on-psychomotor-skill-benchmarking-using-wearable-devices-was-published-in-ieee-access",
+          title: 'Research on psychomotor-skill benchmarking using wearable devices was published in IEEE Access.',
+          description: "",
+          section: "News",},{id: "news-two-multidisciplinary-university-research-council-grants-commenced-preterm-birth-detection-using-ehg-and-tocogram-and-insights-on-language-studies-via-large-language-models",
+          title: 'Two multidisciplinary University Research Council grants commenced: Preterm Birth Detection Using EHG and...',
+          description: "",
+          section: "News",},{id: "news-received-nvidia-academic-grant-program-support-for-heritageai-including-in-kind-8k-a100-gpu-hours",
+          title: 'Received NVIDIA Academic Grant Program support for HeritageAI, including in-kind 8K A100 GPU-hours....',
+          description: "",
+          section: "News",},{id: "news-presented-research-at-ieee-icce-2026-on-efficient-voxel-to-point-transformation-in-medical-imaging",
+          title: 'Presented research at IEEE ICCE 2026 on efficient voxel-to-point transformation in medical imaging....',
+          description: "",
+          section: "News",},{id: "news-awarded-a-national-research-council-target-oriented-research-grant-as-co-investigator-for-an-ai-driven-digital-twin-framework-for-sustainable-tea-cultivation",
+          title: 'Awarded a National Research Council Target-Oriented Research Grant, as Co-Investigator, for an AI-driven...',
+          description: "",
+          section: "News",},{id: "news-presented-a-wearable-inertial-sensing-platform-for-personalized-health-and-motion-monitoring-at-the-ieee-international-research-conference-on-smart-computing-and-systems-engineering",
+          title: 'Presented A Wearable Inertial Sensing Platform for Personalized Health and Motion Monitoring at...',
+          description: "",
+          section: "News",},{id: "news-cosmo-inr-a-new-implicit-neural-representation-model-appeared-at-iclr-2026",
+          title: 'COSMO-INR, a new implicit neural representation model, appeared at ICLR 2026.',
+          description: "",
+          section: "News",},{id: "projects-cv-action",
+          title: 'CV Action',
+          description: "Lightweight and interpretable spatiotemporal modelling for group activities, interactions, and multi-entity scene understanding.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/10_project/";
+            },},{id: "projects-data-energy-networking-enabled-light-based-iot-de-liot",
+          title: 'Data-Energy Networking enabled Light-based IoT (DE-LIoT)',
+          description: "Battery-free light-based IoT with optical wireless power transfer, cooperative energy sharing, and digital-twin optimization.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/11_project/";
+            },},{id: "projects-diffusion-models",
+          title: 'Diffusion Models',
+          description: "Generative modelling research across imaging, heritage restoration, medical augmentation, and gene-expression imputation.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/12_project/";
+            },},{id: "projects-hyperspectral-unmixing-hsi",
+          title: 'Hyperspectral Unmixing (HSI)',
+          description: "Hyperspectral unmixing research focused on endmember estimation, abundance recovery, and spectral variability in real scenes.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/13_project/";
+            },},{id: "projects-sociohydrology",
+          title: 'SocioHydrology',
+          description: "Socio-hydrology research situated within the remote-sensing and GIS programme, linking environmental dynamics with spatial data analysis.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/14_project/";
+            },},{id: "projects-agent-based-modelling-abm",
+          title: 'Agent-Based Modelling (ABM)',
+          description: "Behaviour-driven modelling of elephant movement regimes using data-driven season discovery and unsupervised structure analysis.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/15_project/";
+            },},{id: "projects-ai-assisted-lung-sound-analysis",
+          title: 'AI-Assisted Lung Sound Analysis',
+          description: "Digital stethoscope analytics for respiratory assessment, physiotherapy monitoring, and longitudinal machine-learning evaluation.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/16_project/";
+            },},{id: "projects-stroke-recovery-modelling",
+          title: 'Stroke Recovery Modelling',
+          description: "Multimodal AI for predicting post-stroke functional recovery and psychological outcomes using CT, EEG, clinical, and movement data.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/17_project/";
+            },},{id: "projects-data-centric-dermatology-ai",
+          title: 'Data-Centric Dermatology AI',
+          description: "Fair, robust dermatology AI using controlled generative augmentation and validated lesion segmentation pipelines.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/18_project/";
+            },},{id: "projects-cv-irradiance",
+          title: 'CV Irradiance',
+          description: "Computer-vision research stream on irradiance-related visual understanding within the broader CV programme.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/19_project/";
+            },},{id: "projects-digital-twins-for-agriculture",
+          title: 'Digital Twins for Agriculture',
+          description: "AI-driven digital twins for agrivoltaic tea growth modelling, plant phenotyping, and resource optimization in a real field setting.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_project/";
+            },},{id: "projects-virtual-surgical-planning-for-mandibular-and-maxillary-reconstruction",
+          title: 'Virtual Surgical Planning for Mandibular and Maxillary Reconstruction',
+          description: "Open-source surgical planning pipeline for jaw reconstruction using CBCT scans, reconstruction simulation, and printable guides.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/20_project/";
+            },},{id: "projects-foveated-vision",
+          title: 'Foveated Vision',
+          description: "Energy-efficient multi-camera perception that activates high-resolution views only where added information justifies the cost.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/21_project/";
+            },},{id: "projects-gait-and-posture-research",
+          title: 'Gait and Posture Research',
+          description: "Wearable gait analysis using IMUs, sensor fusion, and coordination metrics beyond conventional laboratory-only assessment.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/22_project/";
+            },},{id: "projects-implicit-neural-representations-inr",
+          title: 'Implicit Neural Representations (INR)',
+          description: "Fundamental and applied research on implicit neural representations, including spectral-bias analysis and the COSMO-INR framework.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_project/";
+            },},{id: "projects-preterm-birth-risk-assessment",
+          title: 'Preterm Birth Risk Assessment',
+          description: "Non-invasive preterm birth risk assessment using electrohysterography, signal processing, and machine learning.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_project/";
+            },},{id: "projects-large-language-models-llms",
+          title: 'Large Language Models (LLMs)',
+          description: "Responsible-AI research on bias, psychological cue recognition, hallucination detection, and trustworthy LLM behaviour.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_project/";
+            },},{id: "projects-biomechanical-motion-capture-amp-sports-performance-analysis",
+          title: 'Biomechanical Motion Capture &amp;amp; Sports Performance Analysis',
+          description: "Wearable IMU-based motion capture and biomechanics for joint-angle estimation, skill analysis, and athlete-performance assessment.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_project/";
+            },},{id: "projects-demographic-analysis",
+          title: 'Demographic Analysis',
+          description: "Population-structure analysis using PoPDivergence, PoPStat, and interdisciplinary modelling for demographic and public-health outcomes.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_project/";
+            },},{id: "projects-change-detection",
+          title: 'Change Detection',
+          description: "Remote-sensing change analysis within the broader AI for GIS programme, focused on identifying meaningful temporal shifts in observed scenes.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7_project/";
+            },},{id: "projects-multispectral-imaging-msi",
+          title: 'Multispectral Imaging (MSI)',
+          description: "In-house multispectral imaging platform for non-destructive soil, food, oil, and adulteration analysis.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/8_project/";
+            },},{id: "projects-non-intrusive-load-monitoring-nilm",
+          title: 'Non-Intrusive Load Monitoring (NILM)',
+          description: "AI-based NILM for lightweight, edge-deployable appliance-level energy disaggregation from aggregate meter signals.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/9_project/";
+            },},{id: "teachings-data-science-fundamentals",
+          title: 'Data Science Fundamentals',
+          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/data-science-fundamentals/";
+            },},{id: "teachings-introduction-to-machine-learning",
+          title: 'Introduction to Machine Learning',
+          description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/introduction-to-machine-learning/";
+            },},{
+        id: 'social-cv',
+        title: 'CV',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
+        },
+      },{
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%72%6F%73%68%61%6E%67%6F%64@%65%65.%70%64%6E.%61%63.%6C%6B", "_blank");
+        },
+      },{
+        id: 'social-secondary_email',
+        title: 'Secondary_email',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
+        },
+      },{
+        id: 'social-phone',
+        title: 'Phone',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
+        },
+      },{
+        id: 'social-rss',
+        title: 'RSS Feed',
+        section: 'Socials',
+        handler: () => {
+          window.open("/feed.xml", "_blank");
+        },
+      },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=6_XOJbsAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-linkedin_url',
+        title: 'Linkedin_url',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
+        },
+      },{
+        id: 'social-university_profile_url',
+        title: 'University_profile_url',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
+        },
+      },{
+        id: 'social-orcid_url',
+        title: 'Orcid_url',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
+        },
+      },{
+        id: 'social-researchgate_url',
+        title: 'Researchgate_url',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/", "_blank");
+        },
+      },{
+      id: 'light-theme',
+      title: 'Change theme to light',
+      description: 'Change the theme of the site to Light',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("light");
+      },
+    },
+    {
+      id: 'dark-theme',
+      title: 'Change theme to dark',
+      description: 'Change the theme of the site to Dark',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("dark");
+      },
+    },
+    {
+      id: 'system-theme',
+      title: 'Use system default theme',
+      description: 'Change the theme of the site to System Default',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("system");
+      },
+    },];
+
+</script> <script src="/assets/al_search/js/shortcut-key.js"></script> </body> </html>
