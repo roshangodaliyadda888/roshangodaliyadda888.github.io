@@ -92,7 +92,7 @@ grants:
   status: Completed
   collaborators: ''
   source: January 2026 CV; university profile
-  notes: CV states `as a member`.
+  notes: ''
 - title: HeritageAI (Academic Grant Program)
   funding_organization: NVIDIA Academic Grant Program
   grant_number: ''
@@ -103,7 +103,7 @@ grants:
   status: Ongoing
   collaborators: ''
   source: January 2026 CV
-  notes: In-kind support; CV includes the note `Brev`.
+  notes: In-kind support.
 - title: AI-Driven Digital Twin Framework for Sustainable and Optimal Resource Use in Tea Cultivation
   funding_organization: National Research Council
   grant_number: ''
