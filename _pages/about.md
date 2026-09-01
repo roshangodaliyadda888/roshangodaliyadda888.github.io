@@ -7,7 +7,7 @@ subtitle: Professor, Department of Electrical and Electronic Engineering, Univer
 profile:
   align: right
   image: roshan-godaliyadda.jpg
-  image_alt: Professor G. M. R. I. Godaliyadda
+  image_alt: Professor Roshan Godaliyadda
   image_circular: false # crops the image to make it circular
   more_info: >
     <div class="professor-sidebar" aria-label="Academic information">
