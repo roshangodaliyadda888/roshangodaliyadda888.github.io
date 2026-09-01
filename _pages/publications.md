@@ -15,8 +15,7 @@ nav_order: 2
     <p class="impact-audit__eyebrow">Publication Impact Screen</p>
     <h1 id="impact-audit-title">Q1 Journal and Top-tier Conference Publications</h1>
     <p class="impact-audit__subtitle">
-      A ranking-verified, deduplicated filter of the January 2026 long-form CV of Professor G. M. R. I.
-      Godaliyadda.
+     
     </p>
   </section>
 
