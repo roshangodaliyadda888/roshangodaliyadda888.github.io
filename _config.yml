@@ -14,7 +14,7 @@ footer_text: >
   <a href="https://eng.pdn.ac.lk/deee/" target="_blank" rel="noopener noreferrer">University of Peradeniya</a>, Sri Lanka.
 keywords: g. m. r. i. godaliyadda, university of peradeniya, electrical engineering, computer vision, machine learning, signal processing
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon:  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://roshangodaliyadda888.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
