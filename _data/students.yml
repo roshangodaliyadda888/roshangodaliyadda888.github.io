@@ -458,7 +458,7 @@
   university: University of Maryland, College Park
   country: United States
   academic_area: Electrical and Electronic Engineering
-  current_affiliation: ''
+  current_affiliation: 'current_affiliation: Robotics Autonomy Lead at AlphaZ'
   status: ''
   sort_name: Kasun Weerakoon
   image: kasun-weerakoon.jpg
@@ -473,7 +473,7 @@
   university: University of Technology Sydney
   country: Australia
   academic_area: Electrical and Electronic Engineering
-  current_affiliation: ''
+  current_affiliation: 'Lecturer at University of Canberra'
   status: ''
   sort_name: Maleen Jayasuriya
   image: maleen-jayasuriya.jpg
@@ -482,13 +482,13 @@
   - University of Technology Sydney
   source_sheet: Elec
   source_row: 31
-- name: Mohamed Shafie
+- name: Akram Shafie
   slug: mohamed-akram-shafie
   batch: E12
   university: Australian National University
   country: Australia
   academic_area: Electrical and Electronic Engineering
-  current_affiliation: ''
+  current_affiliation: 'Lecturer at University of New South Wales'
   status: ''
   sort_name: Mohamed Shafie
   image: mohamed-akram-shafie.jpg
@@ -503,7 +503,7 @@
   university: Rensselaer Polytechnic Institute
   country: United States
   academic_area: Electrical and Electronic Engineering
-  current_affiliation: ''
+  current_affiliation: 'Machine Learning Research Scientist at Meta'
   status: ''
   sort_name: Neelanga Thelasinghe
   image: neelanga-thelasinghe.jpg
@@ -512,13 +512,13 @@
   - Rensselaer Polytechnic Institute
   source_sheet: Elec
   source_row: 26
-- name: Ruwanthi abeysekara
+- name: Ruwanthi Abeysekara
   slug: ruwanthi-abeysekara
   batch: E12
   university: University of Maryland, College Park
   country: United States
   academic_area: Electrical and Electronic Engineering
-  current_affiliation: ''
+  current_affiliation: 'Research Assistant at University of Maryland'
   status: ''
   sort_name: Ruwanthi abeysekara
   image: ruwanthi-abeysekara.jpg
@@ -533,7 +533,7 @@
   university: State University of New York at Albany
   country: United States
   academic_area: Electrical and Electronic Engineering
-  current_affiliation: ''
+  current_affiliation: 'AI at GE Vernova'
   status: ''
   sort_name: Sachini Ekanayake
   image: sachini-piyoni-ekanayake.jpg
@@ -548,7 +548,7 @@
   university: University of Maryland, College Park
   country: United States
   academic_area: Electrical and Electronic Engineering
-  current_affiliation: ''
+  current_affiliation: 'Postdoctoral fellow at Harvard University'
   status: ''
   sort_name: Sajani Vithana
   image: sajani-vithana.jpg
@@ -563,7 +563,7 @@
   university: University of Oulu
   country: Finland
   academic_area: Electrical and Electronic Engineering
-  current_affiliation: ''
+  current_affiliation: 'Doctoral Researcher at University of Oulu'
   status: ''
   sort_name: Samitha Gunarathne
   image: samitha-gunarathne.jpg
@@ -578,7 +578,7 @@
   university: University of Maryland, College Park
   country: United States
   academic_area: Electrical and Electronic Engineering
-  current_affiliation: ''
+  current_affiliation: 'Computer Vision Scientist at Apple'
   status: ''
   sort_name: Trevine Oorloff
   image: trevine-oorloff.jpg
@@ -593,7 +593,7 @@
   university: McMaster University
   country: Canada
   academic_area: Electrical and Electronic Engineering
-  current_affiliation: ''
+  current_affiliation: 'Postdoctoral Researcher at McMaster University'
   status: ''
   sort_name: Aranee Balachandran
   image: aranee-balachandran.jpg
@@ -608,7 +608,7 @@
   university: Johns Hopkins University
   country: United States
   academic_area: Electrical and Electronic Engineering
-  current_affiliation: ''
+  current_affiliation: 'Machine Learning Engineer at Apple'
   status: ''
   sort_name: Chaminda Bandara
   image: chaminda-bandara.jpg
@@ -623,7 +623,7 @@
   university: University of Virginia
   country: United States
   academic_area: Electrical and Electronic Engineering
-  current_affiliation: ''
+  current_affiliation: 'Graduate Research Assistant at University of Virginia'
   status: ''
   sort_name: Hasantha Ekanayake
   image: hasantha-ekanayake.jpg
@@ -662,8 +662,8 @@
   - Monash University
   source_sheet: Elec
   source_row: 44
-- name: Neranjan Uditha
-  slug: neranjan-uditha
+- name: Neranjan Marasinghe
+  slug: neranjan-marasinghe
   batch: E13
   university: Texas Tech University
   country: United States
@@ -683,7 +683,7 @@
   university: University of Maryland, College Park
   country: United States
   academic_area: Electrical and Electronic Engineering
-  current_affiliation: Ph.D. candidate and Graduate Research Assistant at University of Maryland
+  current_affiliation: 
   status: ''
   sort_name: Thanushi Withanage
   image: thanushi-withanage.jpg
@@ -692,8 +692,8 @@
   - University of Maryland, College Park
   source_sheet: Elec
   source_row: 46
-- name: Uthapala Ekanayake
-  slug: uthapala-ekanayake
+- name: Uthpala Ekanayake
+  slug: uthpala-ekanayake
   batch: E13
   university: Monash University
   country: Australia
@@ -713,7 +713,7 @@
   university: University of Manitoba
   country: Canada
   academic_area: Electrical and Electronic Engineering
-  current_affiliation: PhD Candidate & Graduate Research Assistant at University of Manitoba
+  current_affiliation: 
   status: ''
   sort_name: Dilshan Morawaliyadda
   image: dilshan-morawaliyadda.jpg
@@ -728,7 +728,7 @@
   university: Louisiana State University
   country: United States
   academic_area: Electrical and Electronic Engineering
-  current_affiliation: ''
+  current_affiliation: 'PhD Student at Louisiana State University'
   status: ''
   sort_name: Dushan Herath
   image: dushan-herath.jpg
@@ -758,7 +758,7 @@
   university: University of Maryland, College Park
   country: United States
   academic_area: Computer Engineering
-  current_affiliation: ''
+  current_affiliation: 'Graduate Research and Teaching Assistant at University of Maryland'
   status: ''
   sort_name: Gihan Jayatilaka
   image: gihan-jayatilaka.jpg
@@ -816,7 +816,7 @@
   slug: jameel-hassan
   batch: E14
   university: Mohamed bin Zayed University of Artificial Intelligence
-  country: United Arab Emirates
+  country: United Arab Emirates & Johns Hopkins University
   academic_area: Electrical and Electronic Engineering
   current_affiliation: Ph.D student in Johns Hopkins University
   status: ''
@@ -848,7 +848,7 @@
   university: University of Virginia
   country: United States
   academic_area: Electrical and Electronic Engineering
-  current_affiliation: ''
+  current_affiliation: 'Research Assistant at University of Virginia'
   status: ''
   sort_name: Mihitha Maithripala
   image: mihitha-maithripala.jpg
@@ -863,7 +863,7 @@
   university: University of Maryland, College Park
   country: United States
   academic_area: Electrical and Electronic Engineering
-  current_affiliation: ''
+  current_affiliation: 'SMART Scholar at University of Maryland'
   status: ''
   sort_name: Sanjaya Herath
   image: sanjaya-herath.jpg
@@ -878,7 +878,7 @@
   university: University of Manitoba
   country: Canada
   academic_area: Electrical and Electronic Engineering
-  current_affiliation: ''
+  current_affiliation: 'Research and Teaching Assistant, University of Manitoba'
   status: ''
   sort_name: Shehan Senarath
   image: shehan-senarath.jpg
@@ -908,7 +908,7 @@
   university: University of Calgary
   country: Canada
   academic_area: Electrical and Electronic Engineering
-  current_affiliation: ''
+  current_affiliation: 'Graduate Teaching Assistant at University of Calgary'
   status: ''
   sort_name: Thoshara Nawarathne
   image: thoshara-nawarathne.jpg
@@ -923,7 +923,7 @@
   university: University of Surrey
   country: United Kingdom
   academic_area: Electrical and Electronic Engineering
-  current_affiliation: ''
+  current_affiliation: 'PhD Student at University of Surrey'
   status: ''
   sort_name: Umar Marikkar
   image: umar-marikkar.jpg
@@ -938,7 +938,7 @@
   university: Cornell University
   country: United States
   academic_area: Electrical and Electronic Engineering
-  current_affiliation: ''
+  current_affiliation: 'Graduate Research Assistant at Cornell University'
   status: ''
   sort_name: Upekha Delay
   image: upekha-delay.jpg
@@ -953,7 +953,7 @@
   university: Johns Hopkins University
   country: United States
   academic_area: Electrical and Electronic Engineering
-  current_affiliation: ''
+  current_affiliation: 'Machine Learning Engineer at Apple'
   status: ''
   sort_name: Yasiru Ranasinghe
   image: yasiru-ranasinghe.jpg
@@ -968,7 +968,7 @@
   university: Old Dominion University
   country: United States
   academic_area: Electrical and Electronic Engineering
-  current_affiliation: Biomedical Engineering PhD student & Graduate Research Assistant at Old Dominion University
+  current_affiliation: Graduate Research Assistant at Old Dominion University
   status: ''
   sort_name: Akila Wijesinghe
   image: akila-wijesinghe.png
@@ -983,7 +983,7 @@
   university: Memorial University of Newfoundland
   country: Canada
   academic_area: Electrical and Electronic Engineering
-  current_affiliation: Ph.D. student at the Memorial University of Newfoundland
+  current_affiliation: Graduate Teaching Assistant at Memorial University of Newfoundland
   status: ''
   sort_name: Aseni Jayarathne
   image: aseni-jayarathne.png
@@ -992,13 +992,13 @@
   - Memorial University of Newfoundland
   source_sheet: Elec
   source_row: 64
-- name: Bavantha Indrajith
-  slug: bavantha-indrajith
+- name: Bawantha Indrajith
+  slug: bawantha-indrajith
   batch: E15
   university: University of Auckland
   country: New Zealand
   academic_area: Electrical and Electronic Engineering
-  current_affiliation: PhD Scholar and Researcher at the University of Technology Sydney (UTS)
+  current_affiliation: Power Systems Engineer at Grid Integration Solutions
   status: ''
   sort_name: Bavantha Indrajith
   image: bavantha-indrajith.png
@@ -1058,7 +1058,7 @@
   university: Rutgers University
   country: United States
   academic_area: Electrical and Electronic Engineering
-  current_affiliation: Ph.D. Student .Rutgers University
+  current_affiliation:  PhD Student at Rutgers University
   status: ''
   sort_name: Lakshitha Ramanayake
   image: lakshitha-ramanayake.png
@@ -1097,7 +1097,7 @@
   - State University of New York at Albany
   source_sheet: Elec
   source_row: 73
-- name: Ramitha Ralalage
+- name: Ramitha Dissanayake
   slug: ramitha-dissanayake-ralalage
   batch: E15
   university: Western Michigan University
@@ -1142,13 +1142,13 @@
   - Rensselaer Polytechnic Institute
   source_sheet: Elec
   source_row: 63
-- name: Viraj Jayasundara
+- name:  Dhananjaya Jayasundara
   slug: viraj-dhananjaya-bandara-jayasundara
   batch: E15
   university: Johns Hopkins University
   country: United States
   academic_area: Electrical and Electronic Engineering
-  current_affiliation: Graduate Research Assistant-Johns Hopkins University
+  current_affiliation: Graduate Research Assistant at Johns Hopkins University
   status: ''
   sort_name: Viraj Jayasundara
   image: viraj-dhananjaya-bandara-jayasundara.jpg
@@ -1190,7 +1190,7 @@
 - name: Insaf Ismath
   slug: insaf-ismath
   batch: E16
-  university: University of Artificial Intelligence
+  university: Mohamed bin Zayed University of Artificial Intelligence
   country: United Arab Emirates
   academic_area: Electrical and Electronic Engineering
   current_affiliation: AI Engineer at 2PointZero
@@ -1202,7 +1202,7 @@
   - University of Artificial Intelligence
   source_sheet: Elec
   source_row: 77
-- name: Isuru Thilakasiri
+- name: Isuru Pamuditha
   slug: isuru-pamuditha-thilakasiri
   batch: E16
   university: University of Georgia
@@ -1232,13 +1232,13 @@
   - Purdue University
   source_sheet: Elec
   source_row: 80
-- name: Mohammed Zaman
+- name:  Mohammed Zumri
   slug: mohammed-zumri-ilmuz-zaman
   batch: E16
   university: Mohamed bin Zayed University of Artificial Intelligence
   country: United Arab Emirates
   academic_area: Electrical and Electronic Engineering
-  current_affiliation: Research Engineer - MBZUAI(Mohammad Bin Zayed University of Artificial Intelligence)
+  current_affiliation: Research Engineer at MBZUAI(Mohammad Bin Zayed University of Artificial Intelligence)
   status: ''
   sort_name: Mohammed Zaman
   image: mohammed-zumri-ilmuz-zaman.jpg
@@ -1283,7 +1283,7 @@
   university: Johns Hopkins University
   country: United States
   academic_area: Computer Engineering
-  current_affiliation: ''
+  current_affiliation: Graduate Research Assistant at Johns Hopkins University
   status: ''
   sort_name: Rusiru Thushara
   image: rusiru-thushara.jpg
@@ -1298,7 +1298,7 @@
   university: University of Maryland, College Park
   country: United States
   academic_area: Computer Engineering
-  current_affiliation: ''
+  current_affiliation: PhD student at University of Maryland
   status: ''
   sort_name: Akila Karunanayake
   image: akila-karunanayake.jpg
@@ -1328,7 +1328,7 @@
   university: University of Maryland, College Park
   country: United States
   academic_area: Computer Engineering
-  current_affiliation: ''
+  current_affiliation: PhD Student at University of Maryland
   status: ''
   sort_name: Isuri Devindi
   image: isuri-devindi.jpg
@@ -1445,7 +1445,7 @@
 - name: Sanjula Senadeera
   slug: sanjula-senadeera
   batch: E17
-  university: Western Illinois University
+  university: Western Illinois University (Mathematics)
   country: United States
   academic_area: Electrical and Electronic Engineering
   current_affiliation: Graduate Teaching Assistant - Western Illinois University
@@ -1463,7 +1463,7 @@
   university: Princeton University
   country: United States
   academic_area: Computer Engineering
-  current_affiliation: ''
+  current_affiliation:  PhD student at Princeton University
   status: ''
   sort_name: Sashini Liyanage
   image: sashini-liyanage.jpg
@@ -1493,7 +1493,7 @@
   university: Princeton University
   country: United States
   academic_area: Electrical and Electronic Engineering
-  current_affiliation: PhD Student - Princeton University
+  current_affiliation: PhD Student at Tennessee Technological University
   status: ''
   sort_name: Tharaka Fonseka
   image: tharaka-fonseka.jpg
