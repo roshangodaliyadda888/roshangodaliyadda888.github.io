@@ -3,6 +3,7 @@ layout: about
 title: About
 permalink: /
 subtitle: Professor, Department of Electrical and Electronic Engineering, University of Peradeniya, Sri Lanka
+google_site_verification: QbN0mHXsq9_TRPbBiorhsq0ZUEWS7ExeSKLxBEW7nFU
 
 profile:
   align: right
@@ -40,11 +41,11 @@ latest_posts:
 <section class="professor-homepage" aria-labelledby="biography-heading">
   <h2 id="biography-heading" class="visually-hidden">Biography</h2>
 
-  <p>G M Roshan Indika Godaliyadda is a Professor in the Department of Electrical and Electronic Engineering at the University of Peradeniya, Sri Lanka. He also serves as Deputy Director - Research &amp; Innovation at the Multidisciplinary AI Research Centre [MARC], University of Peradeniya.</p>
+  <p>G M Roshan Indika Godaliyadda is a Professor in the Department of Electrical and Electronic Engineering at the University of Peradeniya, Sri Lanka. He also serves as Deputy Director - Research &amp; Innovation at the Multidisciplinary AI Research Centre (MARC), University of Peradeniya.</p>
 
-  <p>His research spans signal and image processing, computer vision, machine learning, generative AI, hyperspectral and multispectral imaging, remote sensing, smart grids, renewable-energy integration, biomedical signal processing, wearable sensing, human-motion analysis, computational epidemiology, and AI for social sciences.</p>
+  <p>His research spans signal and image processing, computer vision, machine learning, generative AI, hyperspectral and multispectral imaging, remote sensing, smart grids, renewable-energy integration, and biomedical signal processing. Dr. Godaliyadda has over 200 publications in leading peer-reviewed journals and conferences, including IEEE and ACM transactions, and has been funded by numerous international grants including NSERC (Canada), NZAID (New Zealand), and numerous organizations.</p>
 
-  <p>After completing his BSc Engineering Degree in Electrical and Electronic Engineering with first class honours from the University of Peradeniya, he obtained his PhD in Electrical and Computer Engineering from the National University of Singapore. His academic contributions include publications, doctoral supervision, research leadership, and academic program development.</p>
+  <p>After completing his BSc Engineering Degree in Electrical and Electronic Engineering with first class honours from the University of Peradeniya, he obtained his PhD in Electrical and Computer Engineering from the University of British Columbia (UBC), Canada. His research focus on advanced signal processing techniques and intelligent systems has resulted in numerous patents and commercialized technologies.</p>
 </section>
 
 <section class="professor-homepage__section" aria-labelledby="interests-heading">
@@ -392,4 +393,3 @@ latest_posts:
     }
   }
 </style>
-
